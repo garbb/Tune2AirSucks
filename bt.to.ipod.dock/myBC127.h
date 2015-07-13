@@ -51,7 +51,7 @@ MyBC127::MyBC127(Stream &sp)
 
 void MyBC127::baseSendCmd(String command) {
   #ifdef DEBUG
-    myDebugSerial->print("<<send cmd: "); myDebugSerial->println(command);
+    myDebugSerial->println(); myDebugSerial->print("<<send cmd: "); myDebugSerial->println(command);
   #endif
   _serialPort->print(command);
   _serialPort->print("\r");
@@ -59,9 +59,9 @@ void MyBC127::baseSendCmd(String command) {
 
 void MyBC127::SendCmd(String command) {
   if (BC127_status == waiting_for_boot) {return;}
-  #ifdef DEBUG
-    myDebugSerial->print(">>sending command: "); myDebugSerial->println(command);
-  #endif
+//  #ifdef DEBUG
+//    myDebugSerial->print(">>sending command: "); myDebugSerial->println(command);
+//  #endif
   baseSendCmd(command);
   responseState = waiting_for_response;
 }
@@ -74,14 +74,14 @@ void MyBC127::MusicSendCmd(String command) {
 void MyBC127::readResponses() {
   if (_serialPort->available() > 0) {
     byte b = _serialPort->read();
-    #ifdef DEBUG
-      myDebugSerial->write(b);
-    #endif
     responsebuffer.concat(char(b));
     if (TOstarttime == 0) {TOstarttime = millis();}   //set beginning of timeout time
   }
    
   if (responsebuffer.endsWith(EOL)) {  //end of response line
+    #ifdef DEBUG
+      myDebugSerial->print(responsebuffer);
+    #endif
     //all the response/event types
     if (responsebuffer.startsWith("OK")) {
       #ifdef DEBUG
@@ -89,32 +89,32 @@ void MyBC127::readResponses() {
       #endif
       responseState = OK;
       }
-    if (responsebuffer.startsWith("ER")) {
+    else if (responsebuffer.startsWith("ER")) {
       #ifdef DEBUG
         myDebugSerial->println(">>got ERROR response");
       #endif
       responseState = ERR;
       }
     
-    if (responsebuffer.startsWith("OPEN_OK AVRCP")) {
+    else if (responsebuffer.startsWith("OPEN_OK AVRCP")) {
       BC127_status = AVRCP_connected;
       #ifdef DEBUG
         myDebugSerial->println(">>AVRCP connected");
       #endif
     }
-    if (responsebuffer.startsWith("Ready")) {
+    else if (responsebuffer.startsWith("Ready")) {
       BC127_status = waiting_for_AVRCP_conn;
       #ifdef DEBUG
         myDebugSerial->println(">>BC127 Boot complete");
       #endif
     }
-    if (responsebuffer.startsWith("CLOSE_OK AVRCP")) {
+    else if (responsebuffer.startsWith("CLOSE_OK AVRCP")) {
       BC127_status = waiting_for_AVRCP_conn;
       #ifdef DEBUG
         myDebugSerial->println(">>AVRCP disconnected");
       #endif
     }
-    if (responsebuffer.startsWith("CLOSE_OK A2DP")) {
+    else if (responsebuffer.startsWith("CLOSE_OK A2DP")) {
       BC127_status = waiting_for_AVRCP_conn;
       #ifdef DEBUG
         myDebugSerial->println(">>disconnected, making discoverable");
@@ -122,7 +122,7 @@ void MyBC127::readResponses() {
       SendCmd("DISCOVERABLE ON");
     }
 
-    if (responsebuffer.startsWith(AVRCP_TITLE)) {
+    else if (responsebuffer.startsWith(AVRCP_TITLE)) {
       trackTitle = (responsebuffer.substring(AVRCP_TITLE.length())).trim();
       //SEND TRACKCHANGE COMMAND TO DOCK HERE (with current playlist position)
       //trackstarttime = now;  //save track start time as now
@@ -130,15 +130,15 @@ void MyBC127::readResponses() {
       albumartistWaitstart = now;
       //dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos);
     }
-    if (responsebuffer.startsWith(AVRCP_ARTIST)) {
+    else if (responsebuffer.startsWith(AVRCP_ARTIST)) {
       trackArtist = (responsebuffer.substring(AVRCP_ARTIST.length())).trim();
       gotnewArtist = true;
     }
-    if (responsebuffer.startsWith(AVRCP_ALBUM)) {
+    else if (responsebuffer.startsWith(AVRCP_ALBUM)) {
       trackAlbum = (responsebuffer.substring(AVRCP_ALBUM.length())).trim();
       gotnewAlbum = true;
     }
-    if (responsebuffer.startsWith(AVRCP_LENGTH)) {
+    else if (responsebuffer.startsWith(AVRCP_LENGTH)) {
       trackLength = (responsebuffer.substring(AVRCP_LENGTH.length())).toInt();
       //some apps (spotify) output track length as sec instead of ms
       //we will just assume that if we get a small number then it is in sec instead of ms
@@ -148,20 +148,20 @@ void MyBC127::readResponses() {
       #endif
     }
 
-    if (responsebuffer.startsWith("AVRCP_STOP")) {
+    else if (responsebuffer.startsWith("AVRCP_STOP")) {
       playingState = STATE_STOPPED;
       #ifdef DEBUG
         myDebugSerial->print(">>play state changed to "); myDebugSerial->println(playingState);
       #endif
     }
-    if (responsebuffer.startsWith("AVRCP_PLAY")) {
+    else if (responsebuffer.startsWith("AVRCP_PLAY")) {
       playingState = STATE_PLAYING;
       trackstarttime = now;
       #ifdef DEBUG
         myDebugSerial->print(">>play state changed to "); myDebugSerial->println(playingState);
       #endif
     }
-    if (responsebuffer.startsWith("AVRCP_PAUSE")) {
+    else if (responsebuffer.startsWith("AVRCP_PAUSE")) {
       playingState = STATE_PAUSED;
       accumTrackPlaytime += now - trackstarttime;  //add track playing time when we pause
       #ifdef DEBUG

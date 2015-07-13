@@ -21,8 +21,8 @@ enum PlayingState
       STATE_PLAYING,
       STATE_PAUSED,
   };
-extern PlayingState playingState = STATE_STOPPED;
-extern PlayingState prevplayingState = STATE_STOPPED;
+extern PlayingState playingState = STATE_PAUSED;
+extern PlayingState prevplayingState = STATE_PAUSED;
 extern bool allowPlayPausecmd = true;
 extern uint32_t now = millis();
 
@@ -93,7 +93,7 @@ void loop() {
       if (!gotnewAlbum) {trackAlbum = trackTitle;}
       trackstarttime = now;  //save track start time as now
       accumTrackPlaytime = 0; //clear accum. track playtime
-      DebugSerial.println(">>sending new track info to ipod dock");
+      DebugSerial.println(">>sending track changed event and new track number to ipod dock");
       dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos);
       #ifdef DEBUG
         DebugSerial.print(">>TITLE IS: \""); DebugSerial.print(trackTitle); DebugSerial.println("\"");

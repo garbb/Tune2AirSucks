@@ -96,7 +96,7 @@ enum feedbackResult
     /*0x17*/ "switch to ",
     /*0x18*/ "get count of ",
     /*0x19*/ "count response",
-    /*0x1A*/ "get names",
+    /*0x1A*/ "get names of ",
     /*0x1B*/ "names response",
     /*0x1C*/ "get time/status",
     /*0x1D*/ "time/status response: ",
@@ -109,7 +109,7 @@ enum feedbackResult
     /*0x24*/ "get album of song #",
     /*0x25*/ "album response:",
     /*0x26*/ "polling start/stop",
-    /*0x27*/ "",
+    /*0x27*/ "polling response",
     /*0x28*/ "switch to plist",
     /*0x29*/ "playback control cmd ",
     /*0x2A*/ "??",
@@ -251,6 +251,11 @@ class PodserialState {
 //feedback for commands
   void PodserialState::send_feedback(byte cmd_this_is_feedback_for, byte result) {
     byte pData[] = {result, 0x00, cmd_this_is_feedback_for};
+    #if defined(DEBUG_SEND)
+      myDebugSerial->println();
+      myDebugSerial->print("send feedback for ");
+      myDebugSerial->print( mode4CmdNames[cmd_this_is_feedback_for] );
+    #endif
     send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_FEEDBACK, pData, 3);
   }
 
@@ -258,6 +263,11 @@ class PodserialState {
   //so far only one I found like this is "get mode" response
   void PodserialState::send_response(byte mode, byte cmdbyte1, byte cmdbyte2) {
     if (!send_responses) {return;}
+    #if defined(DEBUG_SEND)
+      myDebugSerial->println();
+      myDebugSerial->print("send ");
+      myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
+    #endif
     sendHeader();
     sendByte(1 + 2);      //length (1 mode byte + 2 cmd bytes)
     sendByte(mode);
@@ -270,6 +280,12 @@ class PodserialState {
   //also used to send 0xFF,0x55,0x04,0x00,0x02,0x00,0x05,0xF5 mystery response from ipod that i think may be confirmation of switching to mode4??
   void PodserialState::send_response(byte mode, byte cmdbyte1, byte cmdbyte2, const byte *pData, byte paramlength) {
     if (!send_responses) {return;}
+//    #if defined(DEBUG_SEND)
+//      myDebugSerial->println();
+//      myDebugSerial->print("send ");
+//      myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
+//      myDebugSerial->print( mode4CmdNames[cmdbyte2] );
+//    #endif
     sendHeader();
     sendByte(1 + 2 + paramlength);      //length (1 mode byte + 2 cmd bytes + length of param bytes)
     sendByte(mode);
@@ -285,6 +301,15 @@ class PodserialState {
   //mostly for time/status response
   void PodserialState::send_response(byte mode, byte cmdbyte1, byte cmdbyte2, uint32_t num1, uint32_t num2, byte statusbyte) {
     if (!send_responses) {return;}
+    #if defined(DEBUG_SEND)
+      myDebugSerial->println();
+      myDebugSerial->print("send ");
+      myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
+      myDebugSerial->print( mode4CmdNames[cmdbyte2] );
+      myDebugSerial->print(", "); myDebugSerial->print(num1);
+      myDebugSerial->print(", "); myDebugSerial->print(num2);
+      myDebugSerial->print(", "); myDebugSerial->print(statusbyte);
+    #endif
     sendHeader();
     sendByte(1 + 2 + 4 + 4 + 1);      //length (1 mode byte + 2 cmd bytes + 4byte int + 4byte int + byte)
     sendByte(mode);
@@ -300,6 +325,13 @@ class PodserialState {
   //(get count, get playlist pos...)
   void PodserialState::send_response(byte mode, byte cmdbyte1, byte cmdbyte2, uint32_t num1) {
     if (!send_responses) {return;}
+    #if defined(DEBUG_SEND)
+      myDebugSerial->println();
+      myDebugSerial->print("send ");
+      myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
+      myDebugSerial->print( mode4CmdNames[cmdbyte2] );
+      myDebugSerial->print(", "); myDebugSerial->print(num1);
+    #endif
     sendHeader();
     sendByte(1 + 2 + 4);      //length (1 mode byte + 2 cmd bytes + 4byte int)
     sendByte(mode);
@@ -311,6 +343,18 @@ class PodserialState {
 
   //one byte and one number (polling/track has changed message...)
   void PodserialState::send_response(byte mode, byte cmdbyte1, byte cmdbyte2, byte pollingbyte, uint32_t num1) {
+    #if defined(DEBUG_SEND)
+      if (pollingbyte != 0x04) {    //turn off spamming debug with polling
+        myDebugSerial->println();
+        myDebugSerial->print("send ");
+        myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
+        myDebugSerial->print( mode4CmdNames[cmdbyte2] );
+        if (pollingbyte == 0x01) { myDebugSerial->print(" track changed to:"); }
+        myDebugSerial->print(", "); myDebugSerial->print(pollingbyte);
+        myDebugSerial->print(", "); myDebugSerial->print(num1);
+        myDebugSerial->println();
+      }
+    #endif
     sendHeader();
     sendByte(1 + 2 + 1 + 4);      //length (1 mode byte + 2 cmd bytes + 1 byte + 4byte int)
     sendByte(mode);
@@ -325,6 +369,13 @@ class PodserialState {
   //(title/artist/album/ipod name...)
   void PodserialState::send_response(byte mode, byte cmdbyte1, byte cmdbyte2, String string) {
     if (!send_responses) {return;}
+    #if defined(DEBUG_SEND)
+      myDebugSerial->println();
+      myDebugSerial->print("send ");
+      myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
+      myDebugSerial->print( mode4CmdNames[cmdbyte2] );
+      myDebugSerial->print(", "); myDebugSerial->print(string);
+    #endif
     sendHeader();
     const byte stringlength = string.length() + 1;
     sendByte(1 + 2 + stringlength);      //length (1 mode byte + 2 cmd bytes + string length)
@@ -339,8 +390,18 @@ class PodserialState {
     sendChecksum();
   }
 
+  //one number and string
+  //for get item names responses
   void PodserialState::send_response(byte mode, byte cmdbyte1, byte cmdbyte2, uint32_t num1, String string) {
     if (!send_responses) {return;}
+    #if defined(DEBUG_SEND)
+      myDebugSerial->println();
+      myDebugSerial->print("send ");
+      myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
+      myDebugSerial->print( mode4CmdNames[cmdbyte2] );
+      myDebugSerial->print(", "); myDebugSerial->print(num1);
+      myDebugSerial->print(", "); myDebugSerial->print(string);
+    #endif
     sendHeader();
     const byte stringlength = string.length() + 1;
     sendByte(1 + 2 + 4 + stringlength);      //length (1 mode byte + 2 cmd bytes + 4byte int + string length)
@@ -367,20 +428,20 @@ class PodserialState {
 
   void PodserialState::sendHeader()
   {
-    #if defined(DEBUG_SEND)
-      myDebugSerial->println();
-      myDebugSerial->print("send header,");
-    #endif
+//    #if defined(DEBUG_SEND)
+//      myDebugSerial->println();
+//      myDebugSerial->print("send header,");
+//    #endif
     pSerial->write(0xFF);
     pSerial->write(0x55);
   }
   
   void PodserialState::sendByte(byte b)
   {
-      #if defined(DEBUG_SEND)
-        myDebugSerial->print(b, HEX);
-        myDebugSerial->print(",");
-      #endif
+//      #if defined(DEBUG_SEND)
+//        myDebugSerial->print(b, HEX);
+//        myDebugSerial->print(",");
+//      #endif
       pSerial->write(b);
       checksum += b;
   }
@@ -389,9 +450,9 @@ class PodserialState {
   {
       sendByte((0x100 - checksum) & 0xFF);
       //checksum = 0x00;  //need to clear checksum or it will have data for next send??
-      #if defined(DEBUG_SEND)
-        myDebugSerial->println();
-      #endif
+//      #if defined(DEBUG_SEND)
+//        myDebugSerial->println();
+//      #endif
   }
 
 
@@ -534,6 +595,9 @@ void PodserialState::process() {
           myDebugSerial->print(" [NG expected "); myDebugSerial->print(expectedcsum, HEX); myDebugSerial->print("]");
         #endif
         //##################OH YEAH SHOULD PROBABLY NOT PROCESS THE COMMAND IF THE CHECKSUM IS BAD DUH###############
+        #if defined(DEBUG)
+          myDebugSerial->println();
+        #endif
         receiveState = WAITING_FOR_HEADER1;
         memset(dataBuffer, 0, sizeof(dataBuffer));  //do we need to clear buffer?
         break;    //should go to end of switch (receiveState) which is at the end of PodserialState::process() so "return;" would be the same
@@ -711,7 +775,7 @@ void PodserialState::process() {
               if (prevplayingState != playingState) {
                 allowPlayPausecmd = true;
                 #ifdef DEBUG
-                  myDebugSerial->print("playingstate changed");
+                  myDebugSerial->print("\nplayingstate changed");
                 #endif
                 }
               prevplayingState = playingState;
@@ -791,6 +855,24 @@ void PodserialState::process() {
               break;
 
             case CMD_GET_ITEM_NAMES:
+              #if defined(DEBUG)
+                switch (pParambytes[0]) {
+                  case TYPE_PLAYLIST: myDebugSerial->print("playlists"); break;
+                  case TYPE_ARTIST: myDebugSerial->print("artists"); break;
+                  case TYPE_ALBUM: myDebugSerial->print("albums"); break;
+                  case TYPE_GENRE: myDebugSerial->print("genres"); break;
+                  case TYPE_SONG: myDebugSerial->print("songs"); break;
+                  case TYPE_COMPOSER: myDebugSerial->print("composers"); break;
+                }
+                myDebugSerial->print(", starting item#"); myDebugSerial->print(endianConvert(pParambytes + 1));
+                myDebugSerial->print(", num of items:"); myDebugSerial->print(endianConvert(pParambytes + 5));
+              #endif
+//              int startnum = endianConvert(pParambytes + 1);
+//              int num_of_items_to_get = endianConvert(pParambytes + 5);
+//              //we include starting number as an item to get, i.e start at 1 and get 5 items is 1,2,3,4,5=5items
+//              for (int i = startnum; i < startnum + num_of_items_to_get; i++) {
+//                send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ITEM_NAMES, i, "FAKE");
+//              }
               send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ITEM_NAMES, 0, "FAKE");
               send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ITEM_NAMES, 1, "FAKE");
               break;
