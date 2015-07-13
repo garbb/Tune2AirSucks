@@ -1,0 +1,251 @@
+//#include <SoftwareSerial.h>                  //the following pins on this arduino mini are dead: A0, A1, D12
+#include <AltSoftSerial.h>
+#include "podserialstate.h"                  //note: try to avoid pin 13 b/c this is attached to built-in LED
+
+//for debugging (if I want to send commands later to this will need to swap which swserial is .listen()-ing )
+//SoftwareSerial DebugSerial(3, 2); // RX, TX
+//Stream& DebugSerial = Serial;
+//AltSoftSerial DebugSerial;
+//dummy
+dummyserial DebugSerial;
+
+//for Tx and Rx to ipod (later BT chip)
+//SoftwareSerial IpodSerial(10, 11); // RX, TX    //ipod sending is pin12 on ipod cable
+//SoftwareSerial IpodSerial(3, 2);
+Stream& IpodSerial = Serial;
+//AltSoftSerial IpodSerial;
+
+//for Tx and Rx to dock
+//Stream& DockSerial = Serial;  //alias/reference to built-in Serial  //ipod receiving(dock sending) is pin13 on ipod cable
+//SoftwareSerial DockSerial(10, 11);
+
+
+/*
+int TxToDock(byte buf[], int len) {
+  return DockSerialforTx.write(buf, len);
+}
+int TxToIpod(byte buf[], int len) {  //(later BT chip)
+  return IpodSerial.write(buf, len);
+}
+*/
+
+//PodserialState dockserialState(DockSerial, "dock->ipod");
+PodserialState ipodserialState(IpodSerial, "ipod->dock");
+
+
+void setup() {
+  Serial.begin(19200);    //wanted to use <MYNAME>.begin() here but always get an error for some reason...
+  //DebugSerial.begin(19200);
+  //IpodSerial.begin(19200);
+  //IpodSerial.listen();      //have to pick which sw serial can .read() bytes (only one at a time can)
+                            //if didn't do .listen() then last one we did .begin() on will be listening
+  DebugSerial.print("ready\r\n\r\n");
+}
+
+void loop() {
+  
+  //dockserialState.process();
+  ipodserialState.process();
+}
+
+
+
+void PodserialState::process() {
+  if (pSerial->available() <=0) return;
+  
+  int b = pSerial->read();
+  switch (receiveState)
+  {
+  case WAITING_FOR_HEADER1:
+      if (b == 0xFF) {
+          receiveState = WAITING_FOR_HEADER2;
+      }
+      break;
+  case WAITING_FOR_HEADER2:
+      if (b == 0x55) {
+          receiveState = WAITING_FOR_LENGTH;
+      }
+      break;
+  case WAITING_FOR_LENGTH:
+      dataSize = b;
+      if (dataSize == 0x00 || dataSize == 0xFF) {return;}
+      //pData = dataBuffer;
+      currentBufferpos = 0;
+      receiveState = WAITING_FOR_DATA;
+      break;
+  case WAITING_FOR_DATA:
+      //if (currentBufferpos > dataBufferSize - 1) {DebugSerial.println("dataBuffer OVERFLOW");}
+      dataBuffer[currentBufferpos] = b;      //load data into buffer
+      if (currentBufferpos + 1 == dataSize) {//if this is the last byte of data
+          receiveState = WAITING_FOR_CHECKSUM;
+      }
+      currentBufferpos++;
+      break;
+  case WAITING_FOR_CHECKSUM:
+      //EVENTUALLY CHECK CHECKSUM HERE...
+      checksum = b;
+      mode = dataBuffer[0];
+      command[0] = dataBuffer[1];
+      command[1] = dataBuffer[2];
+      paramsize = dataSize - 3;  //size of params is size of response - (modebyte(1) + commandbytes(2))
+      pParambytes = (dataBuffer + 3);  //should point to beginning of parameter bytes
+
+
+      DebugSerial.println(streamName);  //name of stream on 1st line
+      //just print out all the bytes (if we don't know wtf they mean)
+      DebugSerial.print(F("mode:")); DebugSerial.print(mode);
+      DebugSerial.print(F(" size:")); DebugSerial.print(dataSize);
+      DebugSerial.print(F(" command:")); DebugSerial.print((command)[0], HEX); DebugSerial.print(","); DebugSerial.print(command[1], HEX);
+      DebugSerial.print(F(" params:"));
+      for (int i = 0; i <= paramsize - 1; i++) {
+        DebugSerial.print(pParambytes[i], HEX);
+        DebugSerial.print(",");
+      }
+      DebugSerial.print(F(" csum:")); DebugSerial.print(checksum, HEX);
+      byte expectedcsum = validChecksum();
+      if (expectedcsum == checksum) {
+        DebugSerial.print(F(" [OK]"));
+      }
+      else {
+        DebugSerial.print(F(" [NG expected ")); DebugSerial.print(expectedcsum, HEX); DebugSerial.print(F("]"));
+      }
+      
+      DebugSerial.println();
+     
+
+      //here try to print out what the bytes mean
+       switch (mode) {
+        case 0:
+          switch (command[0]) {
+            case 0x01:
+              DebugSerial.print(F("switch to mode "));
+              DebugSerial.println(command[1]);
+              break;
+            case 0x03:
+              DebugSerial.println(F("get mode"));
+              break;
+            case 0x04:
+              DebugSerial.print(F("response: mode is:"));
+              DebugSerial.println(command[1]);
+              break;
+            case 0x05:
+              DebugSerial.println(F("switch to mode 4"));
+              break;
+            case 0x06:
+              DebugSerial.println(F("switch to mode 2"));
+              break;
+          }
+          break;
+        case 2:
+          if (command[0] != 0x00) {break;}  //always supposed to be 0x00
+          switch (paramsize) {
+            case 0:
+              switch (command[1]) {
+                case 0x00: DebugSerial.println(F("button released")); break;
+                case 0x01: DebugSerial.println(F("play/pause")); break;
+                case 0x02: DebugSerial.println(F("vol+")); break;
+                case 0x04: DebugSerial.println(F("vol-")); break;
+                case 0x08: DebugSerial.println(F("skip>")); break;
+                case 0x10: DebugSerial.println(F("skip<")); break;
+                case 0x20: DebugSerial.println(F("next album")); break;
+                case 0x40: DebugSerial.println(F("prev album")); break;
+                case 0x80: DebugSerial.println(F("stop")); break;
+              }
+            case 1:
+              switch (pParambytes[0]) {
+                case 0x01: DebugSerial.println(F("play")); break;
+                case 0x02: DebugSerial.println(F("pause")); break;
+                case 0x04: DebugSerial.println(F("toggle mute")); break;
+                case 0x20: DebugSerial.println(F("next playlist")); break;
+                case 0x40: DebugSerial.println(F("prev playlist")); break;
+                case 0x80: DebugSerial.println(F("toggle shuffle")); break;
+              }
+            case 2:
+              switch (pParambytes[1]) {
+                case 0x01: DebugSerial.println(F("toggle repeat")); break;
+                case 0x04: DebugSerial.println(F("ipod off")); break;
+                case 0x08: DebugSerial.println(F("ipod on")); break;
+                case 0x40: DebugSerial.println(F("menu")); break;
+                case 0x80: DebugSerial.println(F("OK/select")); break;
+              }
+            case 3:
+              switch (pParambytes[2]) {
+                case 0x01: DebugSerial.println(F("scroll up")); break;
+                case 0x02: DebugSerial.println(F("scroll down")); break;
+              }
+          }
+          break;
+        case 4:
+          if (command[0] != 0x00) {break;}  //always supposed to be 0x00
+          strcpy_P(buffer, (char*)pgm_read_word(&(mode4CmdNames[command[1]]))); // print command name from mode4CmdNames array
+          DebugSerial.print(buffer);
+          switch (command[1]) {
+            //param for these should be a string, display it
+            case TITLE_RESPONSE: case ARTIST_RESPONSE: case ALBUM_RESPONSE: case IPOD_NAME_RESPONSE:
+              DebugSerial.print("\""); DebugSerial.print((char *)pParambytes); DebugSerial.print("\"");
+              break;
+            case CMD_PLAYBACK_CONTROL:
+              switch (pParambytes[0]) {
+                case 0x01: DebugSerial.print(F("play/pause")); break;
+                case 0x02: DebugSerial.print(F("stop")); break;
+                case 0x03: DebugSerial.print(F("skip++")); break;
+                case 0x04: DebugSerial.print(F("skip--")); break;
+                case 0x05: DebugSerial.print(F("FFwd")); break;
+                case 0x06: DebugSerial.print(F("Rwnd")); break;
+                case 0x07: DebugSerial.print(F("StopFF/RW")); break;
+              }
+              break;
+            case RESPONSE_FEEDBACK:
+              //DebugSerial.print("feedback for ");
+              DebugSerial.print(" for ");
+              //2nd+3rd param bytes should be command that this is feedback for (and 1st byte of command should always be 0x00)
+              strcpy_P(buffer, (char*)pgm_read_word(&(mode4CmdNames[pParambytes[2]])));
+              DebugSerial.print(buffer);
+              DebugSerial.print(" is "); DebugSerial.print(pParambytes[0]);
+              DebugSerial.print("(");
+              switch (pParambytes[0]) {
+                case 0x00: DebugSerial.print(F("SUCCESS")); break;
+                case 0x02: DebugSerial.print(F("FAILURE")); break;
+                case 0x04: DebugSerial.print(F("LIMIT EXCEEDED/WRONG PARAM COUNT")); break;
+                default: DebugSerial.print(F("??")); break;
+              }
+              DebugSerial.print(")");
+              break;
+          }
+          DebugSerial.println();
+          
+          break;
+      }
+      
+      
+      DebugSerial.println();
+      
+      receiveState = WAITING_FOR_HEADER1;
+      memset(dataBuffer, 0, sizeof(dataBuffer));  //do we need to clear buffer?
+                                                  // we should know how many bytes we got and they should be overwritten...
+      break;
+  }
+}
+
+
+
+
+/*
+if (rSerial.available())
+      Serial.println( char(rSerial.read()) );
+      
+}
+*/
+
+
+/*  implement states for bytes received header, length, etc...checksum
+    implement timeout (1000ms?)
+      actually shouldn't need timeout?? b/c will always get another command and will eventually get bytes to get a full command,
+        just need to check checksum and then reject/display error if invalid
+    make enum for mode4 commands; 1st byte is always 0, make enum PLAY = 2nd byte value, etc...
+    do names for commands w/same number as commands in enum: static const char *STATE_NAME[] =...
+    implement debugging for unexpected bytes & bad checksum
+    
+    make podserialstate class with recievestate enum, buffer for bytes, datasize
+    call process() with params: BYREF podserial, serial object to read from, 
+*/

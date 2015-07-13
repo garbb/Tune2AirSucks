@@ -1,0 +1,148 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2015.06.16 17:14:39 =~=~=~=~=~=~=~=~=~=~=~=
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,29 params:3, csum:CC [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,18, csum:BD [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,18, csum:BB [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,18, csum:B9 [OK]
+get song album
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,19, csum:BC [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,19, csum:BA [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,19, csum:B8 [OK]
+get song album
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,18, csum:BD [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,18, csum:BB [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,18, csum:B9 [OK]
+get song album
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,29 params:3, csum:CC [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,19, csum:BC [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,19, csum:BA [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,19, csum:B8 [OK]
+get song album
+
+dock->ipod
+mode:4 command:0,29 params:3, csum:CC [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,1A, csum:BB [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,1A, csum:B9 [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,1A, csum:B7 [OK]
+get song album
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,19, csum:BC [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,19, csum:BA [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,19, csum:B8 [OK]
+get song album
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,18, csum:BD [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,18, csum:BB [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,18, csum:B9 [OK]
+get song album
+
+dock->ipod
+mode:4 command:0,1C params: csum:DD [OK]
+get time/status
+
+dock->ipod
+mode:4 command:0,29 params:1, csum:CE [OK]
+playback control cmd
+
+dock->ipod
+mode:4 command:0,1C params: csum:DD [OK]
+get time/status
+
+dock->ipod
+mode:4 command:0,1C params: csum:DD [OK]
+get time/status

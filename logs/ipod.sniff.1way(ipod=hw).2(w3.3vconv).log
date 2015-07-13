@@ -1,0 +1,1076 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2015.06.16 21:02:40 =~=~=~=~=~=~=~=~=~=~=~=
+ready
+
+ipod->dock
+mode:4 command:0,1 params:4,0,1C, csum:D5 [OK]
+FEEDBACK for get time/status is 4(LIMIT EXCEEDED/WRONG PARAM COUNT)
+
+ipod->dock
+mode:0 command:2,0 params:5, csum:F5 [OK]
+
+ipod->dock
+mode:4 command:0,13 params:1,D, csum:D6 [OK]
+ipod size response
+
+ipod->dock
+mode:4 command:0,2D params:0, csum:CB [OK]
+shuffle mode response
+
+ipod->dock
+mode:4 command:0,34 params:1,36,0,A8,1, csum:E0 [OK]
+pic size response?
+
+ipod->dock
+mode:4 command:0,1 params:0,0,16, csum:DF [OK]
+FEEDBACK for switch to main library is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,16,8C, csum:3A [OK]
+count response
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,87, csum:55 [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,16,8C, csum:3A [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,6,41, csum:95 [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,7,6C, csum:69 [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,14,38, csum:90 [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,8,5A, csum:7A [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,52, csum:8A [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,41, csum:9B [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,FF params:55,6,4,0, csum:1 [NG expected 97]
+ready
+
+ready
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,14, csum:C8 [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,12, csum:CA [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,15, csum:C7 [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,14, csum:C8 [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,F, csum:CD [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:255 command:55,6 params:4,0,1,0, csum:0 [NG expected 9A]
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:255 command:55,6 params:4,0,1, csum:0 [NG expected 9B]
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,17, csum:55 [NG expected C5]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:FF [NG expected DE]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ready
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,32, csum:AA [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,11, csum:CB [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,23, csum:B9 [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,3C, csum:A0 [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,13, csum:C9 [OK]
+count response
+
+ipod->dock
+mode:4 command:FF,55 params:7,4,0,19, csum:0 [NG expected 7D]
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+mode:0 command:0,17 params:DE,FF,55, csum:7 [NG expected B1]
+
+ready
+
+ipod->dock
+mode:4 command:0,1D params:0,2,C3,58,0,0,1A,DC,2, csum:BE [OK]
+time/status response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,1D params:0,2,C3,58,0,0,1A,DC,1, csum:BF [OK]
+time/status response
+
+ipod->dock
+mode:4 command:0,1F params:0,0,0,1D, csum:B9 [OK]
+plist pos response
+
+ipod->dock
+mode:4 command:0,21 params:54,68,65,20,48,69,70,70,79,20,4B,69,6C,6C,65,72,73,0, csum:85 [OK]
+title response:"The Hippy Killers"
+
+ipod->dock
+mode:4 command:0,23 params:42,61,64,20,52,FF,55,7,4,0,19,0,0, csum:16 [NG expected D8]
+artist response:"Bad RÿU"
+
+ipod->dock
+mode:4 command:0,19 params:0,0,2,D4, csum:6 [OK]
+count response
+
+ipod->dock
+mode:4 command:0,19 params:0,0,1,FD, csum:DE [OK]
+count response
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1F,54, csum:56 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,19 params:0,0,0,7A, csum:62 [OK]
+count response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,21,5C, csum:4C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,23,4A, csum:5C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,25,38, csum:6C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,27,40, csum:62 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,29,14, csum:8C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2B,2, csum:9C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2D,A, csum:92 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2E,DE, csum:BD [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,30,E6, csum:B3 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,32,D4, csum:C3 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,34,A8, csum:ED [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,36,B0, csum:E3 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,38,84, csum:D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3A,8C, csum:3 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3C,7A, csum:13 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3E,4E, csum:3D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,40,56, csum:33 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,42,44, csum:43 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,44,18, csum:6D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,46,20, csum:63 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,47,F4, csum:8E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,49,E2, csum:9E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,0, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1,6C, csum:5C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3,5A, csum:6C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,5,2E, csum:96 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,7,36, csum:8C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,9,A, csum:B6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,1C, csum:B0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,0, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,21 params:46,61,6C,6C,65,6E,20,66,65,61,74,2E,20,56,61,6B,69,6C,6C,0, csum:1 [OK]
+title response:"Fallen feat. Vakill"
+
+ipod->dock
+mode:4 command:0,23 params:41,74,6D,6F,73,70,68,65,72,65,0, csum:B3 [OK]
+artist response:"Atmosphere"
+
+ipod->dock
+mode:4 command:0,25 params:4E,65,77,2C,20,55,6E,72,65,6C,65,61,FF,55,8,4,0,27,4,0,0,0,D0,F9,FF,55,8,4,0,27,4,0,0, csum:2 [NG expected 92]
+album response:"New, UnreleaÿU"
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,C6, csum:FF [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,9A, csum:29 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,A2, csum:1F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,90, csum:2F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,C,64, csum:59 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,E,6C, csum:4F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,10,40, csum:79 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,12,2E, csum:89 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,14,36, csum:7F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,16,A, csum:A9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,18,12, csum:9F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1A,0, csum:AF [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1B,EE, csum:C0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1D,DC, csum:D0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1F,B0, csum:FA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,21,B8, csum:F0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,23,A6, csum:0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,26,30, csum:73 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,1D, csum:AF [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,34, csum:95 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,21 params:54,68,65,20,48,69,70,70,79,20,4B,69,6C,6C,65,72,73,0, csum:85 [OK]
+title response:"The Hippy Killers"
+
+ipod->dock
+mode:4 command:0,23 params:42,61,64,20,52,65,6C,69,67,69,6F,6E,0, csum:69 [OK]
+artist response:"Bad Religion"
+
+ipod->dock
+mode:4 command:0,25 params:4E,6F,20,53,75,62,73,74,61,6E,63,65,0, csum:42 [OK]
+album response:"No Substance"
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,56, csum:71 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,E0, csum:E5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,7,2, csum:C0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,F0, csum:D1 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,B,1E, csum:A0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,D,26, csum:96 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,F,7C, csum:3E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,11,9E, csum:1A [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,13,C0, csum:F6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,15,E2, csum:D2 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,17,D0, csum:E2 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,19,D8, csum:D8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1C,14, csum:99 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1E,1C, csum:8F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,20,3E, csum:6B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,22,E2, csum:C5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,24,EA, csum:BB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,27,C, csum:96 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,29,96, csum:A [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2B,9E, csum:0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2D,8C, csum:10 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2F,FC, csum:9E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,32,6C, csum:2B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,34,5A, csum:3B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,36,7C, csum:17 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,38,9E, csum:F3 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3A,A6, csum:E9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3C,E2, csum:AB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3F,4, csum:86 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,41,C, csum:7C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,43,2E, csum:58 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,1E, csum:AE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1,6C, csum:5C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,21 params:6D,61,67,69,63,20,6D,65,64,69,63,69,6E,65,0, csum:6A [OK]
+title response:"magic medicine"
+
+ipod->dock
+mode:4 command:0,23 params:69,6E,63,75,62,75,73,0, csum:D5 [OK]
+artist response:"incubus"
+
+ipod->dock
+mode:4 command:0,25 params:53,2E,43,2E,49,2E,45,2E,4E,2E,43,2E,45,0, csum:B8 [OK]
+album response:"S.C.I.E.N.C.E"
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3,DC, csum:EA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,5,E4, csum:E0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,7,EC, csum:D6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,E, csum:B1 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,C,3C, csum:81 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,E,2A, csum:91 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,10,4C, csum:6D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,12,3A, csum:7D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,14,42, csum:73 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,16,4A, csum:69 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,18,52, csum:5F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,1F, csum:AD [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,34, csum:95 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,21 params:54,72,6F,75,62,6C,65,0, csum:F3 [OK]
+title response:"Trouble"
+
+ipod->dock
+mode:4 command:0,23 params:54,56,20,4F,6E,20,54,68,65,20,52,61,64,69,6F,0, csum:EF [OK]
+artist response:"TV On The Radio"
+
+ipod->dock
+mode:4 command:0,25 params:53,65,65,64,73,0, csum:DA [OK]
+album response:"Seeds"
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,56, csum:71 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,AC, csum:19 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,BB, csum:8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,C3, csum:FE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,CB, csum:F4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,D,7, csum:B5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,F,43, csum:77 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,11,4B, csum:6D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,20, csum:AC [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,0, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,21 params:4A,46,4B,20,32,20,4C,41,58,0, csum:9C [OK]
+title response:"JFK 2 LAX"
+
+ipod->dock
+mode:4 command:0,23 params:47,61,6E,67,20,53,74,61,72,72,0, csum:22 [OK]
+artist response:"Gang Starr"
+
+ipod->dock
+mode:4 command:0,25 params:4D,6F,6D,65,6E,74,20,4F,66,20,54,72,75,74,68,0, csum:48 [OK]
+album response:"Moment Of Truth"
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,34, csum:95 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,22, csum:A5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,10, csum:B5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,5,FE, csum:C6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,7,EC, csum:D6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,9,C0, csum:0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,B,C8, csum:F6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,D,B6, csum:6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,F,8A, csum:30 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,11,92, csum:26 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,21, csum:AB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1,4, csum:C4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,21 params:4C,6F,76,65,20,47,61,6D,65,20,28,46,65,61,74,2E,20,4B,65,6E,64,72,69,63,6B,20,4C,61,6D,61,72,29,0, csum:10 [OK]
+title response:"Love Game (Feat. Kendrick Lamar)"
+
+ipod->dock
+mode:4 command:0,23 params:45,6D,69,6E,65,6D,0, csum:74 [OK]
+artist response:"Eminem"
+
+ipod->dock
+mode:4 command:0,25 params:54,68,65,FF,55,8,4,0,27,4,0,0,3,C,BA,FF,55,8,4,0,27,4,0,0,5,14,B0,FF,55,8,4,0,27,4,0,0,7,2,C0,FF,55,8,4, csum:0 [NG expected 2C]
+album response:"TheÿU"
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,B,6B, csum:53 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,D,73, csum:49 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,F,7B, csum:3F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,11,EB, csum:CD [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,13,D9, csum:DD [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,15,FB, csum:B9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,18,3, csum:AE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1A,B, csum:A4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1C,13, csum:9A [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1E,35, csum:76 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,20,8B, csum:1E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,22,79, csum:2E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,24,81, csum:24 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,26,89, csum:1A [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,29,13, csum:8D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2B,83, csum:1B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2D,8B, csum:11 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2F,C7, csum:D3 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,31,E9, csum:AF [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,34,B, csum:8A [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,36,2D, csum:66 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,38,4F, csum:42 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3A,71, csum:1E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,22, csum:AA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,D0, csum:F9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,21 params:4D,61,67,69,63,27,73,20,57,61,6E,64,0, csum:A6 [OK]
+title response:"Magic's Wand"
+
+ipod->dock
+mode:4 command:0,23 params:57,68,6F,64,69,6E,69,0, csum:FC [OK]
+artist response:"Whodini"
+
+ipod->dock
+mode:4 command:0,25 params:47,72,65,61,74,65,73,74,20,48,69,74,73,0, csum:CF [OK]
+album response:"Greatest Hits"
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,F2, csum:D5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,FA, csum:CB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,7,2, csum:C0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,F0, csum:D1 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,F8, csum:C7 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,D,4E, csum:6E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,F,70, csum:4A [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,11,71, csum:47 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,13,93, csum:23 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,23, csum:A9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,0, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,21 params:30,32,20,2D,20,31,39,38,39,2E,6D,70,34,0, csum:E1 [OK]
+title response:"02 - 1989.mp4"
+
+ipod->dock
+mode:4 command:0,23 params:4D,69,6E,64,6C,65,73,73,20,53,65,6C,66,20,49,6E,64,75,6C,67,65,6E,63,65,0, csum:B6 [OK]
+artist response:"Mindless Self Indulgence"
+
+ipod->dock
+mode:4 command:0,25 params:55,6E,6B,6E,FF,55,8,4,0,27,4,0,0,0, csum:D0 [NG expected 9F]
+album response:"UnknÿU"
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,BE, csum:9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,AC, csum:19 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,80, csum:43 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,88, csum:39 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,76, csum:49 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,C,64, csum:59 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,E,52, csum:69 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,10,40, csum:79 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1D params:0,1,CD,1F,0,0,10,8E,1, csum:47 [OK]
+time/status response
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,1D params:0,1,CD,1F,0,0,10,A8,2, csum:2C [OK]
+time/status response
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,10,A8, csum:11 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1D params:0,1,CD,1F,0,0,10,A8,2, csum:2C [OK]
+time/status response
+
+ipod->dock
+mode:4 command:0,1D params:0,1,CD,1F,0,0,10,A8,2, csum:2C [OK]
+time/status response
+

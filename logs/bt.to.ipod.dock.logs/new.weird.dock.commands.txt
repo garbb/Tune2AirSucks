@@ -1,0 +1,245 @@
+STATE CONNECTED
+LINK 2 CONNECTED A2DP 1C62B8A703C0 SBC 44100
+LINK 4 CONNECTED AVRCP 1C62B8A703C0 PAUSED
+OK
+>>got OK response
+14980 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3A,84,0,15,
+
+
+14997 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,0, csum:DC [OK]
+switch to playlist #0
+send header,6,4,0,1,0,0,17,DE,
+
+
+15010 dock->ipod
+size:7 mode:4 command:0x0,0x28 params:0,0,0,0, csum:CD [OK]
+switch to plist
+send header,6,4,0,1,0,0,28,CD,
+
+
+15021 dock->ipod
+size:3 mode:4 command:0x0,0x35 params: csum:C4 [OK]
+get # of songs
+send header,7,4,0,36,0,0,0,1,BE,
+
+
+15037 dock->ipod
+size:12 mode:4 command:0x0,0x1A params:1,0,0,0,0,0,0,0,1, csum:D4 [OK]
+get names
+
+15082 dock->ipod
+size:3 mode:0 command:0x1,0x4 params: csum:F8 [OK]
+switch to mode 4
+
+send header,4,0,2,0,5,F5,
+
+15339 dock->ipod
+size:2 mode:0 command:0x5,0x0 params: csum:F9 [OK]
+switch to mode 4
+
+send header,4,0,2,0,5,F5,
+
+15597 dock->ipod
+size:3 mode:4 command:0x0,0x12 params: csum:E7 [OK]
+get ipod size
+send header,5,4,0,13,1,D,D6,
+
+
+15607 dock->ipod
+size:3 mode:4 command:0x0,0x2C params: csum:CD [OK]
+get shuffle mode
+send header,4,4,0,2D,0,CB,
+
+
+15616 dock->ipod
+size:3 mode:4 command:0x0,0x33 params: csum:C6 [OK]
+get pic size?
+send header,5,4,0,34,1,36,8C,
+
+
+15626 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+send header,6,4,0,1,0,0,16,DF,
+
+
+15636 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+15647 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:1, csum:DF [OK]
+get count of playlists
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+15661 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,0, csum:DC [OK]
+switch to playlist #0
+send header,6,4,0,1,0,0,17,DE,
+
+
+15672 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+15685 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1, csum:DB [OK]
+switch to playlist #1
+send header,6,4,0,1,0,0,17,DE,
+
+
+15696 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+15710 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2, csum:DA [OK]
+switch to playlist #2
+send header,6,4,0,1,0,0,17,DE,
+
+
+15720 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+15734 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3, csum:D9 [OK]
+switch to playlist #3
+send header,6,4,0,1,0,0,17,DE,
+
+
+15744 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+15758 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4, csum:D8 [OK]
+switch to playlist #4
+send header,6,4,0,1,0,0,17,DE,
+
+
+15769 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+15780 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+send header,6,4,0,1,0,0,26,CF,
+
+
+
+send header,8,4,0,27,4,0,0,3D,A4,E8,
+15791 dock->ipod
+size:4 mode:4 command:0x0,0x31 params:2, csum:C5 [OK]
+set repeat mode
+send header,6,4,0,1,0,0,31,C4,
+
+
+15802 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+send header,6,4,0,1,0,0,26,CF,
+
+
+15813 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+send header,6,4,0,1,0,0,16,DF,
+
+
+15824 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3D,D0,0,C6,
+
+
+15841 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,0, csum:DC [OK]
+switch to playlist #0
+send header,6,4,0,1,0,0,17,DE,
+
+
+15854 dock->ipod
+size:7 mode:4 command:0x0,0x28 params:0,0,0,0, csum:CD [OK]
+switch to plist
+send header,6,4,0,1,0,0,28,CD,
+
+
+15865 dock->ipod
+size:3 mode:4 command:0x0,0x35 params: csum:C4 [OK]
+get # of songs
+send header,7,4,0,36,0,0,0,1,BE,
+
+
+15881 dock->ipod
+size:12 mode:4 command:0x0,0x1A params:1,0,0,0,0,0,0,0,1, csum:D4 [OK]
+get names
+
+
+send header,8,4,0,27,4,0,0,3F,99,F1,
+
+send header,8,4,0,27,4,0,0,41,8E,FA,
+
+send header,8,4,0,27,4,0,0,43,83,3,
+
+send header,8,4,0,27,4,0,0,45,78,C,
+
+send header,8,4,0,27,4,0,0,47,6D,15,
+
+send header,8,4,0,27,4,0,0,49,62,1E,
+18927 dock->ipod
+size:12 mode:4 command:0x0,0x1A params:1,0,0,0,0,0,0,0,1, csum:D4 [OK]
+get names
+
+
+send header,8,4,0,27,4,0,0,4B,57,27,
+
+send header,8,4,0,27,4,0,0,4D,4C,30,
+
+send header,8,4,0,27,4,0,0,4F,41,39,
+
+send header,8,4,0,27,4,0,0,51,36,42,
+
+send header,8,4,0,27,4,0,0,53,2B,4B,
+
+send header,8,4,0,27,4,0,0,55,20,54,
+21973 dock->ipod
+size:12 mode:4 command:0x0,0x1A params:1,0,0,0,0,0,0,0,1, csum:D4 [OK]
+get names
+
+
+send header,8,4,0,27,4,0,0,57,15,5D,
+
+send header,8,4,0,27,4,0,0,59,A,66,
+
+send header,8,4,0,27,4,0,0,5A,FF,70,
+
+send header,8,4,0,27,4,0,0,5C,F4,79,
+
+send header,8,4,0,27,4,0,0,5E,E9,82,
+
+send header,8,4,0,27,4,0,0,60,DE,8B,
+25019 dock->ipod
+size:12 mode:4 command:0x0,0x1A params:1,0,0,0,0,0,0,0,1, csum:D4 [OK]
+get names
+
+
+send header,8,4,0,27,4,0,0,62,D3,94,

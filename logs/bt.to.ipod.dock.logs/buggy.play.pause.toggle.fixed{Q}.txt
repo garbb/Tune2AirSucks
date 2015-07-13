@@ -1,0 +1,6769 @@
+AVRCP_PLAY
+>>play state changed to 1
+AVRCP_PAUSE
+>>play state changed to 2
+23180 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,39,F7,2,A1,
+playingstate changed
+
+23194 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+23205 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3A,10,2,87,
+
+
+23219 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+23230 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3A,29,2,6E,
+
+
+23245 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+23256 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3A,43,2,54,
+
+
+23270 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+23281 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3A,5C,2,3B,
+
+
+23285 dock->ipod
+size:3 mode:0 command:0x1,0x4 params: csum:F8 [OK]
+switch to mode 4
+
+send header,4,0,2,0,5,F5,
+
+23542 dock->ipod
+size:2 mode:0 command:0x5,0x0 params: csum:F9 [OK]
+switch to mode 4
+
+send header,4,0,2,0,5,F5,
+
+23799 dock->ipod
+size:3 mode:4 command:0x0,0x12 params: csum:E7 [OK]
+get ipod size
+send header,5,4,0,13,1,D,D6,
+
+
+23809 dock->ipod
+size:3 mode:4 command:0x0,0x2C params: csum:CD [OK]
+get shuffle mode
+send header,4,4,0,2D,0,CB,
+
+
+23819 dock->ipod
+size:3 mode:4 command:0x0,0x33 params: csum:C6 [OK]
+get pic size?
+send header,5,4,0,34,1,36,8C,
+
+
+23829 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+send header,6,4,0,1,0,0,16,DF,
+
+
+23839 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+23850 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:1, csum:DF [OK]
+get count of playlists
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+23864 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,0, csum:DC [OK]
+switch to playlist #0
+send header,6,4,0,1,0,0,17,DE,
+
+
+23874 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+23888 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1, csum:DB [OK]
+switch to playlist #1
+send header,6,4,0,1,0,0,17,DE,
+
+
+23899 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+23912 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2, csum:DA [OK]
+switch to playlist #2
+send header,6,4,0,1,0,0,17,DE,
+
+
+23923 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+23937 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3, csum:D9 [OK]
+switch to playlist #3
+send header,6,4,0,1,0,0,17,DE,
+
+
+23947 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+23961 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4, csum:D8 [OK]
+switch to playlist #4
+send header,6,4,0,1,0,0,17,DE,
+
+
+23972 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+23983 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+send header,6,4,0,1,0,0,26,CF,
+
+
+
+send header,8,4,0,27,4,0,0,3D,1A,72,
+23994 dock->ipod
+size:4 mode:4 command:0x0,0x31 params:2, csum:C5 [OK]
+set repeat mode
+send header,6,4,0,1,0,0,31,C4,
+
+
+24005 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+send header,6,4,0,1,0,0,26,CF,
+
+
+24016 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+send header,6,4,0,1,0,0,16,DF,
+
+
+24027 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24038 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3D,51,2,43,
+
+
+24052 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24063 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3D,6A,2,2A,
+
+
+24077 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24088 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3D,83,2,11,
+
+
+24102 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24113 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3D,9C,2,F8,
+
+
+24128 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24139 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3D,B6,2,DE,
+
+
+24153 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24164 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3D,CF,2,C5,
+
+
+24178 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24189 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3D,E8,2,AC,
+
+
+24203 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24215 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3E,2,2,91,
+
+
+24229 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24240 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3E,1B,2,78,
+
+
+24254 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24265 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3E,34,2,5F,
+
+
+24279 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24291 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3E,4E,2,45,
+
+
+24305 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24316 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3E,67,2,2C,
+
+
+24330 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24341 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3E,80,2,13,
+
+
+24355 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AVRC24366 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,3E,99,2,FA,
+
+
+P_PLAY
+>>play state changed to 1
+24381 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+24392 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9,7B,1,4E,
+playingstate changed
+
+24406 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,32,A4,
+
+
+24420 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,32, csum:A3 [OK]
+get title of song #50
+send header,4,4,0,21,0,D7,
+
+
+24432 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,32, csum:A1 [OK]
+get artist of song #50
+send header,4,4,0,23,0,D5,
+
+
+24444 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,32, csum:9F [OK]
+get album of song #50
+send header,4,4,0,25,0,D3,
+
+
+24454 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+24465 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:2, csum:DE [OK]
+get count of artists
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+24476 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:3, csum:DD [OK]
+get count of albums
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+
+send header,8,4,0,27,4,0,0,9,D7,E9,
+24487 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:4, csum:DC [OK]
+get count of genres
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+24508 dock->ipod
+size:14 mode:4 command:0x0,0x32 params:0,0,1,0,80,0,37,0,0,0,20, csum:E4 [OK]
+picture block
+send header,6,4,0,1,0,0,32,C3,
+
+
+24807 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,FF,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,0,0,0,0,0,FF,C0,0,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,0,3,FF,0,0,0,3,FF,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,FC,0,0,0,0,0,0,0,F,FC,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3F,FF,FF,FC,0,0,0,0,0,0,0,0,3F,F0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,3,FF,FF,FC,0,0,0,0,0,0,0,0,0,FF,F0,0,0,0,0,0,0,0,FF,FF,FF,C0,0,0,0,0,0,0,3F,FF,FF,0,0,0,0,0,0,0,0,0,0,FF,C0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3,FF,0,0,0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,3F,FF,FC,0,0,0,0,0,0,0,0,0,0,F,FC,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,0,0,0,3,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,3F,F0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,C0,0,0,3F,FF,FF,0,0,0,0,0,0,0,0,0,0,0,FF,C0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FC,0,0,FF,FF,F0,0,F,FF,C0,3F,FC,3,FF,CF,FC,0,FF,CF,FF,FF,FF,F,FF,FF,FF,3,FF,FF,FF,F,FF,FF,0, csum:11 [OK]
+picture block
+send header,6,4,0,1,0,0,32,C3,
+
+
+
+send header,8,4,0,27,4,0,0,B,CC,F2,
+25109 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,2,3,FF,FF,0,0,3F,FF,C0,F,FC,3F,FF,F,FF,3,FF,F,FF,FF,FC,3F,FF,FF,FF,F,FF,FF,FF,3,FF,FF,C0,F,FF,FF,0,0,3F,FF,C0,F,FF,3F,FF,3,FF,F,FC,F,FF,FF,FC,FF,FF,FF,FF,3F,FF,FF,FF,0,3F,FF,F0,3F,FF,F0,0,0,FF,FF,C0,3,FF,FF,F0,3,FF,FF,F0,F,FF,FF,FC,FF,FF,FF,FF,3F,FF,FF,FF,0,F,FF,FC,3F,FF,F0,0,0,FF,FF,C0,0,FF,FF,C0,0,3F,FF,C0,F,FF,FF,F0,FF,FF,FF,FC,3F,FF,FF,FC,0,F,FF,FC,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,C0,0,3,FC,3F,C0,0,3F,FC,0,0,3F,FC,0,F,FF,FF,F0,FF,FF,FF,C0,FF,FF,FF,C0,0,3,FF,FF,FF,FF,0,0,F,FC,3F,C0,0,3F,FC,0,0,3F,FC,0,3F,FF,FF,F0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,0,0,F,F0,3F,C0,0,FF,FC,0,0,FF,FC,0,3F,FF,FF,F0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,0,0,3F,F0,3F,C0,3,FF,FC,0,3,FF,FF,0,3F,FF,FF,C0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,C0,0,3F,FF,FF,C0,3,FF,FF,0,F,FF,FF,0,3F,C0,0,0,0,0,3F,F0,0,0,3F,F0,0,3,FF,FF,FF,FF,C0,0,3F,FF,FF,C0,F,FF,FF,C0,F,FF,FF,0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,3,FF,FC,3F,FF,F0,0,FF,FF,FF,C0,3F,F3,FF,C0,3F,FC,FF,C0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,F,FF,FC,3F,FF,FC,0,FF,C0,3F,C0,FF,F0,FF,C0,3F,F0,FF,C0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,3F,FF,FC,F,FF,FF,3,FF,0,3F,C0,FF,C0,FF,F0,FF,C0,3F,F0,FF,FF,FF,C3,FF,FF,FF,C3,FF,FF,FF,C0,0,FF,FF,F0,3,FF,FF,C3,FC,0,FF,C3,FF,0,3F,F3,FF,0,3F,F0,FF,FF,FF,3,FF,FF,FF,3,FF,FF,FF,0,3,FF,FF,C0, csum:55 [OK]
+picture block
+send header,6,4,0,1,0,0,32,C3,
+
+
+25410 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,3,0,FF,FF,F0,0,0,0,F,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,0,0,3F,FF,FF,0,0,0,3F,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FC,0,0,3,FF,FF,F0,0,0,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,C0,0,0,0,3F,FF,FC,0,0,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,0,0,0,0,F,FF,FF,F0,3,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,C0,0,0,0,0,0,3F,FF,FF,F,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FC,0,0,0,0,0,0,3,FF,FF,FF,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,C0,0,0,0,0,0,0,0,3,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,FF,C0,0,0,0,0,0,0,3,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,FF,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, csum:77 [OK]
+picture block
+send header,6,4,0,1,0,0,32,C3,
+
+
+
+send header,8,4,0,27,4,0,0,D,C1,FB,
+25620 dock->ipod
+size:325 mode:4 command:0x0,0x32 params:0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,C,C,0,0,0,0,0,C,0,0,0,0,C,C,0,0,C,C,0,C0,0,0,F,FC,0,0,0,0,0,0,0,0,F,3C,0,0,0,0,0,C,0,0,0,0,F,3C,0,0,C,C,3,C0,0,0,C,0,0,0,0,0,0,0,0,0,C,CC,3,F0,F,FC,3,CC,3,F0,0,0,C,CC,0,0,C,C,0,C0,0,0,F,F0,0,0,0,0,0,0,0,0,C,CC,0,C,0,30,C,3C,0,C,0,0,C,CC,0,0,C,C,0,C0,0,0,0,C,0,0,0,0,0,0,0,0,C,C,3,FC,0,C0,C,C,3,FC,0,0,C,C,0,0,C,C,0,C0,0,0,0,C,0,0,0,0,0,0,0,0,C,C,C,C,3,0,C,C,C,C,0,0,C,C,0,0,3,30,0,C0,3,C0,C,C,0,0,0,0,0,0,0,0,C,C,3,FC,F,FC,3,FC,3,FC,0,0,C,C,0,0,0,C0,3,F0,3,C0,3,F0,0,0,0,0,0,0,0, csum:99 [OK]
+picture block
+send header,6,4,0,1,0,0,32,C3,
+
+
+
+send header,8,4,0,27,4,0,0,F,B6,4,
+
+send header,8,4,0,27,4,0,0,11,AB,D,
+
+send header,8,4,0,27,4,0,0,13,A0,16,
+
+send header,8,4,0,27,4,0,0,15,95,1F,
+
+send header,8,4,0,27,4,0,0,17,8A,28,
+
+send header,8,4,0,27,4,0,0,19,7F,31,
+
+send header,8,4,0,27,4,0,0,1B,74,3A,
+
+send header,8,4,0,27,4,0,0,1D,69,43,
+
+send header,8,4,0,27,4,0,0,1F,5E,4C,
+
+send header,8,4,0,27,4,0,0,21,53,55,
+
+send header,8,4,0,27,4,0,0,23,48,5E,
+31298 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,24,75,1,39,
+
+
+31312 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+31323 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,24,8E,1,20,
+
+
+31337 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+31348 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,24,A7,1,7,
+
+
+31363 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+31374 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,24,C1,1,ED,
+
+
+31388 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+31399 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,24,DA,1,D4,
+
+
+31413 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+31424 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,24,F3,1,BB,
+
+
+31439 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+31450 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,25,D,1,A0,
+
+
+31464 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+31475 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,25,26,1,87,
+
+
+31489 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+
+send header,8,4,0,27,4,0,0,25,3D,67,
+31500 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,25,3F,1,6E,
+
+
+AVRC31518 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+P_PAUSE
+>>play state changed to 2
+31529 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,41,4B,2,45,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,0,43,21,65,
+
+send header,8,4,0,27,4,0,0,45,16,6E,
+
+send header,8,4,0,27,4,0,0,47,B,77,
+
+send header,8,4,0,27,4,0,0,49,0,80,
+
+send header,8,4,0,27,4,0,0,4A,F5,8A,
+
+send header,8,4,0,27,4,0,0,4C,EA,93,
+
+send header,8,4,0,27,4,0,0,4E,DF,9C,
+
+send header,8,4,0,27,4,0,0,50,D4,A5,
+
+send header,8,4,0,27,4,0,0,52,C9,AE,
+
+send header,8,4,0,27,4,0,0,54,BE,B7,
+
+send header,8,4,0,27,4,0,0,56,B3,C0,
+
+send header,8,4,0,27,4,0,0,58,A8,C9,
+
+send header,8,4,0,27,4,0,0,5A,9D,D2,
+
+send header,8,4,0,27,4,0,0,5C,92,DB,
+
+send header,8,4,0,27,4,0,0,5E,87,E4,
+
+send header,8,4,0,27,4,0,0,60,7C,ED,
+
+send header,8,4,0,27,4,0,0,62,71,F6,
+
+send header,8,4,0,27,4,0,0,64,66,FF,
+
+send header,8,4,0,27,4,0,0,66,5B,8,
+
+send header,8,4,0,27,4,0,0,68,50,11,
+
+send header,8,4,0,27,4,0,0,6A,45,1A,
+
+send header,8,4,0,27,4,0,0,6C,3A,23,
+
+send header,8,4,0,27,4,0,0,6E,2F,2C,
+
+send header,8,4,0,27,4,0,0,70,24,35,
+
+send header,8,4,0,27,4,0,0,72,19,3E,
+
+send header,8,4,0,27,4,0,0,74,E,47,
+
+send header,8,4,0,27,4,0,0,76,3,50,
+
+send header,8,4,0,27,4,0,0,77,F8,5A,
+
+send header,8,4,0,27,4,0,0,79,ED,63,
+
+send header,8,4,0,27,4,0,0,7B,E2,6C,
+
+send header,8,4,0,27,4,0,0,7D,D7,75,
+
+send header,8,4,0,27,4,0,0,7F,CC,7E,
+
+send header,8,4,0,27,4,0,0,81,C1,87,
+
+send header,8,4,0,27,4,0,0,83,B6,90,
+
+send header,8,4,0,27,4,0,0,85,AB,99,
+
+send header,8,4,0,27,4,0,0,87,A0,A2,
+
+send header,8,4,0,27,4,0,0,89,95,AB,
+
+send header,8,4,0,27,4,0,0,8B,8A,B4,
+
+send header,8,4,0,27,4,0,0,8D,7F,BD,
+
+send header,8,4,0,27,4,0,0,8F,74,C6,
+
+send header,8,4,0,27,4,0,0,91,69,CF,
+
+send header,8,4,0,27,4,0,0,93,5E,D8,
+
+send header,8,4,0,27,4,0,0,95,53,E1,
+
+send header,8,4,0,27,4,0,0,97,48,EA,
+
+send header,8,4,0,27,4,0,0,99,3D,F3,
+
+send header,8,4,0,27,4,0,0,9B,32,FC,
+54789 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9C,27,2,E,
+
+
+54804 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+54815 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9C,41,2,F4,
+
+
+54829 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+54840 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9C,5A,2,DB,
+
+
+54854 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+54865 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9C,73,2,C2,
+
+
+54880 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+54891 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9C,8D,2,A8,
+
+
+54905 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+54916 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9C,A6,2,8F,
+
+
+54930 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+54941 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9C,BF,2,76,
+
+
+54956 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+54967 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9C,D9,2,5C,
+
+
+54981 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+54992 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9C,F2,2,43,
+
+
+55006 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55017 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9D,B,2,29,
+
+
+55032 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55043 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9D,25,2,F,
+
+
+
+send header,8,4,0,27,4,0,0,9D,27,5,
+55057 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55068 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9D,3E,2,F6,
+
+
+55082 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55093 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9D,57,2,DD,
+
+
+55107 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55118 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9D,70,2,C4,
+
+
+55133 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55144 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9D,8A,2,AA,
+
+
+55158 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55169 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9D,A3,2,91,
+
+
+55183 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55195 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9D,BD,2,77,
+
+
+55209 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55220 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9D,D6,2,5E,
+
+
+55234 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55245 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9D,EF,2,45,
+
+
+55259 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55270 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9E,8,2,2B,
+
+
+55285 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55296 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9E,22,2,11,
+
+
+55310 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55321 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9E,3B,2,F8,
+
+
+55335 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55346 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9E,54,2,DF,
+
+
+55361 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55372 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9E,6E,2,C5,
+
+
+55386 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55397 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9E,87,2,AC,
+
+
+55411 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55422 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9E,A0,2,93,
+
+
+55436 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55447 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9E,B9,2,7A,
+
+
+55462 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55473 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9E,D3,2,60,
+
+
+55487 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55498 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9E,EC,2,47,
+
+
+55512 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55523 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9F,5,2,2D,
+
+
+55538 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+
+send header,8,4,0,27,4,0,0,9F,1C,E,
+55549 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9F,1F,2,13,
+
+
+55566 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55577 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9F,3B,2,F7,
+
+
+55591 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55603 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9F,55,2,DD,
+
+
+55617 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55628 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9F,6E,2,C4,
+
+
+55642 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55653 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9F,87,2,AB,
+
+
+55667 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55678 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9F,A0,2,92,
+
+
+55693 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55704 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9F,BA,2,78,
+
+
+55718 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55729 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9F,D3,2,5F,
+
+
+55743 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55754 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,9F,EC,2,46,
+
+
+55769 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55780 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A0,6,2,2B,
+
+
+55794 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55805 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A0,1F,2,12,
+
+
+55819 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55830 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A0,38,2,F9,
+
+
+55845 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55855 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A0,51,2,E0,
+
+
+55870 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55881 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A0,6B,2,C6,
+
+
+55895 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55906 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A0,84,2,AD,
+
+
+55920 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55931 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A0,9D,2,94,
+
+
+55946 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55957 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A0,B7,2,7A,
+
+
+55971 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+55982 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A0,D0,2,61,
+
+
+55996 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+56007 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A0,E9,2,48,
+
+
+56022 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+56033 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A1,3,2,2D,
+
+
+
+send header,8,4,0,27,4,0,0,A1,11,17,
+56047 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+56063 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A1,21,2,F,
+
+
+56077 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+56088 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A1,3A,2,F6,
+
+
+56103 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+56114 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A1,54,2,DC,
+
+
+56128 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+56139 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A1,6D,2,C3,
+
+
+56153 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+56164 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A1,86,2,AA,
+
+
+56179 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+56190 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A1,A0,2,90,
+
+
+56204 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+56215 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A1,B9,2,77,
+
+
+56229 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+56240 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A1,D2,2,5E,
+
+
+56255 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+56265 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A1,EB,2,45,
+
+
+56280 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AVRCP_PL56291 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,A2,5,2,2A,
+
+
+AY
+>>play state changed to 1
+56305 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+56316 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,0,0,0,0,0,25,6E,1,3F,
+playingstate changed
+
+56330 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,32,A4,
+
+
+56344 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,32, csum:A3 [OK]
+get title of song #50
+send header,4,4,0,21,0,D7,
+
+
+56356 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,32, csum:A1 [OK]
+get artist of song #50
+send header,4,4,0,23,0,D5,
+
+
+56368 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,32, csum:9F [OK]
+get album of song #50
+send header,4,4,0,25,0,D3,
+
+
+
+send header,8,4,0,27,4,0,0,26,56,4D,
+
+send header,8,4,0,27,4,0,0,28,4B,56,
+
+send header,8,4,0,27,4,0,0,2A,40,5F,
+
+send header,8,4,0,27,4,0,0,2C,35,68,
+
+send header,8,4,0,27,4,0,0,2E,2A,71,
+
+send header,8,4,0,27,4,0,0,30,1F,7A,
+
+send header,8,4,0,27,4,0,0,32,14,83,
+
+send header,8,4,0,27,4,0,0,34,9,8C,
+
+send header,8,4,0,27,4,0,0,35,FE,96,
+
+send header,8,4,0,27,4,0,0,37,F3,9F,
+
+send header,8,4,0,27,4,0,0,39,E8,A8,
+
+send header,8,4,0,27,4,0,0,3B,DD,B1,
+
+send header,8,4,0,27,4,0,0,3D,D2,BA,
+
+send header,8,4,0,27,4,0,0,3F,C7,C3,
+
+send header,8,4,0,27,4,0,0,41,BC,CC,
+
+send header,8,4,0,27,4,0,0,43,B1,D5,
+
+send header,8,4,0,27,4,0,0,45,A6,DE,
+
+send header,8,4,0,27,4,0,0,47,9B,E7,
+
+send header,8,4,0,27,4,0,0,49,90,F0,
+
+send header,8,4,0,27,4,0,0,4B,85,F9,
+
+send header,8,4,0,27,4,0,0,4D,7A,2,
+
+send header,8,4,0,27,4,0,0,4F,6F,B,
+
+send header,8,4,0,27,4,0,0,51,64,14,
+
+send header,8,4,0,27,4,0,0,53,59,1D,
+
+send header,8,4,0,27,4,0,0,55,4E,26,
+
+send header,8,4,0,27,4,0,0,57,43,2F,
+
+send header,8,4,0,27,4,0,0,59,38,38,
+
+send header,8,4,0,27,4,0,0,5B,2D,41,
+
+send header,8,4,0,27,4,0,0,5D,22,4A,
+
+send header,8,4,0,27,4,0,0,5F,17,53,
+
+send header,8,4,0,27,4,0,0,61,C,5C,
+71717 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--<<send cmd: MUSIC BACKWARD
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+
+send header,8,4,0,27,4,0,0,1,6A,5E,
+
+send header,8,4,0,27,4,0,0,3,5F,67,
+
+send header,8,4,0,27,4,0,0,5,54,70,
+
+send header,8,4,0,27,4,0,0,7,49,79,
+
+send header,8,4,0,27,4,0,0,9,3E,82,
+
+send header,8,4,0,27,4,0,0,B,33,8B,
+
+send header,8,4,0,27,4,0,0,D,28,94,
+
+send header,8,4,0,27,4,0,0,F,1D,9D,
+
+send header,8,4,0,27,4,0,0,11,12,A6,
+
+send header,8,4,0,27,4,0,0,13,7,AF,
+
+send header,8,4,0,27,4,0,0,14,FC,B9,
+
+send header,8,4,0,27,4,0,0,16,F1,C2,
+
+send header,8,4,0,27,4,0,0,18,E6,CB,
+
+send header,8,4,0,27,4,0,0,1A,DB,D4,
+
+send header,8,4,0,27,4,0,0,1C,D0,DD,
+
+send header,8,4,0,27,4,0,0,1E,C5,E6,
+
+send header,8,4,0,27,4,0,0,20,BA,EF,
+
+send header,8,4,0,27,4,0,0,22,AF,F8,
+
+send header,8,4,0,27,4,0,0,24,A4,1,
+
+send header,8,4,0,27,4,0,0,26,99,A,
+
+send header,8,4,0,27,4,0,0,28,8E,13,
+
+send header,8,4,0,27,4,0,0,2A,83,1C,
+
+send header,8,4,0,27,4,0,0,2C,78,25,
+
+send header,8,4,0,27,4,0,0,2E,6D,2E,
+
+send header,8,4,0,27,4,0,0,30,62,37,
+
+send header,8,4,0,27,4,0,0,32,57,40,
+
+send header,8,4,0,27,4,0,0,34,4C,49,
+
+send header,8,4,0,27,4,0,0,36,41,52,
+86005 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--<<send cmd: MUSIC BACKWARD
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+
+send header,8,4,0,27,4,0,0,0,66,63,
+
+send header,8,4,0,27,4,0,0,2,5B,6C,
+
+send header,8,4,0,27,4,0,0,4,50,75,
+87232 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--<<send cmd: MUSIC BACKWARD
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+AVRCP_MEDIA TITLE: The Planet
+AVRCP_MEDIA ARTIST: Gang Starr
+AVRCP_MEDIA ALBUM: Hard To Earn
+>>sending new track info to ipod dock
+
+send header,8,4,0,27,1,0,0,0,2F,9D,
+>>TITLE IS: "The Planet"
+>>ARTIST IS: "Gang Starr"
+>>ALBUM IS: "Hard To Earn"
+AVRCP_MEDIA PLA
+send header,8,4,0,27,4,0,0,0,E,BB,
+87610 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2F, csum:A6 [OK]
+get title of song #47
+send header,E,4,0,21,54,68,65,20,50,6C,61,6E,65,74,0,28,
+
+
+YING_TIME(MS): 316
+>>LENGTH IS: "316000ms"
+87633 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2F, csum:A4 [OK]
+get artist of song #47
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+87650 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2F, csum:A2 [OK]
+get album of song #47
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,2,3,C4,
+
+send header,8,4,0,27,4,0,0,3,F8,CE,
+
+send header,8,4,0,27,4,0,0,5,ED,D7,
+
+send header,8,4,0,27,4,0,0,7,E2,E0,
+
+send header,8,4,0,27,4,0,0,9,D7,E9,
+
+send header,8,4,0,27,4,0,0,B,CC,F2,
+
+send header,8,4,0,27,4,0,0,D,C1,FB,
+
+send header,8,4,0,27,4,0,0,F,B6,4,
+
+send header,8,4,0,27,4,0,0,11,AB,D,
+
+send header,8,4,0,27,4,0,0,13,A0,16,
+
+send header,8,4,0,27,4,0,0,15,95,1F,
+
+send header,8,4,0,27,4,0,0,17,8A,28,
+
+send header,8,4,0,27,4,0,0,19,7F,31,
+
+send header,8,4,0,27,4,0,0,1B,74,3A,
+
+send header,8,4,0,27,4,0,0,1D,69,43,
+
+send header,8,4,0,27,4,0,0,1F,5E,4C,
+
+send header,8,4,0,27,4,0,0,21,53,55,
+
+send header,8,4,0,27,4,0,0,23,48,5E,
+
+send header,8,4,0,27,4,0,0,25,3D,67,
+
+send header,8,4,0,27,4,0,0,27,32,70,
+97832 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,27,FC,1,79,
+
+
+97846 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+97857 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,28,15,1,5F,
+
+
+97871 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+97882 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,28,2E,1,46,
+
+
+97897 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+97908 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,28,48,1,2C,
+
+
+97922 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+97933 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,28,61,1,13,
+
+
+97947 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+97958 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,28,7A,1,FA,
+
+
+97973 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+97984 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,28,94,1,E0,
+
+
+97998 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+98009 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,28,AD,1,C7,
+
+
+98023 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+98034 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,28,C6,1,AE,
+
+
+98048 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AVRCP_PAUSE
+>>play state changed to 2
+98060 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,51,BF,2,8B,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,0,52,6,71,
+
+send header,8,4,0,27,4,0,0,53,FB,7B,
+
+send header,8,4,0,27,4,0,0,55,F0,84,
+
+send header,8,4,0,27,4,0,0,57,E5,8D,
+
+send header,8,4,0,27,4,0,0,59,DA,96,
+
+send header,8,4,0,27,4,0,0,5B,CF,9F,
+
+send header,8,4,0,27,4,0,0,5D,C4,A8,
+
+send header,8,4,0,27,4,0,0,5F,B9,B1,
+
+send header,8,4,0,27,4,0,0,61,AE,BA,
+102172 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,61,CF,2,6B,
+
+
+102186 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+102197 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,61,E8,2,52,
+
+
+102212 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+102223 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,62,2,2,37,
+
+
+102237 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+102248 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,62,1B,2,1E,
+
+
+102262 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+102273 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,62,34,2,5,
+
+
+102287 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+102298 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,62,4D,2,EC,
+
+
+102313 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+102324 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,62,67,2,D2,
+
+
+102338 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+102349 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,62,80,2,B9,
+
+
+102363 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+102374 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,62,99,2,A0,
+
+
+102389 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+102400 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,62,B3,2,86,
+
+
+AVRCP_PL102414 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AY
+>>play state changed to 1
+102425 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,28,E6,1,8E,
+playingstate changed
+
+102439 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,2F,A7,
+
+
+102453 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2F, csum:A6 [OK]
+get title of song #47
+send header,E,4,0,21,54,68,65,20,50,6C,61,6E,65,74,0,28,
+
+
+102470 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2F, csum:A4 [OK]
+get artist of song #47
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+102487 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2F, csum:A2 [OK]
+get album of song #47
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,29,BD,E3,
+
+send header,8,4,0,27,4,0,0,2B,B2,EC,
+
+send header,8,4,0,27,4,0,0,2D,A7,F5,
+
+send header,8,4,0,27,4,0,0,2F,9C,FE,
+
+send header,8,4,0,27,4,0,0,31,91,7,
+
+send header,8,4,0,27,4,0,0,33,86,10,
+
+send header,8,4,0,27,4,0,0,35,7B,19,
+
+send header,8,4,0,27,4,0,0,37,70,22,
+
+send header,8,4,0,27,4,0,0,39,65,2B,
+
+send header,8,4,0,27,4,0,0,3B,5A,34,
+
+send header,8,4,0,27,4,0,0,3D,4F,3D,
+
+send header,8,4,0,27,4,0,0,3F,44,46,
+108465 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,40,7E,1,DE,
+
+
+108479 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+108489 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,40,96,1,C6,
+
+
+108504 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+108515 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,40,B0,1,AC,
+
+
+108529 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+108540 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,40,C9,1,93,
+
+
+108554 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+108565 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,40,E2,1,7A,
+
+
+108580 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+108591 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,40,FC,1,60,
+
+
+108605 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+108616 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,41,15,1,46,
+
+
+108630 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+108641 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,41,2E,1,2D,
+
+
+
+send header,8,4,0,27,4,0,0,41,39,4F,
+108656 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AVRCP_PA108669 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,41,4A,1,11,
+
+
+USE
+>>play state changed to 2
+108683 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+108694 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,59,D2,2,70,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,0,5B,9D,D1,
+
+send header,8,4,0,27,4,0,0,5D,92,DA,
+
+send header,8,4,0,27,4,0,0,5F,87,E3,
+
+send header,8,4,0,27,4,0,0,61,7C,EC,
+
+send header,8,4,0,27,4,0,0,63,71,F5,
+
+send header,8,4,0,27,4,0,0,65,66,FE,
+
+send header,8,4,0,27,4,0,0,67,5B,7,
+
+send header,8,4,0,27,4,0,0,69,50,10,
+
+send header,8,4,0,27,4,0,0,6B,45,19,
+
+send header,8,4,0,27,4,0,0,6D,3A,22,
+
+send header,8,4,0,27,4,0,0,6F,2F,2B,
+
+send header,8,4,0,27,4,0,0,71,24,34,
+
+send header,8,4,0,27,4,0,0,73,19,3D,
+
+send header,8,4,0,27,4,0,0,75,E,46,
+115941 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,76,21,2,4,
+
+
+115955 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+115966 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,76,3A,2,EB,
+
+
+115981 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+115992 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,76,54,2,D1,
+
+
+116006 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+116017 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,76,6D,2,B8,
+
+
+116031 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+116042 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,76,86,2,9F,
+
+
+116057 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+116068 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,76,A0,2,85,
+
+
+116082 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+116093 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,76,B9,2,6C,
+
+
+116107 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+116118 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,76,D2,2,53,
+
+
+116132 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+116144 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,76,EC,2,39,
+
+
+AVRCP_PLAY
+116158 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+>>play state changed to 1
+
+send header,8,4,0,27,4,0,0,41,57,31,
+116169 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,41,59,1,2,
+playingstate changed
+
+116187 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,2F,A7,
+
+
+116201 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2F, csum:A6 [OK]
+get title of song #47
+send header,E,4,0,21,54,68,65,20,50,6C,61,6E,65,74,0,28,
+
+
+116218 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2F, csum:A4 [OK]
+get artist of song #47
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+116235 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2F, csum:A2 [OK]
+get album of song #47
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,43,4C,3A,
+
+send header,8,4,0,27,4,0,0,45,41,43,
+
+send header,8,4,0,27,4,0,0,47,36,4C,
+
+send header,8,4,0,27,4,0,0,49,2B,55,
+
+send header,8,4,0,27,4,0,0,4B,20,5E,
+
+send header,8,4,0,27,4,0,0,4D,15,67,
+
+send header,8,4,0,27,4,0,0,4F,A,70,
+
+send header,8,4,0,27,4,0,0,50,FF,7A,
+
+send header,8,4,0,27,4,0,0,52,F4,83,
+
+send header,8,4,0,27,4,0,0,54,E9,8C,
+
+send header,8,4,0,27,4,0,0,56,DE,95,
+
+send header,8,4,0,27,4,0,0,58,D3,9E,
+
+send header,8,4,0,27,4,0,0,5A,C8,A7,
+
+send header,8,4,0,27,4,0,0,5C,BD,B0,
+
+send header,8,4,0,27,4,0,0,5E,B2,B9,
+
+send header,8,4,0,27,4,0,0,60,A7,C2,
+
+send header,8,4,0,27,4,0,0,62,9C,CB,
+
+send header,8,4,0,27,4,0,0,64,91,D4,
+
+send header,8,4,0,27,4,0,0,66,86,DD,
+
+send header,8,4,0,27,4,0,0,68,7B,E6,
+
+send header,8,4,0,27,4,0,0,6A,70,EF,
+
+send header,8,4,0,27,4,0,0,6C,65,F8,
+
+send header,8,4,0,27,4,0,0,6E,5A,1,
+
+send header,8,4,0,27,4,0,0,70,4F,A,
+
+send header,8,4,0,27,4,0,0,72,44,13,
+
+send header,8,4,0,27,4,0,0,74,39,1C,
+
+send header,8,4,0,27,4,0,0,76,2E,25,
+
+send header,8,4,0,27,4,0,0,78,23,2E,
+
+send header,8,4,0,27,4,0,0,7A,18,37,
+
+send header,8,4,0,27,4,0,0,7C,D,40,
+
+send header,8,4,0,27,4,0,0,7E,2,49,
+
+send header,8,4,0,27,4,0,0,7F,F7,53,
+
+send header,8,4,0,27,4,0,0,81,EC,5C,
+
+send header,8,4,0,27,4,0,0,83,E1,65,
+
+send header,8,4,0,27,4,0,0,85,D6,6E,
+
+send header,8,4,0,27,4,0,0,87,CB,77,
+
+send header,8,4,0,27,4,0,0,89,C0,80,
+
+send header,8,4,0,27,4,0,0,8B,B5,89,
+
+send header,8,4,0,27,4,0,0,8D,AA,92,
+
+send header,8,4,0,27,4,0,0,8F,9F,9B,
+
+send header,8,4,0,27,4,0,0,91,94,A4,
+
+send header,8,4,0,27,4,0,0,93,89,AD,
+
+send header,8,4,0,27,4,0,0,95,7E,B6,
+
+send header,8,4,0,27,4,0,0,97,73,BF,
+
+send header,8,4,0,27,4,0,0,99,68,C8,
+
+send header,8,4,0,27,4,0,0,9B,5D,D1,
+
+send header,8,4,0,27,4,0,0,9D,52,DA,
+
+send header,8,4,0,27,4,0,0,9F,47,E3,
+
+send header,8,4,0,27,4,0,0,A1,3C,EC,
+
+send header,8,4,0,27,4,0,0,A3,31,F5,
+
+send header,8,4,0,27,4,0,0,A5,26,FE,
+
+send header,8,4,0,27,4,0,0,A7,1B,7,
+
+send header,8,4,0,27,4,0,0,A9,10,10,
+
+send header,8,4,0,27,4,0,0,AB,5,19,
+
+send header,8,4,0,27,4,0,0,AC,FA,23,
+
+send header,8,4,0,27,4,0,0,AE,EF,2C,
+
+send header,8,4,0,27,4,0,0,B0,E4,35,
+
+send header,8,4,0,27,4,0,0,B2,D9,3E,
+
+send header,8,4,0,27,4,0,0,B4,CE,47,
+
+send header,8,4,0,27,4,0,0,B6,C3,50,
+
+send header,8,4,0,27,4,0,0,B8,B8,59,
+
+send header,8,4,0,27,4,0,0,BA,AD,62,
+
+send header,8,4,0,27,4,0,0,BC,A2,6B,
+
+send header,8,4,0,27,4,0,0,BE,97,74,
+
+send header,8,4,0,27,4,0,0,C0,8C,7D,
+
+send header,8,4,0,27,4,0,0,C2,81,86,
+
+send header,8,4,0,27,4,0,0,C4,76,8F,
+
+send header,8,4,0,27,4,0,0,C6,6B,98,
+
+send header,8,4,0,27,4,0,0,C8,60,A1,
+
+send header,8,4,0,27,4,0,0,CA,55,AA,
+
+send header,8,4,0,27,4,0,0,CC,4A,B3,
+
+send header,8,4,0,27,4,0,0,CE,3F,BC,
+
+send header,8,4,0,27,4,0,0,D0,34,C5,
+
+send header,8,4,0,27,4,0,0,D2,29,CE,
+
+send header,8,4,0,27,4,0,0,D4,1E,D7,
+153779 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D4,43,1,85,
+
+
+153794 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+153805 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D4,5D,1,6B,
+
+
+153819 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+153830 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D4,76,1,52,
+
+
+153845 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+153856 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D4,90,1,38,
+
+
+153870 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+153881 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D4,A9,1,1F,
+
+
+153895 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+153906 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D4,C2,1,6,
+
+
+153920 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+153932 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D4,DC,1,EC,
+
+
+153946 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+153957 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D4,F5,1,D3,
+
+
+153971 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+153982 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D5,E,1,B9,
+
+
+153996 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+154007 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D5,27,1,A0,
+
+
+AVRCP_PAUSE
+154022 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+>>play state changed to 2
+154033 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,69,29,2,8,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,1,69,FB,64,
+
+send header,8,4,0,27,4,0,1,6B,F0,6D,
+
+send header,8,4,0,27,4,0,1,6D,E5,76,
+
+send header,8,4,0,27,4,0,1,6F,DA,7F,
+
+send header,8,4,0,27,4,0,1,71,CF,88,
+
+send header,8,4,0,27,4,0,1,73,C4,91,
+
+send header,8,4,0,27,4,0,1,75,B9,9A,
+
+send header,8,4,0,27,4,0,1,77,AE,A3,
+
+send header,8,4,0,27,4,0,1,79,A3,AC,
+158463 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,7A,77,2,A9,
+
+
+158477 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+158488 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,7A,90,2,90,
+
+
+158503 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+158514 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,7A,AA,2,76,
+
+
+158528 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+158539 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,7A,C3,2,5D,
+
+
+158553 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+158564 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,7A,DC,2,44,
+
+
+158579 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+158590 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,7A,F6,2,2A,
+
+
+158604 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+158615 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,7B,F,2,10,
+
+
+158629 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+158640 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,7B,28,2,F7,
+
+
+158655 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AVRC158666 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,7B,42,2,DD,
+
+
+P_PLAY
+>>play state changed to 1
+158680 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+158691 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D5,47,1,80,
+playingstate changed
+
+158705 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,2F,A7,
+
+
+158719 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2F, csum:A6 [OK]
+get title of song #47
+send header,E,4,0,21,54,68,65,20,50,6C,61,6E,65,74,0,28,
+
+
+158736 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2F, csum:A4 [OK]
+get artist of song #47
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+
+send header,8,4,0,27,4,0,0,D5,84,70,
+158753 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2F, csum:A2 [OK]
+get album of song #47
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,D7,79,79,
+
+send header,8,4,0,27,4,0,0,D9,6E,82,
+
+send header,8,4,0,27,4,0,0,DB,63,8B,
+
+send header,8,4,0,27,4,0,0,DD,58,94,
+
+send header,8,4,0,27,4,0,0,DF,4D,9D,
+
+send header,8,4,0,27,4,0,0,E1,42,A6,
+
+send header,8,4,0,27,4,0,0,E3,37,AF,
+
+send header,8,4,0,27,4,0,0,E5,2C,B8,
+
+send header,8,4,0,27,4,0,0,E7,21,C1,
+
+send header,8,4,0,27,4,0,0,E9,16,CA,
+164181 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,EA,B9,1,F9,
+
+
+164196 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+164207 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,EA,D3,1,DF,
+
+
+164221 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+164232 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,EA,EC,1,C6,
+
+
+164246 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+164257 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,EB,5,1,AC,
+
+
+
+send header,8,4,0,27,4,0,0,EB,B,D3,
+164271 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+164282 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,EB,1E,1,93,
+
+
+164297 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+164308 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,EB,38,1,79,
+
+
+164322 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+164333 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,EB,51,1,60,
+
+
+164347 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+164358 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,EB,6A,1,47,
+
+
+164373 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+164384 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,EB,84,1,2D,
+
+
+164398 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AVRC164409 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,EB,9D,1,14,
+
+
+P_PAUSE
+>>play state changed to 2
+164423 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+164434 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,2,23,2,75,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,1,3,6D,58,
+
+send header,8,4,0,27,4,0,1,5,62,61,
+
+send header,8,4,0,27,4,0,1,7,57,6A,
+
+send header,8,4,0,27,4,0,1,9,4C,73,
+
+send header,8,4,0,27,4,0,1,B,41,7C,
+
+send header,8,4,0,27,4,0,1,D,36,85,
+167373 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,D,9E,2,EF,
+
+
+167387 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+167398 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,D,B7,2,D6,
+
+
+167412 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+167423 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,D,D0,2,BD,
+
+
+167437 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+167448 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,D,E9,2,A4,
+
+
+167462 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+167473 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,E,2,2,8A,
+
+
+167487 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+167498 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,E,1B,2,71,
+
+
+167512 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+167523 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,E,34,2,58,
+
+
+167537 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+167548 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,E,4D,2,3F,
+
+
+167563 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+167574 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,E,67,2,25,
+
+
+167588 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+167599 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,E,80,2,C,
+
+
+167613 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+167624 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,E,99,2,F3,
+
+
+167639 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+167650 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,E,B3,2,D9,
+
+
+167664 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+167675 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,E,CC,2,C0,
+
+
+167689 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AVRCP_PL167700 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,E,E5,2,A7,
+
+
+AY
+>>play state changed to 1
+167715 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+167726 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,EB,BA,1,F7,
+playingstate changed
+
+167740 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,2F,A7,
+
+
+167754 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2F, csum:A6 [OK]
+get title of song #47
+send header,E,4,0,21,54,68,65,20,50,6C,61,6E,65,74,0,28,
+
+
+
+send header,8,4,0,27,4,0,0,EB,E6,F8,
+167772 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2F, csum:A4 [OK]
+get artist of song #47
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+167793 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2F, csum:A2 [OK]
+get album of song #47
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,ED,DB,1,
+
+send header,8,4,0,27,4,0,0,EF,D0,A,
+
+send header,8,4,0,27,4,0,0,F1,C5,13,
+
+send header,8,4,0,27,4,0,0,F3,BA,1C,
+
+send header,8,4,0,27,4,0,0,F5,AF,25,
+
+send header,8,4,0,27,4,0,0,F7,A4,2E,
+
+send header,8,4,0,27,4,0,0,F9,99,37,
+
+send header,8,4,0,27,4,0,0,FB,8E,40,
+172079 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,FC,BB,1,E5,
+
+
+172092 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+172103 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,FC,D3,1,CD,
+
+
+172118 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+172129 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,FC,ED,1,B3,
+
+
+172143 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+172154 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,FD,6,1,99,
+
+
+172168 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+172179 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,FD,1F,1,80,
+
+
+172194 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+172205 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,FD,39,1,66,
+
+
+172219 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+172230 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,FD,52,1,4D,
+
+
+172244 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+172255 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,FD,6B,1,34,
+
+
+172270 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+
+send header,8,4,0,27,4,0,0,FD,83,49,
+172281 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,FD,85,1,1A,
+
+
+AVRC172299 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+P_PAUSE
+>>play state changed to 2
+172310 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,F,9C,2,EF,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,1,11,72,45,
+
+send header,8,4,0,27,4,0,1,13,67,4E,
+
+send header,8,4,0,27,4,0,1,15,5C,57,
+
+send header,8,4,0,27,4,0,1,17,51,60,
+
+send header,8,4,0,27,4,0,1,19,46,69,
+
+send header,8,4,0,27,4,0,1,1B,3B,72,
+
+send header,8,4,0,27,4,0,1,1D,30,7B,
+
+send header,8,4,0,27,4,0,1,1F,25,84,
+
+send header,8,4,0,27,4,0,1,21,1A,8D,
+
+send header,8,4,0,27,4,0,1,23,F,96,
+
+send header,8,4,0,27,4,0,1,25,4,9F,
+
+send header,8,4,0,27,4,0,1,26,F9,A9,
+178711 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,28,9D,2,D5,
+
+
+178726 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+178737 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,28,B7,2,BB,
+
+
+178751 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+178762 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,28,D0,2,A2,
+
+
+178776 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+178787 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,28,E9,2,89,
+
+
+
+send header,8,4,0,27,4,0,1,28,EE,B2,
+178802 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+178813 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,29,3,2,6E,
+
+
+178827 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+178838 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,29,1C,2,55,
+
+
+178852 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+178863 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,29,35,2,3C,
+
+
+178878 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+178889 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,29,4F,2,22,
+
+
+178903 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+178914 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,1,29,68,2,9,
+
+
+AVRCP_PLAY
+>>play state changed to 1
+178928 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+178939 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,FD,AB,1,F4,
+playingstate changed
+
+178953 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,2F,A7,
+
+
+178967 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2F, csum:A6 [OK]
+get title of song #47
+send header,E,4,0,21,54,68,65,20,50,6C,61,6E,65,74,0,28,
+
+
+178984 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2F, csum:A4 [OK]
+get artist of song #47
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+179001 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2F, csum:A2 [OK]
+get album of song #47
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,FF,D,BD,
+
+send header,8,4,0,27,4,0,1,1,2,C5,
+
+send header,8,4,0,27,4,0,1,2,F7,CF,
+
+send header,8,4,0,27,4,0,1,4,EC,D8,
+
+send header,8,4,0,27,4,0,1,6,E1,E1,
+
+send header,8,4,0,27,4,0,1,8,D6,EA,
+
+send header,8,4,0,27,4,0,1,A,CB,F3,
+
+send header,8,4,0,27,4,0,1,C,C0,FC,
+
+send header,8,4,0,27,4,0,1,E,B5,5,
+
+send header,8,4,0,27,4,0,1,10,AA,E,
+
+send header,8,4,0,27,4,0,1,12,9F,17,
+
+send header,8,4,0,27,4,0,1,14,94,20,
+
+send header,8,4,0,27,4,0,1,16,89,29,
+
+send header,8,4,0,27,4,0,1,18,7E,32,
+
+send header,8,4,0,27,4,0,1,1A,73,3B,
+
+send header,8,4,0,27,4,0,1,1C,68,44,
+
+send header,8,4,0,27,4,0,1,1E,5D,4D,
+
+send header,8,4,0,27,4,0,1,20,52,56,
+
+send header,8,4,0,27,4,0,1,22,47,5F,
+
+send header,8,4,0,27,4,0,1,24,3C,68,
+
+send header,8,4,0,27,4,0,1,26,31,71,
+
+send header,8,4,0,27,4,0,1,28,26,7A,
+
+send header,8,4,0,27,4,0,1,2A,1B,83,
+
+send header,8,4,0,27,4,0,1,2C,10,8C,
+
+send header,8,4,0,27,4,0,1,2E,5,95,
+
+send header,8,4,0,27,4,0,1,2F,FA,9F,
+
+send header,8,4,0,27,4,0,1,31,EF,A8,
+
+send header,8,4,0,27,4,0,1,33,E4,B1,
+
+send header,8,4,0,27,4,0,1,35,D9,BA,
+193566 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++<<send cmd: MUSIC FORWARD
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+
+send header,8,4,0,27,4,0,0,FE,9D,2E,
+AVRCP_MEDIA TITLE: Spotify
+AVRCP_MEDIA ARTIST: Spotify
+AVRCP_MEDIA PLAYING_TIME(MS): 1
+>>LENGTH IS: "1000ms"
+
+send header,8,4,0,27,4,0,1,0,92,36,
+>>sending new track info to ipod dock
+
+send header,8,4,0,27,1,0,0,0,30,9C,
+>>TITLE IS: "Spotify"
+>>ARTIST IS: "Spotify"
+>>ALBUM IS: "Spotify"
+194447 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,30, csum:A5 [OK]
+get title of song #48
+send header,B,4,0,21,53,70,6F,74,69,66,79,0,E2,
+
+
+194463 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,30, csum:A3 [OK]
+get artist of song #48
+send header,B,4,0,23,53,70,6F,74,69,66,79,0,E0,
+
+
+194479 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,30, csum:A1 [OK]
+get album of song #48
+send header,B,4,0,25,53,70,6F,74,69,66,79,0,DE,
+
+
+
+send header,8,4,0,27,4,0,0,1,86,42,
+
+send header,8,4,0,27,4,0,0,3,7B,4B,
+
+send header,8,4,0,27,4,0,0,5,70,54,
+
+send header,8,4,0,27,4,0,0,7,65,5D,
+
+send header,8,4,0,27,4,0,0,9,5A,66,
+
+send header,8,4,0,27,4,0,0,B,4F,6F,
+
+send header,8,4,0,27,4,0,0,D,44,78,
+
+send header,8,4,0,27,4,0,0,F,39,81,
+
+send header,8,4,0,27,4,0,0,11,2E,8A,
+
+send header,8,4,0,27,4,0,0,13,23,93,
+
+send header,8,4,0,27,4,0,0,15,18,9C,
+
+send header,8,4,0,27,4,0,0,17,D,A5,
+
+send header,8,4,0,27,4,0,0,19,2,AE,
+
+send header,8,4,0,27,4,0,0,1A,F7,B8,
+
+send header,8,4,0,27,4,0,0,1C,EC,C1,
+
+send header,8,4,0,27,4,0,0,1E,E1,CA,
+
+send header,8,4,0,27,4,0,0,20,D6,D3,
+
+send header,8,4,0,27,4,0,0,22,CB,DC,
+
+send header,8,4,0,27,4,0,0,24,C0,E5,
+
+send header,8,4,0,27,4,0,0,26,B5,EE,
+
+send header,8,4,0,27,4,0,0,28,AA,F7,
+
+send header,8,4,0,27,4,0,0,2A,9F,0,
+
+send header,8,4,0,27,4,0,0,2C,94,9,
+
+send header,8,4,0,27,4,0,0,2E,89,12,
+
+send header,8,4,0,27,4,0,0,30,7E,1B,
+
+send header,8,4,0,27,4,0,0,32,73,24,
+
+send header,8,4,0,27,4,0,0,34,68,2D,
+
+send header,8,4,0,27,4,0,0,36,5D,36,
+
+send header,8,4,0,27,4,0,0,38,52,3F,
+
+send header,8,4,0,27,4,0,0,3A,47,48,
+
+send header,8,4,0,27,4,0,0,3C,3C,51,
+
+send header,8,4,0,27,4,0,0,3E,31,5A,
+
+send header,8,4,0,27,4,0,0,40,26,63,
+
+send header,8,4,0,27,4,0,0,42,1B,6C,
+
+send header,8,4,0,27,4,0,0,44,10,75,
+
+send header,8,4,0,27,4,0,0,46,5,7E,
+
+send header,8,4,0,27,4,0,0,47,FA,88,
+
+send header,8,4,0,27,4,0,0,49,EF,91,
+
+send header,8,4,0,27,4,0,0,4B,E4,9A,
+
+send header,8,4,0,27,4,0,0,4D,D9,A3,
+
+send header,8,4,0,27,4,0,0,4F,CE,AC,
+
+send header,8,4,0,27,4,0,0,51,C3,B5,
+
+send header,8,4,0,27,4,0,0,53,B8,BE,
+
+send header,8,4,0,27,4,0,0,55,AD,C7,
+
+send header,8,4,0,27,4,0,0,57,A2,D0,
+
+send header,8,4,0,27,4,0,0,59,97,D9,
+
+send header,8,4,0,27,4,0,0,5B,8C,E2,
+
+send header,8,4,0,27,4,0,0,5D,81,EB,
+
+send header,8,4,0,27,4,0,0,5F,76,F4,
+
+send header,8,4,0,27,4,0,0,61,6B,FD,
+
+send header,8,4,0,27,4,0,0,63,60,6,
+
+send header,8,4,0,27,4,0,0,65,55,F,
+
+send header,8,4,0,27,4,0,0,67,4A,18,
+
+send header,8,4,0,27,4,0,0,69,3F,21,
+
+send header,8,4,0,27,4,0,0,6B,34,2A,
+
+send header,8,4,0,27,4,0,0,6D,29,33,
+
+send header,8,4,0,27,4,0,0,6F,1E,3C,
+
+send header,8,4,0,27,4,0,0,71,13,45,
+
+send header,8,4,0,27,4,0,0,73,8,4E,
+
+send header,8,4,0,27,4,0,0,74,FD,58,
+
+send header,8,4,0,27,4,0,0,76,F2,61,
+
+send header,8,4,0,27,4,0,0,78,E7,6A,
+
+send header,8,4,0,27,4,0,0,7A,DC,73,
+
+send header,8,4,0,27,4,0,0,7C,D1,7C,
+
+send header,8,4,0,27,4,0,0,7E,C6,85,
+
+send header,8,4,0,27,4,0,0,80,BB,8E,
+
+send header,8,4,0,27,4,0,0,82,B0,97,
+
+send header,8,4,0,27,4,0,0,84,A5,A0,
+
+send header,8,4,0,27,4,0,0,86,9A,A9,
+
+send header,8,4,0,27,4,0,0,88,8F,B2,
+
+send header,8,4,0,27,4,0,0,8A,84,BB,
+
+send header,8,4,0,27,4,0,0,8C,79,C4,
+
+send header,8,4,0,27,4,0,0,8E,6E,CD,
+
+send header,8,4,0,27,4,0,0,90,63,D6,
+
+send header,8,4,0,27,4,0,0,92,58,DF,
+
+send header,8,4,0,27,4,0,0,94,4D,E8,
+
+send header,8,4,0,27,4,0,0,96,42,F1,
+
+send header,8,4,0,27,4,0,0,98,37,FA,
+
+send header,8,4,0,27,4,0,0,9A,2C,3,
+
+send header,8,4,0,27,4,0,0,9C,21,C,
+
+send header,8,4,0,27,4,0,0,9E,16,15,
+
+send header,8,4,0,27,4,0,0,A0,B,1E,
+
+send header,8,4,0,27,4,0,0,A2,0,27,
+
+send header,8,4,0,27,4,0,0,A3,F5,31,
+
+send header,8,4,0,27,4,0,0,A5,EA,3A,
+
+send header,8,4,0,27,4,0,0,A7,DF,43,
+
+send header,8,4,0,27,4,0,0,A9,D4,4C,
+
+send header,8,4,0,27,4,0,0,AB,C9,55,
+
+send header,8,4,0,27,4,0,0,AD,BE,5E,
+
+send header,8,4,0,27,4,0,0,AF,B3,67,
+
+send header,8,4,0,27,4,0,0,B1,A8,70,
+
+send header,8,4,0,27,4,0,0,B3,9D,79,
+
+send header,8,4,0,27,4,0,0,B5,92,82,
+
+send header,8,4,0,27,4,0,0,B7,87,8B,
+
+send header,8,4,0,27,4,0,0,B9,7C,94,
+
+send header,8,4,0,27,4,0,0,BB,71,9D,
+
+send header,8,4,0,27,4,0,0,BD,66,A6,
+
+send header,8,4,0,27,4,0,0,BF,5B,AF,
+
+send header,8,4,0,27,4,0,0,C1,50,B8,
+
+send header,8,4,0,27,4,0,0,C3,45,C1,
+
+send header,8,4,0,27,4,0,0,C5,3A,CA,
+
+send header,8,4,0,27,4,0,0,C7,2F,D3,
+
+send header,8,4,0,27,4,0,0,C9,24,DC,
+
+send header,8,4,0,27,4,0,0,CB,19,E5,
+
+send header,8,4,0,27,4,0,0,CD,E,EE,
+
+send header,8,4,0,27,4,0,0,CF,3,F7,
+
+send header,8,4,0,27,4,0,0,D0,F8,1,
+
+send header,8,4,0,27,4,0,0,D2,ED,A,
+
+send header,8,4,0,27,4,0,0,D4,E2,13,
+
+send header,8,4,0,27,4,0,0,D6,D7,1C,
+
+send header,8,4,0,27,4,0,0,D8,CC,25,
+
+send header,8,4,0,27,4,0,0,DA,C1,2E,
+
+send header,8,4,0,27,4,0,0,DC,B6,37,
+
+send header,8,4,0,27,4,0,0,DE,AB,40,
+
+send header,8,4,0,27,4,0,0,E0,A0,49,
+
+send header,8,4,0,27,4,0,0,E2,95,52,
+
+send header,8,4,0,27,4,0,0,E4,8A,5B,
+
+send header,8,4,0,27,4,0,0,E6,7F,64,
+
+send header,8,4,0,27,4,0,0,E8,74,6D,
+
+send header,8,4,0,27,4,0,0,EA,69,76,
+
+send header,8,4,0,27,4,0,0,EC,5E,7F,
+
+send header,8,4,0,27,4,0,0,EE,53,88,
+
+send header,8,4,0,27,4,0,0,F0,48,91,
+
+send header,8,4,0,27,4,0,0,F2,3D,9A,
+
+send header,8,4,0,27,4,0,0,F4,32,A3,
+
+send header,8,4,0,27,4,0,0,F6,27,AC,
+
+send header,8,4,0,27,4,0,0,F8,1C,B5,
+
+send header,8,4,0,27,4,0,0,FA,11,BE,
+
+send header,8,4,0,27,4,0,0,FC,6,C7,
+
+send header,8,4,0,27,4,0,0,FD,FB,D1,
+
+send header,8,4,0,27,4,0,0,FF,F0,DA,
+
+send header,8,4,0,27,4,0,1,1,E5,E2,
+
+send header,8,4,0,27,4,0,1,3,DA,EB,
+
+send header,8,4,0,27,4,0,1,5,CF,F4,
+
+send header,8,4,0,27,4,0,1,7,C4,FD,
+
+send header,8,4,0,27,4,0,1,9,B9,6,
+
+send header,8,4,0,27,4,0,1,B,AE,F,
+
+send header,8,4,0,27,4,0,1,D,A3,18,
+
+send header,8,4,0,27,4,0,1,F,98,21,
+
+send header,8,4,0,27,4,0,1,11,8D,2A,
+
+send header,8,4,0,27,4,0,1,13,82,33,
+
+send header,8,4,0,27,4,0,1,15,77,3C,
+
+send header,8,4,0,27,4,0,1,17,6C,45,
+
+send header,8,4,0,27,4,0,1,19,61,4E,
+
+send header,8,4,0,27,4,0,1,1B,56,57,
+
+send header,8,4,0,27,4,0,1,1D,4B,60,
+
+send header,8,4,0,27,4,0,1,1F,40,69,
+
+send header,8,4,0,27,4,0,1,21,35,72,
+
+send header,8,4,0,27,4,0,1,23,2A,7B,
+
+send header,8,4,0,27,4,0,1,25,1F,84,
+
+send header,8,4,0,27,4,0,1,27,14,8D,
+
+send header,8,4,0,27,4,0,1,29,9,96,
+
+send header,8,4,0,27,4,0,1,2A,FE,A0,
+
+send header,8,4,0,27,4,0,1,2C,F3,A9,
+
+send header,8,4,0,27,4,0,1,2E,E8,B2,
+
+send header,8,4,0,27,4,0,1,30,DD,BB,
+
+send header,8,4,0,27,4,0,1,32,D2,C4,
+
+send header,8,4,0,27,4,0,1,34,C7,CD,
+
+send header,8,4,0,27,4,0,1,36,BC,D6,
+
+send header,8,4,0,27,4,0,1,38,B1,DF,
+
+send header,8,4,0,27,4,0,1,3A,A6,E8,
+
+send header,8,4,0,27,4,0,1,3C,9B,F1,
+
+send header,8,4,0,27,4,0,1,3E,90,FA,
+
+send header,8,4,0,27,4,0,1,40,85,3,
+
+send header,8,4,0,27,4,0,1,42,7A,C,
+AVRCP_PAUSE
+>>play state changed to 2
+AVRCP_MEDIA TITLE: Intro (The First Step)
+AVRCP_MEDIA ARTIST: Gang Starr
+AVRCP_MEDIA ALBUM: Hard To Earn
+>>sending new track info to ipod dock
+
+send header,8,4,0,27,1,0,0,0,30,9C,
+>>TITLE IS: "Intro (The First Step)"
+>>ARTIST IS: "Gang Starr"
+>>ALBUM IS: "Hard To Earn"
+AVRCP_MEDIA PLA277401 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,30, csum:A5 [OK]
+get title of song #48
+send header,1A,4,0,21,49,6E,74,72,6F,20,28,54,68,65,20,46,69,72,73,74,20,53,74,65,70,29,0,3F,
+
+
+YING_TIME(MS): 55
+>>LENGTH IS: "55000ms"
+277426 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,30, csum:A3 [OK]
+get artist of song #48
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+277443 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,30, csum:A1 [OK]
+get album of song #48
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,0,66,63,
+AVRCP_PLAY
+>>play state changed to 1
+AVRCP_MEDIA TITLE: Spotify
+AVRCP_MEDIA ARTIST: Spotify
+AVRCP_MEDIA PLAYING_TIME(MS): 5
+>>LENGTH IS: "5000ms"
+
+send header,8,4,0,27,4,0,0,1,3E,8A,
+>>sending new track info to ipod dock
+
+send header,8,4,0,27,1,0,0,0,30,9C,
+>>TITLE IS: "Spotify"
+>>ARTIST IS: "Spotify"
+>>ALBUM IS: "Spotify"
+278245 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,30, csum:A5 [OK]
+get title of song #48
+send header,B,4,0,21,53,70,6F,74,69,66,79,0,E2,
+
+
+278261 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,30, csum:A3 [OK]
+get artist of song #48
+send header,B,4,0,23,53,70,6F,74,69,66,79,0,E0,
+
+
+278277 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,30, csum:A1 [OK]
+get album of song #48
+send header,B,4,0,25,53,70,6F,74,69,66,79,0,DE,
+
+
+
+send header,8,4,0,27,4,0,0,1,3,C5,
+
+send header,8,4,0,27,4,0,0,2,F8,CF,
+
+send header,8,4,0,27,4,0,0,4,ED,D8,
+
+send header,8,4,0,27,4,0,0,6,E2,E1,
+
+send header,8,4,0,27,4,0,0,8,D7,EA,
+
+send header,8,4,0,27,4,0,0,A,CC,F3,
+AVRCP_MEDIA TITLE: Tonz 'O' Gunz
+AVRCP_MEDIA ARTIST: Gang Starr
+AVRCP_MEDIA ALBUM: Hard To Earn
+>>sending new track info to ipod dock
+
+send header,8,4,0,27,1,0,0,0,30,9C,
+>>TITLE IS: "Tonz 'O' Gunz"
+>>ARTIST IS: "Gang Starr"
+>>ALBUM IS: "Hard To Earn"
+
+send header,8,4,0,27,4,0,0,0,3,C6,
+AVRCP_MEDIA 281507 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,30, csum:A5 [OK]
+get title of song #48
+send header,11,4,0,21,54,6F,6E,7A,20,27,4F,27,20,47,75,6E,7A,0,9E,
+
+
+PLAYING_TIME(MS)281526 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,30, csum:A3 [OK]
+get artist of song #48
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+: 235
+>>LENGTH IS: "235000ms"
+281543 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,30, csum:A1 [OK]
+get album of song #48
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,1,F8,D0,
+
+send header,8,4,0,27,4,0,0,3,ED,D9,
+
+send header,8,4,0,27,4,0,0,5,E2,E2,
+
+send header,8,4,0,27,4,0,0,7,D7,EB,
+
+send header,8,4,0,27,4,0,0,9,CC,F4,
+
+send header,8,4,0,27,4,0,0,B,C1,FD,
+
+send header,8,4,0,27,4,0,0,D,B6,6,
+
+send header,8,4,0,27,4,0,0,F,AB,F,
+
+send header,8,4,0,27,4,0,0,11,A0,18,
+
+send header,8,4,0,27,4,0,0,13,95,21,
+
+send header,8,4,0,27,4,0,0,15,8A,2A,
+
+send header,8,4,0,27,4,0,0,17,7F,33,
+
+send header,8,4,0,27,4,0,0,19,74,3C,
+
+send header,8,4,0,27,4,0,0,1B,69,45,
+
+send header,8,4,0,27,4,0,0,1D,5E,4E,
+
+send header,8,4,0,27,4,0,0,1F,53,57,
+
+send header,8,4,0,27,4,0,0,21,48,60,
+
+send header,8,4,0,27,4,0,0,23,3D,69,
+
+send header,8,4,0,27,4,0,0,25,32,72,
+
+send header,8,4,0,27,4,0,0,27,27,7B,
+
+send header,8,4,0,27,4,0,0,29,1C,84,
+
+send header,8,4,0,27,4,0,0,2B,11,8D,
+
+send header,8,4,0,27,4,0,0,2D,6,96,
+
+send header,8,4,0,27,4,0,0,2E,FB,A0,
+
+send header,8,4,0,27,4,0,0,30,F0,A9,
+
+send header,8,4,0,27,4,0,0,32,E5,B2,
+
+send header,8,4,0,27,4,0,0,34,DA,BB,
+
+send header,8,4,0,27,4,0,0,36,CF,C4,
+
+send header,8,4,0,27,4,0,0,38,C4,CD,
+
+send header,8,4,0,27,4,0,0,3A,B9,D6,
+
+send header,8,4,0,27,4,0,0,3C,AE,DF,
+
+send header,8,4,0,27,4,0,0,3E,A3,E8,
+
+send header,8,4,0,27,4,0,0,40,98,F1,
+
+send header,8,4,0,27,4,0,0,42,8D,FA,
+
+send header,8,4,0,27,4,0,0,44,82,3,
+
+send header,8,4,0,27,4,0,0,46,77,C,
+
+send header,8,4,0,27,4,0,0,48,6C,15,
+
+send header,8,4,0,27,4,0,0,4A,61,1E,
+
+send header,8,4,0,27,4,0,0,4C,56,27,
+
+send header,8,4,0,27,4,0,0,4E,4B,30,
+
+send header,8,4,0,27,4,0,0,50,40,39,
+
+send header,8,4,0,27,4,0,0,52,35,42,
+
+send header,8,4,0,27,4,0,0,54,2A,4B,
+
+send header,8,4,0,27,4,0,0,56,1F,54,
+
+send header,8,4,0,27,4,0,0,58,14,5D,
+AVRCP_MEDIA TITLE: The Planet
+AVRCP_MEDIA ARTIST: Gang Starr
+AVRCP_MEDIA ALBUM: Hard To Earn
+>>sending new track info to ipod dock
+
+send header,8,4,0,27,1,0,0,0,30,9C,
+>>TITLE IS: "The Planet"
+>>ARTIST IS: "Gang Starr"
+>>ALBUM IS: "Hard To Earn"
+AVRCP_MEDIA PLA304406 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,30, csum:A5 [OK]
+get title of song #48
+send header,E,4,0,21,54,68,65,20,50,6C,61,6E,65,74,0,28,
+
+
+YING_TIME(MS): 3304423 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,30, csum:A3 [OK]
+get artist of song #48
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+16
+>>LENGTH IS: "316000ms"
+304440 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,30, csum:A1 [OK]
+get album of song #48
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,0,97,32,
+
+send header,8,4,0,27,4,0,0,2,8C,3B,
+
+send header,8,4,0,27,4,0,0,4,81,44,
+
+send header,8,4,0,27,4,0,0,6,76,4D,
+
+send header,8,4,0,27,4,0,0,8,6B,56,
+
+send header,8,4,0,27,4,0,0,A,60,5F,
+
+send header,8,4,0,27,4,0,0,C,55,68,
+
+send header,8,4,0,27,4,0,0,E,4A,71,
+
+send header,8,4,0,27,4,0,0,10,3F,7A,
+
+send header,8,4,0,27,4,0,0,12,34,83,
+
+send header,8,4,0,27,4,0,0,14,29,8C,
+
+send header,8,4,0,27,4,0,0,16,1E,95,
+
+send header,8,4,0,27,4,0,0,18,13,9E,
+
+send header,8,4,0,27,4,0,0,1A,8,A7,
+
+send header,8,4,0,27,4,0,0,1B,FD,B1,
+
+send header,8,4,0,27,4,0,0,1D,F2,BA,
+
+send header,8,4,0,27,4,0,0,1F,E7,C3,
+
+send header,8,4,0,27,4,0,0,21,DC,CC,
+
+send header,8,4,0,27,4,0,0,23,D1,D5,
+
+send header,8,4,0,27,4,0,0,25,C6,DE,
+
+send header,8,4,0,27,4,0,0,27,BB,E7,
+
+send header,8,4,0,27,4,0,0,29,B0,F0,
+
+send header,8,4,0,27,4,0,0,2B,A5,F9,
+
+send header,8,4,0,27,4,0,0,2D,9A,2,
+
+send header,8,4,0,27,4,0,0,2F,8F,B,
+
+send header,8,4,0,27,4,0,0,31,84,14,
+
+send header,8,4,0,27,4,0,0,33,79,1D,
+
+send header,8,4,0,27,4,0,0,35,6E,26,
+
+send header,8,4,0,27,4,0,0,37,63,2F,
+
+send header,8,4,0,27,4,0,0,39,58,38,
+
+send header,8,4,0,27,4,0,0,3B,4D,41,
+
+send header,8,4,0,27,4,0,0,3D,42,4A,
+
+send header,8,4,0,27,4,0,0,3F,37,53,
+
+send header,8,4,0,27,4,0,0,41,2C,5C,
+
+send header,8,4,0,27,4,0,0,43,21,65,
+
+send header,8,4,0,27,4,0,0,45,16,6E,
+
+send header,8,4,0,27,4,0,0,47,B,77,
+
+send header,8,4,0,27,4,0,0,49,0,80,
+
+send header,8,4,0,27,4,0,0,4A,F5,8A,
+
+send header,8,4,0,27,4,0,0,4C,EA,93,
+
+send header,8,4,0,27,4,0,0,4E,DF,9C,
+
+send header,8,4,0,27,4,0,0,50,D4,A5,
+
+send header,8,4,0,27,4,0,0,52,C9,AE,
+
+send header,8,4,0,27,4,0,0,54,BE,B7,
+
+send header,8,4,0,27,4,0,0,56,B3,C0,
+
+send header,8,4,0,27,4,0,0,58,A8,C9,
+
+send header,8,4,0,27,4,0,0,5A,9D,D2,
+
+send header,8,4,0,27,4,0,0,5C,92,DB,
+
+send header,8,4,0,27,4,0,0,5E,87,E4,
+
+send header,8,4,0,27,4,0,0,60,7C,ED,
+
+send header,8,4,0,27,4,0,0,62,71,F6,
+
+send header,8,4,0,27,4,0,0,64,66,FF,
+330118 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,64,7E,1,BA,
+
+
+330132 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+330143 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,64,97,1,A1,
+
+
+330157 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+330168 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,64,B0,1,88,
+
+
+330182 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+330193 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,64,C9,1,6F,
+
+
+330207 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+330218 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,64,E2,1,56,
+
+
+330233 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+330244 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,64,FC,1,3C,
+
+
+330258 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+330269 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,65,15,1,22,
+
+
+330283 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+330294 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,65,2E,1,9,
+
+
+330309 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AVRC330320 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,65,48,1,EF,
+
+
+P_PAUSE
+>>play state changed to 2
+330334 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+330345 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,CA,B2,2,1F,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,0,CB,AC,52,
+
+send header,8,4,0,27,4,0,0,CD,A1,5B,
+
+send header,8,4,0,27,4,0,0,CF,96,64,
+
+send header,8,4,0,27,4,0,0,D1,8B,6D,
+
+send header,8,4,0,27,4,0,0,D3,80,76,
+333004 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D5,15,2,B1,
+
+
+333018 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+333029 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D5,2E,2,98,
+
+
+333043 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+333054 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D5,47,2,7F,
+
+
+333068 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+333079 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D5,60,2,66,
+
+
+333094 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+
+send header,8,4,0,27,4,0,0,D5,75,7F,
+333105 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D5,7A,2,4C,
+
+
+333119 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+333130 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D5,93,2,33,
+
+
+333144 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+333155 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D5,AC,2,1A,
+
+
+333170 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+333181 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,D5,C6,2,0,
+
+
+AVRCP_PL333195 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AY
+>>play state changed to 1
+333206 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,65,58,1,DF,
+playingstate changed
+
+333220 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,30,A6,
+
+
+333234 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,30, csum:A5 [OK]
+get title of song #48
+send header,E,4,0,21,54,68,65,20,50,6C,61,6E,65,74,0,28,
+
+
+333251 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,30, csum:A3 [OK]
+get artist of song #48
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+333268 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,30, csum:A1 [OK]
+get album of song #48
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,66,E3,80,
+
+send header,8,4,0,27,4,0,0,68,D8,89,
+
+send header,8,4,0,27,4,0,0,6A,CD,92,
+
+send header,8,4,0,27,4,0,0,6C,C2,9B,
+
+send header,8,4,0,27,4,0,0,6E,B7,A4,
+
+send header,8,4,0,27,4,0,0,70,AC,AD,
+
+send header,8,4,0,27,4,0,0,72,A1,B6,
+
+send header,8,4,0,27,4,0,0,74,96,BF,
+
+send header,8,4,0,27,4,0,0,76,8B,C8,
+337977 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,77,FB,1,2A,
+
+
+337992 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+338003 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,78,15,1,F,
+
+
+338017 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+338028 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,78,2E,1,F6,
+
+
+338042 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+338053 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,78,47,1,DD,
+
+
+338068 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+338079 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,78,61,1,C3,
+
+
+338093 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+338104 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,78,7A,1,AA,
+
+
+
+send header,8,4,0,27,4,0,0,78,80,D1,
+338118 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+338129 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,78,93,1,91,
+
+
+338144 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+338155 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,78,AD,1,77,
+
+
+AVRCP_PA338169 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+USE
+>>play state changed to 2
+338180 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8C,34,2,DB,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,0,8D,E3,59,
+
+send header,8,4,0,27,4,0,0,8F,D8,62,
+
+send header,8,4,0,27,4,0,0,91,CD,6B,
+
+send header,8,4,0,27,4,0,0,93,C2,74,
+
+send header,8,4,0,27,4,0,0,95,B7,7D,
+
+send header,8,4,0,27,4,0,0,97,AC,86,
+341609 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,99,2,69,
+
+
+
+send header,8,4,0,27,4,0,0,99,A1,8F,
+341624 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+341634 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,B2,2,50,
+
+
+341649 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+341660 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,CC,2,36,
+
+
+341674 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+341685 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,E5,2,1D,
+
+
+341699 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+341710 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,FE,2,4,
+
+
+341724 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+341735 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,9A,17,2,EA,
+
+
+341750 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+341761 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,9A,31,2,D0,
+
+
+341775 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AVRC341786 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,9A,4A,2,B7,
+
+
+P_PLAY
+>>play state changed to 1
+341800 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+341811 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,78,D3,1,51,
+playingstate changed
+
+341826 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,30,A6,
+
+
+341840 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,30, csum:A5 [OK]
+get title of song #48
+send header,E,4,0,21,54,68,65,20,50,6C,61,6E,65,74,0,28,
+
+
+341858 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,30, csum:A3 [OK]
+get artist of song #48
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+341875 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,30, csum:A1 [OK]
+get album of song #48
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,7A,6,49,
+
+send header,8,4,0,27,4,0,0,7B,FB,53,
+
+send header,8,4,0,27,4,0,0,7D,F0,5C,
+
+send header,8,4,0,27,4,0,0,7F,E5,65,
+344035 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,81,83,1,98,
+
+
+344049 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+344060 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,81,9C,1,7F,
+
+
+344074 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+344085 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,81,B5,1,66,
+
+
+344100 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+344111 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,81,CF,1,4C,
+
+
+
+send header,8,4,0,27,4,0,0,81,DA,6E,
+344125 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+344138 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,81,EA,1,31,
+
+
+344152 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+344163 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,82,3,1,17,
+
+
+344178 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+344189 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,82,1D,1,FD,
+
+
+AVRC344203 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+P_PAUSE
+>>play state changed to 2
+344214 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8B,AA,2,66,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,0,8D,43,F9,
+
+send header,8,4,0,27,4,0,0,8F,38,2,
+
+send header,8,4,0,27,4,0,0,91,2D,B,
+345962 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,92,7E,2,8B,
+
+
+345977 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+345988 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,92,98,2,71,
+
+
+346002 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+346013 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,92,B1,2,58,
+
+
+346027 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+346038 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,92,CA,2,3F,
+
+
+346052 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+346064 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,92,E4,2,25,
+
+
+346078 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+346089 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,92,FD,2,C,
+
+
+346103 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+346114 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,93,16,2,F2,
+
+
+AVRCP_PL
+send header,8,4,0,27,4,0,0,93,22,14,
+AY
+>>play state changed to 1
+346128 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+346142 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,82,43,1,D7,
+playingstate changed
+
+346157 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,30,A6,
+
+
+346171 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,30, csum:A5 [OK]
+get title of song #48
+send header,E,4,0,21,54,68,65,20,50,6C,61,6E,65,74,0,28,
+
+
+346188 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,30, csum:A3 [OK]
+get artist of song #48
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+346205 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,30, csum:A1 [OK]
+get album of song #48
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,84,28,1D,
+
+send header,8,4,0,27,4,0,0,86,1D,26,
+
+send header,8,4,0,27,4,0,0,88,12,2F,
+
+send header,8,4,0,27,4,0,0,8A,7,38,
+348216 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8A,5D,1,B5,
+
+
+348230 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+348241 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8A,76,1,9C,
+
+
+348255 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+348266 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8A,8F,1,83,
+
+
+348281 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+348292 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8A,A9,1,69,
+
+
+348306 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+348317 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8A,C2,1,50,
+
+
+348331 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+348342 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8A,DB,1,37,
+
+
+348357 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+348368 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8A,F5,1,1D,
+
+
+348382 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+348393 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8B,E,1,3,
+
+
+AVRCP_PA348407 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+USE
+>>play state changed to 2
+348418 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,94,15,2,F2,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,0,94,EA,4B,
+
+send header,8,4,0,27,4,0,0,96,DF,54,
+349404 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,97,EF,2,15,
+
+
+349419 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+349430 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,98,9,2,FA,
+
+
+349444 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+349455 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,98,22,2,E1,
+
+
+349469 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+349480 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,98,3B,2,C8,
+
+
+349495 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+349506 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,98,55,2,AE,
+
+
+349520 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+349531 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,98,6E,2,95,
+
+
+349545 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+349556 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,98,87,2,7C,
+
+
+AVRC349571 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+P_PLAY
+>>play state changed to 1
+349582 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8B,25,1,EC,
+playingstate changed
+
+349596 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,30,A6,
+
+
+349610 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,30, csum:A5 [OK]
+get title of song #48
+send header,E,4,0,21,54,68,65,20,50,6C,61,6E,65,74,0,28,
+
+
+349628 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,30, csum:A3 [OK]
+get artist of song #48
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+
+send header,8,4,0,27,4,0,0,8B,58,E6,
+349645 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,30, csum:A1 [OK]
+get album of song #48
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,8D,4D,EF,
+350380 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8E,43,1,CB,
+
+
+350394 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+350405 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8E,5C,1,B2,
+
+
+350419 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+350430 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8E,75,1,99,
+
+
+350444 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+350455 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8E,8E,1,80,
+
+
+350470 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+350481 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8E,A8,1,66,
+
+
+350495 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+350506 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8E,C1,1,4D,
+
+
+350520 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+350531 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8E,DA,1,34,
+
+
+350546 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+350556 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8E,F3,1,1B,
+
+
+350571 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AVRC350582 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8F,D,1,0,
+
+
+P_PAUSE
+>>play state changed to 2
+350596 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+350607 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,93,18,2,F0,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,0,93,34,2,
+
+send header,8,4,0,27,4,0,0,95,29,B,
+
+send header,8,4,0,27,4,0,0,97,1E,14,
+
+send header,8,4,0,27,4,0,0,99,13,1D,
+352138 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,13,2,EF,
+
+
+352157 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+352168 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,31,2,D1,
+
+
+352183 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+352194 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,4B,2,B7,
+
+
+352208 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+352219 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,64,2,9E,
+
+
+352233 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+352244 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,7D,2,85,
+
+
+352258 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+352269 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,96,2,6C,
+
+
+352284 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+352295 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,B0,2,52,
+
+
+352309 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+352320 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,99,C9,2,39,
+
+
+AVRCP_PLAY
+>>play state changed to 1
+352334 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+352345 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,4,D2,60,0,0,8F,22,1,EB,
+playingstate changed
+
+352360 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,30,A6,
+
+
+352374 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,30, csum:A5 [OK]
+get title of song #48
+send header,E,4,0,21,54,68,65,20,50,6C,61,6E,65,74,0,28,
+
+
+352391 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,30, csum:A3 [OK]
+get artist of song #48
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+352408 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,30, csum:A1 [OK]
+get album of song #48
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,90,48,F1,
+
+send header,8,4,0,27,4,0,0,92,3D,FA,
+
+send header,8,4,0,27,4,0,0,94,32,3,
+
+send header,8,4,0,27,4,0,0,96,27,C,
+
+send header,8,4,0,27,4,0,0,98,1C,15,
+
+send header,8,4,0,27,4,0,0,9A,11,1E,
+
+send header,8,4,0,27,4,0,0,9C,6,27,
+
+send header,8,4,0,27,4,0,0,9D,FB,31,
+
+send header,8,4,0,27,4,0,0,9F,F0,3A,
+
+send header,8,4,0,27,4,0,0,A1,E5,43,
+357549 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++<<send cmd: MUSIC FORWARD
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+
+send header,8,4,0,27,4,0,0,8F,77,C3,
+AVRCP_MEDIA TITLE: Aiiight Chill
+AVRCP_MEDIA ARTIST: Gang Starr
+AVRCP_MEDIA ALBUM: Hard To Earn
+>>sending new track info to ipod dock
+
+send header,8,4,0,27,1,0,0,0,31,9B,
+>>TITLE IS: "Aiiight Chill"
+>>ARTIST IS: "Gang Starr"
+>>ALBUM IS: "Hard To Earn"
+AVRCP_MEDIA 358013 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,31, csum:A4 [OK]
+get title of song #49
+send header,11,4,0,21,41,69,69,69,67,68,74,20,43,68,69,6C,6C,0,FF,
+
+
+PLAYING_TIME(MS)358032 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,31, csum:A2 [OK]
+get artist of song #49
+send header,E,4,0,23,47,61,6E,67,20,53,74,61,72,72,0,22,
+
+
+: 193
+>>LENGTH IS: "193000ms"
+358049 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,31, csum:A0 [OK]
+get album of song #49
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,0,97,32,
+
+send header,8,4,0,27,4,0,0,2,8C,3B,
+
+send header,8,4,0,27,4,0,0,4,81,44,
+
+send header,8,4,0,27,4,0,0,6,76,4D,
+
+send header,8,4,0,27,4,0,0,8,6B,56,
+
+send header,8,4,0,27,4,0,0,A,60,5F,
+
+send header,8,4,0,27,4,0,0,C,55,68,
+
+send header,8,4,0,27,4,0,0,E,4A,71,
+
+send header,8,4,0,27,4,0,0,10,3F,7A,
+
+send header,8,4,0,27,4,0,0,12,34,83,
+
+send header,8,4,0,27,4,0,0,14,29,8C,
+
+send header,8,4,0,27,4,0,0,16,1E,95,
+
+send header,8,4,0,27,4,0,0,18,13,9E,
+
+send header,8,4,0,27,4,0,0,1A,8,A7,
+
+send header,8,4,0,27,4,0,0,1B,FD,B1,
+
+send header,8,4,0,27,4,0,0,1D,F2,BA,
+
+send header,8,4,0,27,4,0,0,1F,E7,C3,
+
+send header,8,4,0,27,4,0,0,21,DC,CC,
+
+send header,8,4,0,27,4,0,0,23,D1,D5,
+
+send header,8,4,0,27,4,0,0,25,C6,DE,
+
+send header,8,4,0,27,4,0,0,27,BB,E7,
+
+send header,8,4,0,27,4,0,0,29,B0,F0,
+
+send header,8,4,0,27,4,0,0,2B,A5,F9,
+
+send header,8,4,0,27,4,0,0,2D,9A,2,
+
+send header,8,4,0,27,4,0,0,2F,8F,B,
+
+send header,8,4,0,27,4,0,0,31,84,14,
+
+send header,8,4,0,27,4,0,0,33,79,1D,
+
+send header,8,4,0,27,4,0,0,35,6E,26,
+
+send header,8,4,0,27,4,0,0,37,63,2F,
+
+send header,8,4,0,27,4,0,0,39,58,38,
+
+send header,8,4,0,27,4,0,0,3B,4D,41,
+
+send header,8,4,0,27,4,0,0,3D,42,4A,
+
+send header,8,4,0,27,4,0,0,3F,37,53,
+
+send header,8,4,0,27,4,0,0,41,2C,5C,
+375091 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--<<send cmd: MUSIC BACKWARD
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+
+send header,8,4,0,27,4,0,0,0,5D,6C,
+
+send header,8,4,0,27,4,0,0,2,52,75,
+
+send header,8,4,0,27,4,0,0,4,47,7E,
+
+send header,8,4,0,27,4,0,0,6,3C,87,
+
+send header,8,4,0,27,4,0,0,8,31,90,
+
+send header,8,4,0,27,4,0,0,A,26,99,
+
+send header,8,4,0,27,4,0,0,C,1B,A2,
+
+send header,8,4,0,27,4,0,0,E,10,AB,
+
+send header,8,4,0,27,4,0,0,10,5,B4,
+
+send header,8,4,0,27,4,0,0,11,FA,BE,
+
+send header,8,4,0,27,4,0,0,13,EF,C7,
+
+send header,8,4,0,27,4,0,0,15,E4,D0,
+
+send header,8,4,0,27,4,0,0,17,D9,D9,
+
+send header,8,4,0,27,4,0,0,19,CE,E2,
+
+send header,8,4,0,27,4,0,0,1B,C3,EB,
+
+send header,8,4,0,27,4,0,0,1D,B8,F4,
+
+send header,8,4,0,27,4,0,0,1F,AD,FD,
+
+send header,8,4,0,27,4,0,0,21,A2,6,
+
+send header,8,4,0,27,4,0,0,23,97,F,
+
+send header,8,4,0,27,4,0,0,25,8C,18,
+
+send header,8,4,0,27,4,0,0,27,81,21,
+
+send header,8,4,0,27,4,0,0,29,76,2A,
+
+send header,8,4,0,27,4,0,0,2B,6B,33,
+
+send header,8,4,0,27,4,0,0,2D,60,3C,
+
+send header,8,4,0,27,4,0,0,2F,55,45,
+
+send header,8,4,0,27,4,0,0,31,4A,4E,
+
+send header,8,4,0,27,4,0,0,33,3F,57,
+
+send header,8,4,0,27,4,0,0,35,34,60,
+
+send header,8,4,0,27,4,0,0,37,29,69,
+
+send header,8,4,0,27,4,0,0,39,1E,72,
+
+send header,8,4,0,27,4,0,0,3B,13,7B,
+
+send header,8,4,0,27,4,0,0,3D,8,84,
+
+send header,8,4,0,27,4,0,0,3E,FD,8E,
+
+send header,8,4,0,27,4,0,0,40,F2,97,
+
+send header,8,4,0,27,4,0,0,42,E7,A0,
+392606 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++<<send cmd: MUSIC FORWARD
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+
+send header,8,4,0,27,4,0,0,0,71,58,
+
+send header,8,4,0,27,4,0,0,2,66,61,
+AVRCP_MEDIA TITLE: Speak Ya Clout - Feat. Jeru The Damaja And Lil Dap
+AVRCP_MEDIA ARTIST: Jeru The Damaja, Lil' Dap, Gang Starr
+AVRCP_MEDIA ALBUM: Hard To Earn
+>>sending new track info to ipod dock
+
+send header,8,4,0,27,1,0,0,0,31,9B,
+>>TITLE IS: "Speak Ya Clout - Feat. Jeru The Damaja And Lil Dap"
+>>ARTIST IS: "Jeru The Damaja, Lil' Dap, Gang Starr"
+>>ALBUM IS: "Hard To Earn"
+AVRCP_MEDIA 393421 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,31, csum:A4 [OK]
+get title of song #49
+send header,36,4,0,21,53,70,65,61,6B,20,59,61,20,43,6C,6F,75,74,20,2D,20,46,65,61,74,2E,20,4A,65,72,75,20,54,68,65,20,44,61,6D,61,6A,61,20,41,6E,64,20,4C,69,6C,20,44,61,70,0,97,
+
+
+PLAYING_TIME(MS): 216
+>>LENGTH IS: "216000ms"
+393460 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,31, csum:A2 [OK]
+get artist of song #49
+send header,29,4,0,23,4A,65,72,75,20,54,68,65,20,44,61,6D,61,6A,61,2C,20,4C,69,6C,27,20,44,61,70,2C,20,47,61,6E,67,20,53,74,61,72,72,0,BD,
+
+
+393491 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,31, csum:A0 [OK]
+get album of song #49
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+
+send header,8,4,0,27,4,0,0,1,39,8F,
+
+send header,8,4,0,27,4,0,0,3,2E,98,
+
+send header,8,4,0,27,4,0,0,5,23,A1,
+
+send header,8,4,0,27,4,0,0,7,18,AA,
+
+send header,8,4,0,27,4,0,0,9,D,B3,
+
+send header,8,4,0,27,4,0,0,B,2,BC,
+
+send header,8,4,0,27,4,0,0,C,F7,C6,
+
+send header,8,4,0,27,4,0,0,E,EC,CF,
+
+send header,8,4,0,27,4,0,0,10,E1,D8,
+
+send header,8,4,0,27,4,0,0,12,D6,E1,
+
+send header,8,4,0,27,4,0,0,14,CB,EA,
+
+send header,8,4,0,27,4,0,0,16,C0,F3,
+
+send header,8,4,0,27,4,0,0,18,B5,FC,
+
+send header,8,4,0,27,4,0,0,1A,AA,5,
+
+send header,8,4,0,27,4,0,0,1C,9F,E,
+
+send header,8,4,0,27,4,0,0,1E,94,17,
+
+send header,8,4,0,27,4,0,0,20,89,20,
+
+send header,8,4,0,27,4,0,0,22,7E,29,
+
+send header,8,4,0,27,4,0,0,24,73,32,
+
+send header,8,4,0,27,4,0,0,26,68,3B,
+
+send header,8,4,0,27,4,0,0,28,5D,44,
+
+send header,8,4,0,27,4,0,0,2A,52,4D,
+
+send header,8,4,0,27,4,0,0,2C,47,56,
+
+send header,8,4,0,27,4,0,0,2E,3C,5F,
+
+send header,8,4,0,27,4,0,0,30,31,68,
+
+send header,8,4,0,27,4,0,0,32,26,71,
+
+send header,8,4,0,27,4,0,0,34,1B,7A,
+
+send header,8,4,0,27,4,0,0,36,10,83,
+
+send header,8,4,0,27,4,0,0,38,5,8C,
+
+send header,8,4,0,27,4,0,0,39,FA,96,
+
+send header,8,4,0,27,4,0,0,3B,EF,9F,
+
+send header,8,4,0,27,4,0,0,3D,E4,A8,
+
+send header,8,4,0,27,4,0,0,3F,D9,B1,
+
+send header,8,4,0,27,4,0,0,41,CE,BA,
+
+send header,8,4,0,27,4,0,0,43,C3,C3,
+
+send header,8,4,0,27,4,0,0,45,B8,CC,
+
+send header,8,4,0,27,4,0,0,47,AD,D5,
+
+send header,8,4,0,27,4,0,0,49,A2,DE,
+
+send header,8,4,0,27,4,0,0,4B,97,E7,
+
+send header,8,4,0,27,4,0,0,4D,8C,F0,
+
+send header,8,4,0,27,4,0,0,4F,81,F9,
+
+send header,8,4,0,27,4,0,0,51,76,2,
+
+send header,8,4,0,27,4,0,0,53,6B,B,
+
+send header,8,4,0,27,4,0,0,55,60,14,
+
+send header,8,4,0,27,4,0,0,57,55,1D,
+
+send header,8,4,0,27,4,0,0,59,4A,26,
+
+send header,8,4,0,27,4,0,0,5B,3F,2F,
+
+send header,8,4,0,27,4,0,0,5D,34,38,
+
+send header,8,4,0,27,4,0,0,5F,29,41,
+
+send header,8,4,0,27,4,0,0,61,1E,4A,
+
+send header,8,4,0,27,4,0,0,63,13,53,
+
+send header,8,4,0,27,4,0,0,65,8,5C,
+
+send header,8,4,0,27,4,0,0,66,FD,66,
+
+send header,8,4,0,27,4,0,0,68,F2,6F,
+
+send header,8,4,0,27,4,0,0,6A,E7,78,
+
+send header,8,4,0,27,4,0,0,6C,DC,81,
+
+send header,8,4,0,27,4,0,0,6E,D1,8A,
+421994 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,6F,AA,1,AB,
+
+
+422008 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+422019 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,6F,C3,1,92,
+
+
+422033 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+422045 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,6F,DD,1,78,
+
+
+422059 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+422070 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,6F,F6,1,5F,
+
+
+422084 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+422095 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,70,F,1,45,
+
+
+422109 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+422120 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,70,28,1,2C,
+
+
+422135 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+422146 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,70,42,1,12,
+
+
+422160 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+422171 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,70,5B,1,F9,
+
+
+422185 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+422196 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,70,74,1,E0,
+
+
+422211 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AVRC422221 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,70,8D,1,C7,
+
+
+P_PAUSE
+>>play state changed to 2
+422236 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+422247 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,E1,3B,2,A7,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,0,E1,5A,8E,
+
+send header,8,4,0,27,4,0,0,E3,4F,97,
+
+send header,8,4,0,27,4,0,0,E5,44,A0,
+
+send header,8,4,0,27,4,0,0,E7,39,A9,
+
+send header,8,4,0,27,4,0,0,E9,2E,B2,
+
+send header,8,4,0,27,4,0,0,EB,23,BB,
+
+send header,8,4,0,27,4,0,0,ED,18,C4,
+
+send header,8,4,0,27,4,0,0,EF,D,CD,
+
+send header,8,4,0,27,4,0,0,F1,2,D6,
+
+send header,8,4,0,27,4,0,0,F2,F7,E0,
+
+send header,8,4,0,27,4,0,0,F4,EC,E9,
+
+send header,8,4,0,27,4,0,0,F6,E1,F2,
+
+send header,8,4,0,27,4,0,0,F8,D6,FB,
+
+send header,8,4,0,27,4,0,0,FA,CB,4,
+
+send header,8,4,0,27,4,0,0,FC,C0,D,
+
+send header,8,4,0,27,4,0,0,FE,B5,16,
+
+send header,8,4,0,27,4,0,1,0,AA,1E,
+
+send header,8,4,0,27,4,0,1,2,9F,27,
+
+send header,8,4,0,27,4,0,1,4,94,30,
+
+send header,8,4,0,27,4,0,1,6,89,39,
+
+send header,8,4,0,27,4,0,1,8,7E,42,
+
+send header,8,4,0,27,4,0,1,A,73,4B,
+
+send header,8,4,0,27,4,0,1,C,68,54,
+
+send header,8,4,0,27,4,0,1,E,5D,5D,
+
+send header,8,4,0,27,4,0,1,10,52,66,
+
+send header,8,4,0,27,4,0,1,12,47,6F,
+
+send header,8,4,0,27,4,0,1,14,3C,78,
+
+send header,8,4,0,27,4,0,1,16,31,81,
+
+send header,8,4,0,27,4,0,1,18,26,8A,
+
+send header,8,4,0,27,4,0,1,1A,1B,93,
+
+send header,8,4,0,27,4,0,1,1C,10,9C,
+
+send header,8,4,0,27,4,0,1,1E,5,A5,
+
+send header,8,4,0,27,4,0,1,1F,FA,AF,
+
+send header,8,4,0,27,4,0,1,21,EF,B8,
+
+send header,8,4,0,27,4,0,1,23,E4,C1,
+
+send header,8,4,0,27,4,0,1,25,D9,CA,
+
+send header,8,4,0,27,4,0,1,27,CE,D3,
+
+send header,8,4,0,27,4,0,1,29,C3,DC,
+
+send header,8,4,0,27,4,0,1,2B,B8,E5,
+
+send header,8,4,0,27,4,0,1,2D,AD,EE,
+
+send header,8,4,0,27,4,0,1,2F,A2,F7,
+
+send header,8,4,0,27,4,0,1,31,97,0,
+
+send header,8,4,0,27,4,0,1,33,8C,9,
+
+send header,8,4,0,27,4,0,1,35,81,12,
+443845 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,35,99,2,F4,
+
+
+443859 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PLAY
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+443870 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,35,B2,2,DB,
+
+
+443885 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+443896 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,35,CC,2,C1,
+
+
+443910 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+443921 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,35,E5,2,A8,
+
+
+443935 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+443947 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,35,FF,2,8E,
+
+
+443951 dock->ipod
+size:3 mode:0 command:0x1,0x4 params: csum:F8 [OK]
+switch to mode 4
+
+send header,4,0,2,0,5,F5,
+
+444207 dock->ipod
+size:2 mode:0 command:0x5,0x0 params: csum:F9 [OK]
+switch to mode 4
+
+send header,4,0,2,0,5,F5,
+
+
+send header,8,4,0,27,4,0,1,37,76,1B,
+444465 dock->ipod
+size:3 mode:4 command:0x0,0x12 params: csum:E7 [OK]
+get ipod size
+send header,5,4,0,13,1,D,D6,
+
+
+444475 dock->ipod
+size:3 mode:4 command:0x0,0x2C params: csum:CD [OK]
+get shuffle mode
+send header,4,4,0,2D,0,CB,
+
+
+444484 dock->ipod
+size:3 mode:4 command:0x0,0x33 params: csum:C6 [OK]
+get pic size?
+send header,5,4,0,34,1,36,8C,
+
+
+444494 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+send header,6,4,0,1,0,0,16,DF,
+
+
+444504 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+444515 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:1, csum:DF [OK]
+get count of playlists
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+444529 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,0, csum:DC [OK]
+switch to playlist #0
+send header,6,4,0,1,0,0,17,DE,
+
+
+444540 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+444553 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1, csum:DB [OK]
+switch to playlist #1
+send header,6,4,0,1,0,0,17,DE,
+
+
+444564 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+444578 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2, csum:DA [OK]
+switch to playlist #2
+send header,6,4,0,1,0,0,17,DE,
+
+
+444588 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+444602 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3, csum:D9 [OK]
+switch to playlist #3
+send header,6,4,0,1,0,0,17,DE,
+
+
+444613 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+444626 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4, csum:D8 [OK]
+switch to playlist #4
+send header,6,4,0,1,0,0,17,DE,
+
+
+444637 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+444648 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+send header,6,4,0,1,0,0,26,CF,
+
+
+444659 dock->ipod
+size:4 mode:4 command:0x0,0x31 params:2, csum:C5 [OK]
+set repeat mode
+send header,6,4,0,1,0,0,31,C4,
+
+
+444670 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+send header,6,4,0,1,0,0,26,CF,
+
+
+444681 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+send header,6,4,0,1,0,0,16,DF,
+
+
+444692 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+444703 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,38,F3,2,97,
+
+
+444717 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+444728 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,39,C,2,7D,
+
+
+444742 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+444753 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,39,25,2,64,
+
+
+444768 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+444779 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,39,3F,2,4A,
+
+
+444793 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+444804 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,39,58,2,31,
+
+
+444818 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+
+send header,8,4,0,27,4,0,1,39,6B,24,
+444829 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,39,71,2,18,
+
+
+444843 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+444855 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,39,8B,2,FE,
+
+
+444869 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+444880 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,39,A4,2,E5,
+
+
+444894 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+444905 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,39,BD,2,CC,
+
+
+444919 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+444930 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,39,D6,2,B3,
+
+
+444945 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+444956 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,39,F0,2,99,
+
+
+444970 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+444981 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3A,9,2,7F,
+
+
+444995 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445006 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3A,22,2,66,
+
+
+445021 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445032 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3A,3C,2,4C,
+
+
+445046 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445057 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3A,55,2,33,
+
+
+445071 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445082 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3A,6E,2,1A,
+
+
+445097 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445108 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3A,88,2,0,
+
+
+445121 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445132 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3A,A0,2,E8,
+
+
+445146 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445157 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3A,B9,2,CF,
+
+
+445171 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445183 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3A,D3,2,B5,
+
+
+445197 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445208 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3A,EC,2,9C,
+
+
+445222 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445233 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3B,5,2,82,
+
+
+445247 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445258 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3B,1E,2,69,
+
+
+445273 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445284 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3B,38,2,4F,
+
+
+445298 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+445309 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,1,3B,51,2,36,
+
+
+AVRCP_PLAY
+>>play state changed to 1
+445323 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+
+send header,8,4,0,27,4,0,0,70,98,C1,
+445334 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,70,A2,1,B2,
+playingstate changed
+
+445349 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send header,7,4,0,1F,0,0,0,31,A5,
+
+
+445363 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,31, csum:A4 [OK]
+get title of song #49
+send header,36,4,0,21,53,70,65,61,6B,20,59,61,20,43,6C,6F,75,74,20,2D,20,46,65,61,74,2E,20,4A,65,72,75,20,54,68,65,20,44,61,6D,61,6A,61,20,41,6E,64,20,4C,69,6C,20,44,61,70,0,97,
+
+
+445401 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,31, csum:A2 [OK]
+get artist of song #49
+send header,29,4,0,23,4A,65,72,75,20,54,68,65,20,44,61,6D,61,6A,61,2C,20,4C,69,6C,27,20,44,61,70,2C,20,47,61,6E,67,20,53,74,61,72,72,0,BD,
+
+
+445432 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,31, csum:A0 [OK]
+get album of song #49
+send header,10,4,0,25,48,61,72,64,20,54,6F,20,45,61,72,6E,0,BF,
+
+
+445448 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+445459 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:2, csum:DE [OK]
+get count of artists
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+445470 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:3, csum:DD [OK]
+get count of albums
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+445482 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:4, csum:DC [OK]
+get count of genres
+send header,7,4,0,19,0,0,0,5,D7,
+
+
+445499 dock->ipod
+size:14 mode:4 command:0x0,0x32 params:0,0,1,0,80,0,37,0,0,0,20, csum:E4 [OK]
+picture block
+send header,6,4,0,1,0,0,32,C3,
+
+
+445799 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,FF,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,0,0,0,0,0,FF,C0,0,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,0,3,FF,0,0,0,3,FF,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,FC,0,0,0,0,0,0,0,F,FC,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3F,FF,FF,FC,0,0,0,0,0,0,0,0,3F,F0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,3,FF,FF,FC,0,0,0,0,0,0,0,0,0,FF,F0,0,0,0,0,0,0,0,FF,FF,FF,C0,0,0,0,0,0,0,3F,FF,FF,0,0,0,0,0,0,0,0,0,0,FF,C0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3,FF,0,0,0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,3F,FF,FC,0,0,0,0,0,0,0,0,0,0,F,FC,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,0,0,0,3,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,3F,F0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,C0,0,0,3F,FF,FF,0,0,0,0,0,0,0,0,0,0,0,FF,C0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FC,0,0,FF,FF,F0,0,F,FF,C0,3F,FC,3,FF,CF,FC,0,FF,CF,FF,FF,FF,F,FF,FF,FF,3,FF,FF,FF,F,FF,FF,0, csum:11 [OK]
+picture block
+send header,6,4,0,1,0,0,32,C3,
+
+
+
+send header,8,4,0,27,4,0,0,72,8D,CA,
+446100 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,2,3,FF,FF,0,0,3F,FF,C0,F,FC,3F,FF,F,FF,3,FF,F,FF,FF,FC,3F,FF,FF,FF,F,FF,FF,FF,3,FF,FF,C0,F,FF,FF,0,0,3F,FF,C0,F,FF,3F,FF,3,FF,F,FC,F,FF,FF,FC,FF,FF,FF,FF,3F,FF,FF,FF,0,3F,FF,F0,3F,FF,F0,0,0,FF,FF,C0,3,FF,FF,F0,3,FF,FF,F0,F,FF,FF,FC,FF,FF,FF,FF,3F,FF,FF,FF,0,F,FF,FC,3F,FF,F0,0,0,FF,FF,C0,0,FF,FF,C0,0,3F,FF,C0,F,FF,FF,F0,FF,FF,FF,FC,3F,FF,FF,FC,0,F,FF,FC,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,C0,0,3,FC,3F,C0,0,3F,FC,0,0,3F,FC,0,F,FF,FF,F0,FF,FF,FF,C0,FF,FF,FF,C0,0,3,FF,FF,FF,FF,0,0,F,FC,3F,C0,0,3F,FC,0,0,3F,FC,0,3F,FF,FF,F0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,0,0,F,F0,3F,C0,0,FF,FC,0,0,FF,FC,0,3F,FF,FF,F0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,0,0,3F,F0,3F,C0,3,FF,FC,0,3,FF,FF,0,3F,FF,FF,C0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,C0,0,3F,FF,FF,C0,3,FF,FF,0,F,FF,FF,0,3F,C0,0,0,0,0,3F,F0,0,0,3F,F0,0,3,FF,FF,FF,FF,C0,0,3F,FF,FF,C0,F,FF,FF,C0,F,FF,FF,0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,3,FF,FC,3F,FF,F0,0,FF,FF,FF,C0,3F,F3,FF,C0,3F,FC,FF,C0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,F,FF,FC,3F,FF,FC,0,FF,C0,3F,C0,FF,F0,FF,C0,3F,F0,FF,C0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,3F,FF,FC,F,FF,FF,3,FF,0,3F,C0,FF,C0,FF,F0,FF,C0,3F,F0,FF,FF,FF,C3,FF,FF,FF,C3,FF,FF,FF,C0,0,FF,FF,F0,3,FF,FF,C3,FC,0,FF,C3,FF,0,3F,F3,FF,0,3F,F0,FF,FF,FF,3,FF,FF,FF,3,FF,FF,FF,0,3,FF,FF,C0, csum:55 [OK]
+picture block
+send header,6,4,0,1,0,0,32,C3,
+
+
+
+send header,8,4,0,27,4,0,0,74,82,D3,
+446402 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,3,0,FF,FF,F0,0,0,0,F,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,0,0,3F,FF,FF,0,0,0,3F,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FC,0,0,3,FF,FF,F0,0,0,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,C0,0,0,0,3F,FF,FC,0,0,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,0,0,0,0,F,FF,FF,F0,3,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,C0,0,0,0,0,0,3F,FF,FF,F,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FC,0,0,0,0,0,0,3,FF,FF,FF,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,C0,0,0,0,0,0,0,0,3,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,FF,C0,0,0,0,0,0,0,3,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,FF,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, csum:77 [OK]
+picture block
+send header,6,4,0,1,0,0,32,C3,
+
+
+446611 dock->ipod
+size:325 mode:4 command:0x0,0x32 params:0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,C,C,0,0,0,0,0,C,0,0,0,0,C,C,0,0,C,C,0,C0,0,0,F,FC,0,0,0,0,0,0,0,0,F,3C,0,0,0,0,0,C,0,0,0,0,F,3C,0,0,C,C,3,C0,0,0,C,0,0,0,0,0,0,0,0,0,C,CC,3,F0,F,FC,3,CC,3,F0,0,0,C,CC,0,0,C,C,0,C0,0,0,F,F0,0,0,0,0,0,0,0,0,C,CC,0,C,0,30,C,3C,0,C,0,0,C,CC,0,0,C,C,0,C0,0,0,0,C,0,0,0,0,0,0,0,0,C,C,3,FC,0,C0,C,C,3,FC,0,0,C,C,0,0,C,C,0,C0,0,0,0,C,0,0,0,0,0,0,0,0,C,C,C,C,3,0,C,C,C,C,0,0,C,C,0,0,3,30,0,C0,3,C0,C,C,0,0,0,0,0,0,0,0,C,C,3,FC,F,FC,3,FC,3,FC,0,0,C,C,0,0,0,C0,3,F0,3,C0,3,F0,0,0,0,0,0,0,0, csum:99 [OK]
+picture block
+send header,6,4,0,1,0,0,32,C3,
+
+
+
+send header,8,4,0,27,4,0,0,76,77,DC,
+
+send header,8,4,0,27,4,0,0,78,6C,E5,
+
+send header,8,4,0,27,4,0,0,7A,61,EE,
+448017 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,7B,1D,1,2C,
+
+
+448032 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause<<send cmd: MUSIC PAUSE
+
+send header,6,4,0,1,0,0,29,CC,
+
+
+448043 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,7B,37,1,12,
+
+
+448057 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+OK
+>>got OK response
+448068 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,7B,50,1,F9,
+
+
+448082 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+448093 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,7B,69,1,E0,
+
+
+448107 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+448119 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,7B,83,1,C6,
+
+
+448133 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+448144 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,7B,9C,1,AD,
+
+
+448158 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+448169 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,7B,B5,1,94,
+
+
+448183 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+448194 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,7B,CE,1,7B,
+
+
+448209 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+AVRC448220 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,7B,E8,1,61,
+
+
+P_PAUSE
+>>play state changed to 2
+448234 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send header,6,4,0,1,0,0,29,CC,
+
+
+448245 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send header,C,4,0,1D,0,3,4B,C0,0,0,87,5E,2,DE,
+playingstate changed
+
+
+send header,8,4,0,27,4,0,0,87,B3,8F,
+
+send header,8,4,0,27,4,0,0,89,A8,98,
+
+send header,8,4,0,27,4,0,0,8B,9D,A1,
+
+send header,8,4,0,27,4,0,0,8D,92,AA,
+
+send header,8,4,0,27,4,0,0,8F,87,B3,
+
+send header,8,4,0,27,4,0,0,91,7C,BC,
+
+send header,8,4,0,27,4,0,0,93,71,C5,
+
+send header,8,4,0,27,4,0,0,95,66,CE,
+
+send header,8,4,0,27,4,0,0,97,5B,D7,
+
+send header,8,4,0,27,4,0,0,99,50,E0,
+
+send header,8,4,0,27,4,0,0,9B,45,E9,
+
+send header,8,4,0,27,4,0,0,9D,3A,F2,
+
+send header,8,4,0,27,4,0,0,9F,2F,FB,
+
+send header,8,4,0,27,4,0,0,A1,24,4,
+
+send header,8,4,0,27,4,0,0,A3,19,D,
+
+send header,8,4,0,27,4,0,0,A5,E,16,
+
+send header,8,4,0,27,4,0,0,A7,3,1F,
+
+send header,8,4,0,27,4,0,0,A8,F8,29,

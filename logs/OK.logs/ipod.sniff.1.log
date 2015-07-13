@@ -1,0 +1,2998 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2015.06.22 16:00:35 =~=~=~=~=~=~=~=~=~=~=~=
+ready
+
+ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,4,1C,24,0,0,65,8C,2, csum:9C [OK]
+time/status response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,4,1C,24,0,0,65,8C,1, csum:9D [OK]
+time/status response
+
+ipod->dock
+size:7 mode:4 command:0x0,0x1F params:0,0,0,31, csum:A5 [OK]
+plist pos response
+
+ipod->dock
+size:16 mode:4 command:0x0,0x21 params:50,75,73,73,79,20,47,61,6C,6F,72,65,0, csum:2D [OK]
+title response:"Pussy Galore"
+
+ipod->dock
+size:4 mode:0 command:0x2,0x0 params:5, csum:F5 [OK]
+
+ipod->dock
+size:5 mode:4 command:0x0,0x13 params:1,D, csum:D6 [OK]
+ipod size response
+
+ipod->dock
+size:4 mode:4 command:0x0,0x2D params:0, csum:CB [OK]
+shuffle mode response
+
+ipod->dock
+size:8 mode:4 command:0x0,0x34 params:1,36,0,A8,1, csum:E0 [OK]
+pic size response?
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,16, csum:DF [OK]
+FEEDBACK for switch to main library is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,16,8C, csum:3A [OK]
+count response
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,87, csum:55 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,16,8C, csum:3A [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,6,41, csum:95 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,7,71, csum:64 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,14,38, csum:90 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,8,5A, csum:7A [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,52, csum:8A [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,C4, csum:18 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,41, csum:9B [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,3, csum:D9 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A1, csum:3B [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,4C, csum:90 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,F, csum:CD [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,B, csum:D1 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,8F, csum:4D [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,C, csum:D0 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,1,C, csum:CF [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,9, csum:D3 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,18, csum:C4 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,F, csum:CD [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,10, csum:CC [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,B5, csum:27 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,1E, csum:BE [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,1B, csum:C1 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,10, csum:CC [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,34, csum:A8 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D7, csum:5 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,64, csum:78 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,15, csum:C7 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,2E, csum:AE [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,19, csum:C3 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,8, csum:D4 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,2,1C, csum:BE [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,17, csum:C5 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,14, csum:C8 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,16, csum:C6 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,14, csum:C8 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,12, csum:CA [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,15, csum:C7 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,14, csum:C8 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,F, csum:CD [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,11, csum:CB [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,21, csum:BB [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,21, csum:BB [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,14, csum:C8 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,28, csum:B4 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,15, csum:C7 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,28, csum:B4 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,17, csum:C5 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,C, csum:D0 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,63, csum:79 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,26, csum:B6 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,F, csum:CD [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,2E, csum:AE [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,7, csum:D5 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,10, csum:CC [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,32, csum:AA [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,11, csum:CB [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,23, csum:B9 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,3C, csum:A0 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,13, csum:C9 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,15, csum:C7 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,10, csum:CC [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,B, csum:D1 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,5A, csum:82 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,7, csum:D5 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,3E, csum:9E [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,42, csum:9A [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,26, csum:B6 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,66, csum:76 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,B, csum:D1 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,8D, csum:4F [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,10, csum:CC [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,11, csum:CB [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,30, csum:AC [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,47, csum:95 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,5A, csum:82 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,26, csum:CF [OK]
+FEEDBACK for polling start/stop is 0(SUCCESS)
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,31, csum:C4 [OK]
+FEEDBACK for set repeat mode is 0(SUCCESS)
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,26, csum:CF [OK]
+FEEDBACK for polling start/stop is 0(SUCCESS)
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,16, csum:DF [OK]
+FEEDBACK for switch to main library is 0(SUCCESS)
+
+ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,4,1C,24,0,0,66,42,2, csum:E5 [OK]
+time/status response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,4,1C,24,0,0,66,28,1, csum:0 [OK]
+time/status response
+
+ipod->dock
+size:7 mode:4 command:0x0,0x1F params:0,0,0,31, csum:A5 [OK]
+plist pos response
+
+ipod->dock
+size:16 mode:4 command:0x0,0x21 params:50,75,73,73,79,20,47,61,6C,6F,72,65,0, csum:2D [OK]
+title response:"Pussy Galore"
+
+ipod->dock
+size:13 mode:4 command:0x0,0x23 params:54,68,65,20,52,6F,6F,74,73,0, csum:74 [OK]
+artist response:"The Roots"
+
+ipod->dock
+size:15 mode:4 command:0x0,0x25 params:50,68,72,65,6E,6F,6C,6F,67,79,20,0, csum:81 [OK]
+album response:"Phrenology "
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,16,8C, csum:3A [OK]
+count response
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,2,D4, csum:6 [OK]
+count response
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,1,FD, csum:DE [OK]
+count response
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,68,16, csum:4B [OK]
+elapsed time is:
+
+ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,7A, csum:62 [OK]
+count response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6A,4, csum:5B [OK]
+elapsed time is:
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6B,F2, csum:6C [OK]
+elapsed time is:
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6D,E0, csum:7C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6F,B4, csum:A6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,71,BC, csum:9C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,73,AA, csum:AC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,75,7E, csum:D6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,77,86, csum:CC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,79,74, csum:DC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7B,48, csum:6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7D,50, csum:FC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7F,24, csum:26 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,81,12, csum:36 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,83,1A, csum:2C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,84,EE, csum:57 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,86,DC, csum:67 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,88,E4, csum:5D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8A,B8, csum:87 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8C,A6, csum:97 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8E,94, csum:A7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,90,82, csum:B7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,92,70, csum:C7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,94,5E, csum:D7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,96,4C, csum:E7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,98,3A, csum:F7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9A,28, csum:7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9C,16, csum:17 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9E,4, csum:27 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9F,F2, csum:38 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A1,E0, csum:48 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A3,B4, csum:72 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A5,BC, csum:68 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A8,E, csum:13 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A9,E2, csum:3E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,AB,EA, csum:34 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,AD,D8, csum:44 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,AF,AC, csum:6E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B1,B4, csum:64 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B3,88, csum:8E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B5,76, csum:9E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B7,7E, csum:94 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B9,52, csum:BE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,BB,40, csum:CE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,BD,48, csum:C4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,BF,1C, csum:EE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C1,A, csum:FE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C2,F8, csum:F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C4,E6, csum:1F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C6,D4, csum:2F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C8,C2, csum:3F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,CA,B0, csum:4F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,CC,9E, csum:5F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,CE,8C, csum:6F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D0,7A, csum:7F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D2,68, csum:8F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D4,56, csum:9F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D6,44, csum:AF [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D8,32, csum:BF [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,DA,6E, csum:81 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,DC,76, csum:77 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,DE,7E, csum:6D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E0,6C, csum:7D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E2,74, csum:73 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E4,48, csum:9D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E6,50, csum:93 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E8,58, csum:89 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,EA,60, csum:7F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,EC,68, csum:75 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,EE,3C, csum:9F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F0,44, csum:95 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F2,4C, csum:8B [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F4,54, csum:81 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F6,28, csum:AB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F8,30, csum:A1 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,FA,38, csum:97 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,FC,71, csum:5C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,FE,93, csum:38 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,0,9B, csum:2D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,2,BD, csum:9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,4,C5, csum:FF [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,6,CD, csum:F5 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,8,D5, csum:EB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,A,DD, csum:E1 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,C,FF, csum:BD [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,E,ED, csum:CD [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,10,F5, csum:C3 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,12,FD, csum:B9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,14,EB, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,17,D, csum:A4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,18,E1, csum:CF [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,1A,E9, csum:C5 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,1C,BD, csum:EF [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,1E,DF, csum:CB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,20,E7, csum:C1 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,22,EF, csum:B7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,24,DD, csum:C7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,26,E5, csum:BD [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,28,ED, csum:B3 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,2B,F, csum:8E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,2C,FD, csum:9F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,2F,5, csum:94 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,31,D, csum:8A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,32,FB, csum:9B [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,34,E9, csum:AB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,36,D7, csum:BB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,39,13, csum:7C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,3B,1, csum:8C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,3D,23, csum:68 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,3F,11, csum:78 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,41,33, csum:54 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,43,3B, csum:4A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,45,5D, csum:26 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,47,31, csum:50 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,49,39, csum:46 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,4B,41, csum:3C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,4D,63, csum:18 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,4F,B5, csum:C4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,51,BD, csum:BA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,53,91, csum:E4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,55,B3, csum:C0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,57,A1, csum:D0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,59,8F, csum:E0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,5B,B1, csum:BC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,5D,9F, csum:CC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,5F,C1, csum:A8 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,61,C9, csum:9E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,63,D1, csum:94 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,65,BF, csum:A4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,67,E1, csum:80 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,69,E9, csum:76 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,6B,D7, csum:86 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,6D,DF, csum:7C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,6F,E7, csum:72 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,71,D5, csum:82 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,73,C3, csum:92 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,75,CB, csum:88 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,77,ED, csum:64 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,79,DB, csum:74 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,7B,E3, csum:6A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,7D,D1, csum:7A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,7F,D9, csum:70 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,81,E1, csum:66 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,83,B5, csum:90 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,85,D7, csum:6C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,87,C5, csum:7C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,8A,1, csum:3D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,8C,9, csum:33 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,8E,11, csum:29 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,90,19, csum:1F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,92,3B, csum:FB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,94,43, csum:F1 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,96,31, csum:1 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,98,39, csum:F7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,9A,41, csum:ED [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,9C,63, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,9E,51, csum:D9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,A0,73, csum:B5 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,A2,C6, csum:60 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,A4,E8, csum:3C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,A6,F0, csum:32 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,A8,DE, csum:42 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,AA,E6, csum:38 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,AC,EE, csum:2E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,AE,DC, csum:3E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,B0,CA, csum:4E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,B2,B8, csum:5E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,B4,C0, csum:54 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,B6,C8, csum:4A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,B8,B6, csum:5A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,BA,A4, csum:6A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,BC,C6, csum:46 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,BE,B4, csum:56 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,C0,D6, csum:32 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,C2,C4, csum:42 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,C4,B2, csum:52 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,C6,A0, csum:62 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,C8,C2, csum:3E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,CA,96, csum:68 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,CC,9E, csum:5E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,CE,A6, csum:54 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,D0,C8, csum:30 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,D2,B6, csum:40 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,D4,BE, csum:36 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,D6,C6, csum:2C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,D8,B4, csum:3C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,DA,D6, csum:18 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,DC,C4, csum:28 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,DE,B2, csum:38 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,E0,A0, csum:48 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,E2,C2, csum:24 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,E4,CA, csum:1A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,E6,EC, csum:F6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,E8,C0, csum:20 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,EA,E2, csum:FC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,EC,EA, csum:F2 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,EE,F2, csum:E8 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,F0,E0, csum:F8 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,F2,E8, csum:EE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,F4,D6, csum:FE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,F7,5C, csum:75 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,F9,7E, csum:51 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,FB,86, csum:47 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,FD,8E, csum:3D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,FF,B0, csum:19 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,1,D2, csum:F4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,3,DA, csum:EA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,5,FC, csum:C6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,8,4, csum:BB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,A,26, csum:97 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,B,FA, csum:C2 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,E,2, csum:B7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,10,A, csum:AD [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,12,12, csum:A3 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,14,1A, csum:99 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,16,8, csum:A9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,18,2A, csum:85 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,1A,32, csum:7B [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,1C,3A, csum:71 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,1E,5C, csum:4D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,20,4A, csum:5D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,22,86, csum:1F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,24,74, csum:2F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,26,7C, csum:25 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,28,6A, csum:35 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,2A,8C, csum:11 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,2C,7A, csum:21 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,2E,9C, csum:FD [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,30,8A, csum:D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,32,78, csum:1D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,34,9A, csum:F9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,36,88, csum:9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,38,76, csum:19 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,3A,64, csum:29 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,3C,86, csum:5 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,3E,74, csum:15 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,40,7C, csum:B [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,42,6A, csum:1B [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,44,58, csum:2B [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,46,60, csum:21 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,48,68, csum:17 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,4A,D4, csum:A9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,4C,C2, csum:B9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,4E,E4, csum:95 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,51,20, csum:56 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,53,E, csum:66 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,55,16, csum:5C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,57,1E, csum:52 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,59,40, csum:2E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,5B,48, csum:24 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,5D,36, csum:34 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,5F,3E, csum:2A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,61,46, csum:20 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,63,4E, csum:16 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,65,22, csum:40 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,67,2A, csum:36 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,69,4C, csum:12 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,6B,6E, csum:EE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,6D,5C, csum:FE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,6F,64, csum:F4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,71,52, csum:4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,73,74, csum:E0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,75,62, csum:F0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,77,6A, csum:E6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,79,72, csum:DC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,7B,94, csum:B8 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,7D,B6, csum:94 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,7F,BE, csum:8A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,81,AC, csum:9A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,83,B4, csum:90 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,85,A2, csum:A0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,87,C4, csum:7C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,89,98, csum:A6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,8B,A0, csum:9C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,8D,8E, csum:AC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,8F,B0, csum:88 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,91,B8, csum:7E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,93,C0, csum:74 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,95,AE, csum:84 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,97,B6, csum:7A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,99,BE, csum:70 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,9B,AC, csum:80 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,9D,FF, csum:2B [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,9F,ED, csum:3B [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,A2,29, csum:FC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,A4,17, csum:C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,A6,1F, csum:2 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,A8,D, csum:12 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,AA,49, csum:D4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,AC,51, csum:CA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,AE,59, csum:C0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,B0,2D, csum:EA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,B2,4F, csum:C6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,B4,3D, csum:D6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,B6,79, csum:98 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,B8,81, csum:8E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,BA,89, csum:84 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,BC,91, csum:7A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,BE,99, csum:70 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,C0,A1, csum:66 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,C2,A9, csum:5C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,C4,CB, csum:38 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,C6,D3, csum:2E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,C8,C1, csum:3E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,CA,C9, csum:34 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,CC,D1, csum:2A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,CE,F3, csum:6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,D0,E1, csum:16 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,D2,CF, csum:26 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,D4,D7, csum:1C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,D6,F9, csum:F8 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,D9,1, csum:ED [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,DA,EF, csum:FE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,DC,DD, csum:E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,DE,E5, csum:4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,E1,7, csum:DF [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,E2,F5, csum:F0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,E4,E3, csum:0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,E7,5, csum:DB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,E8,F3, csum:EC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,EB,15, csum:C7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,ED,3, csum:D7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,EF,B, csum:CD [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,F1,77, csum:5F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,F3,7F, csum:55 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,F5,87, csum:4B [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,F7,8F, csum:41 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,F9,7D, csum:51 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,FB,85, csum:47 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,FD,8D, csum:3D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,2,FF,7B, csum:4D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,1,83, csum:42 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,3,8B, csum:38 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,5,AD, csum:14 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,7,B5, csum:A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,9,BD, csum:0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,B,C5, csum:F6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,D,CD, csum:EC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,F,BB, csum:FC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,11,C3, csum:F2 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,13,CB, csum:E8 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,15,D3, csum:DE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,17,DB, csum:D4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,19,FD, csum:B0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,1B,EB, csum:C0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,1D,F3, csum:B6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,1F,FB, csum:AC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,22,3, csum:A1 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,23,F1, csum:B2 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,25,DF, csum:C2 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,27,E7, csum:B8 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,29,EF, csum:AE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,2B,F7, csum:A4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,2D,E5, csum:B4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,2F,ED, csum:AA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,32,F, csum:85 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,34,17, csum:7B [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,36,1F, csum:71 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,38,D, csum:81 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,39,FB, csum:92 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,3C,1D, csum:6D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,3E,25, csum:63 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,40,13, csum:73 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,42,1, csum:83 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,44,9, csum:79 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,46,76, csum:A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,48,7E, csum:0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,4A,6C, csum:10 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,4C,74, csum:6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,4E,7C, csum:FC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,50,84, csum:F2 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,52,72, csum:2 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,54,60, csum:12 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,56,68, csum:8 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,58,70, csum:FE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,5A,92, csum:DA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,5C,66, csum:4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,5E,6E, csum:FA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,60,90, csum:D6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,62,98, csum:CC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,64,86, csum:DC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,66,8E, csum:D2 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,68,7C, csum:E2 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,6A,B8, csum:A4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,6C,A6, csum:B4 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,6E,AE, csum:AA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,70,9C, csum:BA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,72,A4, csum:B0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,74,AC, csum:A6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,76,B4, csum:9C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,78,A2, csum:AC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,7A,AA, csum:A2 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,7C,B2, csum:98 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,7E,A0, csum:A8 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,80,A8, csum:9E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,82,96, csum:AE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,84,B8, csum:8A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,86,A6, csum:9A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,88,AE, csum:90 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,8A,B6, csum:86 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,8C,A4, csum:96 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,8E,AC, csum:8C [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,90,CE, csum:68 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,92,BC, csum:78 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,94,C4, csum:6E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,96,CC, csum:64 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,99,52, csum:DB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,9B,40, csum:EB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,9D,2E, csum:FB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,9F,36, csum:F1 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,A1,3E, csum:E7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,A3,60, csum:C3 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,A5,34, csum:ED [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,A7,56, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,A9,44, csum:D9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,AB,4C, csum:CF [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,AD,3A, csum:DF [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,AF,5C, csum:BB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,B1,4A, csum:CB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,B3,86, csum:8D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,B5,8E, csum:83 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,B7,96, csum:79 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,B9,6A, csum:A3 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,BB,58, csum:B3 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,BD,60, csum:A9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,BF,68, csum:9F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,C1,56, csum:AF [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,C3,44, csum:BF [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,C5,80, csum:81 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,C7,6E, csum:91 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,C9,90, csum:6D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,CB,7E, csum:7D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,CD,A0, csum:59 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,CF,C2, csum:35 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,D1,B0, csum:45 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,D3,B8, csum:3B [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,D5,C0, csum:31 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,D7,AE, csum:41 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,D9,D0, csum:1D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,DB,A4, csum:47 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,DD,AC, csum:3D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,DF,9A, csum:4D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,E1,A2, csum:43 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,E3,AA, csum:39 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,E5,98, csum:49 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,E7,A0, csum:3F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,E9,A8, csum:35 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,EC,14, csum:C6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,ED,E8, csum:F1 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,EF,F0, csum:E7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,F1,F8, csum:DD [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,F4,1A, csum:B8 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,F6,22, csum:AE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,F8,10, csum:BE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,F9,FE, csum:CF [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,FC,20, csum:AA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,3,FE,28, csum:A0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,0,30, csum:95 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,2,1E, csum:A5 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,4,C, csum:B5 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,6,14, csum:AB [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,8,1C, csum:A1 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,A,24, csum:97 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,C,12, csum:A7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,E,1A, csum:9D [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,F,EE, csum:C8 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,11,F6, csum:BE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,13,E4, csum:CE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,16,20, csum:8F [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,18,28, csum:85 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,4,1A,4A, csum:61 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:1,0,0,0,32, csum:9A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,0,B6, csum:13 [OK]
+elapsed time is:
+
+ipod->dock
+size:16 mode:4 command:0x0,0x21 params:64,6F,20,79,6F,75,20,72,69,67,68,74,0, csum:3D [OK]
+title response:"do you right"
+
+ipod->dock
+size:7 mode:4 command:0x0,0x23 params:33,31,31,0, csum:3D [OK]
+artist response:"311"
+
+ipod->dock
+size:17 mode:4 command:0x0,0x25 params:55,6E,6B,6E,6F,77,6E,20,41,6C,62,75,6D,0, csum:C5 [OK]
+album response:"Unknown Album"
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2,BE, csum:9 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4,C6, csum:FF [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6,CE, csum:F5 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8,BC, csum:5 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A,AA, csum:15 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C,CC, csum:F1 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E,D4, csum:E7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,10,EF, csum:CA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,12,DD, csum:DA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,14,CB, csum:EA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,16,B9, csum:FA [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,18,DB, csum:D6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1A,AF, csum:0 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1C,B7, csum:F6 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1E,BF, csum:EC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,20,AD, csum:FC [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,22,CF, csum:D8 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,24,D7, csum:CE [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,26,DF, csum:C4 [OK]
+elapsed time is:
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:1,0,0,0,33, csum:99 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,29,4F, csum:51 [OK]
+elapsed time is:
+
+ipod->dock
+size:27 mode:4 command:0x0,0x21 params:54,68,65,20,50,65,72,73,69,73,74,65,6E,63,65,20,6F,66,20,4C,6F,73,73,0, csum:44 [OK]
+title response:"The Persistence of Loss"
+
+ipod->dock
+size:19 mode:4 command:0x0,0x23 params:4E,69,6E,65,20,49,6E,63,68,20,4E,61,69,6C,73,0, csum:83 [OK]
+artist response:"Nine Inch Nails"
+
+ipod->dock
+size:42 mode:4 command:0x0,0x25 params:48,61,6C,6F,20,31,37,20,2D,20,41,6E,64,20,41,6C,6C,20,54,68,61,74,20,43,6F,75,6C,64,20,48,61,76,65,20,42,65,65,6E,0, csum:E2 [OK]
+album response:"Halo 17 - And All That Could Have Been"
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,A0, csum:28 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,A8, csum:1E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,B0, csum:14 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,84, csum:3E [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,A6, csum:1A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,94, csum:2A [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,C5, csum:F7 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,99, csum:21 [OK]
+elapsed time is:
+
+ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,A1, csum:17 [OK]
+elapsed time is:
+
+ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,3,B9,43,0,0,11,BB,1, csum:7 [OK]
+time/status response
+
+ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,3,B9,43,0,0,11,EF,2, csum:D2 [OK]
+time/status response
+
+ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,3,B9,43,0,0,11,EF,2, csum:D2 [OK]
+time/status response
+
+ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,3,B9,43,0,0,11,EF,2, csum:D2 [OK]
+time/status response
+

@@ -1,0 +1,2073 @@
+ready
+
+6902 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+6913 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,3,2,D0,0,0,2C,B0,2, csum:20 [OK]
+time/status response: track length:197328ms elapsed time:11440ms status:paused
+
+6918 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+
+6925 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+6929 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+6940 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,3,2,D0,0,0,2C,B0,1, csum:21 [OK]
+time/status response: track length:197328ms elapsed time:11440ms status:playing
+
+6946 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+
+6954 ipod->dock
+size:7 mode:4 command:0x0,0x1F params:0,0,0,3, csum:D3 [OK]
+playlist position is 3
+
+6961 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,3, csum:D2 [OK]
+get title of song #3
+
+6982 ipod->dock
+size:29 mode:4 command:0x0,0x21 params:56,69,63,74,69,6D,73,20,6F,66,20,54,68,65,20,52,65,76,6F,6C,75,74,69,6F,6E,0, csum:52 [OK]
+title response:"Victims of The Revolution"
+
+6989 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,3, csum:D0 [OK]
+get artist of song #3
+
+7003 ipod->dock
+size:16 mode:4 command:0x0,0x23 params:42,61,64,20,52,65,6C,69,67,69,6F,6E,0, csum:69 [OK]
+artist response:"Bad Religion"
+
+7004 dock->ipod
+size:3 mode:0 command:0x1,0x4 params: csum:F8 [OK]
+switch to mode 4
+
+7261 dock->ipod
+size:2 mode:0 command:0x5,0x0 params: csum:F9 [OK]
+switch to mode 4
+
+7268 ipod->dock
+size:4 mode:0 command:0x2,0x0 params:5, csum:F5 [OK]
+
+7519 dock->ipod
+size:3 mode:4 command:0x0,0x12 params: csum:E7 [OK]
+get ipod size
+
+7526 ipod->dock
+size:5 mode:4 command:0x0,0x13 params:1,D, csum:D6 [OK]
+ipod size response
+
+7531 dock->ipod
+size:3 mode:4 command:0x0,0x2C params: csum:CD [OK]
+get shuffle mode
+
+7537 ipod->dock
+size:4 mode:4 command:0x0,0x2D params:0, csum:CB [OK]
+shuffle mode response
+
+7543 dock->ipod
+size:3 mode:4 command:0x0,0x33 params: csum:C6 [OK]
+get pic size?
+
+7551 ipod->dock
+size:8 mode:4 command:0x0,0x34 params:1,36,0,A8,1, csum:E0 [OK]
+pic size response?
+
+7557 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+
+7584 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,16, csum:DF [OK]
+FEEDBACK for switch to main library is 0(SUCCESS)
+
+7588 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+7619 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,16,8C, csum:3A [OK]
+count response
+
+7623 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:1, csum:DF [OK]
+get count of playlists
+
+7630 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,87, csum:55 [OK]
+count response
+
+7637 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,0, csum:DC [OK]
+switch to playlist #0
+
+7648 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+7653 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+7683 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,16,8C, csum:3A [OK]
+count response
+
+7691 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1, csum:DB [OK]
+switch to playlist #1
+
+7699 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+7704 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+7718 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,6,41, csum:95 [OK]
+count response
+
+7725 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2, csum:DA [OK]
+switch to playlist #2
+
+7734 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+7739 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+7754 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,7,7B, csum:5A [OK]
+count response
+
+7762 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3, csum:D9 [OK]
+switch to playlist #3
+
+7772 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+7777 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+7804 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,14,38, csum:90 [OK]
+count response
+
+7811 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4, csum:D8 [OK]
+switch to playlist #4
+
+7820 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+7825 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+7841 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,8,5A, csum:7A [OK]
+count response
+
+7849 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5, csum:D7 [OK]
+switch to playlist #5
+
+7856 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+7861 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+7869 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,52, csum:8A [OK]
+count response
+
+7876 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,6, csum:D6 [OK]
+switch to playlist #6
+
+7884 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+7888 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+7897 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,C4, csum:18 [OK]
+count response
+
+7904 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,7, csum:D5 [OK]
+switch to playlist #7
+
+7911 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+7916 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+7925 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,41, csum:9B [OK]
+count response
+
+7932 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,8, csum:D4 [OK]
+switch to playlist #8
+
+7939 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+7944 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+7951 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,3, csum:D9 [OK]
+count response
+
+7958 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,9, csum:D3 [OK]
+switch to playlist #9
+
+7966 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+7970 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+7978 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A1, csum:3B [OK]
+count response
+
+7986 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,A, csum:D2 [OK]
+switch to playlist #10
+
+7993 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+7997 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8005 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,4C, csum:90 [OK]
+count response
+
+8013 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,B, csum:D1 [OK]
+switch to playlist #11
+
+8020 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8025 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8032 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,F, csum:CD [OK]
+count response
+
+8039 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,C, csum:D0 [OK]
+switch to playlist #12
+
+8047 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8051 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8059 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,B, csum:D1 [OK]
+count response
+
+8066 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,D, csum:CF [OK]
+switch to playlist #13
+
+8073 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8077 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8086 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,8F, csum:4D [OK]
+count response
+
+8093 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,E, csum:CE [OK]
+switch to playlist #14
+
+8100 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8105 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8112 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,C, csum:D0 [OK]
+count response
+
+8119 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,F, csum:CD [OK]
+switch to playlist #15
+
+8127 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8131 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8140 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,1,C, csum:CF [OK]
+count response
+
+8147 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,10, csum:CC [OK]
+switch to playlist #16
+
+8154 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8158 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8166 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,9, csum:D3 [OK]
+count response
+
+8173 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,11, csum:CB [OK]
+switch to playlist #17
+
+8180 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8185 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8193 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,18, csum:C4 [OK]
+count response
+
+8199 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,12, csum:CA [OK]
+switch to playlist #18
+
+8207 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8211 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8219 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,F, csum:CD [OK]
+count response
+
+8226 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,13, csum:C9 [OK]
+switch to playlist #19
+
+8233 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8237 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8245 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,10, csum:CC [OK]
+count response
+
+8252 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,14, csum:C8 [OK]
+switch to playlist #20
+
+8259 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8264 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8272 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,B5, csum:27 [OK]
+count response
+
+8279 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,15, csum:C7 [OK]
+switch to playlist #21
+
+8286 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8291 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8299 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,1E, csum:BE [OK]
+count response
+
+8306 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,16, csum:C6 [OK]
+switch to playlist #22
+
+8313 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8317 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8325 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,1B, csum:C1 [OK]
+count response
+
+8332 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,17, csum:C5 [OK]
+switch to playlist #23
+
+8339 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8344 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8351 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,10, csum:CC [OK]
+count response
+
+8358 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,18, csum:C4 [OK]
+switch to playlist #24
+
+8366 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8370 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8378 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+8385 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,19, csum:C3 [OK]
+switch to playlist #25
+
+8392 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8396 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8404 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+8411 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1A, csum:C2 [OK]
+switch to playlist #26
+
+8418 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8423 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8430 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+8437 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1B, csum:C1 [OK]
+switch to playlist #27
+
+8444 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8449 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8457 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,34, csum:A8 [OK]
+count response
+
+8465 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1C, csum:C0 [OK]
+switch to playlist #28
+
+8472 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8477 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8486 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D7, csum:5 [OK]
+count response
+
+8493 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1D, csum:BF [OK]
+switch to playlist #29
+
+8500 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8505 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8513 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,64, csum:78 [OK]
+count response
+
+8520 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1E, csum:BE [OK]
+switch to playlist #30
+
+8528 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8532 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8540 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,15, csum:C7 [OK]
+count response
+
+8547 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1F, csum:BD [OK]
+switch to playlist #31
+
+8554 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8558 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8566 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+8573 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,20, csum:BC [OK]
+switch to playlist #32
+
+8580 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8585 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8593 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,2E, csum:AE [OK]
+count response
+
+8600 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,21, csum:BB [OK]
+switch to playlist #33
+
+8608 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8612 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8620 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+8627 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,22, csum:BA [OK]
+switch to playlist #34
+
+8634 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8638 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8646 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+8653 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,23, csum:B9 [OK]
+switch to playlist #35
+
+8660 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8665 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8672 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,19, csum:C3 [OK]
+count response
+
+8679 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,24, csum:B8 [OK]
+switch to playlist #36
+
+8687 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8691 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8699 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,8, csum:D4 [OK]
+count response
+
+8706 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,25, csum:B7 [OK]
+switch to playlist #37
+
+8713 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8718 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8728 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,2,1C, csum:BE [OK]
+count response
+
+8736 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,26, csum:B6 [OK]
+switch to playlist #38
+
+8743 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8748 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8755 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,17, csum:C5 [OK]
+count response
+
+8762 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,27, csum:B5 [OK]
+switch to playlist #39
+
+8770 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8774 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8782 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,14, csum:C8 [OK]
+count response
+
+8789 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,28, csum:B4 [OK]
+switch to playlist #40
+
+8796 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8800 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8808 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,16, csum:C6 [OK]
+count response
+
+8815 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,29, csum:B3 [OK]
+switch to playlist #41
+
+8822 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8827 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8834 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,14, csum:C8 [OK]
+count response
+
+8842 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2A, csum:B2 [OK]
+switch to playlist #42
+
+8850 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8854 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8862 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,12, csum:CA [OK]
+count response
+
+8869 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2B, csum:B1 [OK]
+switch to playlist #43
+
+8876 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8881 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8889 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,15, csum:C7 [OK]
+count response
+
+8896 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2C, csum:B0 [OK]
+switch to playlist #44
+
+8903 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8908 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8915 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,14, csum:C8 [OK]
+count response
+
+8922 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2D, csum:AF [OK]
+switch to playlist #45
+
+8930 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8934 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8942 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,F, csum:CD [OK]
+count response
+
+8949 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2E, csum:AE [OK]
+switch to playlist #46
+
+8956 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8960 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8968 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,11, csum:CB [OK]
+count response
+
+8976 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2F, csum:AD [OK]
+switch to playlist #47
+
+8983 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+8989 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+8996 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,21, csum:BB [OK]
+count response
+
+9003 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,30, csum:AC [OK]
+switch to playlist #48
+
+9011 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9015 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9023 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+9030 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,31, csum:AB [OK]
+switch to playlist #49
+
+9037 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9041 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9049 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+9057 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,32, csum:AA [OK]
+switch to playlist #50
+
+9064 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9069 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9076 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+9083 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,33, csum:A9 [OK]
+switch to playlist #51
+
+9090 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9095 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9103 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+9111 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,34, csum:A8 [OK]
+switch to playlist #52
+
+9118 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9123 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9131 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,21, csum:BB [OK]
+count response
+
+9139 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,35, csum:A7 [OK]
+switch to playlist #53
+
+9146 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9151 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9159 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,14, csum:C8 [OK]
+count response
+
+9166 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,36, csum:A6 [OK]
+switch to playlist #54
+
+9174 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9179 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9187 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,28, csum:B4 [OK]
+count response
+
+9194 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,37, csum:A5 [OK]
+switch to playlist #55
+
+9201 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9206 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9214 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,15, csum:C7 [OK]
+count response
+
+9221 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,38, csum:A4 [OK]
+switch to playlist #56
+
+9228 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9233 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9240 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+9247 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,39, csum:A3 [OK]
+switch to playlist #57
+
+9254 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9259 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9267 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,28, csum:B4 [OK]
+count response
+
+9275 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3A, csum:A2 [OK]
+switch to playlist #58
+
+9282 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9286 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9294 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,17, csum:C5 [OK]
+count response
+
+9302 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3B, csum:A1 [OK]
+switch to playlist #59
+
+9309 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9314 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9321 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,C, csum:D0 [OK]
+count response
+
+9328 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3C, csum:A0 [OK]
+switch to playlist #60
+
+9335 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9340 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9348 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+9355 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3D, csum:9F [OK]
+switch to playlist #61
+
+9362 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9366 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9375 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,63, csum:79 [OK]
+count response
+
+9382 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3E, csum:9E [OK]
+switch to playlist #62
+
+9389 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9395 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9402 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+9409 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3F, csum:9D [OK]
+switch to playlist #63
+
+9417 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9421 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9429 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+9436 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,40, csum:9C [OK]
+switch to playlist #64
+
+9443 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9447 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9455 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,26, csum:B6 [OK]
+count response
+
+9463 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,41, csum:9B [OK]
+switch to playlist #65
+
+9470 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9475 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9482 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,F, csum:CD [OK]
+count response
+
+9489 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,42, csum:9A [OK]
+switch to playlist #66
+
+9497 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9501 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9509 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+9515 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,43, csum:99 [OK]
+switch to playlist #67
+
+9523 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9527 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9535 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+9542 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,44, csum:98 [OK]
+switch to playlist #68
+
+9549 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9555 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9562 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,2E, csum:AE [OK]
+count response
+
+9570 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,45, csum:97 [OK]
+switch to playlist #69
+
+9578 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9582 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9590 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,7, csum:D5 [OK]
+count response
+
+9597 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,46, csum:96 [OK]
+switch to playlist #70
+
+9604 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9608 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9616 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+9623 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,47, csum:95 [OK]
+switch to playlist #71
+
+9630 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9636 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9643 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+9651 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,48, csum:94 [OK]
+switch to playlist #72
+
+9659 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9663 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9671 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+9678 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,49, csum:93 [OK]
+switch to playlist #73
+
+9685 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9689 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9697 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,10, csum:CC [OK]
+count response
+
+9704 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4A, csum:92 [OK]
+switch to playlist #74
+
+9711 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9717 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9725 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,32, csum:AA [OK]
+count response
+
+9732 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4B, csum:91 [OK]
+switch to playlist #75
+
+9740 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9744 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9752 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,11, csum:CB [OK]
+count response
+
+9760 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4C, csum:90 [OK]
+switch to playlist #76
+
+9767 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9771 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9779 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,23, csum:B9 [OK]
+count response
+
+9787 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4D, csum:8F [OK]
+switch to playlist #77
+
+9794 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9800 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9808 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,3C, csum:A0 [OK]
+count response
+
+9815 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4E, csum:8E [OK]
+switch to playlist #78
+
+9823 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9828 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9836 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,13, csum:C9 [OK]
+count response
+
+9843 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4F, csum:8D [OK]
+switch to playlist #79
+
+9850 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9855 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9863 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,15, csum:C7 [OK]
+count response
+
+9870 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,50, csum:8C [OK]
+switch to playlist #80
+
+9877 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9882 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9889 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,10, csum:CC [OK]
+count response
+
+9896 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,51, csum:8B [OK]
+switch to playlist #81
+
+9904 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9909 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9917 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,B, csum:D1 [OK]
+count response
+
+9924 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,52, csum:8A [OK]
+switch to playlist #82
+
+9931 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9935 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9944 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,5A, csum:82 [OK]
+count response
+
+9951 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,53, csum:89 [OK]
+switch to playlist #83
+
+9958 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9964 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9971 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,7, csum:D5 [OK]
+count response
+
+9978 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,54, csum:88 [OK]
+switch to playlist #84
+
+9986 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+9991 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+9999 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,3E, csum:9E [OK]
+count response
+
+10007 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,55, csum:87 [OK]
+switch to playlist #85
+
+10014 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10018 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10026 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+10034 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,56, csum:86 [OK]
+switch to playlist #86
+
+10041 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10046 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10054 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,42, csum:9A [OK]
+count response
+
+10061 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,57, csum:85 [OK]
+switch to playlist #87
+
+10069 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10074 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10082 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,26, csum:B6 [OK]
+count response
+
+10089 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,58, csum:84 [OK]
+switch to playlist #88
+
+10096 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10101 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10109 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,66, csum:76 [OK]
+count response
+
+10117 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,59, csum:83 [OK]
+switch to playlist #89
+
+10124 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10130 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10137 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+10144 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5A, csum:82 [OK]
+switch to playlist #90
+
+10152 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10157 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10165 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+10172 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5B, csum:81 [OK]
+switch to playlist #91
+
+10179 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10183 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10191 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,E, csum:CE [OK]
+count response
+
+10198 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5C, csum:80 [OK]
+switch to playlist #92
+
+10205 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10210 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10217 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,B, csum:D1 [OK]
+count response
+
+10224 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5D, csum:7F [OK]
+switch to playlist #93
+
+10232 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10237 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10245 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,D, csum:CF [OK]
+count response
+
+10252 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5E, csum:7E [OK]
+switch to playlist #94
+
+10259 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10263 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10272 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,8D, csum:4F [OK]
+count response
+
+10279 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5F, csum:7D [OK]
+switch to playlist #95
+
+10286 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10292 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10299 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,A, csum:D2 [OK]
+count response
+
+10306 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,60, csum:7C [OK]
+switch to playlist #96
+
+10314 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10319 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10327 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,10, csum:CC [OK]
+count response
+
+10334 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,61, csum:7B [OK]
+switch to playlist #97
+
+10341 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10345 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10353 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,11, csum:CB [OK]
+count response
+
+10361 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,62, csum:7A [OK]
+switch to playlist #98
+
+10368 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10374 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10382 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,30, csum:AC [OK]
+count response
+
+10389 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,63, csum:79 [OK]
+switch to playlist #99
+
+10397 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10402 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10410 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,47, csum:95 [OK]
+count response
+
+10418 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,64, csum:78 [OK]
+switch to playlist #100
+
+10425 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+10430 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10439 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,5A, csum:82 [OK]
+count response
+
+10444 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+
+10451 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,26, csum:CF [OK]
+FEEDBACK for polling start/stop is 0(SUCCESS)
+
+10456 dock->ipod
+size:4 mode:4 command:0x0,0x31 params:2, csum:C5 [OK]
+set repeat mode
+
+10466 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,31, csum:C4 [OK]
+FEEDBACK for set repeat mode is 0(SUCCESS)
+
+10471 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+
+10478 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,26, csum:CF [OK]
+FEEDBACK for polling start/stop is 0(SUCCESS)
+
+10482 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+
+10494 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,16, csum:DF [OK]
+FEEDBACK for switch to main library is 0(SUCCESS)
+
+10499 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+10511 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,3,2,D0,0,0,2D,66,2, csum:69 [OK]
+time/status response: track length:197328ms elapsed time:11622ms status:paused
+
+10516 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+
+10523 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+10528 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+10539 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,3,2,D0,0,0,2D,4C,1, csum:84 [OK]
+time/status response: track length:197328ms elapsed time:11596ms status:playing
+
+10544 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+
+10553 ipod->dock
+size:7 mode:4 command:0x0,0x1F params:0,0,0,3, csum:D3 [OK]
+playlist position is 3
+
+10561 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,3, csum:D2 [OK]
+get title of song #3
+
+10582 ipod->dock
+size:29 mode:4 command:0x0,0x21 params:56,69,63,74,69,6D,73,20,6F,66,20,54,68,65,20,52,65,76,6F,6C,75,74,69,6F,6E,0, csum:52 [OK]
+title response:"Victims of The Revolution"
+
+10590 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,3, csum:D0 [OK]
+get artist of song #3
+
+10604 ipod->dock
+size:16 mode:4 command:0x0,0x23 params:42,61,64,20,52,65,6C,69,67,69,6F,6E,0, csum:69 [OK]
+artist response:"Bad Religion"
+
+10611 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,3, csum:CE [OK]
+get album of song #3
+
+10625 ipod->dock
+size:16 mode:4 command:0x0,0x25 params:4E,6F,20,53,75,62,73,74,61,6E,63,65,0, csum:42 [OK]
+album response:"No Substance"
+
+10630 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+10661 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,16,8C, csum:3A [OK]
+count response
+
+10667 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:2, csum:DE [OK]
+get count of artists
+
+10904 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,2,D4, csum:6 [OK]
+count response
+
+10910 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:3, csum:DD [OK]
+get count of albums
+
+11013 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,1,FD, csum:DE [OK]
+count response
+
+11018 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:4, csum:DC [OK]
+get count of genres
+
+11021 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2F,20, csum:7A [OK]
+elapsed time is:12064
+
+11076 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,7A, csum:62 [OK]
+count response
+
+11088 dock->ipod
+size:14 mode:4 command:0x0,0x32 params:0,0,1,0,80,0,37,0,0,0,20, csum:E4 [OK]
+picture block
+
+11097 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+GOT ZERO SIZE BYTE
+11390 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,FF,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,0,0,0,0,0,FF,C0,0,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,0,3,FF,0,0,0,3,FF,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,FC,0,0,0,0,0,0,0,F,FC,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3F,FF,FF,FC,0,0,0,0,0,0,0,0,3F,F0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,3,FF,FF,FC,0,0,0,0,0,0,0,0,0,FF,F0,0,0,0,0,0,0,0,FF,FF,FF,C0,0,0,0,0,0,0,3F,FF,FF,0,0,0,0,0,0,0,0,0,0,FF,C0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3,FF,0,0,0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,3F,FF,FC,0,0,0,0,0,0,0,0,0,0,F,FC,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,0,0,0,3,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,3F,F0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,C0,0,0,3F,FF,FF,0,0,0,0,0,0,0,0,0,0,0,FF,C0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FC,0,0,FF,FF,F0,0,F,FF,C0,3F,FC,3,FF,CF,FC,0,FF,CF,FF,FF,FF,F,FF,FF,FF,3,FF,FF,FF,F,FF,FF,0, csum:11 [OK]
+picture block
+
+11398 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+GOT ZERO SIZE BYTE
+11517 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,31,E, csum:8A [OK]
+elapsed time is:12558
+
+11692 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,2,3,FF,FF,0,0,3F,FF,C0,F,FC,3F,FF,F,FF,3,FF,F,FF,FF,FC,3F,FF,FF,FF,F,FF,FF,FF,3,FF,FF,C0,F,FF,FF,0,0,3F,FF,C0,F,FF,3F,FF,3,FF,F,FC,F,FF,FF,FC,FF,FF,FF,FF,3F,FF,FF,FF,0,3F,FF,F0,3F,FF,F0,0,0,FF,FF,C0,3,FF,FF,F0,3,FF,FF,F0,F,FF,FF,FC,FF,FF,FF,FF,3F,FF,FF,FF,0,F,FF,FC,3F,FF,F0,0,0,FF,FF,C0,0,FF,FF,C0,0,3F,FF,C0,F,FF,FF,F0,FF,FF,FF,FC,3F,FF,FF,FC,0,F,FF,FC,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,C0,0,3,FC,3F,C0,0,3F,FC,0,0,3F,FC,0,F,FF,FF,F0,FF,FF,FF,C0,FF,FF,FF,C0,0,3,FF,FF,FF,FF,0,0,F,FC,3F,C0,0,3F,FC,0,0,3F,FC,0,3F,FF,FF,F0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,0,0,F,F0,3F,C0,0,FF,FC,0,0,FF,FC,0,3F,FF,FF,F0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,0,0,3F,F0,3F,C0,3,FF,FC,0,3,FF,FF,0,3F,FF,FF,C0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,C0,0,3F,FF,FF,C0,3,FF,FF,0,F,FF,FF,0,3F,C0,0,0,0,0,3F,F0,0,0,3F,F0,0,3,FF,FF,FF,FF,C0,0,3F,FF,FF,C0,F,FF,FF,C0,F,FF,FF,0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,3,FF,FC,3F,FF,F0,0,FF,FF,FF,C0,3F,F3,FF,C0,3F,FC,FF,C0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,F,FF,FC,3F,FF,FC,0,FF,C0,3F,C0,FF,F0,FF,C0,3F,F0,FF,C0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,3F,FF,FC,F,FF,FF,3,FF,0,3F,C0,FF,C0,FF,F0,FF,C0,3F,F0,FF,FF,FF,C3,FF,FF,FF,C3,FF,FF,FF,C0,0,FF,FF,F0,3,FF,FF,C3,FC,0,FF,C3,FF,0,3F,F3,FF,0,3F,F0,FF,FF,FF,3,FF,FF,FF,3,FF,FF,FF,0,3,FF,FF,C0, csum:55 [OK]
+picture block
+
+11700 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+GOT ZERO SIZE BYTE
+11994 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,3,0,FF,FF,F0,0,0,0,F,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,0,0,3F,FF,FF,0,0,0,3F,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FC,0,0,3,FF,FF,F0,0,0,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,C0,0,0,0,3F,FF,FC,0,0,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,0,0,0,0,F,FF,FF,F0,3,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,C0,0,0,0,0,0,3F,FF,FF,F,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FC,0,0,0,0,0,0,3,FF,FF,FF,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,C0,0,0,0,0,0,0,0,3,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,FF,C0,0,0,0,0,0,0,3,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,FF,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, csum:77 [OK]
+picture block
+
+12002 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+GOT ZERO SIZE BYTE
+12012 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,33,16, csum:80 [OK]
+elapsed time is:13078
+
+12204 dock->ipod
+size:325 mode:4 command:0x0,0x32 params:0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,C,C,0,0,0,0,0,C,0,0,0,0,C,C,0,0,C,C,0,C0,0,0,F,FC,0,0,0,0,0,0,0,0,F,3C,0,0,0,0,0,C,0,0,0,0,F,3C,0,0,C,C,3,C0,0,0,C,0,0,0,0,0,0,0,0,0,C,CC,3,F0,F,FC,3,CC,3,F0,0,0,C,CC,0,0,C,C,0,C0,0,0,F,F0,0,0,0,0,0,0,0,0,C,CC,0,C,0,30,C,3C,0,C,0,0,C,CC,0,0,C,C,0,C0,0,0,0,C,0,0,0,0,0,0,0,0,C,C,3,FC,0,C0,C,C,3,FC,0,0,C,C,0,0,C,C,0,C0,0,0,0,C,0,0,0,0,0,0,0,0,C,C,C,C,3,0,C,C,C,C,0,0,C,C,0,0,3,30,0,C0,3,C0,C,C,0,0,0,0,0,0,0,0,C,C,3,FC,F,FC,3,FC,3,FC,0,0,C,C,0,0,0,C0,3,F0,3,C0,3,F0,0,0,0,0,0,0,0, csum:99 [OK]
+picture block
+
+12212 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+12507 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,34,EA, csum:AB [OK]
+elapsed time is:13546
+
+13002 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,37,19, csum:79 [OK]
+elapsed time is:14105
+
+13497 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,39,21, csum:6F [OK]
+elapsed time is:14625
+
+13992 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3A,F5, csum:9A [OK]
+elapsed time is:15093
+
+14488 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3C,E3, csum:AA [OK]
+elapsed time is:15587
+
+14983 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3E,D1, csum:BA [OK]
+elapsed time is:16081
+
+15478 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,40,BF, csum:CA [OK]
+elapsed time is:16575
+
+15973 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,42,AD, csum:DA [OK]
+elapsed time is:17069
+
+16468 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,44,9B, csum:EA [OK]
+elapsed time is:17563
+
+16963 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,46,89, csum:FA [OK]
+elapsed time is:18057
+
+17458 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,48,77, csum:A [OK]
+elapsed time is:18551
+
+17672 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++
+
+17683 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+17952 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:1,0,0,0,4, csum:C8 [OK]
+Track changed to #16777216
+
+17959 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,0,D0, csum:F9 [OK]
+elapsed time is:208
+
+17960 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,4, csum:D1 [OK]
+get title of song #4
+
+17975 ipod->dock
+size:19 mode:4 command:0x0,0x21 params:53,6B,69,70,20,54,6F,20,4D,79,20,4C,6F,6F,70,0, csum:AE [OK]
+title response:"Skip To My Loop"
+
+17982 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,4, csum:CF [OK]
+get artist of song #4
+
+17995 ipod->dock
+size:14 mode:4 command:0x0,0x23 params:44,65,20,4C,61,20,53,6F,75,6C,0, csum:92 [OK]
+artist response:"De La Soul"
+
+18002 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,4, csum:CD [OK]
+get album of song #4
+
+18021 ipod->dock
+size:26 mode:4 command:0x0,0x25 params:33,20,46,65,65,74,20,48,69,67,68,20,41,6E,64,20,52,69,73,69,6E,67,0, csum:87 [OK]
+album response:"3 Feet High And Rising"
+
+18453 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2,A4, csum:23 [OK]
+elapsed time is:676
+
+18948 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4,92, csum:33 [OK]
+elapsed time is:1170
+
+19443 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6,80, csum:43 [OK]
+elapsed time is:1664
+
+19938 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8,6E, csum:53 [OK]
+elapsed time is:2158
+
+20433 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A,67, csum:58 [OK]
+elapsed time is:2663
+
+20929 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C,55, csum:68 [OK]
+elapsed time is:3157
+
+21424 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E,43, csum:78 [OK]
+elapsed time is:3651
+
+21919 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,10,31, csum:88 [OK]
+elapsed time is:4145
+
+22414 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,12,1F, csum:98 [OK]
+elapsed time is:4639
+
+22916 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,14,D, csum:A8 [OK]
+elapsed time is:5133
+
+23412 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,FB, csum:B9 [OK]
+elapsed time is:5627
+
+23731 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+23742 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,1,1D,0,0,0,17,4D,1, csum:50 [OK]
+time/status response: track length:72960ms elapsed time:5965ms status:playing
+
+23748 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+
+23755 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+23759 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+23770 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,1,1D,0,0,0,17,81,2, csum:1B [OK]
+time/status response: track length:72960ms elapsed time:6017ms status:paused
+
+23907 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,81, csum:31 [OK]
+elapsed time is:6017
+
+26869 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+26880 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,1,1D,0,0,0,17,81,2, csum:1B [OK]
+time/status response: track length:72960ms elapsed time:6017ms status:paused
+
+29907 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+29918 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,1,1D,0,0,0,17,81,2, csum:1B [OK]
+time/status response: track length:72960ms elapsed time:6017ms status:paused
+

@@ -1,0 +1,1729 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2015.06.16 17:31:33 =~=~=~=~=~=~=~=~=~=~=~=
+dock->ipod
+mode:4 command:0,1C params: csum:DD [OK]
+get time/status
+
+dock->ipod
+mode:0 command:1,4 params: csum:F8 [OK]
+switch to mode 4
+
+dock->ipod
+mode:0 command:5,0 params: csum:F9 [OK]
+switch to mode 4
+
+dock->ipod
+mode:4 command:0,12 params: csum:E7 [OK]
+get ipod size
+
+dock->ipod
+mode:4 command:0,2C params: csum:CD [OK]
+get shuffle mode
+
+ipod->dock
+mode:1 command:2,FF params:FF, csum:21 [NG expected FB]
+
+dock->ipod
+mode:4 command:0,33 params: csum:C6 [OK]
+get pic size?
+
+dock->ipod
+mode:4 command:0,16 params: csum:E3 [OK]
+switch to main library
+
+ipod->dock
+mode:4 command:2,3 params:F4,FF,75, csum:10 [NG expected 89]
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:DB [OK]
+get count
+
+dock->ipod
+mode:4 command:0,18 params:1, csum:DF [OK]
+get count
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,0, csum:DC [OK]
+switch to item
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:DB [OK]
+get count
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,1, csum:DB [OK]
+switch to item
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:DB [OK]
+get count
+
+ipod->dock
+mode:10 command:4,E4 params:D5,41,8C,0,C,55,65,8,10,B0,1D,2,4,D0, csum:90 [NG expected DA]
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,2, csum:DA [OK]
+switch to item
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:DB [OK]
+get count
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,3, csum:D9 [OK]
+switch to item
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:DB [OK]
+get count
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,4, csum:D8 [OK]
+switch to item
+
+ipod->dock
+mode:4 command:0,1 params:0,5D,1D, csum:2 [NG expected 7B]
+FEEDBACK for time/status response is 0(SUCCESS)
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:DB [OK]
+get count
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,5, csum:D7 [OK]
+switch to item
+
+dock->ipod
+mode:255 command:55,4 params:4, csum:0 [NG expected A0]
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:A [NG expected DB]
+get count
+
+dock->ipod
+mode:4 command:0,18 params:4, csum:0 [NG expected DC]
+get count
+
+ipod->dock
+mode:202 command:4,28 params:55,82,0,1,1,F2,FF,55,82,0,19,FF,19, csum:2 [NG expected 28]
+
+dock->ipod
+mode:0 command:0,11 params:CB, csum:FF [NG expected 20]
+
+ipod->dock
+mode:10 command:4,C8 params:75,18,FF,55,11,A,4,90,75,10,31,60,22,55, csum:82 [NG expected FC]
+
+ipod->dock
+mode:85 command:82,1 params:0,0,7C,75,8,10,60,EB,19,22,14,8,90,EA, csum:10 [NG expected F2]
+
+ipod->dock
+mode:0 command:1,0 params:79, csum:FF [NG expected 82]
+switch to mode 0
+
+ready
+
+ipod->dock
+mode:4 command:0,1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to item is 0(SUCCESS)
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:DB [OK]
+get count
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,31, csum:AB [OK]
+switch to item
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:DB [OK]
+get count
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,32, csum:AA [OK]
+switch to item
+
+ipod->dock
+mode:0 command:1,2 params:24,FF,55,4,0,1,BA,FF,55,4,0,1,2,E2,95,40,40,0,17,55,4, csum:0 [NG expected EC]
+switch to mode 2
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:DB [OK]
+get count
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,33, csum:A9 [OK]
+switch to item
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:DB [OK]
+get count
+
+ipod->dock
+mode:202 command:4,28 params:FB,19,4,8,90,1D,2,4,8,11,55,82,0, csum:1 [NG expected 37]
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,35, csum:A7 [OK]
+switch to item
+
+dock->ipod
+mode:0 command:0,37 params:A5, csum:FF [NG expected 20]
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,39, csum:A3 [OK]
+switch to item
+
+ipod->dock
+mode:10 command:FE,65 params:4,18,A0,5A,82,19,0,1,A2,FF,95,1D,4,4, csum:10 [NG expected 75]
+
+dock->ipod
+mode:4 command:0,17 params:1,0,FF,55,4, csum:4 [NG expected 84]
+switch to item
+
+dock->ipod
+mode:4 command:5,DB params:FF,55,8,4,0, csum:17 [NG expected B4]
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:DB [OK]
+get count
+
+dock->ipod
+mode:85 command:4,4 params:0,18,5,DB,FF, csum:FF [NG expected A4]
+
+dock->ipod
+mode:4 command:0,17 params:1,0,18,5,DB, csum:4 [NG expected E4]
+switch to item
+
+dock->ipod
+mode:0 command:17,1 params:0, csum:0 [NG expected E4]
+
+ipod->dock
+mode:0 command:1,2 params:54, csum:FF [NG expected A5]
+switch to mode 2
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:0 [NG expected DB]
+get count
+
+ipod->dock
+mode:10 command:4,90 params:1D,2,2,19,0,0,0,42,9A,54,81,1,0,5D, csum:75 [NG expected 8]
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,57, csum:85 [OK]
+switch to item
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,59, csum:83 [OK]
+switch to item
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:FF [NG expected DB]
+get count
+
+ipod->dock
+mode:202 command:4,D4 params:E8,FE,55,82,0,1,4,0,1,0,0,17,DE,55, csum:82 [NG expected 40]
+
+dock->ipod
+mode:4 command:0,7F params:FF,55,4,4,4, csum:0 [NG expected 15]
+・・・・・・・・??
+
+ipod->dock
+mode:4 command:0,19 params:0,0,5A,19, csum:2 [NG expected 69]
+count response
+
+dock->ipod
+mode:4 command:0,17 params:1,0,0,0,62, csum:7A [OK]
+switch to item
+
+dock->ipod
+mode:4 command:0,18 params:5, csum:FF [NG expected DB]
+get count
+
+dock->ipod
+mode:4 command:0,16 params: csum:E3 [OK]
+switch to main library
+
+dock->ipod
+mode:4 command:0,FF params: csum:55 [NG expected FA]
+ready
+
+ipod->dock
+mode:4 command:0,19 params:0,0,1,FD, csum:DE [OK]
+count response
+
+dock->ipod
+mode:4 command:0,18 params:4, csum:DC [OK]
+get count
+
+dock->ipod
+mode:4 command:0,32 params:0,0,1,0,80,0,37,0,0,0,20, csum:E4 [OK]
+picture block
+
+ready
+
+ipod->dock
+mode:4 command:0,1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ready
+
+ipod->dock
+mode:4 command:0,1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ready
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,12,B0, csum:7 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ready
+
+ipod->dock
+mode:4 command:0,1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,14,B8, csum:FD [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,16,A6, csum:D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,18,7A, csum:37 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1A,82, csum:2D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1C,70, csum:3D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1E,5E, csum:4D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,20,4C, csum:5D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,22,20, csum:87 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,24,28, csum:7D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,26,16, csum:8D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,27,EA, csum:B8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,29,F2, csum:AE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2B,E0, csum:BE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2D,CE, csum:CE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2F,BC, csum:DE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,31,90, csum:8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,33,98, csum:FE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,35,86, csum:E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,37,5A, csum:38 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,39,62, csum:2E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3B,97, csum:F7 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3D,6B, csum:21 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3F,73, csum:17 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,41,47, csum:41 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,43,4F, csum:37 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,45,3D, csum:47 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,47,11, csum:71 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,49,19, csum:67 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4B,7, csum:77 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4C,DB, csum:A2 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4E,E3, csum:98 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,50,B7, csum:C2 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,52,BF, csum:B8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,54,AD, csum:C8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,56,81, csum:F2 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,58,89, csum:E8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,5A,77, csum:F8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,5C,4B, csum:22 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,5E,53, csum:18 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,60,27, csum:42 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,62,15, csum:52 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,64,1D, csum:48 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,65,F1, csum:73 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,67,F9, csum:69 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,69,E7, csum:79 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:3, csum:CC [OK]
+playback control cmdskip++
+
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,19, csum:B3 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,19, csum:BC [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,19, csum:BA [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,19, csum:B8 [OK]
+get song album
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,56, csum:71 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,2A, csum:9B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,32, csum:91 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,20, csum:A1 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,E, csum:B1 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,C,70, csum:4D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,E,92, csum:29 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,10,CE, csum:EB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,12,D6, csum:E1 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,15,60, csum:54 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,17,B6, csum:FC [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:3, csum:CC [OK]
+playback control cmdskip++
+
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,1A, csum:B2 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,1A, csum:BB [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,1A, csum:B9 [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,1A, csum:B7 [OK]
+get song album
+
+ipod->dock
+mode:0 command:21,B9 params:D1,25,AB,17,56,40,E5,88,10,A4,50,B6,6F,73,A1,95,5,FD,FF,51,2,42,2B,D6,2E,DD,3D,20,53,65,37,65,6E,0,4,FF,55,8,4,0,27,4,0,0,2,56,71,FF,55,8,4,0,27,4,0,0,4,44,81,FF,55,8,4,0, csum:27 [NG expected 89]
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,54, csum:6D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,5C, csum:63 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,C,98, csum:25 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,E,E3, csum:D8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,10,D1, csum:E8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,12,BF, csum:F8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,14,E1, csum:D4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,16,CF, csum:E4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,19,25, csum:8B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1A,F9, csum:B6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1D,4F, csum:5D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1F,57, csum:53 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,21,5F, csum:49 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,23,67, csum:3F [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,0, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,D0, csum:F9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,F2, csum:D5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,FA, csum:CB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,E8, csum:DB [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,19, csum:B3 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,19, csum:BC [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,19, csum:BA [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,19, csum:B8 [OK]
+get song album
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,B6, csum:13 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,A4, csum:23 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,92, csum:33 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,80, csum:43 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,6E, csum:53 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,5C, csum:63 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,C,30, csum:8D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,E,38, csum:83 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,10,26, csum:93 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,12,14, csum:A3 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,14,2, csum:B3 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,15,F0, csum:C4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,17,DE, csum:D4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,19,CC, csum:E4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1B,BA, csum:F4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1D,C2, csum:EA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1F,E4, csum:C6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,22,6, csum:A1 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,23,F4, csum:B2 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,26,4A, csum:59 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,29,8, csum:98 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2B,E0, csum:BE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2D,E8, csum:B4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2F,F0, csum:AA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,32,94, csum:3 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,34,9C, csum:F9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,36,D8, csum:BB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,38,E0, csum:B1 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3B,1C, csum:72 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3C,F0, csum:9D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3E,F8, csum:93 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,41,0, csum:88 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,43,8, csum:7E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,45,10, csum:74 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,47,18, csum:6A [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,49,20, csum:60 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4B,28, csum:56 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4D,30, csum:4C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4F,38, csum:42 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,51,40, csum:38 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,53,AC, csum:CA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,55,CE, csum:A6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,57,D6, csum:9C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,59,DE, csum:92 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,5C,1A, csum:53 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,5E,22, csum:49 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,60,5E, csum:B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,62,4C, csum:1B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,64,54, csum:11 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,66,C4, csum:9F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,69,1A, csum:46 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6B,22, csum:3C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6D,44, csum:18 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6F,4C, csum:E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,71,54, csum:4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,73,5C, csum:FA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,75,64, csum:F0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,77,BA, csum:98 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,7A,2A, csum:25 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,7C,4C, csum:1 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,7E,54, csum:F7 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,80,AA, csum:9F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,83,4E, csum:F8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,85,56, csum:EE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,87,44, csum:FE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,89,66, csum:DA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8B,54, csum:EA [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:9 command:1,62 params:FF,55,8,4,0,27,4,0,0,0,0,C9,FF, csum:55 [NG expected 31]
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3,C, csum:BA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,5,2E, csum:96 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,7,50, csum:72 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,9,58, csum:68 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,B,46, csum:78 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,D,9C, csum:20 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,10,26, csum:93 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,12,2E, csum:89 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,14,36, csum:7F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,16,58, csum:5B [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,0, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1,BA, csum:E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3,DC, csum:EA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,66, csum:5D [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,18, csum:BD [OK]
+get song title
+
+ipod->dock
+mode:0 command:11,2 params:4, csum:FE [NG expected E5]
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,18, csum:BB [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,18, csum:B9 [OK]
+get song album
+
+ready
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,13,4C, csum:6A [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,15,3A, csum:7A [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,17,28, csum:8A [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,19,16, csum:9A [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1B,4, csum:AA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1D,40, csum:6C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1F,48, csum:62 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,21,50, csum:58 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,23,58, csum:4E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,25,60, csum:44 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,27,82, csum:20 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,29,F2, csum:AE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2B,E0, csum:BE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2E,1C, csum:7F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,30,3E, csum:5B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,33,30, csum:66 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,35,D4, csum:C0 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,0, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,8, csum:BF [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,AC, csum:19 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,9A, csum:29 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,D6, csum:EB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,B,7A, csum:44 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,D,9C, csum:20 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,F,8A, csum:30 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,11,C6, csum:F2 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,13,CE, csum:E8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,15,BC, csum:F8 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,0, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,68, csum:61 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,8A, csum:3D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,C6, csum:FF [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,7,2, csum:C0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,9,DA, csum:E6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,B,C8, csum:F6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,E,4, csum:B7 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,10,40, csum:79 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,12,62, csum:55 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,14,84, csum:31 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,16,F4, csum:BF [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,19,64, csum:4C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1B,52, csum:5C [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1D,5A, csum:52 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:1 command:2,28 params:89,FF,55, csum:8 [NG expected F2]
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1,1E, csum:AA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3,26, csum:A0 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,17, csum:B5 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,17, csum:BE [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,17, csum:BC [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,17, csum:BA [OK]
+get song album
+
+ipod->dock
+mode:26 command:7A,5B params:96,B,AD,AD,59,45,61,B1,95,4,FE,D6,12,40, csum:49 [NG expected 96]
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1,4, csum:C4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,F2, csum:D5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,E0, csum:E5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,CE, csum:F5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,D6, csum:EB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,AA, csum:15 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,C,98, csum:25 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,E,A0, csum:1B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,10,74, csum:45 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,12,7C, csum:3B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,14,50, csum:65 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,16,3E, csum:75 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,18,46, csum:6B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1A,1A, csum:95 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1C,22, csum:8B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1E,C6, csum:E5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,20,9A, csum:F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,22,BC, csum:EB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,24,AA, csum:FB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,27,4E, csum:54 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,0, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,9C, csum:2D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3,26, csum:A0 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,16, csum:B6 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,16, csum:BF [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,16, csum:BD [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,16, csum:BB [OK]
+get song album
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,B6, csum:13 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,8A, csum:3D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,92, csum:33 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,80, csum:43 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,6E, csum:53 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,5C, csum:63 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,C,30, csum:8D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,E,38, csum:83 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,10,26, csum:93 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,11,FA, csum:BE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,14,2, csum:B3 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,15,F0, csum:C4 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,17,C4, csum:EE [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1A,0, csum:AF [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1B,EE, csum:C0 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1E,10, csum:9B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,20,18, csum:91 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,22,3A, csum:6D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,24,28, csum:7D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,26,64, csum:3F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,28,86, csum:1B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2B,10, csum:8E [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,0, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1,A0, csum:28 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3,DC, csum:EA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,18, csum:AB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,20, csum:A1 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,28, csum:97 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,C,30, csum:8D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,E,52, csum:69 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd is 0(SUCCESS)
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,0, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1,EE, csum:DA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,78, csum:4D [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,B4, csum:F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,F0, csum:D1 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,F8, csum:C7 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,D,34, csum:88 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,F,BE, csum:FC [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,11,E0, csum:D8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,14,2, csum:B3 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,16,24, csum:8F [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,18,2C, csum:85 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1A,4E, csum:61 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,0,0, csum:C9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2,22, csum:A5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,44, csum:81 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,29 params:4, csum:CB [OK]
+playback control cmdskip--
+
+
+ipod->dock
+mode:4 command:0,27 params:1,0,0,0,15, csum:B7 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,20 params:0,0,0,15, csum:C0 [OK]
+get song title
+
+dock->ipod
+mode:4 command:0,22 params:0,0,0,15, csum:BE [OK]
+get song artist
+
+dock->ipod
+mode:4 command:0,24 params:0,0,0,15, csum:BC [OK]
+get song album
+
+ipod->dock
+mode:42 command:A2,85 params:AB,16,2A,30,67,68,D1,D1,5,CA,AE,59,59,74, csum:3F [NG expected 6F]
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1,1E, csum:AA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,3,C, csum:BA [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,4,FA, csum:CB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,6,E8, csum:DB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,8,D6, csum:EB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,A,C4, csum:FB [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,C,B2, csum:B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,E,A0, csum:1B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,10,8E, csum:2B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,12,7C, csum:3B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,14,6A, csum:4B [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,16,8C, csum:27 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,18,C8, csum:E9 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1A,D0, csum:DF [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1D,5A, csum:52 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,1F,7C, csum:2E [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,21,9E, csum:A [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,23,C0, csum:E6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,25,C8, csum:DC [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,27,D0, csum:D2 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,29,D8, csum:C8 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2C,14, csum:89 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,2F,6, csum:94 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,30,F4, csum:A5 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,33,52, csum:44 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,35,8E, csum:6 [OK]
+elapsed time is:
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,37,7C, csum:16 [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,1C params: csum:DD [OK]
+get time/status
+
+dock->ipod
+mode:4 command:0,29 params:1, csum:CE [OK]
+playback control cmdplay/pause
+
+
+dock->ipod
+mode:4 command:0,1C params: csum:DD [OK]
+get time/status
+
+ipod->dock
+mode:4 command:0,27 params:4,0,0,39,2, csum:8E [OK]
+elapsed time is:
+
+dock->ipod
+mode:4 command:0,1C params: csum:DD [OK]
+get time/status
+
+dock->ipod
+mode:4 command:0,1C params: csum:DD [OK]
+get time/status
+

@@ -1,0 +1,981 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2015.06.22 17:37:01 =~=~=~=~=~=~=~=~=~=~=~=
+ready
+
+dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+
+dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+
+dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,35, csum:A0 [OK]
+get song title
+
+dock->ipod
+size:7 mode:255 command:0x4,0x0 params:22,0,0,0, csum:35 [NG expected D4]
+
+dock->ipod
+size:3 mode:0 command:0x1,0x4 params: csum:F8 [OK]
+switch to mode 4
+
+dock->ipod
+size:2 mode:0 command:0x5,0x0 params: csum:F9 [OK]
+switch to mode 4
+
+dock->ipod
+size:3 mode:4 command:0x0,0x12 params: csum:E7 [OK]
+get ipod size
+
+dock->ipod
+size:3 mode:4 command:0x0,0x2C params: csum:CD [OK]
+get shuffle mode
+
+dock->ipod
+size:3 mode:4 command:0x0,0x33 params: csum:C6 [OK]
+get pic size?
+
+dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:1, csum:DF [OK]
+get count of playlists
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,0, csum:DC [OK]
+switch to playlist #0
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1, csum:DB [OK]
+switch to playlist #1
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2, csum:DA [OK]
+switch to playlist #2
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3, csum:D9 [OK]
+switch to playlist #3
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4, csum:D8 [OK]
+switch to playlist #4
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5, csum:D7 [OK]
+switch to playlist #5
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,6, csum:D6 [OK]
+switch to playlist #6
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,7, csum:D5 [OK]
+switch to playlist #7
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,8, csum:D4 [OK]
+switch to playlist #8
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,9, csum:D3 [OK]
+switch to playlist #9
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,A, csum:D2 [OK]
+switch to playlist #10
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,B, csum:D1 [OK]
+switch to playlist #11
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,C, csum:D0 [OK]
+switch to playlist #12
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,D, csum:CF [OK]
+switch to playlist #13
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,E, csum:CE [OK]
+switch to playlist #14
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,F, csum:CD [OK]
+switch to playlist #15
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,10, csum:CC [OK]
+switch to playlist #16
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,11, csum:CB [OK]
+switch to playlist #17
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,12, csum:CA [OK]
+switch to playlist #18
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,13, csum:C9 [OK]
+switch to playlist #19
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,14, csum:C8 [OK]
+switch to playlist #20
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,15, csum:C7 [OK]
+switch to playlist #21
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,16, csum:C6 [OK]
+switch to playlist #22
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,17, csum:C5 [OK]
+switch to playlist #23
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,18, csum:C4 [OK]
+switch to playlist #24
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,19, csum:C3 [OK]
+switch to playlist #25
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1A, csum:C2 [OK]
+switch to playlist #26
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1B, csum:C1 [OK]
+switch to playlist #27
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1C, csum:C0 [OK]
+switch to playlist #28
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1D, csum:BF [OK]
+switch to playlist #29
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1E, csum:BE [OK]
+switch to playlist #30
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1F, csum:BD [OK]
+switch to playlist #31
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,20, csum:BC [OK]
+switch to playlist #32
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,21, csum:BB [OK]
+switch to playlist #33
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,22, csum:BA [OK]
+switch to playlist #34
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,23, csum:B9 [OK]
+switch to playlist #35
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,24, csum:B8 [OK]
+switch to playlist #36
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,25, csum:B7 [OK]
+switch to playlist #37
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,26, csum:B6 [OK]
+switch to playlist #38
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,27, csum:B5 [OK]
+switch to playlist #39
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,28, csum:B4 [OK]
+switch to playlist #40
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,29, csum:B3 [OK]
+switch to playlist #41
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2A, csum:B2 [OK]
+switch to playlist #42
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2B, csum:B1 [OK]
+switch to playlist #43
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2C, csum:B0 [OK]
+switch to playlist #44
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2D, csum:AF [OK]
+switch to playlist #45
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2E, csum:AE [OK]
+switch to playlist #46
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2F, csum:AD [OK]
+switch to playlist #47
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,30, csum:AC [OK]
+switch to playlist #48
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,31, csum:AB [OK]
+switch to playlist #49
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,32, csum:AA [OK]
+switch to playlist #50
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,33, csum:A9 [OK]
+switch to playlist #51
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,34, csum:A8 [OK]
+switch to playlist #52
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,35, csum:A7 [OK]
+switch to playlist #53
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,36, csum:A6 [OK]
+switch to playlist #54
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,37, csum:A5 [OK]
+switch to playlist #55
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,38, csum:A4 [OK]
+switch to playlist #56
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,39, csum:A3 [OK]
+switch to playlist #57
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3A, csum:A2 [OK]
+switch to playlist #58
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3B, csum:A1 [OK]
+switch to playlist #59
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3C, csum:A0 [OK]
+switch to playlist #60
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3D, csum:9F [OK]
+switch to playlist #61
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3E, csum:9E [OK]
+switch to playlist #62
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3F, csum:9D [OK]
+switch to playlist #63
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,40, csum:9C [OK]
+switch to playlist #64
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,41, csum:9B [OK]
+switch to playlist #65
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,42, csum:9A [OK]
+switch to playlist #66
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,43, csum:99 [OK]
+switch to playlist #67
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,44, csum:98 [OK]
+switch to playlist #68
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,45, csum:97 [OK]
+switch to playlist #69
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,46, csum:96 [OK]
+switch to playlist #70
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,47, csum:95 [OK]
+switch to playlist #71
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,48, csum:94 [OK]
+switch to playlist #72
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,49, csum:93 [OK]
+switch to playlist #73
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4A, csum:92 [OK]
+switch to playlist #74
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4B, csum:91 [OK]
+switch to playlist #75
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4C, csum:90 [OK]
+switch to playlist #76
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4D, csum:8F [OK]
+switch to playlist #77
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4E, csum:8E [OK]
+switch to playlist #78
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4F, csum:8D [OK]
+switch to playlist #79
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,50, csum:8C [OK]
+switch to playlist #80
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,51, csum:8B [OK]
+switch to playlist #81
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,52, csum:8A [OK]
+switch to playlist #82
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,53, csum:89 [OK]
+switch to playlist #83
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,54, csum:88 [OK]
+switch to playlist #84
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,55, csum:87 [OK]
+switch to playlist #85
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,56, csum:86 [OK]
+switch to playlist #86
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,57, csum:85 [OK]
+switch to playlist #87
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,58, csum:84 [OK]
+switch to playlist #88
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,59, csum:83 [OK]
+switch to playlist #89
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5A, csum:82 [OK]
+switch to playlist #90
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5B, csum:81 [OK]
+switch to playlist #91
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5C, csum:80 [OK]
+switch to playlist #92
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5D, csum:7F [OK]
+switch to playlist #93
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5E, csum:7E [OK]
+switch to playlist #94
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,5F, csum:7D [OK]
+switch to playlist #95
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,60, csum:7C [OK]
+switch to playlist #96
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,61, csum:7B [OK]
+switch to playlist #97
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,62, csum:7A [OK]
+switch to playlist #98
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,63, csum:79 [OK]
+switch to playlist #99
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,64, csum:78 [OK]
+switch to playlist #100
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+
+dock->ipod
+size:4 mode:4 command:0x0,0x31 params:2, csum:C5 [OK]
+set repeat mode
+
+dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+
+dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+
+dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+
+dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+
+dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,35, csum:A0 [OK]
+get song title
+
+dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,35, csum:9E [OK]
+get song artist
+
+dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,35, csum:9C [OK]
+get song album
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:2, csum:DE [OK]
+get count of artists
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:3, csum:DD [OK]
+get count of albums
+
+dock->ipod
+size:4 mode:4 command:0x0,0x18 params:4, csum:DC [OK]
+get count of genres
+
+dock->ipod
+size:14 mode:4 command:0x0,0x32 params:0,0,1,0,80,0,37,0,0,0,20, csum:E4 [OK]
+picture block
+
+dock->ipod
+size:0 mode:85 command:0x0,0x1 params: csum:0 [OK]
+
+dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,36, csum:9F [OK]
+get song title
+
+dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,36, csum:9D [OK]
+get song artist
+
+dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,36, csum:9B [OK]
+get song album
+
+dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++
+
+dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,37, csum:9E [OK]
+get song title
+
+dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,37, csum:9C [OK]
+get song artist
+
+dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,37, csum:9A [OK]
+get song album
+
+dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+
+dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
