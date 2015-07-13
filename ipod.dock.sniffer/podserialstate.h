@@ -319,6 +319,7 @@ class PodserialState {
 
   //one byte and one number (polling/track has changed message...)
   void PodserialState::send_response(byte mode, byte cmdbyte1, byte cmdbyte2, byte pollingbyte, uint32_t num1) {
+    if (!send_responses) {return;}
     sendHeader();
     sendByte(1 + 2 + 1 + 4);      //length (1 mode byte + 2 cmd bytes + 1 byte + 4byte int)
     sendByte(mode);
