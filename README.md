@@ -7,5 +7,5 @@ It will support audio streaming over A2DP and remote control over AVRCP and also
 
 Some code/knowledge borrowed/stolen from the following:
 
-Arduino library for controlling ipods: https://github.com/finsprings/arduinaap
-BC127 Bluetooth chip arduino library from sparkfun: https://github.com/sparkfun/SparkFun_BC127_Bluetooth_Module_Arduino_Library/
+* Arduino library for controlling ipods: https://github.com/finsprings/arduinaap
+* BC127 Bluetooth chip arduino library from sparkfun: https://github.com/sparkfun/SparkFun_BC127_Bluetooth_Module_Arduino_Library/
