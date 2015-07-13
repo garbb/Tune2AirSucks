@@ -12,7 +12,7 @@ extern bool gotnewAlbum = false;
 extern uint32_t albumartistWaitstart = 0;
 const uint32_t albumartistTO = 500; //ms
 extern uint32_t playlistpos = 50;
-extern uint32_t trackLength = 0;
+extern uint32_t trackLength = 3558734;  //nearly 1hr (in case we can't get this info due to older AVRCP)
 extern uint32_t trackstarttime = 0;
 extern uint32_t accumTrackPlaytime = 0;
 enum PlayingState

@@ -1,0 +1,4225 @@
+1068718 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+1068821 dock->ipod
+size:3 mode:0 command:0x1,0x4 params: csum:F8 [OK]
+switch to mode 4
+
+1069078 dock->ipod
+size:2 mode:0 command:0x5,0x0 params: csum:F9 [OK]
+switch to mode 4
+
+1069335 dock->ipod
+size:3 mode:4 command:0x0,0x12 params: csum:E7 [OK]
+get ipod size
+
+1072375 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+1075417 dock->ipod
+size:2 mode:0 command:0x5,0x0 params: csum:F9 [OK]
+switch to mode 4
+
+1075431 ipod->dock
+size:4 mode:0 command:0x2,0x0 params:5, csum:F5 [OK]
+
+1075674 dock->ipod
+size:3 mode:4 command:0x0,0x12 params: csum:E7 [OK]
+get ipod size
+
+1075687 ipod->dock
+size:5 mode:4 command:0x0,0x13 params:1,E, csum:D5 [OK]
+ipod size response
+
+1075692 dock->ipod
+size:3 mode:4 command:0x0,0x2C params: csum:CD [OK]
+get shuffle mode
+
+1075707 ipod->dock
+size:4 mode:4 command:0x0,0x2D params:0, csum:CB [OK]
+shuffle mode response
+
+1075712 dock->ipod
+size:3 mode:4 command:0x0,0x33 params: csum:C6 [OK]
+get pic size?
+
+1075730 ipod->dock
+size:8 mode:4 command:0x0,0x34 params:0,A6,0,4C,1, csum:CD [OK]
+pic size response?
+
+1075735 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+
+1075749 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,16, csum:DF [OK]
+FEEDBACK for switch to main library is 0(SUCCESS)
+
+1075755 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+1075769 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,4, csum:D8 [OK]
+count response
+
+1075774 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:1, csum:DF [OK]
+get count of playlists
+
+1075790 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,4, csum:D8 [OK]
+count response
+
+1075798 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,0, csum:DC [OK]
+switch to playlist #0
+
+1075810 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+1075816 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+1075830 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,4, csum:D8 [OK]
+count response
+
+1075837 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1, csum:DB [OK]
+switch to playlist #1
+
+1075850 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+1075855 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+1075870 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,4, csum:D8 [OK]
+count response
+
+1075878 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2, csum:DA [OK]
+switch to playlist #2
+
+1075890 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+1075896 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+1075910 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,4, csum:D8 [OK]
+count response
+
+1075917 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3, csum:D9 [OK]
+switch to playlist #3
+
+1075931 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,17, csum:DE [OK]
+FEEDBACK for switch to  is 0(SUCCESS)
+
+1075936 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+1075950 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,4, csum:D8 [OK]
+count response
+
+1075955 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+
+1075973 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,26, csum:CF [OK]
+FEEDBACK for polling start/stop is 0(SUCCESS)
+
+1075978 dock->ipod
+size:4 mode:4 command:0x0,0x31 params:2, csum:C5 [OK]
+set repeat mode
+
+1075979 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:1,0,0,0,1, csum:CB [OK]
+polling response Track changed to #1
+
+1075993 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,31, csum:C4 [OK]
+FEEDBACK for set repeat mode is 0(SUCCESS)
+
+1075998 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+
+1076013 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,26, csum:CF [OK]
+FEEDBACK for polling start/stop is 0(SUCCESS)
+
+1076018 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+
+1076020 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:1,0,0,0,1, csum:CB [OK]
+polling response Track changed to #1
+
+1076033 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,16, csum:DF [OK]
+FEEDBACK for switch to main library is 0(SUCCESS)
+
+1076039 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+1076057 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,36,4D,4E,0,0,0,0,2, csum:0 [OK]
+time/status response: track length:3558734ms elapsed time:0ms status:paused
+
+1076063 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+
+1076074 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1076079 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+1076080 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2,EE, csum:D9 [OK]
+polling response elapsed time is:750
+
+1076098 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,36,4D,4E,0,0,2,EE,1, csum:11 [OK]
+time/status response: track length:3558734ms elapsed time:750ms status:playing
+
+1076103 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+
+1076120 ipod->dock
+size:7 mode:4 command:0x0,0x1F params:0,0,0,1, csum:D5 [OK]
+playlist position is 1
+
+1076128 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,1, csum:D4 [OK]
+get title of song #1
+
+1076148 ipod->dock
+size:8 mode:4 command:0x0,0x21 params:50,72,65,76,0, csum:36 [OK]
+title response:"Prev"
+
+1076157 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,1, csum:D2 [OK]
+get artist of song #1
+
+1076168 ipod->dock
+size:7 mode:4 command:0x0,0x23 params:31,32,33,0, csum:3C [OK]
+artist response:"123"
+
+1076176 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,1, csum:D0 [OK]
+get album of song #1
+
+1076187 ipod->dock
+size:7 mode:4 command:0x0,0x25 params:31,32,33,0, csum:3A [OK]
+album response:"123"
+
+1076193 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+
+1076206 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,4, csum:D8 [OK]
+count response
+
+1076212 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:2, csum:DE [OK]
+get count of artists
+
+1076228 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,4, csum:D8 [OK]
+count response
+
+1076233 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:3, csum:DD [OK]
+get count of albums
+
+1076248 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,4, csum:D8 [OK]
+count response
+
+1076253 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:4, csum:DC [OK]
+get count of genres
+
+1076269 ipod->dock
+size:7 mode:4 command:0x0,0x19 params:0,0,0,4, csum:D8 [OK]
+count response
+
+1076281 dock->ipod
+size:14 mode:4 command:0x0,0x32 params:0,0,1,0,80,0,37,0,0,0,20, csum:E4 [OK]
+picture block
+
+1076294 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+1076579 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1076589 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,FF,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,0,0,0,0,0,FF,C0,0,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,0,3,FF,0,0,0,3,FF,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,FC,0,0,0,0,0,0,0,F,FC,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3F,FF,FF,FC,0,0,0,0,0,0,0,0,3F,F0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,3,FF,FF,FC,0,0,0,0,0,0,0,0,0,FF,F0,0,0,0,0,0,0,0,FF,FF,FF,C0,0,0,0,0,0,0,3F,FF,FF,0,0,0,0,0,0,0,0,0,0,FF,C0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3,FF,0,0,0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,3F,FF,FC,0,0,0,0,0,0,0,0,0,0,F,FC,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,0,0,0,3,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,3F,F0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,C0,0,0,3F,FF,FF,0,0,0,0,0,0,0,0,0,0,0,FF,C0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FC,0,0,FF,FF,F0,0,F,FF,C0,3F,FC,3,FF,CF,FC,0,FF,CF,FF,FF,FF,F,FF,FF,FF,3,FF,FF,FF,F,FF,FF,0, csum:11 [OK]
+picture block
+
+1076636 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+1076931 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,2,3,FF,FF,0,0,3F,FF,C0,F,FC,3F,FF,F,FF,3,FF,F,FF,FF,FC,3F,FF,FF,FF,F,FF,FF,FF,3,FF,FF,C0,F,FF,FF,0,0,3F,FF,C0,F,FF,3F,FF,3,FF,F,FC,F,FF,FF,FC,FF,FF,FF,FF,3F,FF,FF,FF,0,3F,FF,F0,3F,FF,F0,0,0,FF,FF,C0,3,FF,FF,F0,3,FF,FF,F0,F,FF,FF,FC,FF,FF,FF,FF,3F,FF,FF,FF,0,F,FF,FC,3F,FF,F0,0,0,FF,FF,C0,0,FF,FF,C0,0,3F,FF,C0,F,FF,FF,F0,FF,FF,FF,FC,3F,FF,FF,FC,0,F,FF,FC,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,C0,0,3,FC,3F,C0,0,3F,FC,0,0,3F,FC,0,F,FF,FF,F0,FF,FF,FF,C0,FF,FF,FF,C0,0,3,FF,FF,FF,FF,0,0,F,FC,3F,C0,0,3F,FC,0,0,3F,FC,0,3F,FF,FF,F0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,0,0,F,F0,3F,C0,0,FF,FC,0,0,FF,FC,0,3F,FF,FF,F0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,0,0,3F,F0,3F,C0,3,FF,FC,0,3,FF,FF,0,3F,FF,FF,C0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,C0,0,3F,FF,FF,C0,3,FF,FF,0,F,FF,FF,0,3F,C0,0,0,0,0,3F,F0,0,0,3F,F0,0,3,FF,FF,FF,FF,C0,0,3F,FF,FF,C0,F,FF,FF,C0,F,FF,FF,0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,3,FF,FC,3F,FF,F0,0,FF,FF,FF,C0,3F,F3,FF,C0,3F,FC,FF,C0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,F,FF,FC,3F,FF,FC,0,FF,C0,3F,C0,FF,F0,FF,C0,3F,F0,FF,C0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,3F,FF,FC,F,FF,FF,3,FF,0,3F,C0,FF,C0,FF,F0,FF,C0,3F,F0,FF,FF,FF,C3,FF,FF,FF,C3,FF,FF,FF,C0,0,FF,FF,F0,3,FF,FF,C3,FC,0,FF,C3,FF,0,3F,F3,FF,0,3F,F0,FF,FF,FF,3,FF,FF,FF,3,FF,FF,FF,0,3,FF,FF,C0, csum:55 [OK]
+picture block
+
+1076974 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+1077081 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1077269 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,3,0,FF,FF,F0,0,0,0,F,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,0,0,3F,FF,FF,0,0,0,3F,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FC,0,0,3,FF,FF,F0,0,0,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,C0,0,0,0,3F,FF,FC,0,0,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,0,0,0,0,F,FF,FF,F0,3,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,C0,0,0,0,0,0,3F,FF,FF,F,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FC,0,0,0,0,0,0,3,FF,FF,FF,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,C0,0,0,0,0,0,0,0,3,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,FF,C0,0,0,0,0,0,0,3,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,FF,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, csum:77 [OK]
+picture block
+
+1077312 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+1077514 dock->ipod
+size:325 mode:4 command:0x0,0x32 params:0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,C,C,0,0,0,0,0,C,0,0,0,0,C,C,0,0,C,C,0,C0,0,0,F,FC,0,0,0,0,0,0,0,0,F,3C,0,0,0,0,0,C,0,0,0,0,F,3C,0,0,C,C,3,C0,0,0,C,0,0,0,0,0,0,0,0,0,C,CC,3,F0,F,FC,3,CC,3,F0,0,0,C,CC,0,0,C,C,0,C0,0,0,F,F0,0,0,0,0,0,0,0,0,C,CC,0,C,0,30,C,3C,0,C,0,0,C,CC,0,0,C,C,0,C0,0,0,0,C,0,0,0,0,0,0,0,0,C,C,3,FC,0,C0,C,C,3,FC,0,0,C,C,0,0,C,C,0,C0,0,0,0,C,0,0,0,0,0,0,0,0,C,C,C,C,3,0,C,C,C,C,0,0,C,C,0,0,3,30,0,C0,3,C0,C,C,0,0,0,0,0,0,0,0,C,C,3,FC,F,FC,3,FC,3,FC,0,0,C,C,0,0,0,C0,3,F0,3,C0,3,F0,0,0,0,0,0,0,0, csum:99 [OK]
+picture block
+
+1077547 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,32, csum:C3 [OK]
+FEEDBACK for picture block is 0(SUCCESS)
+
+1077585 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1078087 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1078589 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1079091 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1079594 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1080096 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1080598 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1081102 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1081605 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1082107 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1B,58, csum:56 [OK]
+polling response elapsed time is:7000
+
+1082612 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1D,4C, csum:60 [OK]
+polling response elapsed time is:7500
+
+1083120 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1F,40, csum:6A [OK]
+polling response elapsed time is:8000
+
+1083625 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,21,34, csum:74 [OK]
+polling response elapsed time is:8500
+
+1084137 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,23,28, csum:7E [OK]
+polling response elapsed time is:9000
+
+1084639 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,25,1C, csum:88 [OK]
+polling response elapsed time is:9500
+
+1085143 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,27,10, csum:92 [OK]
+polling response elapsed time is:10000
+
+1085646 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,29,4, csum:9C [OK]
+polling response elapsed time is:10500
+
+1086152 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2A,F8, csum:A7 [OK]
+polling response elapsed time is:11000
+
+1086659 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2C,EC, csum:B1 [OK]
+polling response elapsed time is:11500
+
+1087162 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2E,E0, csum:BB [OK]
+polling response elapsed time is:12000
+
+1087672 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,30,D4, csum:C5 [OK]
+polling response elapsed time is:12500
+
+1088186 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,32,C8, csum:CF [OK]
+polling response elapsed time is:13000
+
+1088689 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,34,BC, csum:D9 [OK]
+polling response elapsed time is:13500
+
+1089195 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,36,B0, csum:E3 [OK]
+polling response elapsed time is:14000
+
+1089702 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,38,A4, csum:ED [OK]
+polling response elapsed time is:14500
+
+1090212 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3A,98, csum:F7 [OK]
+polling response elapsed time is:15000
+
+1090718 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3C,8C, csum:1 [OK]
+polling response elapsed time is:15500
+
+1091226 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3E,80, csum:B [OK]
+polling response elapsed time is:16000
+
+1091734 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,40,74, csum:15 [OK]
+polling response elapsed time is:16500
+
+1092240 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,42,68, csum:1F [OK]
+polling response elapsed time is:17000
+
+1092747 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,44,5C, csum:29 [OK]
+polling response elapsed time is:17500
+
+1093252 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,46,50, csum:33 [OK]
+polling response elapsed time is:18000
+
+1093759 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,48,44, csum:3D [OK]
+polling response elapsed time is:18500
+
+1094269 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4A,38, csum:47 [OK]
+polling response elapsed time is:19000
+
+1094774 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4C,2C, csum:51 [OK]
+polling response elapsed time is:19500
+
+1095277 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4E,20, csum:5B [OK]
+polling response elapsed time is:20000
+
+1095785 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,50,14, csum:65 [OK]
+polling response elapsed time is:20500
+
+1096286 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,52,8, csum:6F [OK]
+polling response elapsed time is:21000
+
+1096796 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,53,FC, csum:7A [OK]
+polling response elapsed time is:21500
+
+1097299 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,55,F0, csum:84 [OK]
+polling response elapsed time is:22000
+
+1097803 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,57,E4, csum:8E [OK]
+polling response elapsed time is:22500
+
+1098310 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,59,D8, csum:98 [OK]
+polling response elapsed time is:23000
+
+1098820 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5B,CC, csum:A2 [OK]
+polling response elapsed time is:23500
+
+1099324 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5D,C0, csum:AC [OK]
+polling response elapsed time is:24000
+
+1099837 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5F,B4, csum:B6 [OK]
+polling response elapsed time is:24500
+
+1100343 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,61,A8, csum:C0 [OK]
+polling response elapsed time is:25000
+
+1100850 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,63,9C, csum:CA [OK]
+polling response elapsed time is:25500
+
+1100966 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,32,9A,
+
+
+1100987 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1100994 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,65,90, csum:D4 [OK]
+polling response elapsed time is:26000
+
+1101504 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1102010 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1102518 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1103025 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1103235 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,31,9B,
+
+
+1103256 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1103263 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1103773 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1104282 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1104787 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1105292 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1105795 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1106302 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1106812 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1107315 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1107820 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1108326 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1108827 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1109336 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1109839 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1110344 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1B,58, csum:56 [OK]
+polling response elapsed time is:7000
+
+1110849 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1D,4C, csum:60 [OK]
+polling response elapsed time is:7500
+
+1111355 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1F,40, csum:6A [OK]
+polling response elapsed time is:8000
+
+1111856 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,21,34, csum:74 [OK]
+polling response elapsed time is:8500
+
+1112360 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,23,28, csum:7E [OK]
+polling response elapsed time is:9000
+
+1112871 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,25,1C, csum:88 [OK]
+polling response elapsed time is:9500
+
+1113373 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,27,10, csum:92 [OK]
+polling response elapsed time is:10000
+
+1113901 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,29,4, csum:9C [OK]
+polling response elapsed time is:10500
+
+1114406 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2A,F8, csum:A7 [OK]
+polling response elapsed time is:11000
+
+1114913 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2C,EC, csum:B1 [OK]
+polling response elapsed time is:11500
+
+1115420 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2E,E0, csum:BB [OK]
+polling response elapsed time is:12000
+
+1115924 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,30,D4, csum:C5 [OK]
+polling response elapsed time is:12500
+
+1116430 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,32,C8, csum:CF [OK]
+polling response elapsed time is:13000
+
+1116935 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,34,BC, csum:D9 [OK]
+polling response elapsed time is:13500
+
+1117437 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,36,B0, csum:E3 [OK]
+polling response elapsed time is:14000
+
+1117939 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,38,A4, csum:ED [OK]
+polling response elapsed time is:14500
+
+1118446 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3A,98, csum:F7 [OK]
+polling response elapsed time is:15000
+
+1118954 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3C,8C, csum:1 [OK]
+polling response elapsed time is:15500
+
+1119460 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3E,80, csum:B [OK]
+polling response elapsed time is:16000
+
+1119963 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,40,74, csum:15 [OK]
+polling response elapsed time is:16500
+
+1120469 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,42,68, csum:1F [OK]
+polling response elapsed time is:17000
+
+1120975 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,44,5C, csum:29 [OK]
+polling response elapsed time is:17500
+
+1121483 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,46,50, csum:33 [OK]
+polling response elapsed time is:18000
+
+1121988 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,48,44, csum:3D [OK]
+polling response elapsed time is:18500
+
+1122494 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4A,38, csum:47 [OK]
+polling response elapsed time is:19000
+
+1122999 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4C,2C, csum:51 [OK]
+polling response elapsed time is:19500
+
+1123506 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4E,20, csum:5B [OK]
+polling response elapsed time is:20000
+
+1124015 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,50,14, csum:65 [OK]
+polling response elapsed time is:20500
+
+1124523 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,52,8, csum:6F [OK]
+polling response elapsed time is:21000
+
+1125025 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,53,FC, csum:7A [OK]
+polling response elapsed time is:21500
+
+1125533 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,55,F0, csum:84 [OK]
+polling response elapsed time is:22000
+
+1126037 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,57,E4, csum:8E [OK]
+polling response elapsed time is:22500
+
+1126544 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,59,D8, csum:98 [OK]
+polling response elapsed time is:23000
+
+1127051 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5B,CC, csum:A2 [OK]
+polling response elapsed time is:23500
+
+1127558 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5D,C0, csum:AC [OK]
+polling response elapsed time is:24000
+
+1128068 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5F,B4, csum:B6 [OK]
+polling response elapsed time is:24500
+
+1128574 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,61,A8, csum:C0 [OK]
+polling response elapsed time is:25000
+
+1129081 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,63,9C, csum:CA [OK]
+polling response elapsed time is:25500
+
+1129593 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,65,90, csum:D4 [OK]
+polling response elapsed time is:26000
+
+1130098 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,67,84, csum:DE [OK]
+polling response elapsed time is:26500
+
+1130606 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,69,78, csum:E8 [OK]
+polling response elapsed time is:27000
+
+1131109 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6B,6C, csum:F2 [OK]
+polling response elapsed time is:27500
+
+1131613 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6D,60, csum:FC [OK]
+polling response elapsed time is:28000
+
+1132119 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6F,54, csum:6 [OK]
+polling response elapsed time is:28500
+
+1132625 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,71,48, csum:10 [OK]
+polling response elapsed time is:29000
+
+1133141 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,73,3C, csum:1A [OK]
+polling response elapsed time is:29500
+
+1133644 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,75,30, csum:24 [OK]
+polling response elapsed time is:30000
+
+1134149 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,77,24, csum:2E [OK]
+polling response elapsed time is:30500
+
+1134652 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,79,18, csum:38 [OK]
+polling response elapsed time is:31000
+
+1135163 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7B,C, csum:42 [OK]
+polling response elapsed time is:31500
+
+1135667 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7D,0, csum:4C [OK]
+polling response elapsed time is:32000
+
+1136173 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7E,F4, csum:57 [OK]
+polling response elapsed time is:32500
+
+1136680 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,80,E8, csum:61 [OK]
+polling response elapsed time is:33000
+
+1137192 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,82,DC, csum:6B [OK]
+polling response elapsed time is:33500
+
+1137698 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,84,D0, csum:75 [OK]
+polling response elapsed time is:34000
+
+1138200 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,86,C4, csum:7F [OK]
+polling response elapsed time is:34500
+
+1138710 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,88,B8, csum:89 [OK]
+polling response elapsed time is:35000
+
+1139212 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8A,AC, csum:93 [OK]
+polling response elapsed time is:35500
+
+1139720 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8C,A0, csum:9D [OK]
+polling response elapsed time is:36000
+
+1140232 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8E,94, csum:A7 [OK]
+polling response elapsed time is:36500
+
+1140734 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,90,88, csum:B1 [OK]
+polling response elapsed time is:37000
+
+1141246 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,92,7C, csum:BB [OK]
+polling response elapsed time is:37500
+
+1141757 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,94,70, csum:C5 [OK]
+polling response elapsed time is:38000
+
+1142263 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,96,64, csum:CF [OK]
+polling response elapsed time is:38500
+
+1142771 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,98,58, csum:D9 [OK]
+polling response elapsed time is:39000
+
+1143277 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9A,4C, csum:E3 [OK]
+polling response elapsed time is:39500
+
+1143784 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9C,40, csum:ED [OK]
+polling response elapsed time is:40000
+
+1144303 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9E,34, csum:F7 [OK]
+polling response elapsed time is:40500
+
+1144809 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A0,28, csum:1 [OK]
+polling response elapsed time is:41000
+
+1145318 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A2,1C, csum:B [OK]
+polling response elapsed time is:41500
+
+1145829 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A4,10, csum:15 [OK]
+polling response elapsed time is:42000
+
+1146336 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A6,4, csum:1F [OK]
+polling response elapsed time is:42500
+
+1146847 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A7,F8, csum:2A [OK]
+polling response elapsed time is:43000
+
+1147356 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A9,EC, csum:34 [OK]
+polling response elapsed time is:43500
+
+1147863 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,AB,E0, csum:3E [OK]
+polling response elapsed time is:44000
+
+1148372 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,AD,D4, csum:48 [OK]
+polling response elapsed time is:44500
+
+1148881 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,AF,C8, csum:52 [OK]
+polling response elapsed time is:45000
+
+1149388 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B1,BC, csum:5C [OK]
+polling response elapsed time is:45500
+
+1149893 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B3,B0, csum:66 [OK]
+polling response elapsed time is:46000
+
+1150403 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B5,A4, csum:70 [OK]
+polling response elapsed time is:46500
+
+1150906 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B7,98, csum:7A [OK]
+polling response elapsed time is:47000
+
+1151412 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B9,8C, csum:84 [OK]
+polling response elapsed time is:47500
+
+1151915 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,BB,80, csum:8E [OK]
+polling response elapsed time is:48000
+
+1152036 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,30,9C,
+
+
+1152058 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1152065 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,BD,74, csum:98 [OK]
+polling response elapsed time is:48500
+
+1152573 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1153082 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1153585 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1154088 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1154594 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1155102 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1155280 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,2F,9D,
+
+
+1155305 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1155311 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1155815 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1156325 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1156830 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1157341 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1157375 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,2E,9E,
+
+
+1157393 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1157400 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1157904 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1158415 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1158924 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1159427 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1159931 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1160443 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1160953 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1161461 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1161966 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1162473 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1162983 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1163485 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1163988 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1164497 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1B,58, csum:56 [OK]
+polling response elapsed time is:7000
+
+1165004 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1D,4C, csum:60 [OK]
+polling response elapsed time is:7500
+
+1165515 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1F,40, csum:6A [OK]
+polling response elapsed time is:8000
+
+1166021 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,21,34, csum:74 [OK]
+polling response elapsed time is:8500
+
+1166529 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,23,28, csum:7E [OK]
+polling response elapsed time is:9000
+
+1167040 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,25,1C, csum:88 [OK]
+polling response elapsed time is:9500
+
+1167545 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,27,10, csum:92 [OK]
+polling response elapsed time is:10000
+
+1168050 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,29,4, csum:9C [OK]
+polling response elapsed time is:10500
+
+1168554 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2A,F8, csum:A7 [OK]
+polling response elapsed time is:11000
+
+1169060 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2C,EC, csum:B1 [OK]
+polling response elapsed time is:11500
+
+1169563 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2E,E0, csum:BB [OK]
+polling response elapsed time is:12000
+
+1170068 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,30,D4, csum:C5 [OK]
+polling response elapsed time is:12500
+
+1170577 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,32,C8, csum:CF [OK]
+polling response elapsed time is:13000
+
+1171082 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,34,BC, csum:D9 [OK]
+polling response elapsed time is:13500
+
+1171588 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,36,B0, csum:E3 [OK]
+polling response elapsed time is:14000
+
+1172093 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,38,A4, csum:ED [OK]
+polling response elapsed time is:14500
+
+1172602 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3A,98, csum:F7 [OK]
+polling response elapsed time is:15000
+
+1173110 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3C,8C, csum:1 [OK]
+polling response elapsed time is:15500
+
+1173619 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3E,80, csum:B [OK]
+polling response elapsed time is:16000
+
+1174122 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,40,74, csum:15 [OK]
+polling response elapsed time is:16500
+
+1174626 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,42,68, csum:1F [OK]
+polling response elapsed time is:17000
+
+1175131 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,44,5C, csum:29 [OK]
+polling response elapsed time is:17500
+
+1175633 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,46,50, csum:33 [OK]
+polling response elapsed time is:18000
+
+1176138 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,48,44, csum:3D [OK]
+polling response elapsed time is:18500
+
+1176645 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4A,38, csum:47 [OK]
+polling response elapsed time is:19000
+
+1177154 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4C,2C, csum:51 [OK]
+polling response elapsed time is:19500
+
+1177660 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4E,20, csum:5B [OK]
+polling response elapsed time is:20000
+
+1178165 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,50,14, csum:65 [OK]
+polling response elapsed time is:20500
+
+1178670 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,52,8, csum:6F [OK]
+polling response elapsed time is:21000
+
+1179180 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,53,FC, csum:7A [OK]
+polling response elapsed time is:21500
+
+1179682 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,55,F0, csum:84 [OK]
+polling response elapsed time is:22000
+
+1180187 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,57,E4, csum:8E [OK]
+polling response elapsed time is:22500
+
+1180696 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,59,D8, csum:98 [OK]
+polling response elapsed time is:23000
+
+1181203 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5B,CC, csum:A2 [OK]
+polling response elapsed time is:23500
+
+1181706 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5D,C0, csum:AC [OK]
+polling response elapsed time is:24000
+
+1182215 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5F,B4, csum:B6 [OK]
+polling response elapsed time is:24500
+
+1182720 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,61,A8, csum:C0 [OK]
+polling response elapsed time is:25000
+
+1183223 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,63,9C, csum:CA [OK]
+polling response elapsed time is:25500
+
+1183726 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,65,90, csum:D4 [OK]
+polling response elapsed time is:26000
+
+1184237 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,67,84, csum:DE [OK]
+polling response elapsed time is:26500
+
+1184739 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,69,78, csum:E8 [OK]
+polling response elapsed time is:27000
+
+1185243 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6B,6C, csum:F2 [OK]
+polling response elapsed time is:27500
+
+1185748 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6D,60, csum:FC [OK]
+polling response elapsed time is:28000
+
+1186251 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6F,54, csum:6 [OK]
+polling response elapsed time is:28500
+
+1186759 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,71,48, csum:10 [OK]
+polling response elapsed time is:29000
+
+1187262 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,73,3C, csum:1A [OK]
+polling response elapsed time is:29500
+
+1187768 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,75,30, csum:24 [OK]
+polling response elapsed time is:30000
+
+1188275 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,77,24, csum:2E [OK]
+polling response elapsed time is:30500
+
+1188781 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,79,18, csum:38 [OK]
+polling response elapsed time is:31000
+
+1189282 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7B,C, csum:42 [OK]
+polling response elapsed time is:31500
+
+1189791 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7D,0, csum:4C [OK]
+polling response elapsed time is:32000
+
+1190300 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7E,F4, csum:57 [OK]
+polling response elapsed time is:32500
+
+1190806 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,80,E8, csum:61 [OK]
+polling response elapsed time is:33000
+
+1191312 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,82,DC, csum:6B [OK]
+polling response elapsed time is:33500
+
+1191820 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,84,D0, csum:75 [OK]
+polling response elapsed time is:34000
+
+1192325 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,86,C4, csum:7F [OK]
+polling response elapsed time is:34500
+
+1192832 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,88,B8, csum:89 [OK]
+polling response elapsed time is:35000
+
+1192922 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,2D,9F,
+
+
+1192940 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1192947 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8A,AC, csum:93 [OK]
+polling response elapsed time is:35500
+
+1193454 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1193957 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1194459 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1194476 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,2C,A0,
+
+
+1194492 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1194501 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1195004 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1195511 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1196018 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1196522 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1197025 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1197527 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1198038 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1198540 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1199048 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1199552 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1200067 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1200572 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1201081 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1201585 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1B,58, csum:56 [OK]
+polling response elapsed time is:7000
+
+1202088 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1D,4C, csum:60 [OK]
+polling response elapsed time is:7500
+
+1202594 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1F,40, csum:6A [OK]
+polling response elapsed time is:8000
+
+1202744 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,2B,A1,
+
+
+1202768 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1202774 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,21,34, csum:74 [OK]
+polling response elapsed time is:8500
+
+1203278 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1203783 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1204289 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1204447 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,2A,A2,
+
+
+1204471 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1204478 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1204982 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1205487 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1205996 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1206500 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1207006 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1207508 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1207731 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,29,A3,
+
+
+1207749 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1207760 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1208267 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1208768 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1209276 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1209780 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1210285 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1210792 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1211302 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1211807 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1212313 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1212820 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1213324 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1213829 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1214336 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1214841 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1B,58, csum:56 [OK]
+polling response elapsed time is:7000
+
+1215349 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1D,4C, csum:60 [OK]
+polling response elapsed time is:7500
+
+1215858 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1F,40, csum:6A [OK]
+polling response elapsed time is:8000
+
+1216079 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,28,A4,
+
+
+1216104 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1216111 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,21,34, csum:74 [OK]
+polling response elapsed time is:8500
+
+1216612 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1217117 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1217623 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1217678 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,27,A5,
+
+
+1217697 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1217708 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1218214 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1218720 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1219230 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1219743 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1220252 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1220759 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1221268 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1221772 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1222277 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1222791 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1223298 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1223803 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1224119 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,26,A6,
+
+
+1224146 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1224160 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1224667 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1225174 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1225680 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1225870 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+send header,8,4,0,27,1,0,0,0,25,A7,
+
+
+1225898 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1225908 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1226418 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1226925 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1227432 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1227941 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1228451 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1228957 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1229463 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1229968 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1230476 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1230982 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1231491 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1231994 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1232497 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1233003 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1B,58, csum:56 [OK]
+polling response elapsed time is:7000
+
+1233510 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1D,4C, csum:60 [OK]
+polling response elapsed time is:7500
+
+1234012 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1F,40, csum:6A [OK]
+polling response elapsed time is:8000
+
+1234520 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,21,34, csum:74 [OK]
+polling response elapsed time is:8500
+
+1235023 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,23,28, csum:7E [OK]
+polling response elapsed time is:9000
+
+1235532 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,25,1C, csum:88 [OK]
+polling response elapsed time is:9500
+
+1236040 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,27,10, csum:92 [OK]
+polling response elapsed time is:10000
+
+1236547 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,29,4, csum:9C [OK]
+polling response elapsed time is:10500
+
+1237053 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2A,F8, csum:A7 [OK]
+polling response elapsed time is:11000
+
+1237558 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2C,EC, csum:B1 [OK]
+polling response elapsed time is:11500
+
+1238060 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2E,E0, csum:BB [OK]
+polling response elapsed time is:12000
+
+1238567 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,30,D4, csum:C5 [OK]
+polling response elapsed time is:12500
+
+1239071 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,32,C8, csum:CF [OK]
+polling response elapsed time is:13000
+
+1239574 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,34,BC, csum:D9 [OK]
+polling response elapsed time is:13500
+
+1240082 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,36,B0, csum:E3 [OK]
+polling response elapsed time is:14000
+
+1240585 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,38,A4, csum:ED [OK]
+polling response elapsed time is:14500
+
+1241094 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3A,98, csum:F7 [OK]
+polling response elapsed time is:15000
+
+1241599 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3C,8C, csum:1 [OK]
+polling response elapsed time is:15500
+
+1242107 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3E,80, csum:B [OK]
+polling response elapsed time is:16000
+
+1245105 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+1247647 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,53,FC, csum:7A [OK]
+polling response elapsed time is:21500
+
+1248145 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+1248153 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,55,F0, csum:84 [OK]
+polling response elapsed time is:22000
+
+1248172 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,36,4D,4E,0,0,55,F0,1, csum:BC [OK]
+time/status response: track length:3558734ms elapsed time:22000ms status:playing
+
+1248178 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+
+1248196 ipod->dock
+size:7 mode:4 command:0x0,0x1F params:0,0,0,1, csum:D5 [OK]
+playlist position is 1
+
+1248204 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,1, csum:D4 [OK]
+get title of song #1
+
+1248227 ipod->dock
+size:8 mode:4 command:0x0,0x21 params:50,72,65,76,0, csum:36 [OK]
+title response:"Prev"
+
+1248234 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,1, csum:D2 [OK]
+get artist of song #1
+
+1248266 ipod->dock
+size:7 mode:4 command:0x0,0x23 params:31,32,33,0, csum:3C [OK]
+artist response:"123"
+
+1248274 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,1, csum:D0 [OK]
+get album of song #1
+
+1248291 ipod->dock
+size:7 mode:4 command:0x0,0x25 params:31,32,33,0, csum:3A [OK]
+album response:"123"
+
+1248661 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,58,DE, csum:93 [OK]
+polling response elapsed time is:22750
+
+1249185 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5A,D2, csum:9D [OK]
+polling response elapsed time is:23250
+
+1249689 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5C,C6, csum:A7 [OK]
+polling response elapsed time is:23750
+
+1250194 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5E,BA, csum:B1 [OK]
+polling response elapsed time is:24250
+
+1250700 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,60,AE, csum:BB [OK]
+polling response elapsed time is:24750
+
+1251208 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,62,A2, csum:C5 [OK]
+polling response elapsed time is:25250
+
+1251714 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,64,96, csum:CF [OK]
+polling response elapsed time is:25750
+
+1252219 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,66,8A, csum:D9 [OK]
+polling response elapsed time is:26250
+
+1252733 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,68,7E, csum:E3 [OK]
+polling response elapsed time is:26750
+
+1253238 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6A,72, csum:ED [OK]
+polling response elapsed time is:27250
+
+1253753 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6C,66, csum:F7 [OK]
+polling response elapsed time is:27750
+
+1254263 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6E,5A, csum:1 [OK]
+polling response elapsed time is:28250
+
+1254769 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,70,4E, csum:B [OK]
+polling response elapsed time is:28750
+
+1255281 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,72,42, csum:15 [OK]
+polling response elapsed time is:29250
+
+1255791 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,74,36, csum:1F [OK]
+polling response elapsed time is:29750
+
+1256297 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,76,2A, csum:29 [OK]
+polling response elapsed time is:30250
+
+1256805 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,78,1E, csum:33 [OK]
+polling response elapsed time is:30750
+
+1257328 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7A,12, csum:3D [OK]
+polling response elapsed time is:31250
+
+1257844 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7C,6, csum:47 [OK]
+polling response elapsed time is:31750
+
+1258349 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7D,FA, csum:52 [OK]
+polling response elapsed time is:32250
+
+1258859 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7F,EE, csum:5C [OK]
+polling response elapsed time is:32750
+
+1259369 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,81,E2, csum:66 [OK]
+polling response elapsed time is:33250
+
+1259875 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,83,D6, csum:70 [OK]
+polling response elapsed time is:33750
+
+1260383 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,85,CA, csum:7A [OK]
+polling response elapsed time is:34250
+
+1260890 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,87,BE, csum:84 [OK]
+polling response elapsed time is:34750
+
+1261399 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,89,B2, csum:8E [OK]
+polling response elapsed time is:35250
+
+1261907 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8B,A6, csum:98 [OK]
+polling response elapsed time is:35750
+
+1262414 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8D,9A, csum:A2 [OK]
+polling response elapsed time is:36250
+
+1265352 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+1265377 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,36,4D,4E,0,0,8D,9A,2, csum:D9 [OK]
+time/status response: track length:3558734ms elapsed time:36250ms status:paused
+
+1265383 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+
+1265405 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1265410 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+
+1265413 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,90,88, csum:B1 [OK]
+polling response elapsed time is:37000
+
+1265437 ipod->dock
+size:12 mode:4 command:0x0,0x1D params:0,36,4D,4E,0,0,90,88,1, csum:E9 [OK]
+time/status response: track length:3558734ms elapsed time:37000ms status:playing
+
+1265443 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+
+1265461 ipod->dock
+size:7 mode:4 command:0x0,0x1F params:0,0,0,1, csum:D5 [OK]
+playlist position is 1
+
+1265470 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,1, csum:D4 [OK]
+get title of song #1
+
+1265490 ipod->dock
+size:8 mode:4 command:0x0,0x21 params:50,72,65,76,0, csum:36 [OK]
+title response:"Prev"
+
+1265499 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,1, csum:D2 [OK]
+get artist of song #1
+
+1265517 ipod->dock
+size:7 mode:4 command:0x0,0x23 params:31,32,33,0, csum:3C [OK]
+artist response:"123"
+
+1265525 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,1, csum:D0 [OK]
+get album of song #1
+
+1265538 ipod->dock
+size:7 mode:4 command:0x0,0x25 params:31,32,33,0, csum:3A [OK]
+album response:"123"
+
+1265918 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,93,76, csum:C0 [OK]
+polling response elapsed time is:37750
+
+1266424 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,95,6A, csum:CA [OK]
+polling response elapsed time is:38250
+
+1266930 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,97,5E, csum:D4 [OK]
+polling response elapsed time is:38750
+
+1267437 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,99,52, csum:DE [OK]
+polling response elapsed time is:39250
+
+1267943 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9B,46, csum:E8 [OK]
+polling response elapsed time is:39750
+
+1268448 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9D,3A, csum:F2 [OK]
+polling response elapsed time is:40250
+
+1268954 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9F,2E, csum:FC [OK]
+polling response elapsed time is:40750
+
+1269462 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A1,22, csum:6 [OK]
+polling response elapsed time is:41250
+
+1269969 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A3,16, csum:10 [OK]
+polling response elapsed time is:41750
+
+1270477 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A5,A, csum:1A [OK]
+polling response elapsed time is:42250
+
+1270981 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A6,FE, csum:25 [OK]
+polling response elapsed time is:42750
+
+1271488 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A8,F2, csum:2F [OK]
+polling response elapsed time is:43250
+
+1271995 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,AA,E6, csum:39 [OK]
+polling response elapsed time is:43750
+
+1272500 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,AC,DA, csum:43 [OK]
+polling response elapsed time is:44250
+
+1273007 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,AE,CE, csum:4D [OK]
+polling response elapsed time is:44750
+
+1273515 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B0,C2, csum:57 [OK]
+polling response elapsed time is:45250
+
+1274020 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B2,B6, csum:61 [OK]
+polling response elapsed time is:45750
+
+1274525 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B4,AA, csum:6B [OK]
+polling response elapsed time is:46250
+
+1275034 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B6,9E, csum:75 [OK]
+polling response elapsed time is:46750
+
+1275540 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B8,92, csum:7F [OK]
+polling response elapsed time is:47250
+
+1276045 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,BA,86, csum:89 [OK]
+polling response elapsed time is:47750
+
+1276554 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,BC,7A, csum:93 [OK]
+polling response elapsed time is:48250
+
+1277060 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,BE,6E, csum:9D [OK]
+polling response elapsed time is:48750
+
+1277564 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C0,62, csum:A7 [OK]
+polling response elapsed time is:49250
+
+1278070 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C2,56, csum:B1 [OK]
+polling response elapsed time is:49750
+
+1278577 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C4,4A, csum:BB [OK]
+polling response elapsed time is:50250
+
+1279081 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C6,3E, csum:C5 [OK]
+polling response elapsed time is:50750
+
+1279592 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C8,32, csum:CF [OK]
+polling response elapsed time is:51250
+
+1280099 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,CA,26, csum:D9 [OK]
+polling response elapsed time is:51750
+
+1280602 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,CC,1A, csum:E3 [OK]
+polling response elapsed time is:52250
+
+1281109 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,CE,E, csum:ED [OK]
+polling response elapsed time is:52750
+
+1281619 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D0,2, csum:F7 [OK]
+polling response elapsed time is:53250
+
+1282124 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D1,F6, csum:2 [OK]
+polling response elapsed time is:53750
+
+1282630 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D3,EA, csum:C [OK]
+polling response elapsed time is:54250
+
+1283137 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D5,DE, csum:16 [OK]
+polling response elapsed time is:54750
+
+1283642 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D7,D2, csum:20 [OK]
+polling response elapsed time is:55250
+
+1284152 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D9,C6, csum:2A [OK]
+polling response elapsed time is:55750
+
+1284658 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,DB,BA, csum:34 [OK]
+polling response elapsed time is:56250
+
+1285162 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,DD,AE, csum:3E [OK]
+polling response elapsed time is:56750
+
+1285672 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,DF,A2, csum:48 [OK]
+polling response elapsed time is:57250
+
+1286179 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E1,96, csum:52 [OK]
+polling response elapsed time is:57750
+
+1286682 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E3,8A, csum:5C [OK]
+polling response elapsed time is:58250
+
+1287192 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E5,7E, csum:66 [OK]
+polling response elapsed time is:58750
+
+1287699 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E7,72, csum:70 [OK]
+polling response elapsed time is:59250
+
+1288202 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E9,66, csum:7A [OK]
+polling response elapsed time is:59750
+
+1288712 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,EB,5A, csum:84 [OK]
+polling response elapsed time is:60250
+
+1289218 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,ED,4E, csum:8E [OK]
+polling response elapsed time is:60750
+
+1289722 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,EF,42, csum:98 [OK]
+polling response elapsed time is:61250
+
+1290232 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F1,36, csum:A2 [OK]
+polling response elapsed time is:61750
+
+1290738 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F3,2A, csum:AC [OK]
+polling response elapsed time is:62250
+
+1291242 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F5,1E, csum:B6 [OK]
+polling response elapsed time is:62750
+
+1291750 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F7,12, csum:C0 [OK]
+polling response elapsed time is:63250
+
+1292255 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F9,6, csum:CA [OK]
+polling response elapsed time is:63750
+
+1292760 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,FA,FA, csum:D5 [OK]
+polling response elapsed time is:64250
+
+1293268 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,FC,EE, csum:DF [OK]
+polling response elapsed time is:64750
+
+1293774 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,FE,E2, csum:E9 [OK]
+polling response elapsed time is:65250
+
+1294279 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,0,D6, csum:F2 [OK]
+polling response elapsed time is:65750
+
+1294781 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,2,CA, csum:FC [OK]
+polling response elapsed time is:66250
+
+1295291 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,4,BE, csum:6 [OK]
+polling response elapsed time is:66750
+
+1295797 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,6,B2, csum:10 [OK]
+polling response elapsed time is:67250
+
+1296301 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,8,A6, csum:1A [OK]
+polling response elapsed time is:67750
+
+1296810 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,A,9A, csum:24 [OK]
+polling response elapsed time is:68250
+
+1297315 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,C,8E, csum:2E [OK]
+polling response elapsed time is:68750
+
+1297821 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,E,82, csum:38 [OK]
+polling response elapsed time is:69250
+
+1298326 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,10,76, csum:42 [OK]
+polling response elapsed time is:69750
+
+1298834 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,12,6A, csum:4C [OK]
+polling response elapsed time is:70250
+
+1299341 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,14,5E, csum:56 [OK]
+polling response elapsed time is:70750
+
+1299851 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,16,52, csum:60 [OK]
+polling response elapsed time is:71250
+
+1300358 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,18,46, csum:6A [OK]
+polling response elapsed time is:71750
+
+1300861 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,1A,3A, csum:74 [OK]
+polling response elapsed time is:72250
+
+1301370 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,1C,2E, csum:7E [OK]
+polling response elapsed time is:72750
+
+1301875 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,1E,22, csum:88 [OK]
+polling response elapsed time is:73250
+
+1302380 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,20,16, csum:92 [OK]
+polling response elapsed time is:73750
+
+1302888 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,22,A, csum:9C [OK]
+polling response elapsed time is:74250
+
+1303394 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,23,FE, csum:A7 [OK]
+polling response elapsed time is:74750
+
+1303900 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,25,F2, csum:B1 [OK]
+polling response elapsed time is:75250
+
+1304406 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,27,E6, csum:BB [OK]
+polling response elapsed time is:75750
+
+1304915 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,29,DA, csum:C5 [OK]
+polling response elapsed time is:76250
+
+1305420 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,2B,CE, csum:CF [OK]
+polling response elapsed time is:76750
+
+1305926 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,2D,C2, csum:D9 [OK]
+polling response elapsed time is:77250
+
+1306436 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,2F,B6, csum:E3 [OK]
+polling response elapsed time is:77750
+
+1306941 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,31,AA, csum:ED [OK]
+polling response elapsed time is:78250
+
+1307450 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,33,9E, csum:F7 [OK]
+polling response elapsed time is:78750
+
+1307956 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,35,92, csum:1 [OK]
+polling response elapsed time is:79250
+
+1308461 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,37,86, csum:B [OK]
+polling response elapsed time is:79750
+
+1308968 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,39,7A, csum:15 [OK]
+polling response elapsed time is:80250
+
+1309476 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,3B,6E, csum:1F [OK]
+polling response elapsed time is:80750
+
+1309980 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,3D,62, csum:29 [OK]
+polling response elapsed time is:81250
+
+1310484 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,3F,56, csum:33 [OK]
+polling response elapsed time is:81750
+
+1310994 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,41,4A, csum:3D [OK]
+polling response elapsed time is:82250
+
+1311499 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,43,3E, csum:47 [OK]
+polling response elapsed time is:82750
+
+1312001 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,45,32, csum:51 [OK]
+polling response elapsed time is:83250
+
+1312509 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,47,26, csum:5B [OK]
+polling response elapsed time is:83750
+
+1313015 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,49,1A, csum:65 [OK]
+polling response elapsed time is:84250
+
+1313520 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,4B,E, csum:6F [OK]
+polling response elapsed time is:84750
+
+1314026 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,4D,2, csum:79 [OK]
+polling response elapsed time is:85250
+
+1314534 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,4E,F6, csum:84 [OK]
+polling response elapsed time is:85750
+
+1315038 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,50,EA, csum:8E [OK]
+polling response elapsed time is:86250
+
+1315542 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,52,DE, csum:98 [OK]
+polling response elapsed time is:86750
+
+1316052 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,54,D2, csum:A2 [OK]
+polling response elapsed time is:87250
+
+1316559 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,56,C6, csum:AC [OK]
+polling response elapsed time is:87750
+
+1317064 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,58,BA, csum:B6 [OK]
+polling response elapsed time is:88250
+
+1317573 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,5A,AE, csum:C0 [OK]
+polling response elapsed time is:88750
+
+1318078 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,5C,A2, csum:CA [OK]
+polling response elapsed time is:89250
+
+1318581 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,5E,96, csum:D4 [OK]
+polling response elapsed time is:89750
+
+1319089 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,60,8A, csum:DE [OK]
+polling response elapsed time is:90250
+
+1319596 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,62,7E, csum:E8 [OK]
+polling response elapsed time is:90750
+
+1320100 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,64,72, csum:F2 [OK]
+polling response elapsed time is:91250
+
+1320608 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,66,66, csum:FC [OK]
+polling response elapsed time is:91750
+
+1321113 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,68,5A, csum:6 [OK]
+polling response elapsed time is:92250
+
+1321620 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,6A,4E, csum:10 [OK]
+polling response elapsed time is:92750
+
+1322126 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,6C,42, csum:1A [OK]
+polling response elapsed time is:93250
+
+1322633 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,6E,36, csum:24 [OK]
+polling response elapsed time is:93750
+
+1323139 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,70,2A, csum:2E [OK]
+polling response elapsed time is:94250
+
+1323645 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,72,1E, csum:38 [OK]
+polling response elapsed time is:94750
+
+1324153 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,74,12, csum:42 [OK]
+polling response elapsed time is:95250
+
+1324660 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,76,6, csum:4C [OK]
+polling response elapsed time is:95750
+
+1325167 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,77,FA, csum:57 [OK]
+polling response elapsed time is:96250
+
+1325673 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,79,EE, csum:61 [OK]
+polling response elapsed time is:96750
+
+1326179 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,7B,E2, csum:6B [OK]
+polling response elapsed time is:97250
+
+1326681 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,7D,D6, csum:75 [OK]
+polling response elapsed time is:97750
+
+1327193 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,7F,CA, csum:7F [OK]
+polling response elapsed time is:98250
+
+1327699 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,81,BE, csum:89 [OK]
+polling response elapsed time is:98750
+
+1328205 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,83,B2, csum:93 [OK]
+polling response elapsed time is:99250
+
+1328714 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,85,A6, csum:9D [OK]
+polling response elapsed time is:99750
+
+1329219 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,87,9A, csum:A7 [OK]
+polling response elapsed time is:100250
+
+1329723 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,89,8E, csum:B1 [OK]
+polling response elapsed time is:100750
+
+1330234 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,8B,82, csum:BB [OK]
+polling response elapsed time is:101250
+
+1330740 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,8D,76, csum:C5 [OK]
+polling response elapsed time is:101750
+
+1331244 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,8F,6A, csum:CF [OK]
+polling response elapsed time is:102250
+
+1331755 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,91,5E, csum:D9 [OK]
+polling response elapsed time is:102750
+
+1332260 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,93,52, csum:E3 [OK]
+polling response elapsed time is:103250
+
+1332434 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++
+send header,8,4,0,27,1,0,0,0,26,A6,
+
+
+1332457 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1332464 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,1,95,46, csum:ED [OK]
+polling response elapsed time is:103750
+
+1332470 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:1,0,0,0,2, csum:CA [OK]
+polling response Track changed to #2
+
+1332477 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2, csum:D3 [OK]
+get title of song #2
+
+1332497 ipod->dock
+size:8 mode:4 command:0x0,0x21 params:4E,65,78,74,0, csum:34 [OK]
+title response:"Next"
+
+1332505 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2, csum:D1 [OK]
+get artist of song #2
+
+1332540 ipod->dock
+size:7 mode:4 command:0x0,0x23 params:31,32,33,0, csum:3C [OK]
+artist response:"123"
+
+1332549 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2, csum:CF [OK]
+get album of song #2
+
+1332571 ipod->dock
+size:7 mode:4 command:0x0,0x25 params:31,32,33,0, csum:3A [OK]
+album response:"123"
+
+1332971 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1333478 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1333982 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1334492 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1334999 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1335502 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1336012 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1336519 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1337025 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1337534 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1338039 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1338542 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1339050 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1339556 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1B,58, csum:56 [OK]
+polling response elapsed time is:7000
+
+1340060 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1D,4C, csum:60 [OK]
+polling response elapsed time is:7500
+
+1340567 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1F,40, csum:6A [OK]
+polling response elapsed time is:8000
+
+1341074 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,21,34, csum:74 [OK]
+polling response elapsed time is:8500
+
+1341580 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,23,28, csum:7E [OK]
+polling response elapsed time is:9000
+
+1341787 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++
+send header,8,4,0,27,1,0,0,0,27,A5,
+
+
+1341808 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1341819 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,25,1C, csum:88 [OK]
+polling response elapsed time is:9500
+
+1341826 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:1,0,0,0,2, csum:CA [OK]
+polling response Track changed to #2
+
+1341833 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2, csum:D3 [OK]
+get title of song #2
+
+1341855 ipod->dock
+size:8 mode:4 command:0x0,0x21 params:4E,65,78,74,0, csum:34 [OK]
+title response:"Next"
+
+1341863 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2, csum:D1 [OK]
+get artist of song #2
+
+1341879 ipod->dock
+size:7 mode:4 command:0x0,0x23 params:31,32,33,0, csum:3C [OK]
+artist response:"123"
+
+1341888 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2, csum:CF [OK]
+get album of song #2
+
+1341916 ipod->dock
+size:7 mode:4 command:0x0,0x25 params:31,32,33,0, csum:3A [OK]
+album response:"123"
+
+1342322 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1342834 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1343340 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1343846 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1344365 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1344885 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1345395 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1345905 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1346414 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1346920 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1347435 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1347941 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1348447 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1348957 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1B,58, csum:56 [OK]
+polling response elapsed time is:7000
+
+1349471 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1D,4C, csum:60 [OK]
+polling response elapsed time is:7500
+
+1349976 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1F,40, csum:6A [OK]
+polling response elapsed time is:8000
+
+1350480 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,21,34, csum:74 [OK]
+polling response elapsed time is:8500
+
+1350988 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,23,28, csum:7E [OK]
+polling response elapsed time is:9000
+
+1351501 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,25,1C, csum:88 [OK]
+polling response elapsed time is:9500
+
+1352017 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,27,10, csum:92 [OK]
+polling response elapsed time is:10000
+
+1352531 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,29,4, csum:9C [OK]
+polling response elapsed time is:10500
+
+1353039 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2A,F8, csum:A7 [OK]
+polling response elapsed time is:11000
+
+1353546 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2C,EC, csum:B1 [OK]
+polling response elapsed time is:11500
+
+1354051 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2E,E0, csum:BB [OK]
+polling response elapsed time is:12000
+
+1354567 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,30,D4, csum:C5 [OK]
+polling response elapsed time is:12500
+
+1355072 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,32,C8, csum:CF [OK]
+polling response elapsed time is:13000
+
+1355585 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,34,BC, csum:D9 [OK]
+polling response elapsed time is:13500
+
+1356091 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,36,B0, csum:E3 [OK]
+polling response elapsed time is:14000
+
+1356593 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,38,A4, csum:ED [OK]
+polling response elapsed time is:14500
+
+1357108 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3A,98, csum:F7 [OK]
+polling response elapsed time is:15000
+
+1357620 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3C,8C, csum:1 [OK]
+polling response elapsed time is:15500
+
+1358134 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3E,80, csum:B [OK]
+polling response elapsed time is:16000
+
+1358656 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,40,74, csum:15 [OK]
+polling response elapsed time is:16500
+
+1359170 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,42,68, csum:1F [OK]
+polling response elapsed time is:17000
+
+1359673 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,44,5C, csum:29 [OK]
+polling response elapsed time is:17500
+
+1360187 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,46,50, csum:33 [OK]
+polling response elapsed time is:18000
+
+1360696 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,48,44, csum:3D [OK]
+polling response elapsed time is:18500
+
+1361202 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4A,38, csum:47 [OK]
+polling response elapsed time is:19000
+
+1361707 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4C,2C, csum:51 [OK]
+polling response elapsed time is:19500
+
+1362214 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4E,20, csum:5B [OK]
+polling response elapsed time is:20000
+
+1362725 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,50,14, csum:65 [OK]
+polling response elapsed time is:20500
+
+1363240 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,52,8, csum:6F [OK]
+polling response elapsed time is:21000
+
+1363757 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,53,FC, csum:7A [OK]
+polling response elapsed time is:21500
+
+1364265 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,55,F0, csum:84 [OK]
+polling response elapsed time is:22000
+
+1364774 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,57,E4, csum:8E [OK]
+polling response elapsed time is:22500
+
+1365291 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,59,D8, csum:98 [OK]
+polling response elapsed time is:23000
+
+1365804 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5B,CC, csum:A2 [OK]
+polling response elapsed time is:23500
+
+1366318 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5D,C0, csum:AC [OK]
+polling response elapsed time is:24000
+
+1366823 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5F,B4, csum:B6 [OK]
+polling response elapsed time is:24500
+
+1367334 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,61,A8, csum:C0 [OK]
+polling response elapsed time is:25000
+
+1367840 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,63,9C, csum:CA [OK]
+polling response elapsed time is:25500
+
+1368352 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,65,90, csum:D4 [OK]
+polling response elapsed time is:26000
+
+1368867 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,67,84, csum:DE [OK]
+polling response elapsed time is:26500
+
+1369384 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,69,78, csum:E8 [OK]
+polling response elapsed time is:27000
+
+1369889 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6B,6C, csum:F2 [OK]
+polling response elapsed time is:27500
+
+1370395 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6D,60, csum:FC [OK]
+polling response elapsed time is:28000
+
+1370907 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6F,54, csum:6 [OK]
+polling response elapsed time is:28500
+
+1371415 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,71,48, csum:10 [OK]
+polling response elapsed time is:29000
+
+1371936 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,73,3C, csum:1A [OK]
+polling response elapsed time is:29500
+
+1372446 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,75,30, csum:24 [OK]
+polling response elapsed time is:30000
+
+1372953 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,77,24, csum:2E [OK]
+polling response elapsed time is:30500
+
+1373464 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,79,18, csum:38 [OK]
+polling response elapsed time is:31000
+
+1373971 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7B,C, csum:42 [OK]
+polling response elapsed time is:31500
+
+1374480 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7D,0, csum:4C [OK]
+polling response elapsed time is:32000
+
+1374983 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7E,F4, csum:57 [OK]
+polling response elapsed time is:32500
+
+1375496 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,80,E8, csum:61 [OK]
+polling response elapsed time is:33000
+
+1376005 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,82,DC, csum:6B [OK]
+polling response elapsed time is:33500
+
+1376512 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,84,D0, csum:75 [OK]
+polling response elapsed time is:34000
+
+1377031 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,86,C4, csum:7F [OK]
+polling response elapsed time is:34500
+
+1377546 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,88,B8, csum:89 [OK]
+polling response elapsed time is:35000
+
+1378068 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8A,AC, csum:93 [OK]
+polling response elapsed time is:35500
+
+1378577 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8C,A0, csum:9D [OK]
+polling response elapsed time is:36000
+
+1379081 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8E,94, csum:A7 [OK]
+polling response elapsed time is:36500
+
+1379588 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,90,88, csum:B1 [OK]
+polling response elapsed time is:37000
+
+1379849 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++
+send header,8,4,0,27,1,0,0,0,28,A4,
+
+
+1379877 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1379891 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,92,7C, csum:BB [OK]
+polling response elapsed time is:37500
+
+1379916 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:1,0,0,0,2, csum:CA [OK]
+polling response Track changed to #2
+
+1379924 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2, csum:D3 [OK]
+get title of song #2
+
+1379955 ipod->dock
+size:8 mode:4 command:0x0,0x21 params:4E,65,78,74,0, csum:34 [OK]
+title response:"Next"
+
+1379963 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2, csum:D1 [OK]
+get artist of song #2
+
+1379993 ipod->dock
+size:7 mode:4 command:0x0,0x23 params:31,32,33,0, csum:3C [OK]
+artist response:"123"
+
+1380001 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2, csum:CF [OK]
+get album of song #2
+
+1380038 ipod->dock
+size:7 mode:4 command:0x0,0x25 params:31,32,33,0, csum:3A [OK]
+album response:"123"
+
+1380399 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1380910 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1381418 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1381921 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1382427 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1382937 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1383445 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1383951 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1384458 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1384962 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1385473 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1385979 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1386488 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1386999 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1B,58, csum:56 [OK]
+polling response elapsed time is:7000
+
+1387505 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1D,4C, csum:60 [OK]
+polling response elapsed time is:7500
+
+1388017 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1F,40, csum:6A [OK]
+polling response elapsed time is:8000
+
+1388521 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,21,34, csum:74 [OK]
+polling response elapsed time is:8500
+
+1389031 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,23,28, csum:7E [OK]
+polling response elapsed time is:9000
+
+1389537 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,25,1C, csum:88 [OK]
+polling response elapsed time is:9500
+
+1390042 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,27,10, csum:92 [OK]
+polling response elapsed time is:10000
+
+1390552 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,29,4, csum:9C [OK]
+polling response elapsed time is:10500
+
+1391059 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2A,F8, csum:A7 [OK]
+polling response elapsed time is:11000
+
+1391575 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2C,EC, csum:B1 [OK]
+polling response elapsed time is:11500
+
+1392080 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2E,E0, csum:BB [OK]
+polling response elapsed time is:12000
+
+1392589 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,30,D4, csum:C5 [OK]
+polling response elapsed time is:12500
+
+1393097 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,32,C8, csum:CF [OK]
+polling response elapsed time is:13000
+
+1393607 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,34,BC, csum:D9 [OK]
+polling response elapsed time is:13500
+
+1394113 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,36,B0, csum:E3 [OK]
+polling response elapsed time is:14000
+
+1394621 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,38,A4, csum:ED [OK]
+polling response elapsed time is:14500
+
+1395130 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3A,98, csum:F7 [OK]
+polling response elapsed time is:15000
+
+1395637 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3C,8C, csum:1 [OK]
+polling response elapsed time is:15500
+
+1396141 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3E,80, csum:B [OK]
+polling response elapsed time is:16000
+
+1396650 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,40,74, csum:15 [OK]
+polling response elapsed time is:16500
+
+1397160 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,42,68, csum:1F [OK]
+polling response elapsed time is:17000
+
+1397669 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,44,5C, csum:29 [OK]
+polling response elapsed time is:17500
+
+1398177 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,46,50, csum:33 [OK]
+polling response elapsed time is:18000
+
+1398684 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,48,44, csum:3D [OK]
+polling response elapsed time is:18500
+
+1399190 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4A,38, csum:47 [OK]
+polling response elapsed time is:19000
+
+1399695 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4C,2C, csum:51 [OK]
+polling response elapsed time is:19500
+
+1400200 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4E,20, csum:5B [OK]
+polling response elapsed time is:20000
+
+1400710 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,50,14, csum:65 [OK]
+polling response elapsed time is:20500
+
+1401217 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,52,8, csum:6F [OK]
+polling response elapsed time is:21000
+
+1401727 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,53,FC, csum:7A [OK]
+polling response elapsed time is:21500
+
+1402234 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,55,F0, csum:84 [OK]
+polling response elapsed time is:22000
+
+1402742 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,57,E4, csum:8E [OK]
+polling response elapsed time is:22500
+
+1403250 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,59,D8, csum:98 [OK]
+polling response elapsed time is:23000
+
+1403756 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5B,CC, csum:A2 [OK]
+polling response elapsed time is:23500
+
+1404265 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5D,C0, csum:AC [OK]
+polling response elapsed time is:24000
+
+1404771 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5F,B4, csum:B6 [OK]
+polling response elapsed time is:24500
+
+1405280 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,61,A8, csum:C0 [OK]
+polling response elapsed time is:25000
+
+1405791 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,63,9C, csum:CA [OK]
+polling response elapsed time is:25500
+
+1406297 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,65,90, csum:D4 [OK]
+polling response elapsed time is:26000
+
+1406804 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,67,84, csum:DE [OK]
+polling response elapsed time is:26500
+
+1407313 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,69,78, csum:E8 [OK]
+polling response elapsed time is:27000
+
+1407820 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6B,6C, csum:F2 [OK]
+polling response elapsed time is:27500
+
+1408328 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6D,60, csum:FC [OK]
+polling response elapsed time is:28000
+
+1408836 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6F,54, csum:6 [OK]
+polling response elapsed time is:28500
+
+1409341 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,71,48, csum:10 [OK]
+polling response elapsed time is:29000
+
+1409851 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,73,3C, csum:1A [OK]
+polling response elapsed time is:29500
+
+1410360 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,75,30, csum:24 [OK]
+polling response elapsed time is:30000
+
+1410866 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,77,24, csum:2E [OK]
+polling response elapsed time is:30500
+
+1411374 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,79,18, csum:38 [OK]
+polling response elapsed time is:31000
+
+1411880 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7B,C, csum:42 [OK]
+polling response elapsed time is:31500
+
+1412194 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++
+send header,8,4,0,27,1,0,0,0,29,A3,
+
+
+1412216 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1412223 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7D,0, csum:4C [OK]
+polling response elapsed time is:32000
+
+1412233 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:1,0,0,0,2, csum:CA [OK]
+polling response Track changed to #2
+
+1412241 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2, csum:D3 [OK]
+get title of song #2
+
+1412260 ipod->dock
+size:8 mode:4 command:0x0,0x21 params:4E,65,78,74,0, csum:34 [OK]
+title response:"Next"
+
+1412268 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2, csum:D1 [OK]
+get artist of song #2
+
+1412295 ipod->dock
+size:7 mode:4 command:0x0,0x23 params:31,32,33,0, csum:3C [OK]
+artist response:"123"
+
+1412304 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2, csum:CF [OK]
+get album of song #2
+
+1412317 ipod->dock
+size:7 mode:4 command:0x0,0x25 params:31,32,33,0, csum:3A [OK]
+album response:"123"
+
+1412732 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1413240 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1413751 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1414257 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1414761 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1415272 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1415778 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1416287 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1416792 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1417300 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1417808 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1418314 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1418821 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1419330 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1B,58, csum:56 [OK]
+polling response elapsed time is:7000
+
+1419836 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1D,4C, csum:60 [OK]
+polling response elapsed time is:7500
+
+1420341 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1F,40, csum:6A [OK]
+polling response elapsed time is:8000
+
+1420850 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,21,34, csum:74 [OK]
+polling response elapsed time is:8500
+
+1421356 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,23,28, csum:7E [OK]
+polling response elapsed time is:9000
+
+1421860 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,25,1C, csum:88 [OK]
+polling response elapsed time is:9500
+
+1422369 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,27,10, csum:92 [OK]
+polling response elapsed time is:10000
+
+1422875 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,29,4, csum:9C [OK]
+polling response elapsed time is:10500
+
+1423381 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2A,F8, csum:A7 [OK]
+polling response elapsed time is:11000
+
+1423888 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2C,EC, csum:B1 [OK]
+polling response elapsed time is:11500
+
+1424395 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2E,E0, csum:BB [OK]
+polling response elapsed time is:12000
+
+1424901 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,30,D4, csum:C5 [OK]
+polling response elapsed time is:12500
+
+1425411 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,32,C8, csum:CF [OK]
+polling response elapsed time is:13000
+
+1425919 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,34,BC, csum:D9 [OK]
+polling response elapsed time is:13500
+
+1426426 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,36,B0, csum:E3 [OK]
+polling response elapsed time is:14000
+
+1426936 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,38,A4, csum:ED [OK]
+polling response elapsed time is:14500
+
+1427442 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3A,98, csum:F7 [OK]
+polling response elapsed time is:15000
+
+1427953 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3C,8C, csum:1 [OK]
+polling response elapsed time is:15500
+
+1428461 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3E,80, csum:B [OK]
+polling response elapsed time is:16000
+
+1428969 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,40,74, csum:15 [OK]
+polling response elapsed time is:16500
+
+1429475 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,42,68, csum:1F [OK]
+polling response elapsed time is:17000
+
+1429981 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,44,5C, csum:29 [OK]
+polling response elapsed time is:17500
+
+1430491 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,46,50, csum:33 [OK]
+polling response elapsed time is:18000
+
+1430998 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,48,44, csum:3D [OK]
+polling response elapsed time is:18500
+
+1431506 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4A,38, csum:47 [OK]
+polling response elapsed time is:19000
+
+1432012 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4C,2C, csum:51 [OK]
+polling response elapsed time is:19500
+
+1432519 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4E,20, csum:5B [OK]
+polling response elapsed time is:20000
+
+1433023 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,50,14, csum:65 [OK]
+polling response elapsed time is:20500
+
+1433533 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,52,8, csum:6F [OK]
+polling response elapsed time is:21000
+
+1434038 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,53,FC, csum:7A [OK]
+polling response elapsed time is:21500
+
+1434543 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,55,F0, csum:84 [OK]
+polling response elapsed time is:22000
+
+1435053 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,57,E4, csum:8E [OK]
+polling response elapsed time is:22500
+
+1435558 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,59,D8, csum:98 [OK]
+polling response elapsed time is:23000
+
+1436066 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5B,CC, csum:A2 [OK]
+polling response elapsed time is:23500
+
+1436573 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5D,C0, csum:AC [OK]
+polling response elapsed time is:24000
+
+1437078 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5F,B4, csum:B6 [OK]
+polling response elapsed time is:24500
+
+1437583 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,61,A8, csum:C0 [OK]
+polling response elapsed time is:25000
+
+1438093 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,63,9C, csum:CA [OK]
+polling response elapsed time is:25500
+
+1438599 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,65,90, csum:D4 [OK]
+polling response elapsed time is:26000
+
+1439101 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,67,84, csum:DE [OK]
+polling response elapsed time is:26500
+
+1439614 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,69,78, csum:E8 [OK]
+polling response elapsed time is:27000
+
+1440119 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6B,6C, csum:F2 [OK]
+polling response elapsed time is:27500
+
+1440623 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6D,60, csum:FC [OK]
+polling response elapsed time is:28000
+
+1441132 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,6F,54, csum:6 [OK]
+polling response elapsed time is:28500
+
+1441638 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,71,48, csum:10 [OK]
+polling response elapsed time is:29000
+
+1442141 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,73,3C, csum:1A [OK]
+polling response elapsed time is:29500
+
+1442652 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,75,30, csum:24 [OK]
+polling response elapsed time is:30000
+
+1443158 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,77,24, csum:2E [OK]
+polling response elapsed time is:30500
+
+1443661 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,79,18, csum:38 [OK]
+polling response elapsed time is:31000
+
+1444172 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7B,C, csum:42 [OK]
+polling response elapsed time is:31500
+
+1444678 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7D,0, csum:4C [OK]
+polling response elapsed time is:32000
+
+1445181 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7E,F4, csum:57 [OK]
+polling response elapsed time is:32500
+
+1445691 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,80,E8, csum:61 [OK]
+polling response elapsed time is:33000
+
+1446198 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,82,DC, csum:6B [OK]
+polling response elapsed time is:33500
+
+1446702 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,84,D0, csum:75 [OK]
+polling response elapsed time is:34000
+
+1447211 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,86,C4, csum:7F [OK]
+polling response elapsed time is:34500
+
+1447718 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,88,B8, csum:89 [OK]
+polling response elapsed time is:35000
+
+1448222 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8A,AC, csum:93 [OK]
+polling response elapsed time is:35500
+
+1448730 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8C,A0, csum:9D [OK]
+polling response elapsed time is:36000
+
+1449238 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,8E,94, csum:A7 [OK]
+polling response elapsed time is:36500
+
+1449741 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,90,88, csum:B1 [OK]
+polling response elapsed time is:37000
+
+1450251 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,92,7C, csum:BB [OK]
+polling response elapsed time is:37500
+
+1450758 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,94,70, csum:C5 [OK]
+polling response elapsed time is:38000
+
+1451261 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,96,64, csum:CF [OK]
+polling response elapsed time is:38500
+
+1451770 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,98,58, csum:D9 [OK]
+polling response elapsed time is:39000
+
+1452276 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9A,4C, csum:E3 [OK]
+polling response elapsed time is:39500
+
+1452781 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9C,40, csum:ED [OK]
+polling response elapsed time is:40000
+
+1453291 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9E,34, csum:F7 [OK]
+polling response elapsed time is:40500
+
+1453797 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A0,28, csum:1 [OK]
+polling response elapsed time is:41000
+
+1454301 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A2,1C, csum:B [OK]
+polling response elapsed time is:41500
+
+1454811 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A4,10, csum:15 [OK]
+polling response elapsed time is:42000
+
+1455318 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A6,4, csum:1F [OK]
+polling response elapsed time is:42500
+
+1455822 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A7,F8, csum:2A [OK]
+polling response elapsed time is:43000
+
+1456331 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,A9,EC, csum:34 [OK]
+polling response elapsed time is:43500
+
+1456838 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,AB,E0, csum:3E [OK]
+polling response elapsed time is:44000
+
+1457345 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,AD,D4, csum:48 [OK]
+polling response elapsed time is:44500
+
+1457851 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,AF,C8, csum:52 [OK]
+polling response elapsed time is:45000
+
+1458357 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B1,BC, csum:5C [OK]
+polling response elapsed time is:45500
+
+1458861 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B3,B0, csum:66 [OK]
+polling response elapsed time is:46000
+
+1459371 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B5,A4, csum:70 [OK]
+polling response elapsed time is:46500
+
+1459877 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B7,98, csum:7A [OK]
+polling response elapsed time is:47000
+
+1460381 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B9,8C, csum:84 [OK]
+polling response elapsed time is:47500
+
+1460890 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,BB,80, csum:8E [OK]
+polling response elapsed time is:48000
+
+1461396 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,BD,74, csum:98 [OK]
+polling response elapsed time is:48500
+
+1461901 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,BF,68, csum:A2 [OK]
+polling response elapsed time is:49000
+
+1462408 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C1,5C, csum:AC [OK]
+polling response elapsed time is:49500
+
+1462916 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C3,50, csum:B6 [OK]
+polling response elapsed time is:50000
+
+1463420 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C5,44, csum:C0 [OK]
+polling response elapsed time is:50500
+
+1463927 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C7,38, csum:CA [OK]
+polling response elapsed time is:51000
+
+1464436 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,C9,2C, csum:D4 [OK]
+polling response elapsed time is:51500
+
+1464940 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,CB,20, csum:DE [OK]
+polling response elapsed time is:52000
+
+1465446 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,CD,14, csum:E8 [OK]
+polling response elapsed time is:52500
+
+1465955 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,CF,8, csum:F2 [OK]
+polling response elapsed time is:53000
+
+1466460 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D0,FC, csum:FD [OK]
+polling response elapsed time is:53500
+
+1466964 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D2,F0, csum:7 [OK]
+polling response elapsed time is:54000
+
+1467474 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D4,E4, csum:11 [OK]
+polling response elapsed time is:54500
+
+1467979 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D6,D8, csum:1B [OK]
+polling response elapsed time is:55000
+
+1468483 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D8,CC, csum:25 [OK]
+polling response elapsed time is:55500
+
+1468993 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,DA,C0, csum:2F [OK]
+polling response elapsed time is:56000
+
+1469499 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,DC,B4, csum:39 [OK]
+polling response elapsed time is:56500
+
+1470006 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,DE,A8, csum:43 [OK]
+polling response elapsed time is:57000
+
+1470332 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++
+send header,8,4,0,27,1,0,0,0,2A,A2,
+
+
+1470356 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1470362 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,E0,9C, csum:4D [OK]
+polling response elapsed time is:57500
+
+1470369 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:1,0,0,0,2, csum:CA [OK]
+polling response Track changed to #2
+
+1470376 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2, csum:D3 [OK]
+get title of song #2
+
+1470396 ipod->dock
+size:8 mode:4 command:0x0,0x21 params:4E,65,78,74,0, csum:34 [OK]
+title response:"Next"
+
+1470403 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2, csum:D1 [OK]
+get artist of song #2
+
+1470435 ipod->dock
+size:7 mode:4 command:0x0,0x23 params:31,32,33,0, csum:3C [OK]
+artist response:"123"
+
+1470442 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2, csum:CF [OK]
+get album of song #2
+
+1470470 ipod->dock
+size:7 mode:4 command:0x0,0x25 params:31,32,33,0, csum:3A [OK]
+album response:"123"
+
+1470869 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1471375 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1471880 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1472389 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1472896 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1473400 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1473908 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1474415 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1474920 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1475428 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1475935 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1476440 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1476950 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1477457 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1B,58, csum:56 [OK]
+polling response elapsed time is:7000
+
+1477960 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1D,4C, csum:60 [OK]
+polling response elapsed time is:7500
+
+1478469 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1F,40, csum:6A [OK]
+polling response elapsed time is:8000
+
+1478975 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,21,34, csum:74 [OK]
+polling response elapsed time is:8500
+
+1479480 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,23,28, csum:7E [OK]
+polling response elapsed time is:9000
+
+1479987 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,25,1C, csum:88 [OK]
+polling response elapsed time is:9500
+
+1480493 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,27,10, csum:92 [OK]
+polling response elapsed time is:10000
+
+1480999 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,29,4, csum:9C [OK]
+polling response elapsed time is:10500
+
+1481506 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2A,F8, csum:A7 [OK]
+polling response elapsed time is:11000
+
+1482013 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2C,EC, csum:B1 [OK]
+polling response elapsed time is:11500
+
+1482519 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,2E,E0, csum:BB [OK]
+polling response elapsed time is:12000
+
+1483025 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,30,D4, csum:C5 [OK]
+polling response elapsed time is:12500
+
+1483532 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,32,C8, csum:CF [OK]
+polling response elapsed time is:13000
+
+1484038 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,34,BC, csum:D9 [OK]
+polling response elapsed time is:13500
+
+1484541 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,36,B0, csum:E3 [OK]
+polling response elapsed time is:14000
+
+1485047 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,38,A4, csum:ED [OK]
+polling response elapsed time is:14500
+
+1485554 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3A,98, csum:F7 [OK]
+polling response elapsed time is:15000
+
+1486059 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3C,8C, csum:1 [OK]
+polling response elapsed time is:15500
+
+1486566 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3E,80, csum:B [OK]
+polling response elapsed time is:16000
+
+1487074 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,40,74, csum:15 [OK]
+polling response elapsed time is:16500
+
+1487579 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,42,68, csum:1F [OK]
+polling response elapsed time is:17000
+
+1488087 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,44,5C, csum:29 [OK]
+polling response elapsed time is:17500
+
+1488593 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,46,50, csum:33 [OK]
+polling response elapsed time is:18000
+
+1489099 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,48,44, csum:3D [OK]
+polling response elapsed time is:18500
+
+1489608 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4A,38, csum:47 [OK]
+polling response elapsed time is:19000
+
+1490115 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4C,2C, csum:51 [OK]
+polling response elapsed time is:19500
+
+1490620 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,4E,20, csum:5B [OK]
+polling response elapsed time is:20000
+
+1491128 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,50,14, csum:65 [OK]
+polling response elapsed time is:20500
+
+1491634 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,52,8, csum:6F [OK]
+polling response elapsed time is:21000
+
+1492140 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,53,FC, csum:7A [OK]
+polling response elapsed time is:21500
+
+1492648 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,55,F0, csum:84 [OK]
+polling response elapsed time is:22000
+
+1493154 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,57,E4, csum:8E [OK]
+polling response elapsed time is:22500
+
+1493661 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,59,D8, csum:98 [OK]
+polling response elapsed time is:23000
+
+1493999 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++
+send header,8,4,0,27,1,0,0,0,2B,A1,
+
+
+1494018 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1494025 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5B,CC, csum:A2 [OK]
+polling response elapsed time is:23500
+
+1494032 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:1,0,0,0,2, csum:CA [OK]
+polling response Track changed to #2
+
+1494040 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2, csum:D3 [OK]
+get title of song #2
+
+1494060 ipod->dock
+size:8 mode:4 command:0x0,0x21 params:4E,65,78,74,0, csum:34 [OK]
+title response:"Next"
+
+1494067 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2, csum:D1 [OK]
+get artist of song #2
+
+1494081 ipod->dock
+size:7 mode:4 command:0x0,0x23 params:31,32,33,0, csum:3C [OK]
+artist response:"123"
+
+1494089 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2, csum:CF [OK]
+get album of song #2
+
+1494102 ipod->dock
+size:7 mode:4 command:0x0,0x25 params:31,32,33,0, csum:3A [OK]
+album response:"123"
+
+1494532 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1495038 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1495543 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1496053 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1496558 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1497062 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1497570 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1498076 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1498581 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1499090 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1499596 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1500100 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1500607 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
+1501112 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1B,58, csum:56 [OK]
+polling response elapsed time is:7000
+
+1501620 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1D,4C, csum:60 [OK]
+polling response elapsed time is:7500
+
+1502126 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1F,40, csum:6A [OK]
+polling response elapsed time is:8000
+
+1502632 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,21,34, csum:74 [OK]
+polling response elapsed time is:8500
+
+1502729 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++
+send header,8,4,0,27,1,0,0,0,2C,A0,
+
+
+1502755 ipod->dock
+size:6 mode:4 command:0x0,0x1 params:0,0,29, csum:CC [OK]
+FEEDBACK for playback control cmd  is 0(SUCCESS)
+
+1502762 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,23,28, csum:7E [OK]
+polling response elapsed time is:9000
+
+1502771 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:1,0,0,0,2, csum:CA [OK]
+polling response Track changed to #2
+
+1502779 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2, csum:D3 [OK]
+get title of song #2
+
+1502801 ipod->dock
+size:8 mode:4 command:0x0,0x21 params:4E,65,78,74,0, csum:34 [OK]
+title response:"Next"
+
+1502808 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2, csum:D1 [OK]
+get artist of song #2
+
+1502826 ipod->dock
+size:7 mode:4 command:0x0,0x23 params:31,32,33,0, csum:3C [OK]
+artist response:"123"
+
+1502833 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2, csum:CF [OK]
+get album of song #2
+
+1502857 ipod->dock
+size:7 mode:4 command:0x0,0x25 params:31,32,33,0, csum:3A [OK]
+album response:"123"
+
+1503271 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,1,F4, csum:D4 [OK]
+polling response elapsed time is:500
+
+1503777 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,3,E8, csum:DE [OK]
+polling response elapsed time is:1000
+
+1504282 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,5,DC, csum:E8 [OK]
+polling response elapsed time is:1500
+
+1504791 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,7,D0, csum:F2 [OK]
+polling response elapsed time is:2000
+
+1505299 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,9,C4, csum:FC [OK]
+polling response elapsed time is:2500
+
+1505805 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,B,B8, csum:6 [OK]
+polling response elapsed time is:3000
+
+1506314 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,D,AC, csum:10 [OK]
+polling response elapsed time is:3500
+
+1506819 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,F,A0, csum:1A [OK]
+polling response elapsed time is:4000
+
+1507327 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,11,94, csum:24 [OK]
+polling response elapsed time is:4500
+
+1507834 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,13,88, csum:2E [OK]
+polling response elapsed time is:5000
+
+1508340 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,15,7C, csum:38 [OK]
+polling response elapsed time is:5500
+
+1508844 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,17,70, csum:42 [OK]
+polling response elapsed time is:6000
+
+1509354 ipod->dock
+size:8 mode:4 command:0x0,0x27 params:4,0,0,19,64, csum:4C [OK]
+polling response elapsed time is:6500
+
