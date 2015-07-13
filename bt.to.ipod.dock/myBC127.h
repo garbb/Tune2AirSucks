@@ -59,9 +59,6 @@ void MyBC127::baseSendCmd(String command) {
 
 void MyBC127::SendCmd(String command) {
   if (BC127_status == waiting_for_boot) {return;}
-//  #ifdef DEBUG
-//    myDebugSerial->print(">>sending command: "); myDebugSerial->println(command);
-//  #endif
   baseSendCmd(command);
   responseState = waiting_for_response;
 }
@@ -96,6 +93,13 @@ void MyBC127::readResponses() {
       responseState = ERR;
       }
     
+    else if (responsebuffer.startsWith("OPEN_OK A2DP")) {
+      BC127_status = AVRCP_connected;
+      #ifdef DEBUG
+        myDebugSerial->println(">>A2DP connected");
+      #endif
+      SendCmd("VOLUME A2DP=15");  //need to set this every time for volume level to sound right, it won't remember it
+    }
     else if (responsebuffer.startsWith("OPEN_OK AVRCP")) {
       BC127_status = AVRCP_connected;
       #ifdef DEBUG
