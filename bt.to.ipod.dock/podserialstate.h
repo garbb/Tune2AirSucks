@@ -150,6 +150,8 @@ class PodserialState {
   bool maybeheader;
   char const *streamName;
   bool pollingmode = false;
+  int start_num_to_get = 0;
+  int num_of_items_to_get = 0;
 
   Stream *pSerial;
   Stream *myDebugSerial;
@@ -867,14 +869,14 @@ void PodserialState::process() {
                 myDebugSerial->print(", starting item#"); myDebugSerial->print(endianConvert(pParambytes + 1));
                 myDebugSerial->print(", num of items:"); myDebugSerial->print(endianConvert(pParambytes + 5));
               #endif
-//              int startnum = endianConvert(pParambytes + 1);
-//              int num_of_items_to_get = endianConvert(pParambytes + 5);
-//              //we include starting number as an item to get, i.e start at 1 and get 5 items is 1,2,3,4,5=5items
-//              for (int i = startnum; i < startnum + num_of_items_to_get; i++) {
-//                send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ITEM_NAMES, i, "FAKE");
-//              }
-              send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ITEM_NAMES, 0, "FAKE");
-              send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ITEM_NAMES, 1, "FAKE");
+              start_num_to_get = endianConvert(pParambytes + 1);
+              num_of_items_to_get = endianConvert(pParambytes + 5);
+              //we include starting number as an item to get, i.e start at 1 and get 5 items is 1,2,3,4,5=5items
+              for (int i = start_num_to_get; i < start_num_to_get + num_of_items_to_get; i++) {
+                send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ITEM_NAMES, i, "FAKE");
+              }
+//              send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ITEM_NAMES, 0, "FAKE");
+//              send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ITEM_NAMES, 1, "FAKE");
               break;
               
             case CMD_GET_TITLE: case CMD_GET_ARTIST: case CMD_GET_ALBUM:
