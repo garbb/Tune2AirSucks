@@ -160,19 +160,13 @@ class PodserialState {
       {
           WAITING_FOR_HEADER1 = 0,
           WAITING_FOR_HEADER2,
-          WAITING_FOR_LENGTH,
+          WAITING_FOR_LENGTH0,
+          WAITING_FOR_LENGTH1,
+          WAITING_FOR_LENGTH2,
           WAITING_FOR_DATA,
           WAITING_FOR_CHECKSUM
       };
   ReceiveState receiveState;
-
-  enum LengthReceiveState
-      {
-          WAITING_FOR_LENGTH0 = 0,
-          WAITING_FOR_LENGTH1,
-          WAITING_FOR_LENGTH2
-      };
-  LengthReceiveState lengthReceiveState;
   
   enum Shufflemode
     {
@@ -220,7 +214,7 @@ class PodserialState {
     :currentBufferpos(0), dataSize(0), gotextraB(false), maybeheader(false),
     streamName(newstreamName),
     pSerial(&newiPodSerial),
-    receiveState(WAITING_FOR_HEADER1), lengthReceiveState(WAITING_FOR_LENGTH0)
+    receiveState(WAITING_FOR_HEADER1)
     {
     }
     
@@ -499,61 +493,38 @@ void PodserialState::process() {
       break;
   case WAITING_FOR_HEADER2:
       if (b == 0x55) {
-          receiveState = WAITING_FOR_LENGTH;
+          receiveState = WAITING_FOR_LENGTH0;
       }
 //      else {
 //        gotextraB = true;
 //        myDebugSerial->print("0x"); myDebugSerial->print(b, HEX); myDebugSerial->print(",");
 //      }
       break;
-  case WAITING_FOR_LENGTH:
-//      if (gotextraB) {
-//        myDebugSerial->println();
-//        gotextraB = false;
-//      }
-
-//    if (b != 0x00) {
-//      //pData = dataBuffer;
-//      dataSize = b;
-//      currentBufferpos = 0;
-//      receiveState = WAITING_FOR_DATA;
-//    }
-//    else {
-//      receiveState = WAITING_FOR_HEADER1;
-//    }
-    
-
-      switch (lengthReceiveState) {
-        case WAITING_FOR_LENGTH0:
-          if (b == 0x00) {
-            //myDebugSerial->println("GOT ZERO SIZE BYTE");
-            //IT APPEARS that sometimes (usually for picture blocks) the size will be 3bytes!! (or really next two bytes after 0x00)
-            //if 1st size byte is zero then take next two bytes as size
-            //receiveState = WAITING_FOR_HEADER1;  //want to start over for next byte
-            dataSize = 0; //clear datasize
-            lengthReceiveState = WAITING_FOR_LENGTH1;
-          }
-          else {
-            //pData = dataBuffer;
-            dataSize = b;
-            currentBufferpos = 0;
-            receiveState = WAITING_FOR_DATA;
-          }
-          break;
-        case WAITING_FOR_LENGTH1:
-          dataSize = (((uint32_t) b) << 8); //load higher-order byte
-          lengthReceiveState = WAITING_FOR_LENGTH2;
-          break;
-        case WAITING_FOR_LENGTH2:
-          dataSize = dataSize | (((uint32_t) b) << 0); //load lower-order byte
-          lengthReceiveState = WAITING_FOR_LENGTH0;
-          currentBufferpos = 0;
-          receiveState = WAITING_FOR_DATA;
-          break;
-      }
-
       
-      break;
+  case WAITING_FOR_LENGTH0:
+    dataSize = b;
+    if (dataSize == 0x00) {
+      //IT APPEARS that sometimes (usually for picture blocks) the size will be 3bytes!! (or really next two bytes after 0x00)
+      //if 1st size byte is zero then take next two bytes as size
+      receiveState = WAITING_FOR_LENGTH1;
+    }
+    else {
+      currentBufferpos = 0;
+      receiveState = WAITING_FOR_DATA;
+    }
+    break;
+    
+  case WAITING_FOR_LENGTH1:
+    dataSize = (((uint32_t) b) << 8); //load higher-order byte
+    receiveState = WAITING_FOR_LENGTH2;
+    break;
+    
+  case WAITING_FOR_LENGTH2:
+    dataSize = dataSize | (((uint32_t) b) << 0); //load lower-order byte
+    currentBufferpos = 0;
+    receiveState = WAITING_FOR_DATA;
+    break;
+
   case WAITING_FOR_DATA:
       //if (currentBufferpos > dataBufferSize - 1) {myDebugSerial->println("dataBuffer OVERFLOW");}
       
