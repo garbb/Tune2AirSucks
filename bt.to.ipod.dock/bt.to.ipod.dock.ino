@@ -100,6 +100,7 @@ void loop() {
         DebugSerial.print(">>TITLE IS: \""); DebugSerial.print(trackTitle); DebugSerial.println("\"");
         DebugSerial.print(">>ARTIST IS: \""); DebugSerial.print(trackArtist); DebugSerial.println("\"");
         DebugSerial.print(">>ALBUM IS: \""); DebugSerial.print(trackAlbum); DebugSerial.println("\"");
+        DebugSerial.println();
       #endif
       gotnewArtist = false;
       gotnewAlbum = false;

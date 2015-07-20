@@ -82,45 +82,45 @@ void MyBC127::readResponses() {
     //all the response/event types
     if (responsebuffer.startsWith("OK")) {
       #ifdef DEBUG
-        myDebugSerial->println(">>got OK response");
+        myDebugSerial->print(">>got OK response\n\n");
       #endif
       responseState = OK;
       }
     else if (responsebuffer.startsWith("ER")) {
       #ifdef DEBUG
-        myDebugSerial->println(">>got ERROR response");
+        myDebugSerial->print(">>got ERROR response\n\n");
       #endif
       responseState = ERR;
       }
     
     else if (responsebuffer.startsWith("OPEN_OK A2DP")) {
       #ifdef DEBUG
-        myDebugSerial->println(">>A2DP connected");
+        myDebugSerial->print(">>A2DP connected\n\n");
       #endif
       SendCmd("VOLUME A2DP=15");  //need to set this every time for volume level to sound right, it won't remember it
     }
     else if (responsebuffer.startsWith("OPEN_OK AVRCP")) {
       BC127_status = AVRCP_connected;
       #ifdef DEBUG
-        myDebugSerial->println(">>AVRCP connected");
+        myDebugSerial->print(">>AVRCP connected\n\n");
       #endif
     }
     else if (responsebuffer.startsWith("Ready")) {
       BC127_status = waiting_for_AVRCP_conn;
       #ifdef DEBUG
-        myDebugSerial->println(">>BC127 Boot complete");
+        myDebugSerial->print(">>BC127 Boot complete\n\n");
       #endif
     }
     else if (responsebuffer.startsWith("CLOSE_OK AVRCP")) {
       BC127_status = waiting_for_AVRCP_conn;
       #ifdef DEBUG
-        myDebugSerial->println(">>AVRCP disconnected");
+        myDebugSerial->print(">>AVRCP disconnected\n\n");
       #endif
     }
     else if (responsebuffer.startsWith("CLOSE_OK A2DP")) {
       BC127_status = waiting_for_AVRCP_conn;
       #ifdef DEBUG
-        myDebugSerial->println(">>disconnected, making discoverable");
+        myDebugSerial->print(">>disconnected, making discoverable\n\n");
       #endif
       SendCmd("DISCOVERABLE ON");
     }
@@ -154,21 +154,21 @@ void MyBC127::readResponses() {
     else if (responsebuffer.startsWith("AVRCP_STOP")) {
       playingState = STATE_STOPPED;
       #ifdef DEBUG
-        myDebugSerial->print(">>play state changed to "); myDebugSerial->println(playingState);
+        myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
       #endif
     }
     else if (responsebuffer.startsWith("AVRCP_PLAY")) {
       playingState = STATE_PLAYING;
       trackstarttime = now;
       #ifdef DEBUG
-        myDebugSerial->print(">>play state changed to "); myDebugSerial->println(playingState);
+        myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
       #endif
     }
     else if (responsebuffer.startsWith("AVRCP_PAUSE")) {
       playingState = STATE_PAUSED;
       accumTrackPlaytime += now - trackstarttime;  //add track playing time when we pause
       #ifdef DEBUG
-        myDebugSerial->print(">>play state changed to "); myDebugSerial->println(playingState);
+        myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
       #endif
     }
 //    if (prevplayingState != playingState) {allowPlayPausecmd = true;}
@@ -181,7 +181,7 @@ void MyBC127::readResponses() {
   //timeout handling
   if ( (TOstarttime > 0) && (millis() - TOstarttime) > timeoutTime ) {
     #ifdef DEBUG
-      myDebugSerial->println(">>response EOL timeout");
+      myDebugSerial->print(">>response EOL timeout"); myDebugSerial->print("\n\n");
     #endif
     responseState = ERR;
     responsebuffer = "";
