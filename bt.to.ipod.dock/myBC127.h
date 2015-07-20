@@ -94,7 +94,6 @@ void MyBC127::readResponses() {
       }
     
     else if (responsebuffer.startsWith("OPEN_OK A2DP")) {
-      BC127_status = AVRCP_connected;
       #ifdef DEBUG
         myDebugSerial->println(">>A2DP connected");
       #endif

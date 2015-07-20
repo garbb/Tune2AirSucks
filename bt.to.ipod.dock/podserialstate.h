@@ -696,14 +696,14 @@ void PodserialState::process() {
                     switch (playingState) {
                       case STATE_PLAYING:
                         //playingState = STATE_PAUSED;  //don't set this here, set upon feedback from BC127 instead
-                        if (allowPlayPausecmd) {
+                        if (allowPlayPausecmd && myBC127.BC127_status == myBC127.AVRCP_connected) {
                           myBC127.MusicSendCmd("MUSIC PAUSE");
                           allowPlayPausecmd = false;
                         }
                         break;
                       case STATE_PAUSED: case STATE_STOPPED:
                         //playingState = STATE_PLAYING;  //don't set this here, set upon feedback from BC127 instead
-                        if (allowPlayPausecmd) {
+                        if (allowPlayPausecmd && myBC127.BC127_status == myBC127.AVRCP_connected) {
                           myBC127.MusicSendCmd("MUSIC PLAY");
                           allowPlayPausecmd = false;
                         }
