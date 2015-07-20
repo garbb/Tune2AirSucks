@@ -340,7 +340,7 @@ class PodserialState {
   //one byte and one number (polling/track has changed message...)
   void PodserialState::send_response(byte mode, byte cmdbyte1, byte cmdbyte2, byte pollingbyte, uint32_t num1) {
     #if defined(DEBUG_SEND)
-      if (pollingbyte != 0x04) {    //turn off spamming debug with polling
+//      if (pollingbyte != 0x04) {    //turn off spamming debug with polling
         myDebugSerial->println();
         myDebugSerial->print("send ");
         myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
@@ -349,7 +349,7 @@ class PodserialState {
         myDebugSerial->print(", "); myDebugSerial->print(pollingbyte);
         myDebugSerial->print(", "); myDebugSerial->print(num1);
         myDebugSerial->println();
-      }
+//      }
     #endif
     sendHeader();
     sendByte(1 + 2 + 1 + 4);      //length (1 mode byte + 2 cmd bytes + 1 byte + 4byte int)
@@ -742,7 +742,9 @@ void PodserialState::process() {
               break;
               
             case CMD_GET_TIME_AND_STATUS_INFO:
-              send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_TIME_AND_STATUS_INFO, trackLength, (now - trackstarttime) + accumTrackPlaytime, playingState);
+              send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_TIME_AND_STATUS_INFO, trackLength, 
+                playingState==STATE_PLAYING ? ((now - trackstarttime) + accumTrackPlaytime) : accumTrackPlaytime, 
+                playingState);
               //need to reset play/pause cmd disable here b/c this is when playing state is sent to dock
               //otherwise we end up changing it at another time and dock still has old information and we get another inappropiate play/pause toggle
               if (prevplayingState != playingState) {

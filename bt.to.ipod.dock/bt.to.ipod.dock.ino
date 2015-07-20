@@ -77,7 +77,8 @@ void loop() {
 
   //if ipod polling mode is turned on
   if (dockserialState.pollingmode && now - last_poll > polling_delay) {
-    dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x04, (now - trackstarttime) + accumTrackPlaytime);
+    dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x04, 
+      playingState==STATE_PLAYING ? ((now - trackstarttime) + accumTrackPlaytime) : accumTrackPlaytime);
     last_poll = now;
   }
   
