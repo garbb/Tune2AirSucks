@@ -1,0 +1,1310 @@
+BlueCreation Copyright 2013
+Melody Audio V5.0 RC11
+Ready
+>>BC127 Boot complete
+
+OPEN_OK A2DP
+>>A2DP connected
+
+
+<<send cmd: VOLUME A2DP=15
+OK
+>>got OK response
+
+2432 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+2446 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+2457 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+2472 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+2482 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+2497 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+2508 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+2522 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+2533 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+2537 dock->ipod
+size:3 mode:0 command:0x1,0x4 params: csum:F8 [OK]
+switch to mode 4
+
+AVRCP_PLAY
+OPEN_OK AVRCP
+>>AVRCP connected
+
+2794 dock->ipod
+size:2 mode:0 command:0x5,0x0 params: csum:F9 [OK]
+switch to mode 4
+
+AVRCP_MEDIA TITLE: What Is Doomsday Machine - The Planet Killer
+AVRCP_MEDIA ARTIST: Soundtrack
+3051 dock->ipod
+size:3 mode:4 command:0x0,0x12 params: csum:E7 [OK]
+get ipod size
+
+AVRCP_MEDIA ALBUM: Star Trek TOS The Original Series Vol II
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 50
+>>TITLE IS: "What Is Doomsday Machine - The Planet Killer"
+>>ARTIST IS: "Soundtrack"
+>>ALBUM IS: "Star Trek TOS The Original Series Vol II"
+
+3062 dock->ipod
+size:3 mode:4 command:0x0,0x2C params: csum:CD [OK]
+get shuffle mode
+
+3072 dock->ipod
+size:3 mode:4 command:0x0,0x33 params: csum:C6 [OK]
+get pic size?
+
+3082 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+send feedback for switch to main library
+
+3092 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+AVRCP_MEDIA PLAYING_TIME(MS): 121242
+>>LENGTH IS: "121242ms"
+3103 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:1, csum:DF [OK]
+get count of playlists
+send mode:4, count response, 5
+
+3117 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,0, csum:DC [OK]
+switch to playlist #0
+send feedback for switch to 
+
+3127 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+3141 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1, csum:DB [OK]
+switch to playlist #1
+send feedback for switch to 
+
+3152 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+3165 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2, csum:DA [OK]
+switch to playlist #2
+send feedback for switch to 
+
+3176 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+3190 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3, csum:D9 [OK]
+switch to playlist #3
+send feedback for switch to 
+
+3200 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+3214 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4, csum:D8 [OK]
+switch to playlist #4
+send feedback for switch to 
+
+3225 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+3236 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+send feedback for polling start/stop
+
+
+send mode:4, polling response, 4, 0
+3247 dock->ipod
+size:4 mode:4 command:0x0,0x31 params:2, csum:C5 [OK]
+set repeat mode
+send feedback for set repeat mode
+
+3258 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+send feedback for polling start/stop
+
+3269 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+send feedback for switch to main library
+
+3280 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+<<send cmd: MUSIC PLAY
+
+send feedback for playback control cmd 
+
+3292 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 121242, 11, 1
+playingstate changed
+
+3306 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send mode:4, playlist position is , 50
+
+OK
+>>got OK response
+
+3320 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,32, csum:A3 [OK]
+get title of song #50
+send mode:4, title response:, What Is Doomsday Machine - The Planet Killer
+
+3355 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,32, csum:A1 [OK]
+get artist of song #50
+send mode:4, artist response:, Soundtrack
+
+AVRCP_PLAY
+>>play state changed to 1
+
+3372 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,32, csum:9F [OK]
+get album of song #50
+send mode:4, album response:, Star Trek TOS The Original Series Vol II
+
+3403 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+3414 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:2, csum:DE [OK]
+get count of artists
+send mode:4, count response, 5
+
+3425 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:3, csum:DD [OK]
+get count of albums
+send mode:4, count response, 5
+
+3437 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:4, csum:DC [OK]
+get count of genres
+send mode:4, count response, 5
+
+3455 dock->ipod
+size:14 mode:4 command:0x0,0x32 params:0,0,1,0,80,0,37,0,0,0,20, csum:E4 [OK]
+picture block
+send feedback for picture block
+
+
+send mode:4, polling response, 4, 377
+3755 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,FF,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,0,0,0,0,0,FF,C0,0,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,0,3,FF,0,0,0,3,FF,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,FC,0,0,0,0,0,0,0,F,FC,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3F,FF,FF,FC,0,0,0,0,0,0,0,0,3F,F0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,3,FF,FF,FC,0,0,0,0,0,0,0,0,0,FF,F0,0,0,0,0,0,0,0,FF,FF,FF,C0,0,0,0,0,0,0,3F,FF,FF,0,0,0,0,0,0,0,0,0,0,FF,C0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3,FF,0,0,0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,3F,FF,FC,0,0,0,0,0,0,0,0,0,0,F,FC,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,0,0,0,3,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,3F,F0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,C0,0,0,3F,FF,FF,0,0,0,0,0,0,0,0,0,0,0,FF,C0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FC,0,0,FF,FF,F0,0,F,FF,C0,3F,FC,3,FF,CF,FC,0,FF,CF,FF,FF,FF,F,FF,FF,FF,3,FF,FF,FF,F,FF,FF,0, csum:11 [OK]
+picture block
+send feedback for picture block
+
+4056 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,2,3,FF,FF,0,0,3F,FF,C0,F,FC,3F,FF,F,FF,3,FF,F,FF,FF,FC,3F,FF,FF,FF,F,FF,FF,FF,3,FF,FF,C0,F,FF,FF,0,0,3F,FF,C0,F,FF,3F,FF,3,FF,F,FC,F,FF,FF,FC,FF,FF,FF,FF,3F,FF,FF,FF,0,3F,FF,F0,3F,FF,F0,0,0,FF,FF,C0,3,FF,FF,F0,3,FF,FF,F0,F,FF,FF,FC,FF,FF,FF,FF,3F,FF,FF,FF,0,F,FF,FC,3F,FF,F0,0,0,FF,FF,C0,0,FF,FF,C0,0,3F,FF,C0,F,FF,FF,F0,FF,FF,FF,FC,3F,FF,FF,FC,0,F,FF,FC,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,C0,0,3,FC,3F,C0,0,3F,FC,0,0,3F,FC,0,F,FF,FF,F0,FF,FF,FF,C0,FF,FF,FF,C0,0,3,FF,FF,FF,FF,0,0,F,FC,3F,C0,0,3F,FC,0,0,3F,FC,0,3F,FF,FF,F0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,0,0,F,F0,3F,C0,0,FF,FC,0,0,FF,FC,0,3F,FF,FF,F0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,0,0,3F,F0,3F,C0,3,FF,FC,0,3,FF,FF,0,3F,FF,FF,C0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,C0,0,3F,FF,FF,C0,3,FF,FF,0,F,FF,FF,0,3F,C0,0,0,0,0,3F,F0,0,0,3F,F0,0,3,FF,FF,FF,FF,C0,0,3F,FF,FF,C0,F,FF,FF,C0,F,FF,FF,0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,3,FF,FC,3F,FF,F0,0,FF,FF,FF,C0,3F,F3,FF,C0,3F,FC,FF,C0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,F,FF,FC,3F,FF,FC,0,FF,C0,3F,C0,FF,F0,FF,C0,3F,F0,FF,C0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,3F,FF,FC,F,FF,FF,3,FF,0,3F,C0,FF,C0,FF,F0,FF,C0,3F,F0,FF,FF,FF,C3,FF,FF,FF,C3,FF,FF,FF,C0,0,FF,FF,F0,3,FF,FF,C3,FC,0,FF,C3,FF,0,3F,F3,FF,0,3F,F0,FF,FF,FF,3,FF,FF,FF,3,FF,FF,FF,0,3,FF,FF,C0, csum:55 [OK]
+picture block
+send feedback for picture block
+
+
+send mode:4, polling response, 4, 878
+4358 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,3,0,FF,FF,F0,0,0,0,F,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,0,0,3F,FF,FF,0,0,0,3F,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FC,0,0,3,FF,FF,F0,0,0,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,C0,0,0,0,3F,FF,FC,0,0,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,0,0,0,0,F,FF,FF,F0,3,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,C0,0,0,0,0,0,3F,FF,FF,F,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FC,0,0,0,0,0,0,3,FF,FF,FF,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,C0,0,0,0,0,0,0,0,3,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,FF,C0,0,0,0,0,0,0,3,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,FF,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, csum:77 [OK]
+picture block
+send feedback for picture block
+
+4567 dock->ipod
+size:325 mode:4 command:0x0,0x32 params:0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,C,C,0,0,0,0,0,C,0,0,0,0,C,C,0,0,C,C,0,C0,0,0,F,FC,0,0,0,0,0,0,0,0,F,3C,0,0,0,0,0,C,0,0,0,0,F,3C,0,0,C,C,3,C0,0,0,C,0,0,0,0,0,0,0,0,0,C,CC,3,F0,F,FC,3,CC,3,F0,0,0,C,CC,0,0,C,C,0,C0,0,0,F,F0,0,0,0,0,0,0,0,0,C,CC,0,C,0,30,C,3C,0,C,0,0,C,CC,0,0,C,C,0,C0,0,0,0,C,0,0,0,0,0,0,0,0,C,C,3,FC,0,C0,C,C,3,FC,0,0,C,C,0,0,C,C,0,C0,0,0,0,C,0,0,0,0,0,0,0,0,C,C,C,C,3,0,C,C,C,C,0,0,C,C,0,0,3,30,0,C0,3,C0,C,C,0,0,0,0,0,0,0,0,C,C,3,FC,F,FC,3,FC,3,FC,0,0,C,C,0,0,0,C0,3,F0,3,C0,3,F0,0,0,0,0,0,0,0, csum:99 [OK]
+picture block
+send feedback for picture block
+
+
+send mode:4, polling response, 4, 1379
+
+send mode:4, polling response, 4, 1880
+
+send mode:4, polling response, 4, 2381
+
+send mode:4, polling response, 4, 2882
+
+send mode:4, polling response, 4, 3383
+
+send mode:4, polling response, 4, 3884
+
+send mode:4, polling response, 4, 4385
+
+send mode:4, polling response, 4, 4886
+
+send mode:4, polling response, 4, 5387
+
+send mode:4, polling response, 4, 5888
+
+send mode:4, polling response, 4, 6389
+
+send mode:4, polling response, 4, 6890
+
+send mode:4, polling response, 4, 7391
+
+send mode:4, polling response, 4, 7892
+
+send mode:4, polling response, 4, 8393
+
+send mode:4, polling response, 4, 8894
+
+send mode:4, polling response, 4, 9395
+
+send mode:4, polling response, 4, 9896
+
+send mode:4, polling response, 4, 10397
+
+send mode:4, polling response, 4, 10898
+
+send mode:4, polling response, 4, 11399
+
+send mode:4, polling response, 4, 11900
+
+send mode:4, polling response, 4, 12401
+
+send mode:4, polling response, 4, 12902
+
+send mode:4, polling response, 4, 13403
+
+send mode:4, polling response, 4, 13904
+
+send mode:4, polling response, 4, 14405
+
+send mode:4, polling response, 4, 14906
+
+send mode:4, polling response, 4, 15407
+
+send mode:4, polling response, 4, 15908
+
+send mode:4, polling response, 4, 16409
+
+send mode:4, polling response, 4, 16910
+
+send mode:4, polling response, 4, 17411
+
+send mode:4, polling response, 4, 17912
+
+send mode:4, polling response, 4, 18413
+AVRCP_MEDIA TITLE: Ain't No Half Steppin'
+AVRCP_MEDIA ARTIST: Big Daddy Kane
+AVRCP_MEDIA ALBUM: Long Live The Kane
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 50
+>>TITLE IS: "Ain't No Half Steppin'"
+>>ARTIST IS: "Big Daddy Kane"
+>>ALBUM IS: "Long Live The Kane"
+
+22230 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,32, csum:A3 [OK]
+get title of song #50
+send mode:4, title response:, Ain't No Half Steppin'
+
+22254 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,32, csum:A1 [OK]
+get artist of song #50
+send mode:4, artist response:, Big Daddy Kane
+
+AVRCP_MEDIA PLAYING_TIME(MS): 324336
+>>LENGTH IS: "324336ms"
+22273 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,32, csum:9F [OK]
+get album of song #50
+send mode:4, album response:, Long Live The Kane
+
+
+send mode:4, polling response, 4, 57
+
+send mode:4, polling response, 4, 558
+
+send mode:4, polling response, 4, 1059
+
+send mode:4, polling response, 4, 1560
+
+send mode:4, polling response, 4, 2061
+
+send mode:4, polling response, 4, 2562
+
+send mode:4, polling response, 4, 3063
+
+send mode:4, polling response, 4, 3564
+
+send mode:4, polling response, 4, 4065
+
+send mode:4, polling response, 4, 4566
+
+send mode:4, polling response, 4, 5067
+
+send mode:4, polling response, 4, 5568
+
+send mode:4, polling response, 4, 6069
+
+send mode:4, polling response, 4, 6570
+
+send mode:4, polling response, 4, 7071
+
+send mode:4, polling response, 4, 7572
+
+send mode:4, polling response, 4, 8073
+
+send mode:4, polling response, 4, 8574
+
+send mode:4, polling response, 4, 9075
+
+send mode:4, polling response, 4, 9576
+
+send mode:4, polling response, 4, 10077
+
+send mode:4, polling response, 4, 10578
+
+send mode:4, polling response, 4, 11079
+
+send mode:4, polling response, 4, 11580
+
+send mode:4, polling response, 4, 12081
+
+send mode:4, polling response, 4, 12582
+
+send mode:4, polling response, 4, 13083
+AVRCP_MEDIA TITLE: What Is Doomsday Machine - The Planet Killer
+AVRCP_MEDIA ARTIST: Soundtrack
+AVRCP_MEDIA ALBUM: Star Trek TOS The Original Series Vol II
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 50
+>>TITLE IS: "What Is Doomsday Machine - The Planet Killer"
+>>ARTIST IS: "Soundtrack"
+>>ALBUM IS: "Star Trek TOS The Original Series Vol II"
+
+35410 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,32, csum:A3 [OK]
+get title of song #50
+send mode:4, title response:, What Is Doomsday Machine - The Planet Killer
+
+AVRCP_MEDIA PLAYING_TIME(MS): 121242
+>>LENGTH IS: "121242ms"
+35446 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,32, csum:A1 [OK]
+get artist of song #50
+send mode:4, artist response:, Soundtrack
+
+35464 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,32, csum:9F [OK]
+get album of song #50
+send mode:4, album response:, Star Trek TOS The Original Series Vol II
+
+
+send mode:4, polling response, 4, 404
+
+send mode:4, polling response, 4, 905
+
+send mode:4, polling response, 4, 1406
+
+send mode:4, polling response, 4, 1907
+
+send mode:4, polling response, 4, 2408
+
+send mode:4, polling response, 4, 2909
+
+send mode:4, polling response, 4, 3410
+
+send mode:4, polling response, 4, 3911
+
+send mode:4, polling response, 4, 4412
+
+send mode:4, polling response, 4, 4913
+
+send mode:4, polling response, 4, 5414
+
+send mode:4, polling response, 4, 5915
+
+send mode:4, polling response, 4, 6416
+
+send mode:4, polling response, 4, 6917
+
+send mode:4, polling response, 4, 7418
+
+send mode:4, polling response, 4, 7919
+
+send mode:4, polling response, 4, 8420
+
+send mode:4, polling response, 4, 8921
+
+send mode:4, polling response, 4, 9422
+
+send mode:4, polling response, 4, 9923
+
+send mode:4, polling response, 4, 10424
+
+send mode:4, polling response, 4, 10925
+
+send mode:4, polling response, 4, 11426
+
+send mode:4, polling response, 4, 11927
+
+send mode:4, polling response, 4, 12428
+
+send mode:4, polling response, 4, 12929
+
+send mode:4, polling response, 4, 13430
+
+send mode:4, polling response, 4, 13931
+
+send mode:4, polling response, 4, 14432
+
+send mode:4, polling response, 4, 14933
+
+send mode:4, polling response, 4, 15434
+
+send mode:4, polling response, 4, 15935
+
+send mode:4, polling response, 4, 16436
+
+send mode:4, polling response, 4, 16937
+AVRCP_PAUSE
+>>play state changed to 2
+
+AVRCP_MEDIA TITLE: Blowin' Up The Spot
+AVRCP_MEDIA ARTIST: Gang Starr
+AVRCP_MEDIA ALBUM: Hard To Earn
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 50
+>>TITLE IS: "Blowin' Up The Spot"
+>>ARTIST IS: "Gang Starr"
+>>ALBUM IS: "Hard To Earn"
+
+52666 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,32, csum:A3 [OK]
+get title of song #50
+send mode:4, title response:, Blowin' Up The Spot
+
+AVRCP_MEDIA PLAYING_TIME(MS): 191
+>>LENGTH IS: "191000ms"
+52688 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,32, csum:A1 [OK]
+get artist of song #50
+send mode:4, artist response:, Gang Starr
+
+AVRCP_PLAY
+>>play state changed to 1
+
+52705 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,32, csum:9F [OK]
+get album of song #50
+send mode:4, album response:, Hard To Earn
+
+
+send mode:4, polling response, 4, 136
+
+send mode:4, polling response, 4, 637
+
+send mode:4, polling response, 4, 1138
+
+send mode:4, polling response, 4, 1639
+
+send mode:4, polling response, 4, 2140
+
+send mode:4, polling response, 4, 2641
+
+send mode:4, polling response, 4, 3142
+
+send mode:4, polling response, 4, 3643
+
+send mode:4, polling response, 4, 4144
+
+send mode:4, polling response, 4, 4645
+
+send mode:4, polling response, 4, 5146
+
+send mode:4, polling response, 4, 5647
+
+send mode:4, polling response, 4, 6148
+
+send mode:4, polling response, 4, 6649
+
+send mode:4, polling response, 4, 7150
+
+send mode:4, polling response, 4, 7651
+
+send mode:4, polling response, 4, 8152
+
+send mode:4, polling response, 4, 8653
+
+send mode:4, polling response, 4, 9154
+
+send mode:4, polling response, 4, 9655
+
+send mode:4, polling response, 4, 10156
+
+send mode:4, polling response, 4, 10657
+
+send mode:4, polling response, 4, 11158
+
+send mode:4, polling response, 4, 11659
+
+send mode:4, polling response, 4, 12160
+
+send mode:4, polling response, 4, 12661
+
+send mode:4, polling response, 4, 13162
+
+send mode:4, polling response, 4, 13663
+
+send mode:4, polling response, 4, 14164
+
+send mode:4, polling response, 4, 14665
+
+send mode:4, polling response, 4, 15166
+
+send mode:4, polling response, 4, 15667
+
+send mode:4, polling response, 4, 16168
+
+send mode:4, polling response, 4, 16669
+
+send mode:4, polling response, 4, 17170
+
+send mode:4, polling response, 4, 17671
+
+send mode:4, polling response, 4, 18172
+
+send mode:4, polling response, 4, 18673
+
+send mode:4, polling response, 4, 19174
+
+send mode:4, polling response, 4, 19675
+
+send mode:4, polling response, 4, 20176
+AVRCP_PAUSE
+>>play state changed to 2
+
+
+send mode:4, polling response, 4, 20671
+AVRCP_PLAY
+>>play state changed to 1
+
+AVRCP_MEDIA TITLE: What Is Doomsday Machine - The Planet Killer
+AVRCP_MEDIA ARTIST: Soundtrack
+AVRCP_MEDIA ALBUM: Star Trek TOS The Original Series Vol II
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 50
+>>TITLE IS: "What Is Doomsday Machine - The Planet Killer"
+>>ARTIST IS: "Soundtrack"
+>>ALBUM IS: "Star Trek TOS The Original Series Vol II"
+
+73583 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,32, csum:A3 [OK]
+get title of song #50
+send mode:4, title response:, What Is Doomsday Machine - The Planet Killer
+
+AVRCP_MEDIA PLAYING_TIME(MS): 121242
+>>LENGTH IS: "121242ms"
+73618 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,32, csum:A1 [OK]
+get artist of song #50
+send mode:4, artist response:, Soundtrack
+
+73635 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,32, csum:9F [OK]
+get album of song #50
+send mode:4, album response:, Star Trek TOS The Original Series Vol II
+
+
+send mode:4, polling response, 4, 308
+
+send mode:4, polling response, 4, 809
+
+send mode:4, polling response, 4, 1310
+
+send mode:4, polling response, 4, 1811
+
+send mode:4, polling response, 4, 2312
+
+send mode:4, polling response, 4, 2813
+
+send mode:4, polling response, 4, 3314
+
+send mode:4, polling response, 4, 3815
+
+send mode:4, polling response, 4, 4316
+
+send mode:4, polling response, 4, 4817
+
+send mode:4, polling response, 4, 5318
+
+send mode:4, polling response, 4, 5819
+
+send mode:4, polling response, 4, 6320
+
+send mode:4, polling response, 4, 6821
+
+send mode:4, polling response, 4, 7322
+
+send mode:4, polling response, 4, 7823
+
+send mode:4, polling response, 4, 8324
+
+send mode:4, polling response, 4, 8825
+
+send mode:4, polling response, 4, 9326
+
+send mode:4, polling response, 4, 9827
+83875 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++
+<<send cmd: MUSIC FORWARD
+
+send feedback for playback control cmd 
+
+
+send mode:4, polling response, 4, 22
+OK
+>>got OK response
+
+AVRCP_MEDIA TITLE: Condolences - Power Drain
+AVRCP_MEDIA ARTIST: Soundtrack
+AVRCP_MEDIA ALBUM: Star Trek TOS The Original Series Vol II
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 51
+>>TITLE IS: "Condolences - Power Drain"
+>>ARTIST IS: "Soundtrack"
+>>ALBUM IS: "Star Trek TOS The Original Series Vol II"
+
+84386 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,33, csum:A2 [OK]
+get title of song #51
+send mode:4, title response:, Condolences - Power Drain
+
+
+send mode:4, polling response, 4, 26
+84411 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,33, csum:A0 [OK]
+get artist of song #51
+send mode:4, artist response:, Soundtrack
+
+AVRCP_MEDIA PLAYING_TIME(MS): 78610
+>>LENGTH IS: "78610ms"
+84428 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,33, csum:9E [OK]
+get album of song #51
+send mode:4, album response:, Star Trek TOS The Original Series Vol II
+
+
+send mode:4, polling response, 4, 527
+
+send mode:4, polling response, 4, 1028
+
+send mode:4, polling response, 4, 1529
+
+send mode:4, polling response, 4, 2030
+
+send mode:4, polling response, 4, 2531
+
+send mode:4, polling response, 4, 3032
+
+send mode:4, polling response, 4, 3533
+
+send mode:4, polling response, 4, 4034
+
+send mode:4, polling response, 4, 4535
+
+send mode:4, polling response, 4, 5036
+
+send mode:4, polling response, 4, 5537
+
+send mode:4, polling response, 4, 6038
+
+send mode:4, polling response, 4, 6539
+
+send mode:4, polling response, 4, 7040
+
+send mode:4, polling response, 4, 7541
+
+send mode:4, polling response, 4, 8042
+
+send mode:4, polling response, 4, 8543
+
+send mode:4, polling response, 4, 9044
+
+send mode:4, polling response, 4, 9545
+
+send mode:4, polling response, 4, 10046
+
+send mode:4, polling response, 4, 10547
+
+send mode:4, polling response, 4, 11048
+
+send mode:4, polling response, 4, 11549
+AVRCP_PAUSE
+>>play state changed to 2
+
+AVRCP_MEDIA TITLE: Blowin' Up The Spot
+AVRCP_MEDIA ARTIST: Gang Starr
+AVRCP_MEDIA ALBUM: Hard To Earn
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 51
+>>TITLE IS: "Blowin' Up The Spot"
+>>ARTIST IS: "Gang Starr"
+>>ALBUM IS: "Hard To Earn"
+
+96197 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,33, csum:A2 [OK]
+get title of song #51
+send mode:4, title response:, Blowin' Up The Spot
+
+AVRCP_MEDIA PLAYING_TIME(MS): 191
+>>LENGTH IS: "191000ms"
+96219 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,33, csum:A0 [OK]
+get artist of song #51
+send mode:4, artist response:, Gang Starr
+
+AVRCP_PLAY
+>>play state changed to 1
+
+96236 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,33, csum:9E [OK]
+get album of song #51
+send mode:4, album response:, Hard To Earn
+
+
+send mode:4, polling response, 4, 192
+
+send mode:4, polling response, 4, 693
+
+send mode:4, polling response, 4, 1194
+
+send mode:4, polling response, 4, 1695
+
+send mode:4, polling response, 4, 2196
+
+send mode:4, polling response, 4, 2697
+
+send mode:4, polling response, 4, 3198
+
+send mode:4, polling response, 4, 3699
+
+send mode:4, polling response, 4, 4200
+
+send mode:4, polling response, 4, 4701
+
+send mode:4, polling response, 4, 5202
+
+send mode:4, polling response, 4, 5703
+
+send mode:4, polling response, 4, 6204
+
+send mode:4, polling response, 4, 6705
+
+send mode:4, polling response, 4, 7206
+
+send mode:4, polling response, 4, 7707
+
+send mode:4, polling response, 4, 8208
+
+send mode:4, polling response, 4, 8709
+
+send mode:4, polling response, 4, 9210
+
+send mode:4, polling response, 4, 9711
+AVRCP_MEDIA TITLE: Condolences - Power Drain
+AVRCP_MEDIA ARTIST: Soundtrack
+send mode:4, polling response, 4, 10212
+AVRCP_MEDIA ALBUM: Star Trek TOS The Original Series Vol II
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 51
+>>TITLE IS: "Condolences - Power Drain"
+>>ARTIST IS: "Soundtrack"
+>>ALBUM IS: "Star Trek TOS The Original Series Vol II"
+
+106505 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,33, csum:A2 [OK]
+get title of song #51
+send mode:4, title response:, Condolences - Power Drain
+
+106530 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,33, csum:A0 [OK]
+get artist of song #51
+send mode:4, artist response:, Soundtrack
+
+AVRCP_MEDIA PLAYING_TIME(MS): 78610
+>>LENGTH IS: "78610ms"
+106547 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,33, csum:9E [OK]
+get album of song #51
+send mode:4, album response:, Star Trek TOS The Original Series Vol II
+
+
+send mode:4, polling response, 4, 451
+
+send mode:4, polling response, 4, 952
+
+send mode:4, polling response, 4, 1453
+
+send mode:4, polling response, 4, 1954
+
+send mode:4, polling response, 4, 2455
+109327 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:3, csum:CC [OK]
+playback control cmd skip++
+<<send cmd: MUSIC FORWARD
+
+send feedback for playback control cmd 
+
+OK
+>>got OK response
+
+
+send mode:4, polling response, 4, 121
+AVRCP_MEDIA TITLE: Mr. Spock
+AVRCP_MEDIA ARTIST: Soundtrack
+AVRCP_MEDIA ALBUM: Star Trek TOS The Original Series Vol II
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 52
+>>TITLE IS: "Mr. Spock"
+>>ARTIST IS: "Soundtrack"
+>>ALBUM IS: "Star Trek TOS The Original Series Vol II"
+
+109828 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,34, csum:A1 [OK]
+get title of song #52
+send mode:4, title response:, Mr. Spock
+
+109845 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,34, csum:9F [OK]
+get artist of song #52
+send mode:4, artist response:, Soundtrack
+
+AVRCP_MEDIA PLAYING_TIME(MS): 87309
+>>LENGTH IS: "87309ms"
+109862 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,34, csum:9D [OK]
+get album of song #52
+send mode:4, album response:, Star Trek TOS The Original Series Vol II
+
+
+send mode:4, polling response, 4, 134
+
+send mode:4, polling response, 4, 635
+
+send mode:4, polling response, 4, 1136
+
+send mode:4, polling response, 4, 1637
+
+send mode:4, polling response, 4, 2138
+
+send mode:4, polling response, 4, 2639
+
+send mode:4, polling response, 4, 3140
+
+send mode:4, polling response, 4, 3641
+
+send mode:4, polling response, 4, 4142
+
+send mode:4, polling response, 4, 4643
+
+send mode:4, polling response, 4, 5144
+
+send mode:4, polling response, 4, 5645
+
+send mode:4, polling response, 4, 6146
+
+send mode:4, polling response, 4, 6647
+
+send mode:4, polling response, 4, 7148
+
+send mode:4, polling response, 4, 7649
+
+send mode:4, polling response, 4, 8150
+
+send mode:4, polling response, 4, 8651
+
+send mode:4, polling response, 4, 9152
+
+send mode:4, polling response, 4, 9653
+
+send mode:4, polling response, 4, 10154
+
+send mode:4, polling response, 4, 10655
+
+send mode:4, polling response, 4, 11156
+
+send mode:4, polling response, 4, 11657
+
+send mode:4, polling response, 4, 12158
+
+send mode:4, polling response, 4, 12659
+
+send mode:4, polling response, 4, 13160
+
+send mode:4, polling response, 4, 13661
+AVRCP_MEDIA TITLE: Ain't No Half Steppin'
+AVRCP_MEDIA ARTIST: Big Daddy Kane
+AVRCP_MEDIA ALBUM: Long Live The Kane
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 52
+>>TITLE IS: "Ain't No Half Steppin'"
+>>ARTIST IS: "Big Daddy Kane"
+>>ALBUM IS: "Long Live The Kane"
+
+123819 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,34, csum:A1 [OK]
+get title of song #52
+send mode:4, title response:, Ain't No Half Steppin'
+
+123842 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,34, csum:9F [OK]
+get artist of song #52
+send mode:4, artist response:, Big Daddy Kane
+
+AVRCP_MEDIA PLAYING_TIME(MS): 324336
+>>LENGTH IS: "324336ms"
+123861 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,34, csum:9D [OK]
+get album of song #52
+send mode:4, album response:, Long Live The Kane
+
+
+send mode:4, polling response, 4, 172
+
+send mode:4, polling response, 4, 673
+
+send mode:4, polling response, 4, 1174
+
+send mode:4, polling response, 4, 1675
+
+send mode:4, polling response, 4, 2176
+
+send mode:4, polling response, 4, 2677
+
+send mode:4, polling response, 4, 3178
+
+send mode:4, polling response, 4, 3679
+
+send mode:4, polling response, 4, 4180
+128350 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 324336, 4545, 1
+
+128365 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+<<send cmd: MUSIC PAUSE
+
+send feedback for playback control cmd 
+
+128376 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 324336, 4560, 2
+playingstate changed
+
+OK
+>>got OK response
+
+
+send mode:4, polling response, 4, 4560
+AVRCP_PAUSE
+>>play state changed to 2
+
+
+send mode:4, polling response, 4, 9259
+
+send mode:4, polling response, 4, 9259
+
+send mode:4, polling response, 4, 9259
+
+send mode:4, polling response, 4, 9259
+
+send mode:4, polling response, 4, 9259
+
+send mode:4, polling response, 4, 9259
+131747 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 324336, 9259, 2
+
+131761 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+<<send cmd: MUSIC PLAY
+
+send feedback for playback control cmd 
+
+131772 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 324336, 9270, 1
+playingstate changed
+
+131787 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send mode:4, playlist position is , 52
+
+OK
+>>got OK response
+
+131800 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,34, csum:A1 [OK]
+get title of song #52
+send mode:4, title response:, Ain't No Half Steppin'
+
+131824 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,34, csum:9F [OK]
+get artist of song #52
+send mode:4, artist response:, Big Daddy Kane
+
+131844 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,34, csum:9D [OK]
+get album of song #52
+send mode:4, album response:, Long Live The Kane
+
+AVRCP_PLAY
+>>play state changed to 1
+
+
+send mode:4, polling response, 4, 9279
+AVRCP_MEDIA TITLE: Ain't No Half Steppin'
+AVRCP_MEDIA ARTIST: Big Daddy Kane
+AVRCP_MEDIA ALBUM: Long Live The Kane
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 52
+>>TITLE IS: "Ain't No Half Steppin'"
+>>ARTIST IS: "Big Daddy Kane"
+>>ALBUM IS: "Long Live The Kane"
+
+132209 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,34, csum:A1 [OK]
+get title of song #52
+send mode:4, title response:, Ain't No Half Steppin'
+
+132233 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,34, csum:9F [OK]
+get artist of song #52
+send mode:4, artist response:, Big Daddy Kane
+
+AVRCP_MEDIA PLAYING_TIME(MS): 324336
+>>LENGTH IS: "324336ms"
+132252 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,34, csum:9D [OK]
+get album of song #52
+send mode:4, album response:, Long Live The Kane
+
+
+send mode:4, polling response, 4, 299
+
+send mode:4, polling response, 4, 800
+
+send mode:4, polling response, 4, 1301
+
+send mode:4, polling response, 4, 1802
+
+send mode:4, polling response, 4, 2303
+
+send mode:4, polling response, 4, 2804
+
+send mode:4, polling response, 4, 3305
+
+send mode:4, polling response, 4, 3806
+
+send mode:4, polling response, 4, 4307
+
+send mode:4, polling response, 4, 4808
+
+send mode:4, polling response, 4, 5309
+
+send mode:4, polling response, 4, 5810
+
+send mode:4, polling response, 4, 6311
+
+send mode:4, polling response, 4, 6812
+
+send mode:4, polling response, 4, 7313
+
+send mode:4, polling response, 4, 7814
+
+send mode:4, polling response, 4, 8315
+
+send mode:4, polling response, 4, 8816
+
+send mode:4, polling response, 4, 9317
+
+send mode:4, polling response, 4, 9818
+
+send mode:4, polling response, 4, 10319
+
+send mode:4, polling response, 4, 10820
+
+send mode:4, polling response, 4, 11321
+
+send mode:4, polling response, 4, 11822
+
+send mode:4, polling response, 4, 12323
+
+send mode:4, polling response, 4, 12824
+
+send mode:4, polling response, 4, 13325
+
+send mode:4, polling response, 4, 13826
+
+send mode:4, polling response, 4, 14327
+AVRCP_PAUSE
+>>play state changed to 2
+
+AVRCP_MEDIA TITLE: Mr. Spock
+AVRCP_MEDIA ARTIST: Soundtrack
+AVRCP_MEDIA ALBUM: Star Trek TOS The Original Series Vol II
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 52
+>>TITLE IS: "Mr. Spock"
+>>ARTIST IS: "Soundtrack"
+>>ALBUM IS: "Star Trek TOS The Original Series Vol II"
+
+146828 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,34, csum:A1 [OK]
+get title of song #52
+send mode:4, title response:, Mr. Spock
+
+146844 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,34, csum:9F [OK]
+get artist of song #52
+send mode:4, artist response:, Soundtrack
+
+AVRCP_MEDIA PLAYING_TIME(MS): 87309
+>>LENGTH IS: "87309ms"
+146862 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,34, csum:9D [OK]
+get album of song #52
+send mode:4, album response:, Star Trek TOS The Original Series Vol II
+
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0
+
+send mode:4, polling response, 4, 0

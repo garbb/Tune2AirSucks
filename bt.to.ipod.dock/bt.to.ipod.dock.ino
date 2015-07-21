@@ -1,6 +1,7 @@
 #define DEBUG
 #define DEBUG_SEND    //print out to the debug serial the bytes we are sending with the send_*() functions
 const bool send_responses = true; //not really any reason to ever not send anymore?? maybe debugging??
+const bool polling_debug = true;
 
 //global variables
 extern String trackTitle = "";

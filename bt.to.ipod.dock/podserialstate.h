@@ -340,7 +340,7 @@ class PodserialState {
   //one byte and one number (polling/track has changed message...)
   void PodserialState::send_response(byte mode, byte cmdbyte1, byte cmdbyte2, byte pollingbyte, uint32_t num1) {
     #if defined(DEBUG_SEND)
-      if (pollingbyte != 0x04) {    //turn off spamming debug with polling
+      if (pollingbyte != 0x04 || polling_debug) {    //turn off spamming debug with polling
         myDebugSerial->println();
         myDebugSerial->print("send ");
         myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
@@ -695,16 +695,20 @@ void PodserialState::process() {
                     #endif
                     switch (playingState) {
                       case STATE_PLAYING:
-                        //playingState = STATE_PAUSED;  //don't set this here, set upon feedback from BC127 instead
                         if (allowPlayPausecmd && myBC127.BC127_status == myBC127.AVRCP_connected) {
                           myBC127.MusicSendCmd("MUSIC PAUSE");
+                          //Going to set state here AND when receiving feedback event from BC127 b/c some apps DO NOT send play/pause feedback
+                          playingState = STATE_PAUSED;
+                          accumTrackPlaytime += now - trackstarttime;  //add track playing time when we pause
                           allowPlayPausecmd = false;
                         }
                         break;
                       case STATE_PAUSED: case STATE_STOPPED:
-                        //playingState = STATE_PLAYING;  //don't set this here, set upon feedback from BC127 instead
                         if (allowPlayPausecmd && myBC127.BC127_status == myBC127.AVRCP_connected) {
                           myBC127.MusicSendCmd("MUSIC PLAY");
+                          //Going to set state here AND when receiving feedback event from BC127 b/c some apps DO NOT send play/pause feedback
+                          playingState = STATE_PLAYING;
+                          trackstarttime = now;
                           allowPlayPausecmd = false;
                         }
                         break;
@@ -746,7 +750,7 @@ void PodserialState::process() {
                 playingState==STATE_PLAYING ? ((now - trackstarttime) + accumTrackPlaytime) : accumTrackPlaytime, 
                 playingState);
               //need to reset play/pause cmd disable here b/c this is when playing state is sent to dock
-              //otherwise we end up changing it at another time and dock still has old information and we get another inappropiate play/pause toggle
+              //otherwise we end up changing it at another time and dock still has old information and we get another inappropriate play/pause toggle
               if (prevplayingState != playingState) {
                 allowPlayPausecmd = true;
                 #ifdef DEBUG

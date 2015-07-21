@@ -125,51 +125,58 @@ void MyBC127::readResponses() {
       SendCmd("DISCOVERABLE ON");
     }
 
-    else if (responsebuffer.startsWith(AVRCP_TITLE)) {
-      trackTitle = (responsebuffer.substring(AVRCP_TITLE.length())).trim();
-      //SEND TRACKCHANGE COMMAND TO DOCK HERE (with current playlist position)
-      //trackstarttime = now;  //save track start time as now
-      trackchangeCmdPending = true;
-      albumartistWaitstart = now;
-      //dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos);
-    }
-    else if (responsebuffer.startsWith(AVRCP_ARTIST)) {
-      trackArtist = (responsebuffer.substring(AVRCP_ARTIST.length())).trim();
-      gotnewArtist = true;
-    }
-    else if (responsebuffer.startsWith(AVRCP_ALBUM)) {
-      trackAlbum = (responsebuffer.substring(AVRCP_ALBUM.length())).trim();
-      gotnewAlbum = true;
-    }
-    else if (responsebuffer.startsWith(AVRCP_LENGTH)) {
-      trackLength = (responsebuffer.substring(AVRCP_LENGTH.length())).toInt();
-      //some apps (spotify) output track length as sec instead of ms
-      //we will just assume that if we get a small number then it is in sec instead of ms
-      if (trackLength < 1000) {trackLength *= 1000;}
-      #ifdef DEBUG
-        myDebugSerial->print(">>LENGTH IS: \""); myDebugSerial->print(trackLength); myDebugSerial->println("ms\"");
-      #endif
-    }
+    //Ignore all AVRCP events if there is no AVRCP connection (sometimes we randomly get AVRCP_PLAY before connection even if actual playing state is paused)
+    //I don't understand if this is a bug or what but lets just ignore them.
+    else if (BC127_status == AVRCP_connected) {
+      
+      if (responsebuffer.startsWith(AVRCP_TITLE)) {
+        trackTitle = (responsebuffer.substring(AVRCP_TITLE.length())).trim();
+        //SEND TRACKCHANGE COMMAND TO DOCK HERE (with current playlist position)
+        //trackstarttime = now;  //save track start time as now
+        trackchangeCmdPending = true;
+        albumartistWaitstart = now;
+        //dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos);
+      }
+      else if (responsebuffer.startsWith(AVRCP_ARTIST)) {
+        trackArtist = (responsebuffer.substring(AVRCP_ARTIST.length())).trim();
+        gotnewArtist = true;
+      }
+      else if (responsebuffer.startsWith(AVRCP_ALBUM)) {
+        trackAlbum = (responsebuffer.substring(AVRCP_ALBUM.length())).trim();
+        gotnewAlbum = true;
+      }
+      else if (responsebuffer.startsWith(AVRCP_LENGTH)) {
+        trackLength = (responsebuffer.substring(AVRCP_LENGTH.length())).toInt();
+        //some apps (spotify) output track length as sec instead of ms
+        //we will just assume that if we get a small number then it is in sec instead of ms
+        if (trackLength < 1000) {trackLength *= 1000;}
+        #ifdef DEBUG
+          myDebugSerial->print(">>LENGTH IS: \""); myDebugSerial->print(trackLength); myDebugSerial->println("ms\"");
+        #endif
+      }
+  
+      else if (responsebuffer.startsWith("AVRCP_STOP")) { //this never seems to happen with android apps I tested but might happen with something??
+        playingState = STATE_STOPPED;
+        accumTrackPlaytime += now - trackstarttime;  //add track playing time when we pause/stop?
+        #ifdef DEBUG
+          myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
+        #endif
+      }
+      else if (responsebuffer.startsWith("AVRCP_PLAY")) {
+        playingState = STATE_PLAYING;
+        trackstarttime = now;
+        #ifdef DEBUG
+          myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
+        #endif
+      }
+      else if (responsebuffer.startsWith("AVRCP_PAUSE")) {
+        playingState = STATE_PAUSED;
+        accumTrackPlaytime += now - trackstarttime;  //add track playing time when we pause
+        #ifdef DEBUG
+          myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
+        #endif
+      }
 
-    else if (responsebuffer.startsWith("AVRCP_STOP")) {
-      playingState = STATE_STOPPED;
-      #ifdef DEBUG
-        myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
-      #endif
-    }
-    else if (responsebuffer.startsWith("AVRCP_PLAY")) {
-      playingState = STATE_PLAYING;
-      trackstarttime = now;
-      #ifdef DEBUG
-        myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
-      #endif
-    }
-    else if (responsebuffer.startsWith("AVRCP_PAUSE")) {
-      playingState = STATE_PAUSED;
-      accumTrackPlaytime += now - trackstarttime;  //add track playing time when we pause
-      #ifdef DEBUG
-        myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
-      #endif
     }
 //    if (prevplayingState != playingState) {allowPlayPausecmd = true;}
 //    prevplayingState = playingState;

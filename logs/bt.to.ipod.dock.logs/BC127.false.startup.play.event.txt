@@ -1,0 +1,36 @@
+Melody Audio V5.0 RC11
+Ready
+>>BC127 Boot complete
+
+OPEN_OK A2DP
+>>A2DP connected
+
+
+<<send cmd: VOLUME A2DP=15
+OK
+>>got OK response
+
+AVRCP_PLAY
+>>play state changed to 1
+
+OPEN_OK AVRCP
+>>AVRCP connected
+
+AVRCP_MEDIA TITLE: Blowin' Up The Spot
+AVRCP_MEDIA ARTIST: Gang Starr
+AVRCP_MEDIA ALBUM: Hard To Earn
+>>sending track changed event and new track number to ipod dock
+
+send mode:4, polling response track changed to:, 1, 50
+>>TITLE IS: "Blowin' Up The Spot"
+>>ARTIST IS: "Gang Starr"
+>>ALBUM IS: "Hard To Earn"
+
+AVRCP_MEDIA PLAYING_TIME(MS): 191
+>>LENGTH IS: "191000ms"
+STATE CONNECTED
+LINK 2 CONNECTED A2DP 1C62B8A703C0 SBC 44100
+LINK 4 CONNECTED AVRCP 1C62B8A703C0 PAUSED
+OK
+>>got OK response
+
