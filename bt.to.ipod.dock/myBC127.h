@@ -131,11 +131,15 @@ void MyBC127::readResponses() {
       
       if (responsebuffer.startsWith(AVRCP_TITLE)) {
         trackTitle = (responsebuffer.substring(AVRCP_TITLE.length())).trim();
-        //SEND TRACKCHANGE COMMAND TO DOCK HERE (with current playlist position)
-        //trackstarttime = now;  //save track start time as now
+        //am going to set play state to PLAYING here b/c in some random cases when switching between android apps while playing music will get AVRCP_PAUSE event
+        //even though music is actually playing. AFAICT, when we get AVRCP_TITLE event, play state is always playing (EXCEPT UPON INITIAL CONNECTION).
+//        playingState = STATE_PLAYING;
+//        trackstarttime = now;
+//        #ifdef DEBUG
+//          myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
+//        #endif
         trackchangeCmdPending = true;
         albumartistWaitstart = now;
-        //dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos);
       }
       else if (responsebuffer.startsWith(AVRCP_ARTIST)) {
         trackArtist = (responsebuffer.substring(AVRCP_ARTIST.length())).trim();
