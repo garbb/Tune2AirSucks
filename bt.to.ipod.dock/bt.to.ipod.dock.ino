@@ -4,9 +4,9 @@ const bool send_responses = true; //not really any reason to ever not send anymo
 const bool polling_debug = true;
 
 //global variables
-extern String trackTitle = "";
-extern String trackArtist = "";
-extern String trackAlbum = "";
+extern String trackTitle = "Bluetooth";
+extern String trackArtist = "Bluetooth";
+extern String trackAlbum = "Bluetooth";
 extern bool trackchangeCmdPending = false;
 extern bool gotnewArtist = false;
 extern bool gotnewAlbum = false;
@@ -95,9 +95,9 @@ void loop() {
       if (!gotnewAlbum) {trackAlbum = trackTitle;}
       trackstarttime = now;  //save track start time as now
       accumTrackPlaytime = 0; //clear accum. track playtime
-      DebugSerial.println(">>sending track changed event and new track number to ipod dock");
       dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos);
       #ifdef DEBUG
+        DebugSerial.println(">>sending track changed event and new track number to ipod dock");
         DebugSerial.print(">>TITLE IS: \""); DebugSerial.print(trackTitle); DebugSerial.println("\"");
         DebugSerial.print(">>ARTIST IS: \""); DebugSerial.print(trackArtist); DebugSerial.println("\"");
         DebugSerial.print(">>ALBUM IS: \""); DebugSerial.print(trackAlbum); DebugSerial.println("\"");

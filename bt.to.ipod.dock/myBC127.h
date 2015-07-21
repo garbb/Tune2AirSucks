@@ -119,7 +119,15 @@ void MyBC127::readResponses() {
     }
     else if (responsebuffer.startsWith("CLOSE_OK A2DP")) {
       BC127_status = waiting_for_AVRCP_conn;
+      //reset track text and resend it to clear out old stuff in dock from last connection
+      trackTitle = "Bluetooth";
+      trackArtist = "Bluetooth";
+      trackAlbum = "Bluetooth";
+      gotnewArtist = true;
+      gotnewAlbum = true;
+      trackchangeCmdPending = true;
       #ifdef DEBUG
+        myDebugSerial->println(">>sending track changed event and new track number to ipod dock upon BT disconnnect");
         myDebugSerial->print(">>disconnected, making discoverable\n\n");
       #endif
       SendCmd("DISCOVERABLE ON");
