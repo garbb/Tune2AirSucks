@@ -1,7 +1,7 @@
 #define DEBUG
 #define DEBUG_SEND    //print out to the debug serial the bytes we are sending with the send_*() functions
 const bool send_responses = true; //not really any reason to ever not send anymore?? maybe debugging??
-const bool polling_debug = true;
+const bool polling_debug = false;
 
 //global variables
 extern String trackTitle = "Bluetooth";
@@ -12,6 +12,9 @@ extern bool gotnewArtist = false;
 extern bool gotnewAlbum = false;
 extern uint32_t albumartistWaitstart = 0;
 const uint32_t albumartistTO = 500; //ms
+extern bool isWaitingForNewTextRequest = false;
+uint32_t newTextRequestWaitstart = 0;
+const uint32_t newTextRequestWaitTO = 1000; //ms
 extern uint32_t playlistpos = 50;
 extern uint32_t trackLength = 3558734;  //nearly 1hr (in case we can't get this info due to older AVRCP)
 extern uint32_t trackstarttime = 0;
@@ -95,14 +98,12 @@ void loop() {
       if (!gotnewAlbum) {trackAlbum = trackTitle;}
       trackstarttime = now;  //save track start time as now
       accumTrackPlaytime = 0; //clear accum. track playtime
-      dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos);
-      #ifdef DEBUG
-        DebugSerial.println(">>sending track changed event and new track number to ipod dock");
-        DebugSerial.print(">>TITLE IS: \""); DebugSerial.print(trackTitle); DebugSerial.println("\"");
-        DebugSerial.print(">>ARTIST IS: \""); DebugSerial.print(trackArtist); DebugSerial.println("\"");
-        DebugSerial.print(">>ALBUM IS: \""); DebugSerial.print(trackAlbum); DebugSerial.println("\"");
-        DebugSerial.println();
-      #endif
+
+      //send track change event and set flag and time to begin waiting for dock to request the new text
+      sendTrackChangEvent();
+      isWaitingForNewTextRequest = true;
+      newTextRequestWaitstart = now;
+      
       gotnewArtist = false;
       gotnewAlbum = false;
       trackchangeCmdPending = false;
@@ -118,7 +119,16 @@ void loop() {
     }
   #endif
 
+  //check if we are waiting for dock to request text and it fails to do so within timeout then resend track change event
+  if (isWaitingForNewTextRequest && now - newTextRequestWaitstart > newTextRequestWaitTO) {
+    #ifdef DEBUG
+      DebugSerial.println(">>RESENDING sending track changed event");
+    #endif
+    sendTrackChangEvent();
+    newTextRequestWaitstart = now;
+  }
 
+//this was for toggling 3.3v on pin18
 //if (DebugSerial.available()) {
 //  int input = DebugSerial.read();
 //  if (input == '1') {
@@ -128,10 +138,19 @@ void loop() {
 //    if (input == '2') digitalWrite(3, LOW); DebugSerial.println("3.3v OFF");
 //  }
 //}
+
 }
 
-
-
+void sendTrackChangEvent() {
+  dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos);
+  #ifdef DEBUG
+    DebugSerial.println(">>sending track changed event and new track number to ipod dock");
+    DebugSerial.print(">>TITLE IS: \""); DebugSerial.print(trackTitle); DebugSerial.println("\"");
+    DebugSerial.print(">>ARTIST IS: \""); DebugSerial.print(trackArtist); DebugSerial.println("\"");
+    DebugSerial.print(">>ALBUM IS: \""); DebugSerial.print(trackAlbum); DebugSerial.println("\"");
+    DebugSerial.println();
+  #endif
+}
 
 
 

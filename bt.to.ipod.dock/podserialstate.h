@@ -861,7 +861,11 @@ void PodserialState::process() {
               myDebugSerial->print(endianConvert(pParambytes));   //track number
             #endif
               switch (command[1]) {
-                case CMD_GET_TITLE: send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_TITLE, trackTitle); break;
+                case CMD_GET_TITLE:
+                  send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_TITLE, trackTitle);
+                  //reset waiting for text request flag
+                  isWaitingForNewTextRequest = false;
+                  break;
                 case CMD_GET_ARTIST: send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ARTIST, trackArtist); break;
                 case CMD_GET_ALBUM: send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ALBUM, trackAlbum); break;
               }

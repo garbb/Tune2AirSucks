@@ -1,0 +1,671 @@
+BlueCreation Copyright 2013
+Melody Audio V5.0 RC11
+Ready
+>>BC127 Boot complete
+
+OPEN_OK A2DP
+>>A2DP connected
+
+
+<<send cmd: VOLUME A2DP=15
+OK
+>>got OK response
+
+2432 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+2446 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+2457 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+2472 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+2483 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+2497 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+2508 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+2522 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+2533 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+2537 dock->ipod
+size:3 mode:0 command:0x1,0x4 params: csum:F8 [OK]
+switch to mode 4
+
+2794 dock->ipod
+size:2 mode:0 command:0x5,0x0 params: csum:F9 [OK]
+switch to mode 4
+
+3052 dock->ipod
+size:3 mode:4 command:0x0,0x12 params: csum:E7 [OK]
+get ipod size
+
+3062 dock->ipod
+size:3 mode:4 command:0x0,0x2C params: csum:CD [OK]
+get shuffle mode
+
+3071 dock->ipod
+size:3 mode:4 command:0x0,0x33 params: csum:C6 [OK]
+get pic size?
+
+3081 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+send feedback for switch to main library
+
+3092 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+3103 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:1, csum:DF [OK]
+get count of playlists
+send mode:4, count response, 5
+
+3117 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,0, csum:DC [OK]
+switch to playlist #0
+send feedback for switch to 
+
+3128 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+3141 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,1, csum:DB [OK]
+switch to playlist #1
+send feedback for switch to 
+
+3152 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+3165 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,2, csum:DA [OK]
+switch to playlist #2
+send feedback for switch to 
+
+3176 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+3190 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,3, csum:D9 [OK]
+switch to playlist #3
+send feedback for switch to 
+
+3201 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+3214 dock->ipod
+size:8 mode:4 command:0x0,0x17 params:1,0,0,0,4, csum:D8 [OK]
+switch to playlist #4
+send feedback for switch to 
+
+3225 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+3236 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+send feedback for polling start/stop
+
+
+send mode:4, polling response, 4, 0
+3247 dock->ipod
+size:4 mode:4 command:0x0,0x31 params:2, csum:C5 [OK]
+set repeat mode
+send feedback for set repeat mode
+
+3258 dock->ipod
+size:4 mode:4 command:0x0,0x26 params:1, csum:D1 [OK]
+polling start/stop
+send feedback for polling start/stop
+
+3269 dock->ipod
+size:3 mode:4 command:0x0,0x16 params: csum:E3 [OK]
+switch to main library
+send feedback for switch to main library
+
+3281 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3292 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3306 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3317 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3331 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3342 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3357 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3367 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3382 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3393 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3407 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3418 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3432 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3443 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3458 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3469 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3483 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3494 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3508 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3519 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3534 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3545 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3559 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3570 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3584 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3595 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3610 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3621 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3635 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3646 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3660 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3671 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3686 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3697 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3711 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3722 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3736 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+
+send mode:4, polling response, 4, 0
+3747 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3761 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3772 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3787 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3798 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3812 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3823 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3837 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3848 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3863 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3874 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3888 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3899 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3913 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3924 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3939 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3950 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3964 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+3975 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+3989 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+4000 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+4015 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+4026 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+4040 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+4051 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+4065 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+send feedback for playback control cmd 
+
+4076 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+OPEN_OK AVRCP
+>>AVRCP connected
+
+4091 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+<<send cmd: MUSIC PLAY
+
+send feedback for playback control cmd 
+
+4102 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 11, 1
+playingstate changed
+
+4116 dock->ipod
+size:3 mode:4 command:0x0,0x1E params: csum:DB [OK]
+get plist pos
+send mode:4, playlist position is , 50
+
+OK
+>>got OK response
+
+4130 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,32, csum:A3 [OK]
+get title of song #50
+send mode:4, title response:, Bluetooth
+
+4147 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,32, csum:A1 [OK]
+get artist of song #50
+send mode:4, artist response:, Bluetooth
+
+4164 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,32, csum:9F [OK]
+get album of song #50
+send mode:4, album response:, Bluetooth
+
+4179 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:5, csum:DB [OK]
+get count of songs
+send mode:4, count response, 5
+
+4190 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:2, csum:DE [OK]
+get count of artists
+send mode:4, count response, 5
+
+4201 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:3, csum:DD [OK]
+get count of albums
+send mode:4, count response, 5
+
+4212 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:4, csum:DC [OK]
+get count of genres
+send mode:4, count response, 5
+
+4230 dock->ipod
+size:14 mode:4 command:0x0,0x32 params:0,0,1,0,80,0,37,0,0,0,20, csum:E4 [OK]
+picture block
+send feedback for picture block
+
+
+send mode:4, polling response, 4, 147
+AVRCP_MEDIA TITLE: Code Of The Streets
+AVRCP_MEDIA ARTIST: Gang Starr
+AVRCP_MEDIA ALBUM: Hard To Earn
+
+send mode:4, polling response track changed to:, 1, 50
+>>sending track changed event and new track number to ipod dock
+>>TITLE IS: "Code Of The Streets"
+>>ARTIST IS: "Gang Starr"
+>>ALBUM IS: "Hard To Earn"
+
+AVRCP_MEDIA PLAYING_TIME(MS): 209
+>>LENGTH IS: "209000ms"
+AVRCP_PLAY
+>>play state changed to 1
+
+4529 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,FF,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,0,0,0,0,0,FF,C0,0,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,0,3,FF,0,0,0,3,FF,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,FC,0,0,0,0,0,0,0,F,FC,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3F,FF,FF,FC,0,0,0,0,0,0,0,0,3F,F0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,3,FF,FF,FC,0,0,0,0,0,0,0,0,0,FF,F0,0,0,0,0,0,0,0,FF,FF,FF,C0,0,0,0,0,0,0,3F,FF,FF,0,0,0,0,0,0,0,0,0,0,FF,C0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3,FF,0,0,0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,3F,FF,FC,0,0,0,0,0,0,0,0,0,0,F,FC,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,0,0,0,3,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,3F,F0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,C0,0,0,3F,FF,FF,0,0,0,0,0,0,0,0,0,0,0,FF,C0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FC,0,0,FF,FF,F0,0,F,FF,C0,3F,FC,3,FF,CF,FC,0,FF,CF,FF,FF,FF,F,FF,FF,FF,3,FF,FF,FF,F,FF,FF,0, csum:11 [OK]
+picture block
+send feedback for picture block
+
+4545 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,32, csum:A3 [OK]
+get title of song #50
+send mode:4, title response:, Code Of The Streets
+
+4567 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,32, csum:A1 [OK]
+get artist of song #50
+send mode:4, artist response:, Gang Starr
+
+4584 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,32, csum:9F [OK]
+get album of song #50
+send mode:4, album response:, Hard To Earn
+
+
+send mode:4, polling response, 4, 241
+4889 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,2,3,FF,FF,0,0,3F,FF,C0,F,FC,3F,FF,F,FF,3,FF,F,FF,FF,FC,3F,FF,FF,FF,F,FF,FF,FF,3,FF,FF,C0,F,FF,FF,0,0,3F,FF,C0,F,FF,3F,FF,3,FF,F,FC,F,FF,FF,FC,FF,FF,FF,FF,3F,FF,FF,FF,0,3F,FF,F0,3F,FF,F0,0,0,FF,FF,C0,3,FF,FF,F0,3,FF,FF,F0,F,FF,FF,FC,FF,FF,FF,FF,3F,FF,FF,FF,0,F,FF,FC,3F,FF,F0,0,0,FF,FF,C0,0,FF,FF,C0,0,3F,FF,C0,F,FF,FF,F0,FF,FF,FF,FC,3F,FF,FF,FC,0,F,FF,FC,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,C0,0,3,FC,3F,C0,0,3F,FC,0,0,3F,FC,0,F,FF,FF,F0,FF,FF,FF,C0,FF,FF,FF,C0,0,3,FF,FF,FF,FF,0,0,F,FC,3F,C0,0,3F,FC,0,0,3F,FC,0,3F,FF,FF,F0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,0,0,F,F0,3F,C0,0,FF,FC,0,0,FF,FC,0,3F,FF,FF,F0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,0,0,3F,F0,3F,C0,3,FF,FC,0,3,FF,FF,0,3F,FF,FF,C0,FF,FF,FF,F0,FF,FF,FF,F0,0,0,FF,FF,FF,FF,C0,0,3F,FF,FF,C0,3,FF,FF,0,F,FF,FF,0,3F,C0,0,0,0,0,3F,F0,0,0,3F,F0,0,3,FF,FF,FF,FF,C0,0,3F,FF,FF,C0,F,FF,FF,C0,F,FF,FF,0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,3,FF,FC,3F,FF,F0,0,FF,FF,FF,C0,3F,F3,FF,C0,3F,FC,FF,C0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,F,FF,FC,3F,FF,FC,0,FF,C0,3F,C0,FF,F0,FF,C0,3F,F0,FF,C0,3F,FF,FF,C3,FF,FF,FF,F3,FF,FF,FF,F0,0,3F,FF,FC,F,FF,FF,3,FF,0,3F,C0,FF,C0,FF,F0,FF,C0,3F,F0,FF,FF,FF,C3,FF,FF,FF,C3,FF,FF,FF,C0,0,FF,FF,F0,3,FF,FF,C3,FC,0,FF,C3,FF,0,3F,F3,FF,0,3F,F0,FF,FF,FF,3,FF,FF,FF,3,FF,FF,FF,0,3,FF,FF,C0, csum:55 [OK]
+picture block
+send feedback for picture block
+
+5191 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,3,0,FF,FF,F0,0,0,0,F,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,0,0,3F,FF,FF,0,0,0,3F,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FC,0,0,3,FF,FF,F0,0,0,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,C0,0,0,0,3F,FF,FC,0,0,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,0,0,0,0,F,FF,FF,F0,3,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F,FF,FF,C0,0,0,0,0,0,3F,FF,FF,F,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FC,0,0,0,0,0,0,3,FF,FF,FF,FC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,C0,0,0,0,0,0,0,0,3,FF,FF,F0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,F0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3F,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,FF,C0,0,0,0,0,0,0,3,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,FF,C0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FF,FF,FF,FF,FF,FF,FF,FF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, csum:77 [OK]
+picture block
+send feedback for picture block
+
+
+send mode:4, polling response, 4, 742
+5400 dock->ipod
+size:325 mode:4 command:0x0,0x32 params:0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,C,C,0,0,0,0,0,C,0,0,0,0,C,C,0,0,C,C,0,C0,0,0,F,FC,0,0,0,0,0,0,0,0,F,3C,0,0,0,0,0,C,0,0,0,0,F,3C,0,0,C,C,3,C0,0,0,C,0,0,0,0,0,0,0,0,0,C,CC,3,F0,F,FC,3,CC,3,F0,0,0,C,CC,0,0,C,C,0,C0,0,0,F,F0,0,0,0,0,0,0,0,0,C,CC,0,C,0,30,C,3C,0,C,0,0,C,CC,0,0,C,C,0,C0,0,0,0,C,0,0,0,0,0,0,0,0,C,C,3,FC,0,C0,C,C,3,FC,0,0,C,C,0,0,C,C,0,C0,0,0,0,C,0,0,0,0,0,0,0,0,C,C,C,C,3,0,C,C,C,C,0,0,C,C,0,0,3,30,0,C0,3,C0,C,C,0,0,0,0,0,0,0,0,C,C,3,FC,F,FC,3,FC,3,FC,0,0,C,C,0,0,0,C0,3,F0,3,C0,3,F0,0,0,0,0,0,0,0, csum:99 [OK]
+picture block
+send feedback for picture block
+
+
+send mode:4, polling response, 4, 1243
+
+send mode:4, polling response, 4, 1744
+
+send mode:4, polling response, 4, 2245
+
+send mode:4, polling response, 4, 2746
+
+send mode:4, polling response, 4, 3247
+
+send mode:4, polling response, 4, 3748
+
+send mode:4, polling response, 4, 4249
+
+send mode:4, polling response, 4, 4750
+
+send mode:4, polling response, 4, 5251
+
+send mode:4, polling response, 4, 5752
+
+send mode:4, polling response, 4, 6253
+
+send mode:4, polling response, 4, 6754
+
+send mode:4, polling response, 4, 7255
+
+send mode:4, polling response, 4, 7756
+
+send mode:4, polling response, 4, 8257
+
+send mode:4, polling response, 4, 8758
+
+send mode:4, polling response, 4, 9259
+
+send mode:4, polling response, 4, 9760
+
+send mode:4, polling response, 4, 10261
+
+send mode:4, polling response, 4, 10762
+
+send mode:4, polling response, 4, 11263
+
+send mode:4, polling response, 4, 11764
+
+send mode:4, polling response, 4, 12265
+
+send mode:4, polling response, 4, 12766
+
+send mode:4, polling response, 4, 13267
+
+send mode:4, polling response, 4, 13768
+
+send mode:4, polling response, 4, 14269
+
+send mode:4, polling response, 4, 14770
+
+send mode:4, polling response, 4, 15271
+
+send mode:4, polling response, 4, 15772
+
+send mode:4, polling response, 4, 16273
+
+send mode:4, polling response, 4, 16774
