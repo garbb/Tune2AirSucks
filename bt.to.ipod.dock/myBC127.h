@@ -182,11 +182,13 @@ void MyBC127::readResponses() {
         #endif
       }
       else if (responsebuffer.startsWith("AVRCP_PAUSE")) {
-        playingState = STATE_PAUSED;
-        accumTrackPlaytime += now - trackstarttime;  //add track playing time when we pause
-        #ifdef DEBUG
-          myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
-        #endif
+        if (playingState != STATE_PAUSED) {   //don't add more to accum time if we are already paused
+          playingState = STATE_PAUSED;
+          accumTrackPlaytime += now - trackstarttime;  //add track playing time when we pause
+          #ifdef DEBUG
+            myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
+          #endif
+        }
       }
 
     }
