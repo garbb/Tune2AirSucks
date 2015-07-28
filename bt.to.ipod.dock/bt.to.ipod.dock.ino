@@ -4,17 +4,23 @@ const bool send_responses = true; //not really any reason to ever not send anymo
 const bool polling_debug = false;
 
 //global variables
-extern String trackTitle = "Bluetooth";
-extern String trackArtist = "Bluetooth";
-extern String trackAlbum = "Bluetooth";
+extern const String default_trackTitle = "Bluetooth";
+extern const String default_trackArtist = "Bluetooth";
+extern const String default_trackAlbum = "Bluetooth";
+extern String trackTitle = default_trackTitle;
+extern String trackArtist = default_trackArtist;
+extern String trackAlbum = default_trackAlbum;
+
 extern bool trackchangeCmdPending = false;
 extern bool gotnewArtist = false;
 extern bool gotnewAlbum = false;
 extern uint32_t albumartistWaitstart = 0;
 const uint32_t albumartistTO = 500; //ms
+
 extern bool isWaitingForNewTextRequest = false;
 uint32_t newTextRequestWaitstart = 0;
 const uint32_t newTextRequestWaitTO = 1000; //ms
+
 extern uint32_t playlistpos = 50;
 extern uint32_t trackLength = 3558734;  //nearly 1hr (in case we can't get this info due to older AVRCP)
 extern uint32_t trackstarttime = 0;
@@ -28,6 +34,15 @@ enum PlayingState
 extern PlayingState playingState = STATE_PAUSED;
 extern PlayingState prevplayingState = STATE_PAUSED;
 extern bool allowPlayPausecmd = true;
+
+extern bool waitingForMetaData = false;
+extern String metaDataprevtrackTitle = default_trackTitle;
+enum AvrcpReconnectstate {SEND_CLOSE, SEND_OPEN}; AvrcpReconnectstate avrcpReconnectstate = SEND_CLOSE;
+extern PlayingState metaDataprevplayingState = STATE_PAUSED;
+extern uint32_t metaDataWaitstart = 0;
+const uint32_t metaDataWaitTO = 1000; //ms
+String cmdstring;
+
 extern uint32_t now = millis();
 
 //teensy3.1 serial pins:
@@ -126,6 +141,44 @@ void loop() {
     #endif
     sendTrackChangEvent();
     newTextRequestWaitstart = now;
+  }
+
+  //if playingstate changed to PLAYING then begin waiting for new metadata
+  if (metaDataprevplayingState != playingState) {
+    if (playingState == STATE_PLAYING) {
+        waitingForMetaData = true;
+        metaDataWaitstart = now;
+      }
+      metaDataprevplayingState = playingState;
+  }
+  //if we get new track change metadata before metadata timeout then don't do AVRCP reconnect below
+  if ((metaDataprevtrackTitle != trackTitle)) {
+    if (now - metaDataWaitstart < metaDataWaitTO) {
+      waitingForMetaData = false;
+    }
+    metaDataprevtrackTitle = trackTitle;
+  }
+  else if (
+      (waitingForMetaData) &&
+//      (myBC127.BC127_status == myBC127.AVRCP_connected) &&
+      (myBC127.AVRCP_linkId != "" && myBC127.AVRCP_address != "") &&
+      (now - metaDataWaitstart > metaDataWaitTO)
+     )
+  {
+      if (myBC127.BC127_status == myBC127.AVRCP_connected && avrcpReconnectstate == SEND_CLOSE) {
+        cmdstring = "CLOSE ";
+        cmdstring += myBC127.AVRCP_linkId;
+        myBC127.SendCmd(cmdstring);
+        avrcpReconnectstate = SEND_OPEN;
+      }
+      else if (myBC127.BC127_status == myBC127.waiting_for_AVRCP_conn && avrcpReconnectstate == SEND_OPEN) {
+        cmdstring = "OPEN ";
+        cmdstring += myBC127.AVRCP_address;
+        cmdstring += " AVRCP";
+        myBC127.SendCmd(cmdstring);
+        avrcpReconnectstate = SEND_CLOSE;
+        waitingForMetaData = false;
+    }
   }
 
 //this was for toggling 3.3v on pin18

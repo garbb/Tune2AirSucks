@@ -9,6 +9,8 @@ class MyBC127
     ResponseState responseState;
 
     String responsebuffer;
+    String AVRCP_linkId = "";
+    String AVRCP_address = "";
     uint32_t TOstarttime;  //(time when 1st byte of reponse was received, used to detect timeout)
     const uint32_t timeoutTime = 2000; //2sec
     const String EOL = String("\n\r");  //each line of BC127 response will end in this
@@ -37,7 +39,7 @@ class MyBC127
 MyBC127::MyBC127(Stream &sp)
 {
   _serialPort = &sp;
-  BC127_status = waiting_for_AVRCP_conn;    //###WILL INIT TO waiting_for_boot if I teensy ever boots before BC127
+  BC127_status = waiting_for_AVRCP_conn;    //###WILL INIT TO waiting_for_boot if teensy ever boots before BC127
   responseState = OK;
   responsebuffer = "";
   TOstarttime = 0;
@@ -92,6 +94,17 @@ void MyBC127::readResponses() {
       #endif
       responseState = ERR;
       }
+
+    else if (responsebuffer.startsWith("LINK")) {   //"status" response, displays connections
+      if (responsebuffer.substring(17, 22) == "AVRCP") {
+        AVRCP_linkId = responsebuffer.substring(5, 6);
+        AVRCP_address = responsebuffer.substring(23, 35);
+        #ifdef DEBUG
+          myDebugSerial->print(">>AVRCP link ID is \""); myDebugSerial->print(AVRCP_linkId);
+          myDebugSerial->print("\"\n>>AVRCP address is \""); myDebugSerial->print(AVRCP_address); myDebugSerial->print("\"\n");
+        #endif
+      }
+    }
     
     else if (responsebuffer.startsWith("OPEN_OK A2DP")) {
       #ifdef DEBUG
@@ -104,6 +117,7 @@ void MyBC127::readResponses() {
       #ifdef DEBUG
         myDebugSerial->print(">>AVRCP connected\n\n");
       #endif
+      SendCmd("STATUS");    //get info about linkid and address for the AVRCP connection
     }
     else if (responsebuffer.startsWith("Ready")) {
       BC127_status = waiting_for_AVRCP_conn;
@@ -120,9 +134,9 @@ void MyBC127::readResponses() {
     else if (responsebuffer.startsWith("CLOSE_OK A2DP")) {
       BC127_status = waiting_for_AVRCP_conn;
       //reset track text and resend it to clear out old stuff in dock from last connection
-      trackTitle = "Bluetooth";
-      trackArtist = "Bluetooth";
-      trackAlbum = "Bluetooth";
+      trackTitle = default_trackTitle;
+      trackArtist = default_trackArtist;
+      trackAlbum = default_trackAlbum;
       gotnewArtist = true;
       gotnewAlbum = true;
       trackchangeCmdPending = true;
