@@ -40,7 +40,7 @@ extern String metaDataprevtrackTitle = default_trackTitle;
 enum AvrcpReconnectstate {SEND_CLOSE, SEND_OPEN}; AvrcpReconnectstate avrcpReconnectstate = SEND_CLOSE;
 extern PlayingState metaDataprevplayingState = STATE_PAUSED;
 extern uint32_t metaDataWaitstart = 0;
-const uint32_t metaDataWaitTO = 1000; //ms
+const uint32_t metaDataWaitTO = 500; //ms
 String cmdstring;
 
 extern uint32_t now = millis();
