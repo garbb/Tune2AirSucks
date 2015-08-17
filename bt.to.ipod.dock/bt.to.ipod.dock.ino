@@ -21,7 +21,7 @@ extern bool isWaitingForNewTextRequest = false;
 uint32_t newTextRequestWaitstart = 0;
 const uint32_t newTextRequestWaitTO = 1000; //ms
 
-extern uint32_t playlistpos = 50;
+extern uint32_t playlistpos = 1;
 extern uint32_t trackLength = 3558734;  //nearly 1hr (in case we can't get this info due to older AVRCP)
 extern uint32_t trackstarttime = 0;
 extern uint32_t accumTrackPlaytime = 0;
