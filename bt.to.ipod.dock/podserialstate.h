@@ -724,7 +724,7 @@ void PodserialState::process() {
                     myBC127.MusicSendCmd("MUSIC FORWARD");
                     playlistpos++;
                     trackstarttime = now;  //save track start time as now
-                    //send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos);
+                    //send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos - 1);
                     break;
                   case 0x04:
                     #ifdef DEBUG
@@ -734,7 +734,7 @@ void PodserialState::process() {
                     (playlistpos > 1) ? playlistpos-- : playlistpos = 99;   //wrap around to 99 if we are at 1 and try to decrement
                     trackstarttime = now;  //save track start time as now
                     accumTrackPlaytime = 0; //clear accum. track playtime
-                    //send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos);
+                    //send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos - 1);
                     break;
                   #ifdef DEBUG
                   case 0x05: myDebugSerial->print("FFwd"); break;
@@ -761,7 +761,7 @@ void PodserialState::process() {
               break;
 
             case CMD_GET_PLAYLIST_POSITION:
-              send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_PLAYLIST_POSITION, playlistpos);
+              send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_PLAYLIST_POSITION, playlistpos - 1);
               break;
 
             case CMD_SET_REPEAT_MODE:

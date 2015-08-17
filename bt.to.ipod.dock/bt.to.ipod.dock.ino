@@ -195,7 +195,7 @@ void loop() {
 }
 
 void sendTrackChangEvent() {
-  dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos);
+  dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos - 1);
   #ifdef DEBUG
     DebugSerial.println(">>sending track changed event and new track number to ipod dock");
     DebugSerial.print(">>TITLE IS: \""); DebugSerial.print(trackTitle); DebugSerial.println("\"");
