@@ -7,6 +7,7 @@ const bool polling_debug = false;
 extern const String default_trackTitle = "Bluetooth";
 extern const String default_trackArtist = "Bluetooth";
 extern const String default_trackAlbum = "Bluetooth";
+extern String last_trackTitle = "";
 extern String trackTitle = default_trackTitle;
 extern String trackArtist = default_trackArtist;
 extern String trackAlbum = default_trackAlbum;
