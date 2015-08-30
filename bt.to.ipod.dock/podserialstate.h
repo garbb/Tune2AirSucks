@@ -852,8 +852,6 @@ void PodserialState::process() {
               for (int i = start_num_to_get; i < start_num_to_get + num_of_items_to_get; i++) {
                 send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ITEM_NAMES, i, "FAKE");
               }
-//              send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ITEM_NAMES, 0, "FAKE");
-//              send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_ITEM_NAMES, 1, "FAKE");
               break;
               
             case CMD_GET_TITLE: case CMD_GET_ARTIST: case CMD_GET_ALBUM:

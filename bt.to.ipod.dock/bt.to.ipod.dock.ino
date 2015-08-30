@@ -8,6 +8,8 @@ extern const String default_trackTitle = "Bluetooth";
 extern const String default_trackArtist = "Bluetooth";
 extern const String default_trackAlbum = "Bluetooth";
 extern String last_trackTitle = "";
+extern String last_trackArtist = "";
+extern String last_trackAlbum = "";
 extern String trackTitle = default_trackTitle;
 extern String trackArtist = default_trackArtist;
 extern String trackAlbum = default_trackAlbum;
@@ -112,8 +114,11 @@ void loop() {
       //if we have no new artist/album info just copy title text
       if (!gotnewArtist) {trackArtist = trackTitle;}
       if (!gotnewAlbum) {trackAlbum = trackTitle;}
-      trackstarttime = now;  //save track start time as now
-      accumTrackPlaytime = 0; //clear accum. track playtime
+      //only reset playing time if this is a new track (if title, artist, or album is different)
+      if ( (trackTitle != last_trackTitle) || (trackArtist != last_trackArtist) || (trackAlbum != last_trackAlbum) ) {
+        trackstarttime = now;  //save track start time as now
+        accumTrackPlaytime = 0; //clear accum. track playtime
+      }
 
       //send track change event and set flag and time to begin waiting for dock to request the new text
       sendTrackChangEvent();
@@ -179,7 +184,7 @@ void loop() {
         myBC127.SendCmd(cmdstring);
         avrcpReconnectstate = SEND_CLOSE;
         waitingForMetaData = false;
-    }
+      }
   }
 
 //this was for toggling 3.3v on pin18

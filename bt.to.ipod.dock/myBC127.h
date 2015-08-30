@@ -171,10 +171,16 @@ void MyBC127::readResponses() {
         albumartistWaitstart = now;
       }
       else if (responsebuffer.startsWith(AVRCP_ARTIST)) {
+        //store last Artist
+        last_trackArtist = trackArtist;
+        //store new Artist
         trackArtist = (responsebuffer.substring(AVRCP_ARTIST.length())).trim();
         gotnewArtist = true;
       }
       else if (responsebuffer.startsWith(AVRCP_ALBUM)) {
+        //store last Album
+        last_trackAlbum = trackAlbum;
+        //store new Album
         trackAlbum = (responsebuffer.substring(AVRCP_ALBUM.length())).trim();
         gotnewAlbum = true;
       }
