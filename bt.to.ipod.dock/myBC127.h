@@ -156,10 +156,7 @@ void MyBC127::readResponses() {
         last_trackTitle = trackTitle;
         //store new title
         trackTitle = (responsebuffer.substring(AVRCP_TITLE.length())).trim();
-        //can't tell if next track/prev track/completely different track but it will probably be next track and incrementing playlistpos looks better anyways...
-        //also if title is changing from default title to a new title then do not increment playlistpos
-        //also if we get the same exact track title then do not increment
-        if ((trackTitle != last_trackTitle) && (last_trackTitle != default_trackTitle)) playlistpos++;
+
         //am going to set play state to PLAYING here b/c in some random cases when switching between android apps while playing music will get AVRCP_PAUSE event
         //even though music is actually playing. AFAICT, when we get AVRCP_TITLE event, play state is always playing (EXCEPT UPON INITIAL CONNECTION).
 //        playingState = STATE_PLAYING;

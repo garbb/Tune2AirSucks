@@ -722,7 +722,7 @@ void PodserialState::process() {
                       myDebugSerial->print("skip++");
                     #endif
                     myBC127.MusicSendCmd("MUSIC FORWARD");
-                    playlistpos++;
+                    //playlistpos++;
                     trackstarttime = now;  //save track start time as now
                     //send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos - 1);
                     break;
@@ -731,7 +731,7 @@ void PodserialState::process() {
                       myDebugSerial->print("skip--");
                     #endif
                     myBC127.MusicSendCmd("MUSIC BACKWARD");
-                    (playlistpos > 1) ? playlistpos-- : playlistpos = 99;   //wrap around to 99 if we are at 1 and try to decrement
+                    //(playlistpos > 1) ? playlistpos-- : playlistpos = 99;   //wrap around to 99 if we are at 1 and try to decrement
                     trackstarttime = now;  //save track start time as now
                     accumTrackPlaytime = 0; //clear accum. track playtime
                     //send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos - 1);

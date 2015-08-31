@@ -114,10 +114,15 @@ void loop() {
       //if we have no new artist/album info just copy title text
       if (!gotnewArtist) {trackArtist = trackTitle;}
       if (!gotnewAlbum) {trackAlbum = trackTitle;}
-      //only reset playing time if this is a new track (if title, artist, or album is different)
+      //only reset playing time and increment playlistpos if this is a new track (if title, artist, or album is different)
       if ( (trackTitle != last_trackTitle) || (trackArtist != last_trackArtist) || (trackAlbum != last_trackAlbum) ) {
         trackstarttime = now;  //save track start time as now
         accumTrackPlaytime = 0; //clear accum. track playtime
+        //can't tell if next track/prev track/completely different track but it will probably be next track and incrementing playlistpos looks better anyways...
+        //also if title is changing from default title to a new title then do not increment playlistpos
+        if (last_trackTitle != default_trackTitle) {
+          (playlistpos < 99) ? playlistpos++ : playlistpos = 1;   //wrap around to 1 if we are at 99 and try to increment
+        }
       }
 
       //send track change event and set flag and time to begin waiting for dock to request the new text
