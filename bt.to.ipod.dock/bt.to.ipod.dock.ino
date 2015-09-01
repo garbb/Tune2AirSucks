@@ -126,7 +126,7 @@ void loop() {
       }
 
       //send track change event and set flag and time to begin waiting for dock to request the new text
-      sendTrackChangEvent();
+      sendTrackChangeEvent();
       isWaitingForNewTextRequest = true;
       newTextRequestWaitstart = now;
       
@@ -150,7 +150,7 @@ void loop() {
     #ifdef DEBUG
       DebugSerial.println(">>RESENDING sending track changed event");
     #endif
-    sendTrackChangEvent();
+    sendTrackChangeEvent();
     newTextRequestWaitstart = now;
   }
 
@@ -205,7 +205,7 @@ void loop() {
 
 }
 
-void sendTrackChangEvent() {
+void sendTrackChangeEvent() {
   dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos - 1);
   #ifdef DEBUG
     DebugSerial.println(">>sending track changed event and new track number to ipod dock");
