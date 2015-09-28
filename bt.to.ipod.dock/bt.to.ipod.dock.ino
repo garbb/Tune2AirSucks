@@ -106,7 +106,7 @@ pinMode(v_pin, OUTPUT);
 digitalWrite(v_pin, v_pinState);
 
   //delay(1000);    //delay is for waiting for teensy usb to become a serial device
-  DebugSerial.print("ready\r\n\r\n");
+  DebugSerial.print("teensy ready\r\n\r\n");
 }
 
 void loop() {
@@ -146,7 +146,7 @@ void loop() {
       }
 
       //send track change event and set flag and time to begin waiting for dock to request the new text
-      sendTrackChangeEvent();
+      sendTrackChangEvent();
       isWaitingForNewTextRequest = true;
       newTextRequestWaitstart = now;
       
@@ -161,7 +161,7 @@ void loop() {
     #ifdef DEBUG
       DebugSerial.println(">>RESENDING sending track changed event");
     #endif
-    sendTrackChangeEvent();
+    sendTrackChangEvent();
     newTextRequestWaitstart = now;
   }
 
@@ -257,7 +257,7 @@ void loop() {
 
 }
 
-void sendTrackChangeEvent() {
+void sendTrackChangEvent() {
   dockserialState.send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_POLLING_MODE, 0x01, playlistpos - 1);
   #ifdef DEBUG
     DebugSerial.println(">>sending track changed event and new track number to ipod dock");
