@@ -1,0 +1,132 @@
+OPEN_OK A2DP
+>>A2DP connected
+
+
+<<send cmd: VOLUME A2DP=15
+OK
+>>got OK response
+
+2939 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+OPEN_OK AVRCP
+>>AVRCP connected
+
+
+<<send cmd: STATUS
+STATE CONNECTED
+LINK 2 CONNECTED A2DP 1C62B8A703C0 SBC 44100
+LINK 4 CONNECTED AVRCP 1C62B8A703C0 STOPPED
+>>AVRCP link ID is "4"
+>>AVRCP address is "1C62B8A703C0"
+OK
+>>got OK response
+
+5977 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+9015 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+12052 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+15090 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+18127 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 3558734, 0, 2
+
+AVRCP_PLAY
+>>play state changed to 1
+
+
+<<send cmd: CLOSE 4
+OK
+>>got OK response
+
+CLOSE_OK AVRCP
+>>AVRCP disconnected
+
+
+<<send cmd: OPEN 1C62B8A703C0 AVRCP
+AVRCP_PLAY
+OPEN_OK AVRCP
+>>AVRCP connected
+
+
+<<send cmd: STATUS
+STATE CONNECTED
+LINK 2 CONNECTED A2DP 1C62B8A703C0 SBC 44100
+LINK 4 CONNECTED AVRCP 1C62B8A703C0 PLAYING
+>>AVRCP link ID is "4"
+>>AVRCP address is "1C62B8A703C0"
+OK
+>>got OK response
+
+AVRCP_MEDIA TITLE: Simple Man
+AVRCP_MEDIA ARTIST: Wale
+AVRCP_MEDIA ALBUM: The Gifted
+send mode:4, polling response track changed to:, 1, 0
+>>sending track changed event and new track number to ipod dock
+>>TITLE IS: "Simple Man"
+>>ARTIST IS: "Wale"
+>>ALBUM IS: "The Gifted"
+
+20673 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,0, csum:D5 [OK]
+get title of song #0
+send mode:4, title response:, Simple Man
+
+20691 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,0, csum:D3 [OK]
+get artist of song #0
+send mode:4, artist response:, Wale
+
+AVRCP_MEDIA PLAYING_TIME(MS): 192395
+>>LENGTH IS: "192395ms"
+20705 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,0, csum:D1 [OK]
+get album of song #0
+send mode:4, album response:, The Gifted
+
+23697 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 192395, 3038, 1
+playingstate changed
+
+23711 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:1, csum:CE [OK]
+playback control cmd play/pause
+<<send cmd: MUSIC PAUSE
+
+send feedback for playback control cmd 
+
+23722 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 192395, 3052, 2
+playingstate changed
+
+OK
+>>got OK response
+
+AVRCP_PAUSE
+26734 dock->ipod
+size:3 mode:4 command:0x0,0x1C params: csum:DD [OK]
+get time/status
+send mode:4, time/status response: , 192395, 3052, 2
+

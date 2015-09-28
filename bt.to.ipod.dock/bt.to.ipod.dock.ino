@@ -24,6 +24,24 @@ extern bool isWaitingForNewTextRequest = false;
 uint32_t newTextRequestWaitstart = 0;
 const uint32_t newTextRequestWaitTO = 1000; //ms
 
+//timing for switching 3.3v to ipod connector pin18 to "disconnect/reconnect"
+enum CurrentMode
+  {
+      //WAITING_FOR_1ST_CMD,
+      WAITING_FOR_MODE4,
+      MODE4,
+  };
+extern CurrentMode currentMode = WAITING_FOR_MODE4;
+uint32_t mode4waitstart = 0;                  //when we started waiting for mode4
+const uint32_t mode4timeout = 1000;           //how long to wait until mode4 switch command before we do disconnect/reconnect
+const uint32_t mode4timeoutBootWait = 3000;   //wait at least this long since boot before 1st disconnect/reconnect
+uint32_t v_pinLastDisconnectTime = 0;         //time when 3.3v pin was last disconnected
+const uint32_t v_pinDisconnectDuration = 600; //time between switching pin off and on
+int v_pinState = HIGH;                        //state of 3.3v pin; default to HIGH
+int reconnects = 0;                           //current reconnect count
+const int maxReconnects = 3;                  //maximum disconnect/reconnect attempts to get it to mode4
+
+
 extern uint32_t playlistpos = 1;
 extern uint32_t trackLength = 3558734;  //nearly 1hr (in case we can't get this info due to older AVRCP)
 extern uint32_t trackstarttime = 0;
@@ -82,8 +100,10 @@ void setup() {
     dockserialState.setdebugserial(DebugSerial);
   #endif
 
-//  pinMode(3, OUTPUT);  //toggle 3.3v "ipod" ouput voltage on pin 18 for dock to sense
-//  digitalWrite(3, LOW);
+//pin for switching 3.3v to ipod connector pin18 to simulate "disconnect/reconnect" of ipod
+#define v_pin 23
+pinMode(v_pin, OUTPUT);
+digitalWrite(v_pin, v_pinState);
 
   //delay(1000);    //delay is for waiting for teensy usb to become a serial device
   DebugSerial.print("ready\r\n\r\n");
@@ -136,15 +156,6 @@ void loop() {
     }
   }
 
-  //allow debug sending of commands...
-  #ifdef DEBUG
-    if (DebugSerial.available() > 0) {
-      byte incomingByte = DebugSerial.read();
-      //DebugSerial.write(incomingByte);
-      BC127serial.write(incomingByte);
-    }
-  #endif
-
   //check if we are waiting for dock to request text and it fails to do so within timeout then resend track change event
   if (isWaitingForNewTextRequest && now - newTextRequestWaitstart > newTextRequestWaitTO) {
     #ifdef DEBUG
@@ -192,16 +203,57 @@ void loop() {
       }
   }
 
-//this was for toggling 3.3v on pin18
-//if (DebugSerial.available()) {
-//  int input = DebugSerial.read();
-//  if (input == '1') {
-//    digitalWrite(3, HIGH); DebugSerial.println("3.3v ON");
-//  }
-//  else {
-//    if (input == '2') digitalWrite(3, LOW); DebugSerial.println("3.3v OFF");
-//  }
-//}
+  //allow debug sending of commands to BC127...
+  /*
+  #ifdef DEBUG
+    if (DebugSerial.available() > 0) {
+      byte incomingByte = DebugSerial.read();
+      //DebugSerial.write(incomingByte);
+      BC127serial.write(incomingByte);
+    }
+  #endif
+  */
+
+  //this was for toggling 3.3v on pin18
+  if (DebugSerial.available()) {
+    byte incomingByte = DebugSerial.read();
+  //if (incomingByte == '1') {
+  //  digitalWrite(v_pin, HIGH); DebugSerial.println("3.3v ON");
+  //}
+  //else {
+  //  if (incomingByte == '2') digitalWrite(v_pin, LOW); DebugSerial.println("3.3v OFF");
+  //}
+    if (incomingByte == '3') {
+      v_pinState = LOW;
+      digitalWrite(v_pin, v_pinState);
+      DebugSerial.println("3.3v OFF");
+      v_pinLastDisconnectTime = now;
+    }
+  }
+
+  if (reconnects <= maxReconnects) {
+    if ( (currentMode == WAITING_FOR_MODE4) && (v_pinState == HIGH) && (now > mode4timeoutBootWait) && (now - mode4waitstart > mode4timeout) ) {
+      v_pinState = LOW;
+      digitalWrite(v_pin, v_pinState);
+      #ifdef DEBUG
+        DebugSerial.println("3.3v OFF");
+      #endif
+      v_pinLastDisconnectTime = now;
+    }
+  }
+
+  //3.3v has been switched off, so switch it on after v_pinDisconnectDuration time
+  if (v_pinLastDisconnectTime > 0 && (now - v_pinLastDisconnectTime > v_pinDisconnectDuration)) {
+    v_pinState = HIGH;
+    digitalWrite(v_pin, v_pinState);
+    reconnects++;
+    #ifdef DEBUG
+      DebugSerial.println("3.3v ON");
+      DebugSerial.print("reconnect #"); DebugSerial.println(reconnects);
+    #endif
+    v_pinLastDisconnectTime = 0;    //setting this to 0 indicates that we are currently not (disconnected and in need of reconnection)
+    mode4waitstart = now;   //reset timer for waiting for mode4
+  }
 
 }
 

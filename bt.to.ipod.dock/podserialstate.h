@@ -591,6 +591,7 @@ void PodserialState::process() {
               #endif
               //0xFF,0x55,0x04,0x00,0x02,0x00,0x05,0xF5 mystery response from ipod that i think may be confirmation of switching to mode4??
               if (command[1] == 0x04) {
+                currentMode = MODE4;
                 static const byte mode4confirm[] = {0x05};
                 send_response(MODE_SWITCHING_MODE, 0x02, 0x00, mode4confirm, 1);
                 }
@@ -611,6 +612,7 @@ void PodserialState::process() {
               #if defined(DEBUG)
                 myDebugSerial->println("switch to mode 4");
               #endif
+              currentMode = MODE4;
               static const byte mode4confirm[] = {0x05};
               send_response(MODE_SWITCHING_MODE, 0x02, 0x00, mode4confirm, 1);
               break;
