@@ -1,3 +1,13 @@
+/*
+ ******** NEED TO SET THE FOLLOWING PERMAMENT SETTINGS FOR THE BC127 CHIP ONCE
+ * SET NAME=<WHATEVER YOU WANT>
+ * SET ENABLE_HFP=OFF
+ * SET ENABLE_PBAP=OFF
+ * SET AUTOCONN=1
+ * 
+ * AND THEN DO "WRITE" AND "RESET"
+ */
+
 #define DEBUG
 #define DEBUG_SEND    //print out to the debug serial the bytes we are sending with the send_*() functions
 const bool send_responses = true; //not really any reason to ever not send anymore?? maybe debugging??
@@ -204,7 +214,6 @@ void loop() {
   }
 
   //allow debug sending of commands to BC127...
-  /*
   #ifdef DEBUG
     if (DebugSerial.available() > 0) {
       byte incomingByte = DebugSerial.read();
@@ -212,9 +221,9 @@ void loop() {
       BC127serial.write(incomingByte);
     }
   #endif
-  */
 
   //this was for toggling 3.3v on pin18
+  /*
   if (DebugSerial.available()) {
     byte incomingByte = DebugSerial.read();
   //if (incomingByte == '1') {
@@ -230,6 +239,7 @@ void loop() {
       v_pinLastDisconnectTime = now;
     }
   }
+  */
 
   if (reconnects <= maxReconnects) {
     if ( (currentMode == WAITING_FOR_MODE4) && (v_pinState == HIGH) && (now > mode4timeoutBootWait) && (now - mode4waitstart > mode4timeout) ) {
