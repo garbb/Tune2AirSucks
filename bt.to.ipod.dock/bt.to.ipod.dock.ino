@@ -47,7 +47,10 @@ const uint32_t mode4timeout = 1000;           //how long to wait until mode4 swi
 const uint32_t mode4timeoutBootWait = 3000;   //wait at least this long since boot before 1st disconnect/reconnect
 uint32_t v_pinLastDisconnectTime = 0;         //time when 3.3v pin was last disconnected
 const uint32_t v_pinDisconnectDuration = 600; //time between switching pin off and on
-int v_pinState = HIGH;                        //state of 3.3v pin; default to HIGH
+#define v_pinStateON HIGH                     //state of output pin to turn on/off voltage on 3.3v pin (will be different if using p-channel mosfet)
+#define v_pinStateOFF LOW
+#define v_pin 23
+int v_pinState = v_pinStateON;                //state of 3.3v pin; default to ON
 int reconnects = 0;                           //current reconnect count
 const int maxReconnects = 3;                  //maximum disconnect/reconnect attempts to get it to mode4
 
@@ -111,7 +114,6 @@ void setup() {
   #endif
 
 //pin for switching 3.3v to ipod connector pin18 to simulate "disconnect/reconnect" of ipod
-#define v_pin 23
 pinMode(v_pin, OUTPUT);
 digitalWrite(v_pin, v_pinState);
 
@@ -213,37 +215,36 @@ void loop() {
       }
   }
 
-  //allow debug sending of commands to BC127...
   #ifdef DEBUG
-    if (DebugSerial.available() > 0) {
+    if (DebugSerial.available()) {
       byte incomingByte = DebugSerial.read();
+      //echo
       //DebugSerial.write(incomingByte);
+      //allow debug sending of commands to BC127...
       BC127serial.write(incomingByte);
+    /*
+      //this was for toggling 3.3v on pin18
+      if (incomingByte == '1') {
+        digitalWrite(v_pin, v_pinStateON); DebugSerial.println("3.3v ON");
+      }
+      else {
+        if (incomingByte == '2') digitalWrite(v_pin, v_pinStateOFF); DebugSerial.println("3.3v OFF");
+      }
+    */
+    /*
+      if (incomingByte == '3') {
+        v_pinState = v_pinStateOFF;
+        digitalWrite(v_pin, v_pinState);
+        DebugSerial.println("3.3v OFF");
+        v_pinLastDisconnectTime = now;
+      }
+    */
     }
   #endif
 
-  //this was for toggling 3.3v on pin18
-  /*
-  if (DebugSerial.available()) {
-    byte incomingByte = DebugSerial.read();
-  //if (incomingByte == '1') {
-  //  digitalWrite(v_pin, HIGH); DebugSerial.println("3.3v ON");
-  //}
-  //else {
-  //  if (incomingByte == '2') digitalWrite(v_pin, LOW); DebugSerial.println("3.3v OFF");
-  //}
-    if (incomingByte == '3') {
-      v_pinState = LOW;
-      digitalWrite(v_pin, v_pinState);
-      DebugSerial.println("3.3v OFF");
-      v_pinLastDisconnectTime = now;
-    }
-  }
-  */
-
   if (reconnects <= maxReconnects) {
-    if ( (currentMode == WAITING_FOR_MODE4) && (v_pinState == HIGH) && (now > mode4timeoutBootWait) && (now - mode4waitstart > mode4timeout) ) {
-      v_pinState = LOW;
+    if ( (currentMode == WAITING_FOR_MODE4) && (v_pinState == v_pinStateON) && (now > mode4timeoutBootWait) && (now - mode4waitstart > mode4timeout) ) {
+      v_pinState = v_pinStateOFF;
       digitalWrite(v_pin, v_pinState);
       #ifdef DEBUG
         DebugSerial.println("3.3v OFF");
@@ -254,7 +255,7 @@ void loop() {
 
   //3.3v has been switched off, so switch it on after v_pinDisconnectDuration time
   if (v_pinLastDisconnectTime > 0 && (now - v_pinLastDisconnectTime > v_pinDisconnectDuration)) {
-    v_pinState = HIGH;
+    v_pinState = v_pinStateON;
     digitalWrite(v_pin, v_pinState);
     reconnects++;
     #ifdef DEBUG
