@@ -47,8 +47,8 @@ const uint32_t mode4timeout = 1000;           //how long to wait until mode4 swi
 const uint32_t mode4timeoutBootWait = 3000;   //wait at least this long since boot before 1st disconnect/reconnect
 uint32_t v_pinLastDisconnectTime = 0;         //time when 3.3v pin was last disconnected
 const uint32_t v_pinDisconnectDuration = 600; //time between switching pin off and on
-#define v_pinStateON HIGH                     //state of output pin to turn on/off voltage on 3.3v pin (will be different if using p-channel mosfet)
-#define v_pinStateOFF LOW
+#define v_pinStateON LOW                     //state of output pin to turn on/off voltage on 3.3v pin (will be different if using p-channel mosfet)
+#define v_pinStateOFF HIGH
 #define v_pin 23
 int v_pinState = v_pinStateON;                //state of 3.3v pin; default to ON
 int reconnects = 0;                           //current reconnect count
