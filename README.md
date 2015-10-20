@@ -12,4 +12,5 @@ The test folder contains random testing/debugging code such as "ipod.dock.sniffe
 <br>
 Some code/knowledge borrowed/stolen from the following:
 * Arduino library for controlling ipods: https://github.com/finsprings/arduinaap<br>
+* Purpletooth Jamboree (used for prototyping and used eagle files for audio circuit) https://www.sparkfun.com/products/11924
 * BC127 Bluetooth chip arduino library from sparkfun: https://github.com/sparkfun/SparkFun_BC127_Bluetooth_Module_Arduino_Library/
