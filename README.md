@@ -8,8 +8,7 @@ It will support audio streaming over A2DP and remote control over AVRCP and also
 The Tune2AirSucks folder contains code to be written to the Teensy with the arduino IDE.<br>
 The test folder contains random testing/debugging code such as "ipod.dock.sniffer" which is for sniffing the traffic between an ipod and a dock so I could figure out how it worked.
 
-
-
+<br>
 Some code/knowledge borrowed/stolen from the following:
 * Arduino library for controlling ipods: https://github.com/finsprings/arduinaap<br>
 * BC127 Bluetooth chip arduino library from sparkfun: https://github.com/sparkfun/SparkFun_BC127_Bluetooth_Module_Arduino_Library/
