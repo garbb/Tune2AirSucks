@@ -43,13 +43,13 @@ enum CurrentMode
   };
 extern CurrentMode currentMode = WAITING_FOR_MODE4;
 uint32_t mode4waitstart = 0;                  //when we started waiting for mode4
-const uint32_t mode4timeout = 1000;           //how long to wait until mode4 switch command before we do disconnect/reconnect
+const uint32_t mode4timeout = 1000;           //how long to wait until mode4 switch command before we do disconnect/reconnect ;1000
 const uint32_t mode4timeoutBootWait = 3000;   //wait at least this long since boot before 1st disconnect/reconnect
 uint32_t v_pinLastDisconnectTime = 0;         //time when 3.3v pin was last disconnected
-const uint32_t v_pinDisconnectDuration = 600; //time between switching pin off and on
+const uint32_t v_pinDisconnectDuration = 600; //time between switching pin off and on ;600
 #define v_pinStateON LOW                     //state of output pin to turn on/off voltage on 3.3v pin (will be different if using p-channel mosfet)
 #define v_pinStateOFF HIGH
-#define v_pin 23
+#define v_pin 12
 int v_pinState = v_pinStateON;                //state of 3.3v pin; default to ON
 int reconnects = 0;                           //current reconnect count
 const int maxReconnects = 3;                  //maximum disconnect/reconnect attempts to get it to mode4
