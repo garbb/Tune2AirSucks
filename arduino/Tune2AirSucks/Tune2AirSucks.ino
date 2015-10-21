@@ -4,6 +4,7 @@
  * SET ENABLE_HFP=OFF
  * SET ENABLE_PBAP=OFF
  * SET AUTOCONN=1
+ * SET CODEC=7 0 1 (to enable all codecs...not sure if this works/maters???)
  * 
  * AND THEN DO "WRITE" AND "RESET"
  */
