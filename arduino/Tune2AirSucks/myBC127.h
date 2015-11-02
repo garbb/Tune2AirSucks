@@ -96,9 +96,10 @@ void MyBC127::readResponses() {
       }
 
     else if (responsebuffer.startsWith("LINK")) {   //"status" response, displays connections
-      if (responsebuffer.substring(17, 22) == "AVRCP") {
-        AVRCP_linkId = responsebuffer.substring(5, 6);
-        AVRCP_address = responsebuffer.substring(23, 35);
+      int AVRCP_pos = responsebuffer.indexOf("AVRCP");  //position of beginning of "AVRCP" text
+      if (AVRCP_pos != -1) {
+        AVRCP_linkId = responsebuffer.substring(AVRCP_pos-12, AVRCP_pos-11);
+        AVRCP_address = responsebuffer.substring(AVRCP_pos+6, AVRCP_pos+18);
         #ifdef DEBUG
           myDebugSerial->print(">>AVRCP link ID is \""); myDebugSerial->print(AVRCP_linkId);
           myDebugSerial->print("\"\n>>AVRCP address is \""); myDebugSerial->print(AVRCP_address); myDebugSerial->print("\"\n");
