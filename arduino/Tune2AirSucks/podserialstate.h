@@ -13,8 +13,8 @@ const byte RESPONSE_FEEDBACK = 0x01;
 
 //these are commands
 //do -1 to make response consts
-const byte CMD_GET_IPOD_SIZE = 0x12;
-const byte RESPONSE_IPOD_SIZE = 0x13;
+const byte REQUEST_PROTOCOL_VERSION = 0x12;
+const byte RETURN_PROTOCOL_VERSION = 0x13;
 const byte CMD_GET_IPOD_NAME = 0x14;
 const byte RESPONSE_IPOD_NAME = 0x15;
 const byte CMD_SWITCH_TO_MAIN_LIBRARY_PLAYLIST = 0x16;
@@ -88,8 +88,8 @@ enum feedbackResult
     /*0x0F*/ "??",
     /*0x10*/ "??",
     /*0x11*/ "??",
-    /*0x12*/ "get ipod size",
-    /*0x13*/ "ipod size response",
+    /*0x12*/ "RequestProtocolVersion",
+    /*0x13*/ "ReturnProtocolVersion",
     /*0x14*/ "get ipod name",
     /*0x15*/ "ipod name response:",
     /*0x16*/ "switch to main library",
@@ -276,12 +276,12 @@ class PodserialState {
   //also used to send 0xFF,0x55,0x04,0x00,0x02,0x00,0x05,0xF5 mystery response from ipod that i think may be confirmation of switching to mode4??
   void PodserialState::send_response(byte mode, byte cmdbyte1, byte cmdbyte2, const byte *pData, byte paramlength) {
     if (!send_responses) {return;}
-//    #if defined(DEBUG_SEND)
-//      myDebugSerial->println();
-//      myDebugSerial->print("send ");
-//      myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
-//      myDebugSerial->print( mode4CmdNames[cmdbyte2] );
-//    #endif
+    #if defined(DEBUG_SEND)
+      myDebugSerial->println();
+      myDebugSerial->print("send ");
+      myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
+      myDebugSerial->print( mode4CmdNames[cmdbyte2] );
+    #endif
     sendHeader();
     sendByte(1 + 2 + paramlength);      //length (1 mode byte + 2 cmd bytes + length of param bytes)
     sendByte(mode);
@@ -378,10 +378,22 @@ class PodserialState {
     sendByte(mode);
     sendByte(cmdbyte1);
     sendByte(cmdbyte2);
-    char stringbuffer[stringlength];
-    string.toCharArray(stringbuffer, stringlength);
+    byte checksum_temp = checksum;
+    //pre-compute checksum
     for (int i=0; i<stringlength; i++) {
-      sendByte(stringbuffer[i]);
+      checksum_temp += string[i];
+    }
+    checksum_temp = (0x100 - checksum_temp) & 0xFF;
+    //now check if string contains checksum, if so, add leading space and hope new csum is not in string...
+    //this is workaround for what I believe is a bug in my dock in which it sees checksum as end of packet?
+    for (int i=0; i<stringlength; i++) {
+      if (string[i] == checksum_temp) {
+        string = " " + string;
+        break;
+      }
+    }
+    for (int i=0; i<stringlength; i++) {
+      sendByte(string[i]);
     }    
     sendChecksum();
   }
@@ -671,9 +683,9 @@ void PodserialState::process() {
             myDebugSerial->print( mode4CmdNames[command[1]] );
           #endif
           switch (command[1]) {
-            case CMD_GET_IPOD_SIZE: //this is what my ipod sends, just always send this, probably doesn't matter...
-              static const byte pIpodsizedata[] = {0x01, 0x0D};
-              send_response(ADVANCED_REMOTE_MODE, 0x00, RESPONSE_IPOD_SIZE, pIpodsizedata, 2);
+            case REQUEST_PROTOCOL_VERSION: //ReturnProtocolVersion: Returns the iPod Extended Interface protocol version number
+              static const byte bVersion[] = {0x01, 0x00}; //v1.00 (using lowest allowed ver b/c then least amount of supported cmds to deal with)
+              send_response(ADVANCED_REMOTE_MODE, 0x00, RETURN_PROTOCOL_VERSION, bVersion, 2);
               break;
 
             case CMD_GET_IPOD_NAME:

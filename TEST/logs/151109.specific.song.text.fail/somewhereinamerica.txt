@@ -1,0 +1,99 @@
+3987 dock->ipod
+size:4 mode:4 command:0x0,0x18 params:4, csum:DC [OK]
+get count of genres
+send mode:4, count response, 5
+
+AVRCP_PAUSE
+>>play state changed to 2
+
+4004 dock->ipod
+size:14 mode:4 command:0x0,0x32 params:0,0,1,0,80,0,37,0,0,0,20, csum:E4 [OK]
+picture block
+send feedback for picture block
+
+AVRCP_PLAY
+>>play state changed to 1
+
+4304 dock->ipod
+size:485 mode:4 command:0x0,0x32 params:0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0STATE CONNECTED
+LINK 2 CONNECTED A2DP 1C62B8A703C0 SBC 44100
+LINK 4 CONNECTED AVRCP 1C62B8A703C0 PLAYING
+>>AVRCP link ID is "4"
+>>AVRCP address is "1C62B8A703C0"
+OK
+>>got OK response
+
+AVRCP_MEDIA TITLE: Crown
+AVRCP_MEDIA ARTIST: JAY Z
+AVRCP_MEDIA ALBUM: Magna Carta... Holy Grail (Explicit Version)
+
+send mode:4, polling response track changed to:, 1, 1
+>>sending track changed event and new track number to ipod dock
+>>TITLE IS: "Crown"
+>>ARTIST IS: "JAY Z"
+>>ALBUM IS: "Magna Carta... Holy Grail (Explicit Version)"
+
+41571 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,1, csum:D4 [OK]
+get title of song #1
+send mode:4, title response:, Crown
+
+41586 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,1, csum:D2 [OK]
+get artist of song #1
+send mode:4, artist response:, JAY Z
+
+AVRCP_MEDIA PLAYING_TIME(MS): 274
+>>LENGTH IS: "274000ms"
+41601 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,1, csum:D0 [OK]
+get album of song #1
+send mode:4, album response:, Magna Carta... Holy Grail (Explicit Version)
+
+52833 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+<<send cmd: MUSIC BACKWARD
+
+send feedback for playback control cmd 
+
+OK
+>>got OK response
+
+54637 dock->ipod
+size:4 mode:4 command:0x0,0x29 params:4, csum:CB [OK]
+playback control cmd skip--
+<<send cmd: MUSIC BACKWARD
+
+send feedback for playback control cmd 
+
+OK
+>>got OK response
+
+AVRCP_MEDIA TITLE: Somewhereinamerica
+AVRCP_MEDIA ARTIST: JAY Z
+AVRCP_MEDIA ALBUM: Magna Carta... Holy Grail (Explicit Version)
+
+send mode:4, polling response track changed to:, 1, 2
+>>sending track changed event and new track number to ipod dock
+>>TITLE IS: "Somewhereinamerica"
+>>ARTIST IS: "JAY Z"
+>>ALBUM IS: "Magna Carta... Holy Grail (Explicit Version)"
+
+55172 dock->ipod
+size:7 mode:4 command:0x0,0x20 params:0,0,0,2, csum:D3 [OK]
+get title of song #2
+send mode:4, title response:, Somewhereinamerica
+
+55194 dock->ipod
+size:7 mode:4 command:0x0,0x22 params:0,0,0,2, csum:D1 [OK]
+get artist of song #2
+send mode:4, artist response:, JAY Z
+
+AVRCP_MEDIA PLAYING_TIME(MS): 148
+>>LENGTH IS: "148000ms"
+55209 dock->ipod
+size:7 mode:4 command:0x0,0x24 params:0,0,0,2, csum:CF [OK]
+get album of song #2
+send mode:4, album response:, Magna Carta... Holy Grail (Explicit Version)
+
