@@ -280,7 +280,14 @@ class PodserialState {
       myDebugSerial->println();
       myDebugSerial->print("send ");
       myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
-      myDebugSerial->print( mode4CmdNames[cmdbyte2] );
+      if (mode == ADVANCED_REMOTE_MODE){
+        myDebugSerial->print( mode4CmdNames[cmdbyte2] );
+      }
+      else {
+        myDebugSerial->print( cmdbyte1, HEX );
+        myDebugSerial->print( ',' );
+        myDebugSerial->print( cmdbyte2, HEX );
+      }
     #endif
     sendHeader();
     sendByte(1 + 2 + paramlength);      //length (1 mode byte + 2 cmd bytes + length of param bytes)
@@ -598,14 +605,17 @@ void PodserialState::process() {
           switch (command[0]) {
             case 0x01:
               #if defined(DEBUG)
-                myDebugSerial->print("switch to mode ");
+                //myDebugSerial->print("switch to mode ");
+                myDebugSerial->print("Identify, supported lingo:");
                 myDebugSerial->println(command[1]);
               #endif
               //0xFF,0x55,0x04,0x00,0x02,0x00,0x05,0xF5 mystery response from ipod that i think may be confirmation of switching to mode4??
+               //this is ACK SUCCESS for command that was received (which was 0x05, EnterRemoteUIMode)
               if (command[1] == 0x04) {
                 currentMode = MODE4;
-                static const byte mode4confirm[] = {0x05};
-                send_response(MODE_SWITCHING_MODE, 0x02, 0x00, mode4confirm, 1);
+                //according to spec we should not ACK Identify
+                //static const byte mode4confirm[] = {0x05};
+                //send_response(MODE_SWITCHING_MODE, 0x02, 0x00, mode4confirm, 1);
                 }
               break;
             case 0x03: //we don't care what command[1] is but it am guessing it will be 0x00?
@@ -622,7 +632,8 @@ void PodserialState::process() {
               break;
             case 0x05:  //we don't care what command[1] is but it should be 0x00? (was 0x00 from my car dock)
               #if defined(DEBUG)
-                myDebugSerial->println("switch to mode 4");
+                //myDebugSerial->println("switch to mode 4");
+                myDebugSerial->println("EnterRemoteUIMode");
               #endif
               currentMode = MODE4;
               static const byte mode4confirm[] = {0x05};
