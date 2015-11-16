@@ -111,7 +111,7 @@ void MyBC127::readResponses() {
       #ifdef DEBUG
         myDebugSerial->print(">>A2DP connected\n\n");
       #endif
-      SendCmd("VOLUME A2DP=15");  //need to set this every time for volume level to sound right, it won't remember it
+      SendCmd("VOLUME A2DP=14");  //need to set this every time for volume level to sound right, it won't remember it
     }
     else if (responsebuffer.startsWith("OPEN_OK AVRCP")) {
       BC127_status = AVRCP_connected;
