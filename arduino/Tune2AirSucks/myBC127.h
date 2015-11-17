@@ -30,9 +30,14 @@ class MyBC127
     #endif
     void baseSendCmd(String command);   //called by all other command sending funcs
     void SendCmd(String command);
+    void SendStatusCmd();
     void MusicSendCmd(String command);
 
     void readResponses();
+    
+    void setPlaystateToStop();
+    void setPlaystateToPlay();
+    void setPlaystateToPause();
 };
 
 //constructor
@@ -63,6 +68,10 @@ void MyBC127::SendCmd(String command) {
   if (BC127_status == waiting_for_boot) {return;}
   baseSendCmd(command);
   responseState = waiting_for_response;
+}
+
+void MyBC127::SendStatusCmd(){
+  SendCmd("STATUS");
 }
 
 void MyBC127::MusicSendCmd(String command) {
@@ -100,6 +109,14 @@ void MyBC127::readResponses() {
       if (AVRCP_pos != -1) {
         AVRCP_linkId = responsebuffer.substring(AVRCP_pos-12, AVRCP_pos-11);
         AVRCP_address = responsebuffer.substring(AVRCP_pos+6, AVRCP_pos+18);
+        //read playstate from status response
+        if (responsebuffer.length() >= AVRCP_pos+22) {
+          String AVRCP_STATE = responsebuffer.substring(AVRCP_pos+19, AVRCP_pos+22);
+          if (AVRCP_STATE == "STO") {setPlaystateToStop();}
+          else if (AVRCP_STATE == "PLA") {setPlaystateToPlay();}
+          else if (AVRCP_STATE == "PAU") {setPlaystateToPause();}
+        }
+        
         #ifdef DEBUG
           myDebugSerial->print(">>AVRCP link ID is \""); myDebugSerial->print(AVRCP_linkId);
           myDebugSerial->print("\"\n>>AVRCP address is \""); myDebugSerial->print(AVRCP_address); myDebugSerial->print("\"\n");
@@ -118,7 +135,7 @@ void MyBC127::readResponses() {
       #ifdef DEBUG
         myDebugSerial->print(">>AVRCP connected\n\n");
       #endif
-      SendCmd("STATUS");    //get info about linkid and address for the AVRCP connection
+      SendStatusCmd();    //get info about linkid and address for the AVRCP connection
     }
     else if (responsebuffer.startsWith("Ready")) {
       BC127_status = waiting_for_AVRCP_conn;
@@ -193,27 +210,17 @@ void MyBC127::readResponses() {
       }
   
       else if (responsebuffer.startsWith("AVRCP_STOP")) { //this never seems to happen with android apps I tested but might happen with something??
-        playingState = STATE_STOPPED;
-        accumTrackPlaytime += now - trackstarttime;  //add track playing time when we pause/stop?
-        #ifdef DEBUG
-          myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
-        #endif
+        setPlaystateToStop();
+        //timer to run BC127 status command after playstate event is received to check "real" playstate
+        timer.setTimeout(1000, SendStatusCmd_t);
       }
       else if (responsebuffer.startsWith("AVRCP_PLAY")) {
-        playingState = STATE_PLAYING;
-        trackstarttime = now;
-        #ifdef DEBUG
-          myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
-        #endif
+        setPlaystateToPlay();
+        timer.setTimeout(1000, SendStatusCmd_t);
       }
       else if (responsebuffer.startsWith("AVRCP_PAUSE")) {
-        if (playingState != STATE_PAUSED) {   //don't add more to accum time if we are already paused
-          playingState = STATE_PAUSED;
-          accumTrackPlaytime += now - trackstarttime;  //add track playing time when we pause
-          #ifdef DEBUG
-            myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
-          #endif
-        }
+        setPlaystateToPause();
+        timer.setTimeout(1000, SendStatusCmd_t);
       }
 
     }
@@ -235,5 +242,29 @@ void MyBC127::readResponses() {
   }
 }
 
+void MyBC127::setPlaystateToStop() {
+  if (playingState != STATE_PAUSED && playingState != STATE_STOPPED) accumTrackPlaytime += now - trackstarttime;  //add track playing time when we pause/stop?
+  playingState = STATE_STOPPED;
+  #ifdef DEBUG
+    myDebugSerial->print(now); myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
+  #endif
+}
 
+void MyBC127::setPlaystateToPlay() {
+  if (playingState != STATE_PLAYING) trackstarttime = now;
+  playingState = STATE_PLAYING;
+  #ifdef DEBUG
+    myDebugSerial->print(now); myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
+  #endif
+}
+
+void MyBC127::setPlaystateToPause() {
+  if (playingState != STATE_PAUSED && playingState != STATE_STOPPED) {   //don't add more to accum time if we are already paused
+    accumTrackPlaytime += now - trackstarttime;  //add track playing time when we pause
+  }
+  playingState = STATE_PAUSED;
+  #ifdef DEBUG
+    myDebugSerial->print(now); myDebugSerial->print(">>play state changed to "); myDebugSerial->print(playingState); myDebugSerial->print("\n\n");
+  #endif
+}
 

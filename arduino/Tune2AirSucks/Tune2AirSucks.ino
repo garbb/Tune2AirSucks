@@ -76,7 +76,7 @@ extern String metaDataprevtrackTitle = default_trackTitle;
 enum AvrcpReconnectstate {SEND_CLOSE, SEND_OPEN}; AvrcpReconnectstate avrcpReconnectstate = SEND_CLOSE;
 extern PlayingState metaDataprevplayingState = STATE_PAUSED;
 extern uint32_t metaDataWaitstart = 0;
-const uint32_t metaDataWaitTO = 500; //ms
+const uint32_t metaDataWaitTO = 2000; //ms
 String cmdstring;
 
 extern uint32_t now = millis();
@@ -95,9 +95,13 @@ extern uint32_t now = millis();
 //for Tx and Rx to dock
 #define DockSerial Serial2  //Serial2 RX:9, TX:10
 
+#include "SimpleTimer.h"
+SimpleTimer timer;
+
 #include "myBC127.h"
 extern MyBC127 myBC127(BC127serial);
 #include "podserialstate.h"
+
 
 PodserialState dockserialState(DockSerial, "dock->ipod");
 
@@ -124,6 +128,7 @@ digitalWrite(v_pin, v_pinState);
 }
 
 void loop() {
+  timer.run();
   
   now = millis();
   
@@ -154,8 +159,11 @@ void loop() {
         accumTrackPlaytime = 0; //clear accum. track playtime
         //can't tell if next track/prev track/completely different track but it will probably be next track and incrementing playlistpos looks better anyways...
         //also if title is changing from default title to a new title then do not increment playlistpos
-        if (last_trackTitle != default_trackTitle) {
+        if (last_trackTitle != default_trackTitle && trackTitle != default_trackTitle) {
           (playlistpos < 99) ? playlistpos++ : playlistpos = 1;   //wrap around to 1 if we are at 99 and try to increment
+          #ifdef DEBUG
+            DebugSerial.print("increment playlistpos. new playlistpos=");DebugSerial.println(playlistpos);
+          #endif
         }
       }
 
@@ -202,6 +210,9 @@ void loop() {
      )
   {
       if (myBC127.BC127_status == myBC127.AVRCP_connected && avrcpReconnectstate == SEND_CLOSE) {
+        #ifdef DEBUG
+          DebugSerial.print(now); DebugSerial.println(" metadata wait timeout so re-connecting AVRCP profile");
+        #endif
         cmdstring = "CLOSE ";
         cmdstring += myBC127.AVRCP_linkId;
         myBC127.SendCmd(cmdstring);
@@ -281,9 +292,12 @@ void sendTrackChangEvent() {
   #endif
 }
 
-
-
-
+void SendStatusCmd_t() {
+  #ifdef DEBUG
+    DebugSerial.println("timer status cmd");
+  #endif
+  myBC127.SendStatusCmd();
+}
 
 
 /*  implement states for bytes received header, length, etc...checksum
