@@ -109,6 +109,10 @@ const int polling_delay = 500;  //(ms)
 uint32_t last_poll = 0;
 
 void setup() {
+  //Turn on built-in LED to function as power indicator
+  pinMode(13, OUTPUT);
+  digitalWrite(13, HIGH);
+  
   DebugSerial.begin(115200);    //if teensy usb, baud rate is ignored....
   
   BC127serial.begin(9600);
