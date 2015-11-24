@@ -112,7 +112,8 @@ void MyBC127::readResponses() {
         //read playstate from status response
         if (responsebuffer.length() >= AVRCP_pos+22) {
           String AVRCP_STATE = responsebuffer.substring(AVRCP_pos+19, AVRCP_pos+22);
-          if (AVRCP_STATE == "STO") {setPlaystateToStop();}
+          //if (AVRCP_STATE == "STO") {setPlaystateToStop();}
+          if (AVRCP_STATE == "STO") {setPlaystateToPause();}
           else if (AVRCP_STATE == "PLA") {setPlaystateToPlay();}
           else if (AVRCP_STATE == "PAU") {setPlaystateToPause();}
         }
@@ -210,7 +211,8 @@ void MyBC127::readResponses() {
       }
   
       else if (responsebuffer.startsWith("AVRCP_STOP")) { //this never seems to happen with android apps I tested but might happen with something??
-        setPlaystateToStop();
+        //setPlaystateToStop();
+        setPlaystateToPause();
         //timer to run BC127 status command after playstate event is received to check "real" playstate
         timer.setTimeout(1000, SendStatusCmd_t);
       }
