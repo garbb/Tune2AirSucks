@@ -379,14 +379,14 @@ class PodserialState {
       myDebugSerial->print( mode4CmdNames[cmdbyte2] );
       myDebugSerial->print(", "); myDebugSerial->print(string);
     #endif
-    sendHeader();
-    const byte stringlength = string.length() + 1;
-    sendByte(1 + 2 + stringlength);      //length (1 mode byte + 2 cmd bytes + string length)
-    sendByte(mode);
-    sendByte(cmdbyte1);
-    sendByte(cmdbyte2);
-    byte checksum_temp = checksum;
+
     //pre-compute checksum
+    byte checksum_temp = 0;
+    byte stringlength = string.length() + 1;
+    checksum_temp += 1 + 2 + stringlength;
+    checksum_temp += mode;
+    checksum_temp += cmdbyte1;
+    checksum_temp += cmdbyte2;
     for (int i=0; i<stringlength; i++) {
       checksum_temp += string[i];
     }
@@ -396,9 +396,18 @@ class PodserialState {
     for (int i=0; i<stringlength; i++) {
       if (string[i] == checksum_temp) {
         string = " " + string;
+        stringlength += 1;
         break;
       }
     }
+
+    //now do actual sending of data
+    sendHeader();
+    sendByte(1 + 2 + stringlength);      //length (1 mode byte + 2 cmd bytes + string length)
+    sendByte(mode);
+    sendByte(cmdbyte1);
+    sendByte(cmdbyte2);
+    
     for (int i=0; i<stringlength; i++) {
       sendByte(string[i]);
     }    
