@@ -372,13 +372,10 @@ class PodserialState {
   //(title/artist/album/ipod name...)
   void PodserialState::send_response(byte mode, byte cmdbyte1, byte cmdbyte2, String string) {
     if (!send_responses) {return;}
-    #if defined(DEBUG_SEND)
-      myDebugSerial->println();
-      myDebugSerial->print("send ");
-      myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
-      myDebugSerial->print( mode4CmdNames[cmdbyte2] );
-      myDebugSerial->print(", "); myDebugSerial->print(string);
-    #endif
+
+    //text from bluetooth is a unicode "RIGHT SINGLE QUOTATION MARK" instead of an ascii single quote/apostrophe char
+    //but my car can't handle unicode so let's replace it
+    string.replace("’", "'");
 
     //pre-compute checksum
     byte checksum_temp = 0;
@@ -400,6 +397,14 @@ class PodserialState {
         break;
       }
     }
+
+    #if defined(DEBUG_SEND)
+      myDebugSerial->println();
+      myDebugSerial->print("send ");
+      myDebugSerial->print("mode:"); myDebugSerial->print(mode); myDebugSerial->print(", ");
+      myDebugSerial->print( mode4CmdNames[cmdbyte2] );
+      myDebugSerial->print(", "); myDebugSerial->print(string);
+    #endif
 
     //now do actual sending of data
     sendHeader();
