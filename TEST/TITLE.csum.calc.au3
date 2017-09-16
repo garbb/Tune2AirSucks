@@ -11,7 +11,7 @@ $text = 'Kendrick Lamar, Ash Rise'
 ;~ $text = 'Kendrick Lamar feat Ash Riser'
 
 ;~ $length = 1 + 2 + StringLen($text)+1
-$length = 29
+$length = 29	;length of packet with text 'Kendrick Lamar, Ash Riser'
 ConsoleWrite('length = ' & hex($length, 2) & ' ('&$length&')' &@CRLF)
 
 $csum += $length
