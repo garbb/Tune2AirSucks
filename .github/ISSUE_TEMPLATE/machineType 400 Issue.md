@@ -1,5 +1,5 @@
 ---
-name: Bug report
+name: machineType 400 Issue
 about: Create a report to help us improve
 title: ''
 labels: 'machineType:400'
